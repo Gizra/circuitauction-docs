@@ -13,7 +13,7 @@
   * [How to add additional charges?](consignment/how-to-add-additional-charges.md)
   * [How to change consignment status?](consignment/how-to-change-consignment-status.md)
   * [How to find consignment statement?](consignment/how-to-find-consignment-statement.md)
-  * [How consignment statement are created?](consignment/how-to-manage-consignment-statement.md)
+  * [How consignment statement are created?](consignment/how-consignment-statement-are-created.md)
   * [How to find related consignment statement?](consignment/how-to-find-related-consignment-statement.md)
 * [Glossary](glossary.md)
 
