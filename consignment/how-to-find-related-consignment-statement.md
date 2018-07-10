@@ -1,0 +1,18 @@
+# How to find related consignment statement?
+
+### First Option
+
+1. Go to **Consignments** &gt;&gt; **Consignment Statements**
+2. Type the consignment number, then click **Filter**.
+3. The list will display all the **Consignment Statements** for the consignment
+
+![](../.gitbook/assets/image.png)
+
+### Second Option
+
+1. Open any **Consignment Statements**, then click on **Related statements.**
+
+![](../.gitbook/assets/image%20%285%29.png)
+
+
+
