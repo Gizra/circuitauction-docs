@@ -6,13 +6,13 @@
 2. Type the consignment number, then click **Filter**.
 3. The list will display all the **Consignment Statements** for the consignment
 
-![](../.gitbook/assets/image.png)
+![](../.gitbook/assets/image%20%2822%29.png)
 
 ### Second Option
 
 1. Open any **Consignment Statements**, then click on **Related statements.**
 
-![](../.gitbook/assets/image%20%285%29.png)
+![](../.gitbook/assets/image%20%2825%29.png)
 
 
 
