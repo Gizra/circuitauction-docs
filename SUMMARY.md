@@ -21,6 +21,6 @@
     * [How to set the auction session?](auction/clerk-screen/how-to-set-the-action-session-and-status.md)
     * [How to set the auction status?](auction/clerk-screen/how-to-set-the-action-status.md)
     * [How to select the bidding item?](auction/clerk-screen/how-to-select-the-bidding-item.md)
-    * [How to place a bid from the room?](auction/clerk-screen/how-to-place-a-bid-from-the-room.md)
+    * [How to place a bid from the floor](auction/clerk-screen/how-to-place-a-bid-from-the-room.md)
 * [Glossary](glossary.md)
 

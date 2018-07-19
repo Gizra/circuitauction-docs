@@ -1,4 +1,4 @@
-# How to place a bid from the room?
+# How to place a bid from the floor
 
 Bids can be placed only when item marked as **Active** or **Going** \(see [auction flow](../auction-flow.md)\).
 
@@ -14,7 +14,7 @@ Bid from the web placed automatically. Bid from the room placed manually by the 
 
 ![](../../.gitbook/assets/image%20%2818%29.png)
 
-3. If there is a conflict between bid that was placed from web and bid that was placed from the room, you can click on **Set to floor** to set the bid from the room.
+3. If there is a conflict between bid that was placed from web and bid that was placed from the floor, you can click on **Set to floor** to set the bid from the room.
 
 ![](../../.gitbook/assets/image%20%2811%29.png)
 
