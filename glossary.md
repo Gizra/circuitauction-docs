@@ -6,5 +6,7 @@
 
 **Consignment statement -** 
 
+**Floor / room -** 
+
 
 
