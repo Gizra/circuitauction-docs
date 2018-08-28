@@ -10,7 +10,7 @@
 ### **Status messages list**
 
 | **Status** | **Message** |
-| --- | --- | --- |
+| :--- | :--- |
 | Closed - not started | Sale is pending |
 | Mail auction open | Sale is pending |
 | Starting soon | The auction will start shortly + 5 minutes break / 5 Minuten Pause \(editable\) |
