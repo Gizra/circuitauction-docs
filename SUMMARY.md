@@ -6,6 +6,8 @@
   * [How to find an existing client?](client/how-to-find-an-existing-client.md)
   * [How to place a bid for a client?](client/how-to-place-a-bid-for-a-client.md)
   * [How to approve a client?](client/how-to-approve-a-client.md)
+* [Sale](sale/README.md)
+  * [Sale context](sale/sale-context.md)
 * [Consignment](consignment/README.md)
   * [How to create a consignment?](consignment/how-to-create-a-consignment.md)
   * [How to add an item to consignment?](consignment/how-to-add-an-item-to-consignment.md)
