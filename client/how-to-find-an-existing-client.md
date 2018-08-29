@@ -25,6 +25,6 @@ Enter one tag or more to filter the list by these tags. Note that if you select 
 
 ![clients___backoffice](https://user-images.githubusercontent.com/20393485/44711481-23bb1380-aab7-11e8-84d0-02855390ffac.jpg)
 
-5. Click on the eye icon to enter the client page.
+5. Click on the eye icon to enter the [client page](../client/understanding-client-page.md)
 
 ![clients___backoffice](https://user-images.githubusercontent.com/20393485/44711607-68df4580-aab7-11e8-8ed2-d6e93ad22cd8.jpg)
