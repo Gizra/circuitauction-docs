@@ -6,6 +6,8 @@
 
 **Consignment statement -** 
 
+**Customer number / Customer ID -**
+
 **Floor / room -** 
 
 
