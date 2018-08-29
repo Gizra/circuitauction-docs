@@ -4,6 +4,7 @@
 * [Client](client/README.md)
   * [How to create a client?](client/how-to-create-a-client.md)
   * [How to find an existing client?](client/how-to-find-an-existing-client.md)
+  * [Understanding client page](client/understanding-client-page.md)
   * [How to place a bid for a client?](client/how-to-place-a-bid-for-a-client.md)
   * [How to approve a client?](client/how-to-approve-a-client.md)
 * [Sale](sale/README.md)
