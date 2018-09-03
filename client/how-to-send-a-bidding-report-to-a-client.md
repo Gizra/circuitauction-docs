@@ -8,4 +8,4 @@
 3. Select the email address(es) you want to send the report to [1].
 4. Click on `Create report` [2] (skip on that step if you want to send an exisiting report).
 5. Click on the report ID to watch the report that is going to be sent [3].
-6. Click on `Send`.
+6. Click on `Send` [4].
