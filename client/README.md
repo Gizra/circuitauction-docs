@@ -14,7 +14,7 @@ The color boxes on the top **[2]** display the total clients and the number of c
 **Unapproved** - a client that not approved to participate in the auction.  
 **Deleted** - a client that has been deleted.  
 
-**Note:** Bidders with Statuses New, Pending and Approved be able to place a bid if they have credit.  
-Statuse Unapproved and Deleted won't be able to participate in an auction.
+**Note:** Bidders with statuses New, Pending and Approved be able to place a bid if they have credit.  
+Bidders with statuse Unapproved and Deleted won't be able to participate in an auction.
 
 The table **[3]** display the clients list which you can [filter](../client/how-to-find-an-existing-client.md) by any column.
