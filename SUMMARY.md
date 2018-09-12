@@ -10,6 +10,7 @@
   * [How to send a bidding report to a client?](client/how-to-send-a-bidding-report-to-a-client.md)
 * [Items](items/README.md)
   * [How to create an item?](items/how-to-create-an-item.md)
+  * [How to find an existing item?](items/how-to-find-an-existing-item.md)
 * [Sale](sale/README.md)
   * [Sale context](sale/sale-context.md)
 * [Consignment](consignment/README.md)
