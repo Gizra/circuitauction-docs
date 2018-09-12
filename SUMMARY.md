@@ -8,6 +8,7 @@
   * [How to approve a client?](client/how-to-approve-a-client.md)
   * [How to place a bid for a client?](client/how-to-place-a-bid-for-a-client.md)
   * [How to send a bidding report to a client?](client/how-to-send-a-bidding-report-to-a-client.md)
+* [Items](items.md)
 * [Sale](sale/README.md)
   * [Sale context](sale/sale-context.md)
 * [Consignment](consignment/README.md)
