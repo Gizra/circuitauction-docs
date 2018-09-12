@@ -1,7 +1,7 @@
 # Client
 Client is any person who you have business relationship with: seller/consignor or buyer/bidder.
 
-On the client dashboard you can find an overview of all clients in the [context of the current sale](../sale/sale-context.md) **[1]** 
+On the client dashboard you can find an overview of all clients **[1]** 
 
 ![clients___backoffice](https://user-images.githubusercontent.com/20393485/44705357-1564fb80-aaa7-11e8-8605-62e7ea5087b2.jpg)
 
