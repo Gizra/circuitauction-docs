@@ -3,6 +3,6 @@
 1. On the side menu go to **Clients**
 2. Click on `+create new client`
 
-![clients___backoffice](https://user-images.githubusercontent.com/20393485/44706622-dfc21180-aaaa-11e8-990e-257abe610943.jpg)
+![clients___backoffice](https://user-images.githubusercontent.com/20393485/45416467-b4cde500-b688-11e8-957f-bc46a30b3802.jpg)
 
 4. Fill in the information about the client and click **Save**
