@@ -1,8 +1,7 @@
 # How to find an existing client?
-
-1. Select the relevant sale or remove the [sale context](../sale/sale-context.md) if you want to search in all sales. 
-2. On the side menu go to **Clients**.
-3. You have few ways to find a client in the table:
+ 
+1. On the side menu go to **Clients**.
+2. You have few ways to find a client in the table:
 
 ### Sorting 
 Click on the column header which you want to sort by.  
