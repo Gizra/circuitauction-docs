@@ -1,6 +1,6 @@
 # How to find an existing item?
 
-1. Select the relevant sale or remove the [sale context](../sale/sale-context.md) if you want to search in all sales. 
+1. Select the relevant sale or remove the [sale context](../sale/sale-context.md) if you want to search in all items. 
 2. On the side menu go to **items**.
 3. You have few ways to find an item in the table:
 
