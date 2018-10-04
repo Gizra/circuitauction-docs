@@ -8,7 +8,7 @@
 
 **Going** - bidding is going to close, buyers can still place a bid for the current item.
 
-**Gone** - Item sold.
+**Gone** - Item is closed for bidding either sold or unsold.
 
 The clerk changes the item status manually on clerk's screen, and the status is changed automatically on all other screens \(Auctioneer, room and web\).
 
