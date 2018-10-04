@@ -20,10 +20,10 @@ Enter one tag or more to filter the list by these tags. Note that if you select 
 
 ![clients___backoffice](https://user-images.githubusercontent.com/20393485/44710635-3df3f200-aab5-11e8-9489-fedb7301f831.jpg)
 
-4. After you find the desired client, click on the green icon to reveal more information about the client. Click on the red icon to hide the additional information.
+3. After you find the desired client, click on the green icon to reveal more information about the client. Click on the red icon to hide the additional information.
 
 ![clients___backoffice](https://user-images.githubusercontent.com/20393485/44711481-23bb1380-aab7-11e8-84d0-02855390ffac.jpg)
 
-5. Click on the eye icon to enter the [client page](../client/understanding-client-page.md)
+4. Click on the eye icon to enter the [client page](../client/understanding-client-page.md)
 
 ![clients___backoffice](https://user-images.githubusercontent.com/20393485/44711607-68df4580-aab7-11e8-8ed2-d6e93ad22cd8.jpg)
