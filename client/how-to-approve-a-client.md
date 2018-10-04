@@ -1,7 +1,5 @@
 # How to approve a client?
 
-TEST
-
 There are two levels of client approvement:
 
 * Approve the person as a client that can participate in the auction house activities. This is done by changing the client status to **Approved** \(see explanation below\). 
