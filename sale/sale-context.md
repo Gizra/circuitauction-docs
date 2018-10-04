@@ -1,6 +1,6 @@
 # Sale context
 
-Most of the information in the backoffice platform is menaged in a sale context, meaning when you create or watch the data (client's bids, items, consignments, etc.) it will display only the data that related to the selected sale.
+Most of the information in the backoffice platform is managed in the context of a specific sale, meaning when you create or watch the data (client's bids, items, consignments, etc.) it will display only the data that related to the selected sale.
 
 ### Selecting sale context
 On top of the screen start typing the sale id or sale name and select the desired sale from the autocomplete list.
