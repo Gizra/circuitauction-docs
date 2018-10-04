@@ -1,9 +1,9 @@
 # How to approve a client?
 
-There are two levels of client approvement:
+There are two levels of client approval:
 
 * Approve the person as a client that can participate in the auction house activities. This is done by changing the client status to **Approved** \(see explanation below\). 
-* Approve credit for a client \(bidder\) that he/she can use for bidding. This is done by approving credit requests \(see explanation below\).
+* Approve credit for a client \(bidder\) that they can use for bidding. This is done by approving credit requests \(see explanation below\).
 
 ## Changing client status to Approved
 
