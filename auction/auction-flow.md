@@ -1,6 +1,6 @@
 # Live auction flow
 
-### Item statuses during the live auction
+## Item statuses during the live auction
 
 **Paused -** bidding on standby.
 

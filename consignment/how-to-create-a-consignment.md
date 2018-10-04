@@ -9,5 +9,3 @@
 
 You can also create consignment from the consignor \(client\) page. See [how to find a client](../client/how-to-find-an-existing-client.md).
 
-
-
