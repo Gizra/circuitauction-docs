@@ -8,7 +8,7 @@
 
 4. Select the email address(es) you want to send the report to [1].
 5. Click on `Create report` [2] (skip on that step if you want to send an exisiting report).
-6. Click on the report ID to watch the report that is going to be sent [3].
+6. Click on the report ID to see the report that is going to be sent [3].
 7. Click on `Send` [4].
 
 Note that this report is also auto generated and sent to the client after 10 mins from the last bid.
