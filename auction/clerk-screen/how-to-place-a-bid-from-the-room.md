@@ -10,11 +10,11 @@ Bid from the web placed automatically. Bid from the room placed manually by the 
 
 ![](../../.gitbook/assets/image%20%2832%29.png)
 
-1. After placing a bid \(web or room\) the current price will change, and the new bid will appear in the bids table.
+2. Once a bid is placed \(web or room\) the current price will update, and the bid will appear in the bids table.
 
 ![](../../.gitbook/assets/image%20%2818%29.png)
 
-1. If there is a conflict between bid that was placed from web and bid that was placed from the floor, you can click on **Set to floor** to set the bid from the room.
+3. If there is a conflict between a bid that was placed from web and a bid that was placed from the floor, you can click on **Set to floor** to set the bid to the room.
 
 ![](../../.gitbook/assets/image%20%2811%29.png)
 
