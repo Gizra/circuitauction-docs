@@ -1,6 +1,6 @@
 # How to place a bid for a client?
 
-You can place a presale bid for a client through the client page or the bids page.
+You can place a book bid for a client through the client page or the bids page.
 
 ### Place a bid through the client page
 1. Make sure you are on the right [sale context](../sale/sale-context.md).
