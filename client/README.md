@@ -13,7 +13,9 @@ The color boxes on the top **[1]** display the total clients and the number of c
 **Unapproved** - a client that not approved to participate in the auction.  
 **Deleted** - a client that has been deleted.  
 
-**Note:** Bidders with statuses New, Pending and Approved be able to place a bid if they have credit.  
-Bidders with statuse Unapproved and Deleted won't be able to participate in an auction.  
+The following table displays the permission to place a bid in each status.
+![client_status_ place_bid _rights_-_google_docs](https://user-images.githubusercontent.com/20393485/46657024-0601c380-cbb8-11e8-881a-ed12de628706.jpg)
+**Mail** - the current price that changes according to bids submitted is exposed to the bidder.  
+**Obscure mail** - the client doesn't see the current price, only the start price.
 
-The table **[2]** display the clients list which you can [filter](../client/how-to-find-an-existing-client.md) by any column.
+The table **[2]** displays the clients list which you can [filter](../client/how-to-find-an-existing-client.md) by any column.
