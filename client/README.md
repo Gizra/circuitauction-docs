@@ -4,7 +4,7 @@ Client is any person who you have business relationship with: seller/consignor o
 
 On the client dashboard you can find an overview of all clients.
 
-![clients\_\_\_backoffice](https://user-images.githubusercontent.com/20393485/45418792-18a6dc80-b68e-11e8-85d4-b3a15305263d.jpg)
+![](https://user-images.githubusercontent.com/20393485/45418792-18a6dc80-b68e-11e8-85d4-b3a15305263d.jpg)
 
 The color boxes on the top **\[1\]** display the total clients and the number of clients on each status. The table **\[2\]** displays the clients list which you can [filter](how-to-find-an-existing-client.md) by any column.
 
