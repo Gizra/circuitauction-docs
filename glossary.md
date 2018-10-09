@@ -4,9 +4,7 @@
 
 **Consignment -** the contract with the consignor that contain the payment agreements.
 
-**Consignment statement -** 
+**Consignment statement -**
 
-**Floor / room -** 
-
-
+**Floor / room -**
 

@@ -17,6 +17,3 @@ It is recomended to always work with sale context, but if for some reason you wa
 Note that when removing the sale context, some of the data won't display correctly.
 
 ![dashboard___backoffice](https://user-images.githubusercontent.com/20393485/45093831-52be2e80-b122-11e8-974d-35899d8e2f4c.jpg)
-
-
-
