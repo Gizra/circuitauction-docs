@@ -20,9 +20,9 @@ There are two levels of client approval:
 3. Go to the **bidding info** tab
 4. On the **Credit Requests** section click on **Approve**. 
 
-![mario\_kolbe710159\_\_\_backoffice](https://user-images.githubusercontent.com/20393485/45079419-35299e80-b0fb-11e8-99a0-b9d2229b2b44.jpg)
+![](https://user-images.githubusercontent.com/20393485/45079419-35299e80-b0fb-11e8-99a0-b9d2229b2b44.jpg)
 
 **Note:** you can see all the credit requests that waiting for approval by clicking on **Credit requests** on the side menu.
 
-![credit\_requests\_\_\_backoffice](https://user-images.githubusercontent.com/20393485/45079686-d57fc300-b0fb-11e8-8687-ef922a1458b3.jpg)
+![](https://user-images.githubusercontent.com/20393485/45079686-d57fc300-b0fb-11e8-8687-ef922a1458b3.jpg)
 
