@@ -16,5 +16,3 @@ Under the `Bidding info` tab you can see the client's bids on the [current sale]
 
 ### Reports
 Under the `Reports` tab you can create a [bidding report](../client/how-to-send-a-bidding-report-to-a-client.md) and send it to the client.
-
-
