@@ -1,6 +1,6 @@
 # How to create bidder number?
 
-## Create website/mail/floor bidder number
+## Creating website/mail/floor bidder number
 1. Make sure you are on the right [sale context](../sale/sale-context.md).
 2. Go to the client page (see [How to find an existing client](how-to-find-an-existing-client.md))
 3. Go to the `Bidding info` tab.
@@ -25,7 +25,7 @@
 
 Note That you can create as many bidder numbers as you want for Mail or Floor, but only one bidder number for Website or Phone.
 
-## Create call requests
+## Creating call requests
 
 1. Go to the `Call requests` section.
 2. Enter the **Lots range**. Use a comma (,) to separate the lots numbers/ranges.
