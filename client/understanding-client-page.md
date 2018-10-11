@@ -7,7 +7,7 @@ On top of the page you will find some tabs.
 ### Client
 Information about the client, dividing to sections: basic details like name and contact deatials, address, information that related to the auction (for example if there is a warning related to this client) and financial information.
 
-On the buttom of the client tab you can see a list of the revision of the client page content.
+On the buttom of the client tab you can find a list of the content revisions and the name of the user that changed it.
 
 ### Bidding info
 Under this tab you can do several actions:
