@@ -7,6 +7,7 @@
   * [Understanding the client page](client/understanding-client-page.md)
   * [How to approve a client?](client/how-to-approve-a-client.md)
   * [How to create bidder number?](client/how-to-create-bidder-number.md)
+  * [How to download phone bidder cards list?](client/how-to-download-phone-bidder-cards-list.md)
   * [How to place a bid for a client?](client/how-to-place-a-bid-for-a-client.md)
   * [How to view client's bids?](client/how-to-view-clients-bids.md)
   * [How to send a bidding report to a client?](client/how-to-send-a-bidding-report-to-a-client.md)
