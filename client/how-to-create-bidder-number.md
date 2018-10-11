@@ -27,4 +27,12 @@ Note That you can create as many bidder numbers as you want for Mail or Floor, b
 
 ## Create call requests
 
+1. Go to the `Call requests` section.
+2. Enter the **Lots range**. Use a comma (,) to separate the lots numbers/ranges.
 
+![nicholas_john_martin_-_995815___backoffice](https://user-images.githubusercontent.com/20393485/46795555-169a7100-cd53-11e8-885e-b223e357de63.jpg)
+
+3. Enter note if needed and click **Save**.
+4. A block with the phone bidder number will be created and added to the [phone bidder cards list](../client/how-to-download-phone-bidder-cards-list.md). 
+
+![nicholas_john_martin_-_995815___backoffice](https://user-images.githubusercontent.com/20393485/46795722-8f99c880-cd53-11e8-919d-7f9fc2e03e74.jpg)
