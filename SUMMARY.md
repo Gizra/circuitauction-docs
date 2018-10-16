@@ -16,6 +16,7 @@
   * [How to find an existing item?](items/how-to-find-an-existing-item.md)
   * [Understanding the item page](items/understanding-the-item-page.md)
 * [Sale](sale/README.md)
+  * [How to mass upload items images?](sale/how-to-mass-upload-items-images.md)
   * [Sale context](sale/sale-context.md)
 * [Consignment](consignment/README.md)
   * [How to create a consignment?](consignment/how-to-create-a-consignment.md)
