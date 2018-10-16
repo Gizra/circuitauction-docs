@@ -6,13 +6,6 @@ On the items dashboard you can find an overview of all items. Select a [sale con
 
 ![items___backoffice](https://user-images.githubusercontent.com/20393485/45419204-48a2af80-b68f-11e8-8e8d-106f9ff30bd9.jpg)
 
-The color boxes on the top **[2]** display the total items and the number of items on each status.
-
-**New** -    
-**In Process** -    
-**In stock** -   
-**Attachted to sale** -   
-**Finished** -   
- 
+The color boxes on the top **[2]** display the total items and the number of items on each status.  
 
 The table **[3]** display the items list which you can [filter](../items/how-to-find-an-existing-item.md) by any column.
