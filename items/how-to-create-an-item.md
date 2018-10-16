@@ -1,7 +1,7 @@
 # How to create an item?
 
-Best practice is to [create item directly from consignment](../consignment/how-to-add-an-item-to-consignment.md).  
-If it is an item from the auction house inventory, follow these steps:
+Best practice is to [create an item directly from consignment](../consignment/how-to-add-an-item-to-consignment.md).  
+unless it is an item from the auction house inventory.
 
 1. Make sure you are on the right [sale context](../sale/sale-context.md).
 2. On the side menu go to **Items**
@@ -26,11 +26,9 @@ You can add images to all sale's items without the need to manually upload them 
 
 **Auctioneer Notes** - add a private message displayed only to the auctioneer screen when this lot is the active lot during live auction.  
 
+**Consignment** - an item should always be associated with a consignment, unless it is an item from the auction house inventory. In that case, check the **Auction house inventory**.
 
+**Withdrawn** - item marked as "withdrawn" will only appear as part of the sale, but will be disabled for bidding. Use this if you have added an item to the sale but there is a problem with it and you can’t offer it on the live auction.
 
-
-
-
-
-5. Click on **Save**.
+5. When you've finished entering the item information, click **Save**.  You can always come back and edit the item.
 
