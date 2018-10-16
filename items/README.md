@@ -9,3 +9,4 @@ On the items dashboard you can find an overview of all items. Select a [sale con
 The color boxes on the top **[2]** display the total items and the number of items on each status.  
 
 The table **[3]** display the items list which you can [filter](../items/how-to-find-an-existing-item.md) by any column.
+
