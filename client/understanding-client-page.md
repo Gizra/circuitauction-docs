@@ -16,15 +16,16 @@ Under this tab you can do several actions:
 - [place a new bid](../client/how-to-place-a-bid-for-a-client.md) for this client.
 
 ### Consignments
-List of the client's [consignments](../consignment/README.md) 
+List of the client's [consignments](../consignment/README.md). Only relevant for clients that are consignors. 
 
 ### Items
+List of the items under the consignment. Only relevant for clients that are consignors.
 
 ### Bidder orders
-List of the client's bidder orders.
+List of the client's bidder orders. Only relevant for clients that are bidders.
 
 ### Consignor orders
-List of the client's consignor orders.
+List of the client's consignor orders. Only relevant for clients that are consignors.
 
 ### Reports
 Here you can create a [bidding report](../client/how-to-send-a-bidding-report-to-a-client.md) and send it to the client.
