@@ -17,6 +17,7 @@
   * [Understanding the item page](items/understanding-the-item-page.md)
 * [Sale](sale/README.md)
   * [How to find an existing sale?](sale/how-to-find-an-existing-sale.md)
+  * [Understanding the sale page](sale/understanding-the-sale-page.md)
   * [How to assign lot numbers?](sale/how-to-assign-lot-numbers.md)
   * [How to mass upload items images?](sale/how-to-mass-upload-items-images.md)
   * [Sale context](sale/sale-context.md)
