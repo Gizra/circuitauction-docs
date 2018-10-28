@@ -5,7 +5,7 @@
 
 ## Sorting
 
-Click on the column header which you want to sort by.  
+Click on the column header that you want to sort by.  
 For example, click on the `Title` column header to sort the list by the sales' titles. Click again to change the order from ascending to descending and vice versa.
 
 ![sales___backoffice](https://user-images.githubusercontent.com/20393485/47138040-f887c000-d2c0-11e8-81a8-a1a5d2a1add4.jpg)
