@@ -11,7 +11,7 @@
 
 ![roman_musialik_anderl_-_995817___backoffice](https://user-images.githubusercontent.com/20393485/46792307-c10e9600-cd4b-11e8-9202-2811e479546a.jpg)
 
-8. A block for each number will be created separately:
+8. Each bidder number will be in a separate block:
 
 ![nicholas_john_martin_-_995815___backoffice](https://user-images.githubusercontent.com/20393485/46793118-9f161300-cd4d-11e8-8ec5-deaa59d5c945.jpg)
 
@@ -23,7 +23,7 @@
 
 ![nicholas_john_martin_-_995815___backoffice](https://user-images.githubusercontent.com/20393485/46794320-45fbae80-cd50-11e8-9732-c740d9363845.jpg)
 
-Note That you can create as many bidder numbers as you want for Mail or Floor, but only one bidder number for Website or Phone.
+Note that you can create multiple bidder numbers for Mail or Floor, but only one bidder number for Website or Phone.
 
 ## Creating call requests
 
@@ -32,7 +32,7 @@ Note That you can create as many bidder numbers as you want for Mail or Floor, b
 
 ![nicholas_john_martin_-_995815___backoffice](https://user-images.githubusercontent.com/20393485/46795555-169a7100-cd53-11e8-885e-b223e357de63.jpg)
 
-3. Enter note if needed and click **Save**.
-4. A block with the phone bidder number will be created and added to the [phone bidder cards list](../client/how-to-download-phone-bidder-cards-list.md). 
+3. Enter a note if needed and click **Save**.
+4. A phone bidder number will be created and added to the [phone bidder cards list](../client/how-to-download-phone-bidder-cards-list.md). 
 
 ![nicholas_john_martin_-_995815___backoffice](https://user-images.githubusercontent.com/20393485/46795722-8f99c880-cd53-11e8-919d-7f9fc2e03e74.jpg)
