@@ -1,6 +1,6 @@
-# How to view client's bids?
+# How to view a client's bids?
 
-You can view client's bids on the client page or the bids page.
+You can view a client's bids on the client page or the bids page.
 
 ## On the client page
 1. Make sure you are on the right [sale context](../sale/sale-context.md).
@@ -18,7 +18,7 @@ You can view client's bids on the client page or the bids page.
 
 ![bids___backoffice](https://user-images.githubusercontent.com/20393485/46785007-0c6b7900-cd39-11e8-92d4-baae129fc336.jpg)
 
-7. Click on `Expand` to see all bids for this lot:
+7. Click on `Expand` to see all the bids for this lot:
 
 ![wolfgang_stiele_-_700310___backoffice](https://user-images.githubusercontent.com/20393485/46785337-1f327d80-cd3a-11e8-923d-6c5bf65b6ba6.jpg)
 
@@ -33,7 +33,7 @@ You can view client's bids on the client page or the bids page.
 
 1. Make sure you are on the right [sale context](../sale/sale-context.md).
 2. On the side menu go to **bids**.
-3. Here you wiil find a list of all clients' bids, ordered by lot numbers. You can perform the same actions as the client page.
+3. Here you wiil find a list of all clients' bids, ordered by lot numbers. You can perform the same actions as on the client page.
 
 
 ![bids___backoffice](https://user-images.githubusercontent.com/20393485/46786347-40489d80-cd3d-11e8-8571-bf3ec5c86ccf.jpg)
