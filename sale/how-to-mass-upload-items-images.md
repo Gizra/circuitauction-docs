@@ -18,3 +18,4 @@ Example: item ID 777 will get the following images attached to it: `777.png`, `7
 4. Click on **Sync item images** to sync the images from Amazon to your system.
 
 ![367th__auction___backoffice](https://user-images.githubusercontent.com/20393485/47136762-63cf9300-d2bd-11e8-9dc2-4bd1ffbd4d88.jpg)
+
