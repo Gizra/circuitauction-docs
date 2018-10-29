@@ -22,11 +22,11 @@ Enter one tag or more to filter the list by these tags. Note that if you select 
 
 ![](https://user-images.githubusercontent.com/20393485/44710635-3df3f200-aab5-11e8-9489-fedb7301f831.jpg)
 
-1. After you find the desired client, click on the green icon to reveal more information about the client. Click on the red icon to hide the additional information.
+After you find the desired client, click on the green icon to reveal more information about the client. Click on the red icon to hide the additional information.
 
 ![](https://user-images.githubusercontent.com/20393485/44711481-23bb1380-aab7-11e8-84d0-02855390ffac.jpg)
 
-1. Click on the eye icon to enter the [client page](understanding-client-page.md)
+Click on the eye icon to enter the [client page](understanding-client-page.md)
 
 ![](https://user-images.githubusercontent.com/20393485/44711607-68df4580-aab7-11e8-8ed2-d6e93ad22cd8.jpg)
 

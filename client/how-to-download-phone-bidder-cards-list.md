@@ -21,3 +21,4 @@ Here you can find a list of all the phone bidders at the current sale.
 6. The cards list will open as PDF file in a new browser tab. You can save it or print it using the browser option (this screenshot refers to Chrome).
 
 ![366-72203_pdf](https://user-images.githubusercontent.com/20393485/46949309-a3ae3480-d089-11e8-9da3-113993edfbc2.jpg)
+
