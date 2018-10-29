@@ -25,3 +25,4 @@ After you find the desired sale, click on the green icon to reveal more informat
 Click on the eye icon to enter the [sale page](../sale/understanding-the-sale-page.md)
 
 ![sales___backoffice](https://user-images.githubusercontent.com/20393485/47139277-11de3b80-d2c4-11e8-9805-58a64e427a6d.jpg)
+
