@@ -37,3 +37,4 @@ You can view a client's bids on the client page or the bids page.
 
 
 ![bids___backoffice](https://user-images.githubusercontent.com/20393485/46786347-40489d80-cd3d-11e8-8571-bf3ec5c86ccf.jpg)
+
