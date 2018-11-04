@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Initial page](README.md)
+* [Introduction](README.md)
 * [Client](client/README.md)
   * [How to create a client?](client/how-to-create-a-client.md)
   * [How to find an existing client?](client/how-to-find-an-existing-client.md)
