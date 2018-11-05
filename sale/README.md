@@ -10,3 +10,10 @@ The color boxes on the top **\[1\]** display the total sales and the number of s
 
 The table **\[2\]** displays the sales list which you can [filter](how-to-find-an-existing-sale.md) by any column.
 
+## Statuses
+
+**New** -   
+**In Process** -   
+**Ready to publish** -   
+**Published on site** -   
+**Finished** - 
