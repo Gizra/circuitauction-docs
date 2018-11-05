@@ -29,8 +29,8 @@ To show the content simultaneously in multiple languages, click on Show other la
 
 4. When you've finished entering the sale data, click **Save**.  You can always come back and edit the sale.
 
-See also:
-[How to mass upload items images?](../sale/how-to-mass-upload-items-images.md)
+See also:  
+[How to mass upload items images?](../sale/how-to-mass-upload-items-images.md)  
 [How to assign lot numbers?](../sale/how-to-assign-lot-numbers.md) 
  
 
