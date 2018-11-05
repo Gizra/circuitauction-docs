@@ -9,15 +9,29 @@
 
 **Sale number** - an internal ID used for reporting and tracking.
 
-**Sale Information** - you can enter the sale description in several languages. Click on one of the language buttons (i.e EN, DE, HE etc.) to fill in the sale information fields in the chosen language. For example: click on EN button and fill in the Title, Sub title and Sale details in English. Then click on DE button and fill in the same fields in German.  
+**Sale Information** - you can enter the sale description in several languages. This content will be displayed on the site. Click on one of the language buttons (i.e EN, DE, HE etc.) to fill in the sale information fields in the chosen language. For example: click on EN button and fill in the Title, Sub title and Sale details in English. Then click on DE button and fill in the same fields in German.  
 
 To show the content simultaneously in multiple languages, click on Show other languages and use the other languages block to easily translate the item while viewing both languages.
 
 ![image](https://user-images.githubusercontent.com/20393485/47996182-5b21ee00-e100-11e8-9842-aa080fcef8f2.png)
 
+**Next consignment notice** - 
 
+**Sale image** - the main sale image that will be displayed on the site.
 
-click **Save**
+**Sale dates** - in this block you can set what type of auction this is, and set the dates for the auction. **Note:** the dates will be displayed as information only, meaning when the date arrives, the sale won't open automatically.
 
+**Sale sessions** - if you want to split the sale into sessions, you can arrange the sessions here.
+
+**Last date for consignment** - after this date the no new consignments can be added to this sale.
+
+**Sync sale to site** - update any changes made to the sale data from the back-office to the website.
+
+4. When you've finished entering the sale data, click **Save**.  You can always come back and edit the sale.
+
+See also:
+[How to mass upload items images?](../sale/how-to-mass-upload-items-images.md)
+[How to assign lot numbers?](../sale/how-to-assign-lot-numbers.md) 
+ 
 
 
