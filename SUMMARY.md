@@ -19,6 +19,7 @@
   * [How to create a sale?](sale/how-to-create-a-sale.md)
   * [How to find an existing sale?](sale/how-to-find-an-existing-sale.md)
   * [Understanding the sale page](sale/understanding-the-sale-page.md)
+  * [How to assign bulk items to a sale?](sale/how-to-assign-bulk-items-to-a-sale.md)
   * [How to assign lot numbers?](sale/how-to-assign-lot-numbers.md)
   * [How to mass upload items images?](sale/how-to-mass-upload-items-images.md)
   * [Sale context](sale/sale-context.md)
