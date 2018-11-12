@@ -9,9 +9,9 @@ except in the case that an item is from the auction house inventory.
 
 ![](https://user-images.githubusercontent.com/20393485/45416650-155d2200-b689-11e8-8868-18abf4f04ab8.jpg)
 
-1. Fill in the item's information, pay attention to these fields:  
+1. Fill in the item's information, pay attention to these fields:
 
-   **Item Information** - you can enter the item description in several languages. Click on one of the language buttons \(i.e EN, DE, HE etc.\) to fill in the item information fields in the chosen language. For example: click on EN button and fill in the **Title**, **Sub title** and **Description** in English. Then click on DE button and fill in the same fields in German.  
+   **Item Information** - you can enter the item description in several languages. Click on one of the language buttons \(i.e EN, DE, HE etc.\) to fill in the item information fields in the chosen language. For example: click on EN button and fill in the **Title**, **Sub title** and **Description** in English. Then click on DE button and fill in the same fields in German.
 
    To show the content simultaneously in multiple languages, click on **Show other languages** and use the other languages block to easily translate the item while viewing both languages.
 
