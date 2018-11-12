@@ -1,6 +1,2 @@
 # Introduction
 
-TEST
-
-TEST2
-
