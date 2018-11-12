@@ -5,5 +5,5 @@
 
 ![](https://user-images.githubusercontent.com/20393485/45416467-b4cde500-b688-11e8-957f-bc46a30b3802.jpg)
 
-Fill in the information about the client and click **Save**
+3. Fill in the information about the client and click **Save**
 
