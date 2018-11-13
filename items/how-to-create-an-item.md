@@ -9,7 +9,7 @@ except in the case that an item is from the auction house inventory.
 
 ![](https://user-images.githubusercontent.com/20393485/45416650-155d2200-b689-11e8-8868-18abf4f04ab8.jpg)
 
-1. Fill in the item's information, pay attention to these fields:
+4. Fill in the item's information, pay attention to these fields:
 
    **Item Information** - you can enter the item description in several languages. Click on one of the language buttons \(i.e EN, DE, HE etc.\) to fill in the item information fields in the chosen language. For example: click on EN button and fill in the **Title**, **Sub title** and **Description** in English. Then click on DE button and fill in the same fields in German.
 
@@ -20,7 +20,9 @@ except in the case that an item is from the auction house inventory.
 **Images** - Click on **Select image** and choose the item image from your local folder.  
 You can add images to all sale's items without the need to manually upload them one by one. See [How to mass upload item images](../sale/how-to-mass-upload-items-images.md).
 
-**Sale Info** - make sure the correct sale is populated in the **Sale** field. In **Temporary lot** field you can enter a temporary number assigned to this lot before the [final lot number](../sale/how-to-assign-lot-numbers.md) is added.
+**Sale Info** - make sure the correct sale is populated in the **Sale** field. You can leave this field empty and assign the item later (see [How to assign bulk items to a sale?](../sale/how-to-assign-bulk-items-to-a-sale.md)).   
+
+In **Temporary lot** field you can enter a temporary number assigned to this lot before the [final lot number](../sale/how-to-assign-lot-numbers.md) is added.
 
 **Packages** - select the type of package. If you leave empty, the default is envelope. This will be used to calculate the shipping costs.
 
@@ -32,5 +34,5 @@ You can add images to all sale's items without the need to manually upload them 
 
 **Withdrawn** - item marked as "withdrawn" will appear as part of the sale, but will be disabled for bidding. Use this if you have added an item to the sale but there is a problem with it and you can’t offer it at the live auction.
 
-1. When you've finished entering the item information, click **Save**.  You can always come back and edit the item.
+5. When you've finished entering the item information, click **Save**.  You can always come back and edit the item.
 
