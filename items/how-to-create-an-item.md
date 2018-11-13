@@ -11,16 +11,16 @@ except in the case that an item is from the auction house inventory.
 
 4. Fill in the item's information, pay attention to these fields:
 
-   **Item Information** - you can enter the item description in several languages. Click on one of the language buttons \(i.e EN, DE, HE etc.\) to fill in the item information fields in the chosen language. For example: click on EN button and fill in the **Title**, **Sub title** and **Description** in English. Then click on DE button and fill in the same fields in German.
+**Item Information** - you can enter the item description in several languages. Click on one of the language buttons \(i.e EN, DE, HE etc.\) to fill in the item information fields in the chosen language. For example: click on EN button and fill in the **Title**, **Sub title** and **Description** in English. Then click on DE button and fill in the same fields in German.
 
-   To show the content simultaneously in multiple languages, click on **Show other languages** and use the other languages block to easily translate the item while viewing both languages.
+To show the content simultaneously in multiple languages, click on **Show other languages** and use the other languages block to easily translate the item while viewing both languages.
 
 ![](https://user-images.githubusercontent.com/20393485/47001411-0a3b5d00-d133-11e8-9320-511b44a64fb6.jpg)
 
 **Images** - Click on **Select image** and choose the item image from your local folder.  
 You can add images to all sale's items without the need to manually upload them one by one. See [How to mass upload item images](../sale/how-to-mass-upload-items-images.md).
 
-**Sale Info** - make sure the correct sale is populated in the **Sale** field. You can leave this field empty and assign the item later (see [How to assign bulk items to a sale?](../sale/how-to-assign-bulk-items-to-a-sale.md)).   
+**Sale Info** - make sure the correct sale is populated in the **Sale** field. You can leave this field empty and assign the item later \(see [How to assign bulk items to a sale?](../sale/how-to-assign-bulk-items-to-a-sale.md)\).
 
 In **Temporary lot** field you can enter a temporary number assigned to this lot before the [final lot number](../sale/how-to-assign-lot-numbers.md) is added.
 
