@@ -11,19 +11,19 @@ You can view a client's bids on the client page or the bids page.
 
 ![](https://user-images.githubusercontent.com/20393485/46785875-c95ed500-cd3b-11e8-9865-54a0ad549407.jpg)
 
-1. Use the filters to search for specific data:
+5. Use the filters to search for specific data:
 
 ![](https://user-images.githubusercontent.com/20393485/46784913-a4b52e00-cd38-11e8-9ece-f59eb300aa64.jpg)
 
-1. You can change or delete the bid by using the action buttons:
+6. You can change or delete the bid by using the action buttons:
 
 ![](https://user-images.githubusercontent.com/20393485/46785007-0c6b7900-cd39-11e8-92d4-baae129fc336.jpg)
 
-1. Click on `Expand` to see all the bids for this lot:
+7. Click on `Expand` to see all the bids for this lot:
 
 ![](https://user-images.githubusercontent.com/20393485/46785337-1f327d80-cd3a-11e8-923d-6c5bf65b6ba6.jpg)
 
-1. Click on `item info` to change the opening price and re-knock down:
+8. Click on `item info` to change the opening price and re-knock down:
 
 ![](https://user-images.githubusercontent.com/20393485/46785724-59504f00-cd3b-11e8-8fa7-158516578cdf.jpg)
 
