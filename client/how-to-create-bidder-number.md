@@ -12,15 +12,15 @@
 
 ![](https://user-images.githubusercontent.com/20393485/46792307-c10e9600-cd4b-11e8-9202-2811e479546a.jpg)
 
-8. Each bidder number will be in a separate block:
+1. Each bidder number will be in a separate block:
 
 ![](https://user-images.githubusercontent.com/20393485/46793118-9f161300-cd4d-11e8-8ec5-deaa59d5c945.jpg)
 
-9. For Internet bids - determine the credit by choosing `regular` on **Live credit** field, enter the amount limit and click **Save**.
+1. For Internet bids - determine the credit by choosing `regular` on **Live credit** field, enter the amount limit and click **Save**.
 
 ![](https://user-images.githubusercontent.com/20393485/46793953-80b11700-cd4f-11e8-8873-fea4f3f15498.jpg)
 
-10. For Internet and Mail bids you can enter the bidder limit by choosing `regular` on **Max bid** field, enter the amount limit and click **Save**. Note that the bidder may also change their limit through their My Account page.
+1. For Internet and Mail bids you can enter the bidder limit by choosing `regular` on **Max bid** field, enter the amount limit and click **Save**. Note that the bidder may also change their limit through their My Account page.
 
 ![](https://user-images.githubusercontent.com/20393485/46794320-45fbae80-cd50-11e8-9732-c740d9363845.jpg)
 
@@ -33,9 +33,8 @@ Note that you can create multiple bidder numbers for Mail or Floor, but only one
 
 ![](https://user-images.githubusercontent.com/20393485/46795555-169a7100-cd53-11e8-885e-b223e357de63.jpg)
 
-3. Enter a note if needed and click **Save**.
-
-4. A phone bidder number will be created and added to the [phone bidder cards list](how-to-download-phone-bidder-cards-list.md). 
+1. Enter a note if needed and click **Save**.
+2. A phone bidder number will be created and added to the [phone bidder cards list](how-to-download-phone-bidder-cards-list.md).
 
 ![](https://user-images.githubusercontent.com/20393485/46795722-8f99c880-cd53-11e8-919d-7f9fc2e03e74.jpg)
 

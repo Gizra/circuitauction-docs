@@ -1,6 +1,7 @@
 # Table of contents
 
 * [Introduction](README.md)
+* [Logging the system](logging-the-system.md)
 * [Workflow best practice](workflow-best-practice.md)
 * [Client](client/README.md)
   * [How to create a client?](client/how-to-create-a-client.md)
