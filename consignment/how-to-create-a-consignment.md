@@ -1,6 +1,6 @@
 # How to create a consignment?
 
-Best practice is to create a consignment from the consignor \(client\) page.
+The best practice is to create a consignment from the consignor \(client\) page.
 
 1. Go to the consignor page (See [how to find a client](../client/how-to-find-an-existing-client.md)).
 2. Click on `+create consignment` 
