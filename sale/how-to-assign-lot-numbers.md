@@ -6,7 +6,7 @@ After [items have been added to the sale](../items/how-to-create-an-item.md) you
 
 ![image](https://user-images.githubusercontent.com/20393485/48195011-3ffceb80-e357-11e8-83a8-8be8c53df287.png)
 
-2. On the lot numbering page you will see all the items in the sale. You can order the lot numbers in few ways:
+2. On the lot numbering page you will see all the items in the sale. You can order the lot numbers in few ways that can be used in combination.
 
 **Default sort**  
 Click on **Default sort** button to sort the items by categories.
