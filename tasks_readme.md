@@ -30,4 +30,4 @@ Once a task is done, mark it as complete in the task list, by selecting the chec
 
 ### Default / Dependent tasks
 In the backend of the system, Admin can define**default tasks** that will be created automatically. For example: every time an item is created, tasks such as “Describe item” and "Photograph" will be created and assigned to the right staff member.
-Admin can also define **dependent tasks**. For example: a task to “proofread” an item can only start after the task to “Desrcribe item” is complete.
+Admin can also define **dependent tasks**. For example: a task to “proofread” an item can only start after the task to “Describe item” is complete.
