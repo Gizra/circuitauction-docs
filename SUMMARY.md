@@ -32,6 +32,7 @@
   * [How to find consignment statement?](consignment/how-to-find-consignment-statement.md)
   * [How consignment statement are created?](consignment/how-consignment-statement-are-created.md)
   * [How to find related consignment statement?](consignment/how-to-find-related-consignment-statement.md)
+* [Tasks](tasks.md)
 * [Auction](auction/README.md)
   * [Live auction flow](auction/auction-flow.md)
   * [Clerk screen](auction/clerk-screen/README.md)
