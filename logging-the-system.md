@@ -13,6 +13,5 @@ If the icon is red, click on it and refresh the connection.
 
 ![image](https://user-images.githubusercontent.com/20393485/49065584-16810280-f227-11e8-8103-ac077d1d4578.png)
 
-
 4. When logged in, you will see the main dashboard and the sidebar menu, where you can navigate through the system functions.
 
