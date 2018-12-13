@@ -1,4 +1,0 @@
-# Understanding the item page
-
-
-

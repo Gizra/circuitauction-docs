@@ -6,5 +6,5 @@
 
 ![](https://user-images.githubusercontent.com/20393485/47011172-e9323680-d149-11e8-992a-9fe6646e4fca.jpg)
 
-4. Continue from section 4 in [How to create an item](../items/how-to-create-an-item.md).  
+1. Continue from section 4 in [How to create an item](../items/how-to-create-an-item.md).  
 
