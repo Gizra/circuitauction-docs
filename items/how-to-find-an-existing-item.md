@@ -21,7 +21,7 @@ After you find the desired item, click on the green icon to reveal more informat
 
 ![](https://user-images.githubusercontent.com/20393485/45425842-2ca90900-b6a3-11e8-967f-8b4d1308d37c.jpg)
 
-Click on the eye icon to enter the [item page]()
+Click on the eye icon to enter the [item page](how-to-find-an-existing-item.md)
 
 ![](https://user-images.githubusercontent.com/20393485/45425942-6a0d9680-b6a3-11e8-88fc-87585c9c8f5c.jpg)
 
