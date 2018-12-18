@@ -2,6 +2,7 @@
 
 * [Introduction](README.md)
 * [Introduction](introduction.md)
+* [Accessing your Demo](accessing-your-demo.md)
 * [Logging the system](logging-the-system.md)
 * [Workflow best practice](workflow-best-practice.md)
 * [Client](client/README.md)
