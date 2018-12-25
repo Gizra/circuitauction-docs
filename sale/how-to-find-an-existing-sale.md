@@ -20,7 +20,7 @@ After you find the desired sale, click on the green icon to reveal more informat
 
 ![](https://user-images.githubusercontent.com/20393485/47139201-e3f8f700-d2c3-11e8-901e-21156f245eb6.jpg)
 
-Click on the eye icon to enter the [sale page](understanding-the-sale-page.md)
+Click on the eye icon to enter the [sale page](how-to-find-an-existing-sale.md)
 
 ![](https://user-images.githubusercontent.com/20393485/47139277-11de3b80-d2c4-11e8-9805-58a64e427a6d.jpg)
 
