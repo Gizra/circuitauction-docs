@@ -1,10 +1,9 @@
-# Logging into the system
+# Login into the system
 
-1. Open the web browser (the latest version of Chrome is recommended) and enter the system URL.
-
+1. Open the web browser \(the latest version of Chrome is recommended\) and enter the system URL.
 2. Log in with your Username and Password.
 
-![image](https://user-images.githubusercontent.com/20393485/48548719-561a2700-e8d6-11e8-87e7-01a85b7bee04.png)
+![](https://user-images.githubusercontent.com/20393485/48548719-561a2700-e8d6-11e8-87e7-01a85b7bee04.png)
 
 3. Make sure the Bid Server Connection icon is green. This means that the data is synchronized correctly with the Bid system. 
 
