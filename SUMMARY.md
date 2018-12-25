@@ -1,7 +1,7 @@
 # Table of contents
 
 * [Introduction](README.md)
-* [Login into the system](logging-the-system.md)
+* [Login into the system](logging-into-the-system.md)
 * [Accessing your Demo](accessing-your-demo.md)
 * [Workflow best practice](workflow-best-practice.md)
 * [Client](client/README.md)
