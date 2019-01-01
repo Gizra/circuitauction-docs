@@ -9,7 +9,7 @@ except in the case that an item is from the auction house inventory.
 
 ![](https://user-images.githubusercontent.com/20393485/45416650-155d2200-b689-11e8-8868-18abf4f04ab8.jpg)
 
-4. Fill in the item's information, pay attention to these fields:
+1. Fill in the item's information, pay attention to these fields:
 
 **Item Information** - you can enter the item description in several languages. Click on one of the language buttons \(i.e EN, DE, HE etc.\) to fill in the item information fields in the chosen language. For example: click on EN button and fill in the **Title**, **Sub title** and **Description** in English. Then click on DE button and fill in the same fields in German.
 
@@ -34,5 +34,5 @@ In **Temporary lot** field you can enter a temporary number assigned to this lot
 
 **Withdrawn** - item marked as "withdrawn" will appear as part of the sale, but will be disabled for bidding. Use this if you have added an item to the sale but there is a problem with it and you can’t offer it at the live auction.
 
-5. When you've finished entering the item information, click **Save**.  You can always come back and edit the item.
+1. When you've finished entering the item information, click **Save**.  You can always come back and edit the item.
 

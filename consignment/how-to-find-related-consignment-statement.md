@@ -10,7 +10,7 @@
 
 ## Second Option
 
-1. Open any **Consignment Statements**, then click on **Related statements.**
+Open any **Consignment Statements**, then click on **Related statements.**
 
 ![](../.gitbook/assets/image%20%2825%29.png)
 

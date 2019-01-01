@@ -34,7 +34,7 @@ Note that you can create multiple bidder numbers for Mail or Floor, but only one
 ![](https://user-images.githubusercontent.com/20393485/46795555-169a7100-cd53-11e8-885e-b223e357de63.jpg)
 
 1. Enter a note if needed and click **Save**.
-2. A phone bidder number will be created and added to the [phone bidder cards list](how-to-download-phone-bidder-cards-list.md). 
+2. A phone bidder number will be created and added to the [phone bidder cards list](how-to-download-phone-bidder-cards-list.md).
 
 ![](https://user-images.githubusercontent.com/20393485/46795722-8f99c880-cd53-11e8-919d-7f9fc2e03e74.jpg)
 

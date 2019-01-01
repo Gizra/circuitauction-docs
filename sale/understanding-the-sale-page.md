@@ -1,4 +1,0 @@
-# Understanding the sale page
-
-
-
