@@ -3,7 +3,7 @@
 * [Introduction](README.md)
 * [Login into the system](logging-into-the-system.md)
 * [Accessing your Demo](accessing-your-demo.md)
-* [Workflow best practice](workflow-best-practice.md)
+* [Suggested Workflow](workflow-best-practice.md)
 * [Client](client/README.md)
   * [How to create a client?](client/how-to-create-a-client.md)
   * [How to find an existing client?](client/how-to-find-an-existing-client.md)
