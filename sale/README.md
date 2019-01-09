@@ -12,11 +12,11 @@ The table **\[2\]** displays the sales list which you can [filter](how-to-find-a
 
 ## Statuses
 
-**New** - A new sale is created and pending editing. The sale in this status is not publish on the website.   
+**New** - A new sale is created and pending editing. The sale in this status is not publish on the website.  
 **In Process** - The sale is being edited and is still not publish on the website.  
 **Ready to publish** - This status will trigger a sync to the website. When completed, the status will change to `Published on site`.  
-**Published on site** - The sale is published on website.   
-**Post sale purchase** - The sale is after the auction but still allows items to be purchased. The sale is published on website.   
+**Published on site** - The sale is published on website.  
+**Post sale purchase** - The sale is after the auction but still allows items to be purchased. The sale is published on website.  
 **Finished** - Closed sale of past auction.
 
 ![](https://user-images.githubusercontent.com/20393485/50474950-87087400-09cb-11e9-8483-7b11044b16c2.png)
