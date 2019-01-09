@@ -29,5 +29,5 @@ To show the content simultaneously in multiple languages, click on Show other la
 
 See also:  
 [How to mass upload items images?](../sale/how-to-mass-upload-items-images.md)  
-[How to assign lot numbers?](../sale/how-to-assign-lot-numbers.md) 
+[How to assign lot numbers?](../sale/how-to-assign-lot-numbers.md)   
 [Sale statuses](../sale/README.md) 
