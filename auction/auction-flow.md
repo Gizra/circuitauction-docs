@@ -1,14 +1,14 @@
-# Live auction flow
+# Live Auction Flow
 
-## Item statuses during the live auction
+## Item Statuses during the live auction
 
-**Paused -** bidding on standby.
+**Paused -** bidding is on standby.
 
-**Active** - bidding is active, buyers can place a bid for the current item.
+**Active** - bidding is active. Buyers can place a bid for the current item.
 
-**Going** - bidding is going to close, buyers can still place a bid for the current item.
+**Going** - bidding is going to close. Buyers can still place a bid for the current item.
 
-**Gone** - the item is closed for bidding either sold or unsold.
+**Gone** - the item is closed for bidding and is either sold or unsold.
 
 The clerk changes the item status manually on the Clerk screen, and the status is changed automatically on all other screens \(Auctioneer, Room, and Web\).
 

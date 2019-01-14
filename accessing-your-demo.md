@@ -1,6 +1,6 @@
 # Accessing your Demo
 
-This is a demo installation where you can feel free to explore and experiment with the various features and data. Any changes to your demo installation will not be saved to your live installation of the platform. For detailed explanations on the Circuit Auction Platform, feel free to take a read through our ever growing documentation.
+This is a demo installation where you can feel free to explore and experiment with the various features and data. Any changes to your demo installation will not be saved to your live installation of the platform. For detailed explanations on the Circuit Auction Platform, feel free to read through our ever-growing documentation.
 
 ![](https://user-images.githubusercontent.com/20393485/50134668-d0551700-0299-11e9-8910-ffeb4233e639.png)
 
@@ -43,7 +43,7 @@ The webpage for the person holding the gavel and running the auction in the room
 
 This page is used to display the live sale on the monitor in the physical auction room.
 
-To be able to see the system from different roles \(staff or client\) at the same time, please make sure to use separate windows for each role, one in Chrome and the other in Chrome Incognito. To get started, you will receive a table like the below filled out with your relevant access information.
+To be able to see the system from different roles \(staff or client\) at the same time, please make sure to use separate windows for each role \(one in Chrome and the other in Chrome Incognito\). To get started, you will receive a table like the one below filled out with your relevant access information.
 
 | STAFF \(Chrome browser\) | Page Link | Staff Username | Password |
 | :--- | :--- | :--- | :--- |
@@ -56,10 +56,10 @@ To be able to see the system from different roles \(staff or client\) at the sam
 | Website \(eCatalogue\) |  |  |  |
 | Live App: Sale page | BackOffice Sale Link |  |  |
 
-\*Chrome in [incognito](https://en.wikipedia.org/wiki/Private_browsing), you will go to your browser menu, click on File → New Incognito Window.
+\*Chrome in [Incognito](https://en.wikipedia.org/wiki/Private_browsing), you will go to your browser menu, click on File → New Incognito Window.
 
 **Keep in mind:**  
-Note that there is a sale context at the top. Make sure to select a sale so the ‘Bids’ page and ‘Bidding info’ is exposed.  
+There is a sale context entry at the top. Make sure to select a sale so the ‘Bids’ page and ‘Bidding info’ is exposed.  
 ![image](https://user-images.githubusercontent.com/20393485/50136131-66d80700-029f-11e9-959a-4329ea1223fe.png)
 
 Please note the plug icon on the top left hand side of your screen should be green. If it is not, click on re-check connection.  

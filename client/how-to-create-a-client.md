@@ -1,4 +1,4 @@
-# How to create a client?
+# How to Create a Client
 
 1. On the side menu go to **Clients**
 2. Click on `+create new client`

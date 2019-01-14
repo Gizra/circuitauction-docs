@@ -1,4 +1,4 @@
-# Login into the system
+# Logging into the System
 
 1. Open the web browser \(the latest version of Chrome is recommended\) and enter the system URL.
 2. Log in with your Username and Password.

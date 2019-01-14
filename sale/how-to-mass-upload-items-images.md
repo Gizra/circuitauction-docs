@@ -1,18 +1,18 @@
-# How to mass upload items images?
+# How to Mass Upload Items Images
 
 You can add images to all sale items without the need to manually upload them one by one.
 
-1. Prepare the images files: in order to connect the images to the items, you need to give the file a pattern name that contains the item ID \(ID is shown next to the item title\).
+1. Prepare the image files: in order to connect the images to the items, you need to give the file a pattern name that contains the Item ID \(ID is shown next to the Item Title\).
 
-   Example: for item ID 777 name the image file `777.png`.
+   Example: for Item ID 777 name the image file `777.png`.
 
    If you have multiple images for one item use the underscore \( \_ \) character to identify it.
 
-   Example: item ID 777 will get the following images attached to it: `777.png`, `777_1.png`, `777_abc.jpg` etc.
+   Example: Item ID 777 will get the following images attached to it: `777.png`, `777_1.png`, `777_abc.jpg` etc.
 
 ![](https://user-images.githubusercontent.com/20393485/47136635-f459a380-d2bc-11e8-85b6-7d68c5d116cc.jpg)
 
-1. Open your Amazon S3 bucket, create a directory and name it with the sale ID \(ID is shown next to the sale title\). 
+1. Open your Amazon S3 bucket, create a directory and name it with the Sale ID \(ID is shown next to the Sale Title\).
 
 ![](https://user-images.githubusercontent.com/20393485/47136695-32ef5e00-d2bd-11e8-82b4-4a9c2bc69b2f.jpg)
 
