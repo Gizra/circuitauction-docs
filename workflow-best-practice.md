@@ -8,5 +8,3 @@
 6. Assign Lot Numbers to Items. See [How to Assign Lot Numbers](sale/how-to-assign-lot-numbers.md).
 7. Publish the sale on the website.
 
-
-
