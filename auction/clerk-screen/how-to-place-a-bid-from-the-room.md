@@ -1,20 +1,20 @@
-# How to place a bid from the floor
+# How to Place a Bid from the Floor
 
-Bids can be placed only when item marked as **Active** or **Going** \(see [auction flow](../auction-flow.md)\).
+Bids can be placed only when an item is marked as **Active** or **Going** \(see [Auction Flow](../auction-flow.md)\).
 
-Bid from the web placed automatically. Bid from the room placed manually by the clerk.
+Bids from the web are placed automatically. Bids from the room are placed manually by the clerk.
 
-**Place a bid from the room**
+**Placing a bid from the room**
 
-1. Click on the **Place a bid** button to place a bid on the next step. OR Enter bid value in the **Next bid** field if you don't want to be limited by the next step.
+1. Click on the **Place bid** button to place a bid on the next step. OR enter a bid value in the **Next bid** field if you don't want to be limited by the next step.
 
 ![](../../.gitbook/assets/image%20%2832%29.png)
 
-2. After placing a bid \(web or room\) the current price will change, and the new bid will appear in the bids table.
+1. Once a bid is placed \(web or room\) the current price will update and the bid will appear in the Bids table.
 
 ![](../../.gitbook/assets/image%20%2818%29.png)
 
-3. If there is a conflict between bid that was placed from web and bid that was placed from the floor, you can click on **Set to floor** to set the bid from the room.
+1. If there is a conflict between a bid that was placed from the web and a bid that was placed from the floor, you can click on **Set to floor** to set the bid to the room.
 
 ![](../../.gitbook/assets/image%20%2811%29.png)
 
