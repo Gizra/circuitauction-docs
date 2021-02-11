@@ -25,6 +25,7 @@
   * [How to Assign Lot Numbers](sale/how-to-assign-lot-numbers.md)
   * [How to Mass Upload Items Images](sale/how-to-mass-upload-items-images.md)
 * [Consignment](consignment/README.md)
+  * [Consignment Workflow](consignment/consignment-workflow.md)
   * [How to Create a Consignment](consignment/how-to-create-a-consignment.md)
   * [How to Add an Item to Consignment](consignment/how-to-add-an-item-to-consignment.md)
   * [How to Find an Existing Consignment](consignment/how-to-find-an-existing-consignment.md)
@@ -42,4 +43,8 @@
     * [How to Select the Bidding Item](auction/clerk-screen/how-to-select-the-bidding-item.md)
     * [How to Place a Bid from the Floor](auction/clerk-screen/how-to-place-a-bid-from-the-room.md)
 * [Glossary](glossary.md)
+
+## IT Section
+
+* [Drush](it-section/useful-drush-commands.md)
 

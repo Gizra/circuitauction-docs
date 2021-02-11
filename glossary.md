@@ -4,11 +4,9 @@
 
 **Consignment -** the contract with the consignor that contains the payment agreements.
 
-**Consignment statement -** 
+**Consignment statement -**
 
-**Customer number / Customer ID -**
+**Floor / room -**
 
-**Floor / room -** 
-
-
+TEST EDITING
 
