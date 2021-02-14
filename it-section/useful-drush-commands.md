@@ -12,5 +12,10 @@ $ drush @site-alias scr profiles/backoffice/modules/server_term/script/resave_ca
  Go to /admin/reports/queue to monitor AQ tasks.
 {% endhint %}
 
+## Set default addresse
 
+After address migration we need to run this script to set the main client address.
 
+```
+$ drush @site-alias scr profiles/backoffice/modules/server_address/drush/set_default_addresses.php
+```
