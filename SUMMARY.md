@@ -15,6 +15,7 @@
   * [How to View Client Bids](client/how-to-view-clients-bids.md)
   * [How to Send a Bidding Report to a Client](client/how-to-send-a-bidding-report-to-a-client.md)
 * [Items](items/README.md)
+  * [Import / Migrate Items](items/import-migrate-items.md)
   * [How to Create an Item](items/how-to-create-an-item.md)
   * [How to Find an Existing Item](items/how-to-find-an-existing-item.md)
 * [Sale](sale/README.md)
