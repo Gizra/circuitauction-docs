@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Introduction](README.md)
+* [Import / Migrate](README.md)
 * [Logging into the System](logging-into-the-system.md)
 * [Accessing your Demo](accessing-your-demo.md)
 * [Suggested Workflow](workflow-best-practice.md)
