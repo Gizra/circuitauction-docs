@@ -6,7 +6,7 @@
 2. Type the consignment number, then click **Filter**.
 3. The list will display all the **Consignment Statements** for the consignment.
 
-![](../.gitbook/assets/image%20%285%29%20%283%29.png)
+![](../.gitbook/assets/image%20%285%29%20%283%29%20%283%29.png)
 
 ## Second Option
 

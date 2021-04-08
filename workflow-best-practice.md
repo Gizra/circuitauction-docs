@@ -7,4 +7,7 @@
 5. Assign Item\(s\) to a Sale. This is done from the Item dashboard \([bulk](sale/how-to-assign-bulk-items-to-a-sale.md)\) or from the Item page \([single](items/how-to-create-an-item.md)\).
 6. Assign Lot Numbers to Items. See [How to Assign Lot Numbers](sale/how-to-assign-lot-numbers.md).
 7. Publish the sale on the website.
+8. Run a Sale
+9. Invoicing Buyers and Consigners
+10. Exporting to accounting
 
