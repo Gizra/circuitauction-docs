@@ -20,7 +20,7 @@ After address migration we need to run this script to set the main client addres
 $ drush @site-alias scr profiles/backoffice/modules/server_address/drush/set_default_addresses.php
 ```
 
-## Resave items
+## Resave items or any other node type.
 
 Reasve a node type.
 
