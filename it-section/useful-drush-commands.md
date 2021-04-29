@@ -22,14 +22,17 @@ $ drush @site-alias scr profiles/backoffice/modules/server_address/drush/set_def
 
 ## Resave items or any other node type.
 
-Reasve a node type.
+Resave a node type.
 
 **Options**
-* --type={node type}
-* --sale_nid={Sale context}
-* --start_from_nid and --range=500 
+
+* -`-type`The node type.
+* `--sale_nid`Filter by Sale context.
+* `--start_from_nid` and `--range`
 
 ```text
 $ drush @site-alias scr profiles/backoffice/modules/server_general/scripts/resave.php --start_from_nid=1 --range=500 --type=item --sale_nid=123
 ```
+
+
 
