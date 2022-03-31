@@ -19,6 +19,7 @@
   * [Import / Migrate Items](items/import-migrate-items.md)
   * [How to Create an Item](items/how-to-create-an-item.md)
   * [How to Find an Existing Item](items/how-to-find-an-existing-item.md)
+  * [Under extension worflow](items/under-extension-worflow.md)
 * [Sale](sale/README.md)
   * [Sale Context](sale/sale-context.md)
   * [How to Create a Sale](sale/how-to-create-a-sale.md)
