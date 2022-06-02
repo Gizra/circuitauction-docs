@@ -1,5 +1,21 @@
 # Drush
 
+## Category Google Drive Migration
+
+Sometimes Google will timeout depending on the amount of rows
+
+Adding New Categories from Google-Shet
+
+```
+terminus drush backoffice-**SITE**.**ENV** -- mi ServerCategoriesDriveMigrate --feedback='50 items'
+```
+
+Updateing the existing Categories with Google-Sheet
+
+```
+terminus drush backoffice-**SITE**.**ENV** -- mi ServerCategoriesDriveMigrate --update --feedback='50 items'
+```
+
 ## Category tree - Resave all
 
 Queue all Category term for tree rebuild using advanced queue.
