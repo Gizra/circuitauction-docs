@@ -1,7 +1,6 @@
 <!-- docs/_sidebar.md -->
 
 * [Introduction](README.md)
-* [Import / Migrate](import-migrate.md)
 * [Logging into the System](logging-into-the-system.md)
 * [Accessing your Demo](accessing-your-demo.md)
 * [Suggested Workflow](workflow-best-practice.md)
@@ -61,7 +60,6 @@
 * [Glossary](glossary.md)
 
 * **WebSite**
-  * [Overview](website/README.md)
   * [Ask about this item](website/ask-about-this-item.md)
 
 ---
