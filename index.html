@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CircuitAuction Documentation</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="description" content="Help documentation for the CircuitAuction backoffice project">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+
+  <!-- Theme: Vue (similar to GitBook) -->
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+
+  <!-- Custom styling for GitBook-like hints -->
+  <style>
+    .hint {
+      padding: 12px 24px 12px 30px;
+      margin: 2em 0;
+      border-left: 4px solid;
+      border-radius: 4px;
+      position: relative;
+    }
+    .hint.info {
+      background-color: #e7f2fa;
+      border-color: #2196f3;
+    }
+    .hint.warning {
+      background-color: #fff4e5;
+      border-color: #ff9800;
+    }
+    .hint.danger {
+      background-color: #ffebee;
+      border-color: #f44336;
+    }
+    .hint.success {
+      background-color: #e8f5e9;
+      border-color: #4caf50;
+    }
+  </style>
+</head>
+<body>
+  <div id="app">Loading...</div>
+  <script>
+    window.$docsify = {
+      name: 'CircuitAuction Docs',
+      repo: 'https://github.com/Gizra/circuitauction-docs',
+      loadSidebar: true,
+      coverpage: true,
+      autoHeader: true,
+      subMaxLevel: 3,
+      maxLevel: 4,
+
+      // Homepage
+      homepage: 'README.md',
+
+      // Sidebar configuration
+      alias: {
+        '/.*/_sidebar.md': '/_sidebar.md'
+      },
+
+      // Search plugin
+      search: {
+        maxAge: 86400000,
+        paths: 'auto',
+        placeholder: 'Search...',
+        noData: 'No Results!',
+        depth: 6,
+        hideOtherSidebarContent: false
+      },
+
+      // Pagination
+      pagination: {
+        previousText: 'Previous',
+        nextText: 'Next',
+        crossChapter: true,
+        crossChapterText: true,
+      },
+
+      // Copy code plugin
+      copyCode: {
+        buttonText : 'Copy',
+        errorText  : 'Error',
+        successText: 'Copied'
+      },
+
+      // Process GitBook hint blocks
+      plugins: [
+        function(hook, vm) {
+          hook.afterEach(function(html) {
+            // Convert GitBook {% hint %} blocks to styled divs
+            html = html.replace(
+              /{% hint style="(\w+)" %}([\s\S]*?){% endhint %}/g,
+              function(match, style, content) {
+                return '<div class="hint ' + style + '">' + content.trim() + '</div>';
+              }
+            );
+            return html;
+          });
+        }
+      ]
+    }
+  </script>
+
+  <!-- Docsify core -->
+  <script src="//cdn.jsdelivr.net/npm/docsify@4/lib/docsify.min.js"></script>
+
+  <!-- Search plugin -->
+  <script src="//cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.min.js"></script>
+
+  <!-- Copy code plugin -->
+  <script src="//cdn.jsdelivr.net/npm/docsify-copy-code@2"></script>
+
+  <!-- Pagination plugin -->
+  <script src="//cdn.jsdelivr.net/npm/docsify-pagination@2/dist/docsify-pagination.min.js"></script>
+
+  <!-- Zoom image plugin -->
+  <script src="//cdn.jsdelivr.net/npm/docsify@4/lib/plugins/zoom-image.min.js"></script>
+
+  <!-- Emoji plugin -->
+  <script src="//cdn.jsdelivr.net/npm/docsify@4/lib/plugins/emoji.min.js"></script>
+
+  <!-- Syntax highlighting -->
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-bash.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-php.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-javascript.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-yaml.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-json.min.js"></script>
+</body>
+</html>

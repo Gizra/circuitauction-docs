@@ -1,0 +1,70 @@
+<!-- docs/_sidebar.md -->
+
+* [Introduction](README.md)
+* [Import / Migrate](import-migrate.md)
+* [Logging into the System](logging-into-the-system.md)
+* [Accessing your Demo](accessing-your-demo.md)
+* [Suggested Workflow](workflow-best-practice.md)
+
+* **Clients**
+  * [Overview](client/README.md)
+  * [How to Create a Client](client/how-to-create-a-client.md)
+  * [How to Find an Existing Client](client/how-to-find-an-existing-client.md)
+  * [Understanding the Client Page](client/understanding-client-page.md)
+  * [How to Approve a Client](client/how-to-approve-a-client.md)
+  * [How to Create a Bidder Number](client/how-to-create-bidder-number.md)
+  * [How to Download the Phone Bidder Cards List](client/how-to-download-phone-bidder-cards-list.md)
+  * [How to Place a Bid for a Client](client/how-to-place-a-bid-for-a-client.md)
+  * [How to View Client Bids](client/how-to-view-clients-bids.md)
+  * [How to Send a Bidding Report to a Client](client/how-to-send-a-bidding-report-to-a-client.md)
+
+* **Items**
+  * [Overview](items/README.md)
+  * [Import / Migrate Items](items/import-migrate-items.md)
+  * [How to Create an Item](items/how-to-create-an-item.md)
+  * [How to Find an Existing Item](items/how-to-find-an-existing-item.md)
+  * [Under extension worflow](items/under-extension-worflow.md)
+
+* **Sale**
+  * [Overview](sale/README.md)
+  * [Sale Context](sale/sale-context.md)
+  * [How to Create a Sale](sale/how-to-create-a-sale.md)
+  * [How to Find an Existing Sale](sale/how-to-find-an-existing-sale.md)
+  * [How to Assign Bulk Items to a Sale](sale/how-to-assign-bulk-items-to-a-sale.md)
+  * [How to Assign Lot Numbers](sale/how-to-assign-lot-numbers.md)
+  * [How to Mass Upload Items Images](sale/how-to-mass-upload-items-images.md)
+
+* **Consignment**
+  * [Overview](consignment/README.md)
+  * [Consignment Workflow](consignment/consignment-workflow.md)
+  * [How to Create a Consignment](consignment/how-to-create-a-consignment.md)
+  * [How to Add an Item to Consignment](consignment/how-to-add-an-item-to-consignment.md)
+  * [How to Find an Existing Consignment](consignment/how-to-find-an-existing-consignment.md)
+  * [How to Add Additional Charges](consignment/how-to-add-additional-charges.md)
+  * [How to Change Consignment Status](consignment/how-to-change-consignment-status.md)
+  * [How to Find a Consignment Statement](consignment/how-to-find-consignment-statement.md)
+  * [How Consignment Statements are Created](consignment/how-consignment-statement-are-created.md)
+  * [How to Find a Related Consignment Statement](consignment/how-to-find-related-consignment-statement.md)
+
+* [Tasks](tasks.md)
+
+* **Auction**
+  * [Overview](auction/README.md)
+  * [Live Auction Flow](auction/auction-flow.md)
+  * **The Clerk Screen**
+    * [Overview](auction/clerk-screen/README.md)
+    * [How to Set the Auction Session](auction/clerk-screen/how-to-set-the-action-session-and-status.md)
+    * [How to Set the Auction Status](auction/clerk-screen/how-to-set-the-action-status.md)
+    * [How to Select the Bidding Item](auction/clerk-screen/how-to-select-the-bidding-item.md)
+    * [How to Place a Bid from the Floor](auction/clerk-screen/how-to-place-a-bid-from-the-room.md)
+
+* [Glossary](glossary.md)
+
+* **WebSite**
+  * [Overview](website/README.md)
+  * [Ask about this item](website/ask-about-this-item.md)
+
+---
+
+* **IT Section**
+  * [Drush Commands](it-section/useful-drush-commands.md)
