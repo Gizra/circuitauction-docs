@@ -178,9 +178,33 @@ In non-live environments, ".test" is appended to emails to prevent sending to re
 
 ## Sold Items (Creates Winning Bid)
 
-* **`_sold_for`** - Sold price (triggers automatic winning bid creation)
-* **`_winning_user`** - Winning user ID (if migrate mapping enabled)
+When `_sold_for` is provided, the system automatically creates an item history task to record the winning bid:
+
+* **`_sold_for`** - Sold price (triggers automatic item history task creation)
+  * If `0`, item status is set to UNSOLD
+  * If empty, no task is created
+  * If > 0, item status is set to SOLD
+
+**Winning Bidder Information:**
+* **`_winning_user`** - Winning user internal ID (if migrate mapping enabled)
 * **`_winning_user_nid`** - Winning user node ID
+* **`_bidder_number`** - Bidder number for the sale
+
+**Optional Client Information (for winner):**
+* **`_first_name`** - Winner's first name
+* **`_last_name`** - Winner's last name
+* **`_phone`** - Winner's phone number
+* **`_email`** - Winner's email address
+
+{% hint style="info" %}
+**Item History Queue Task:**
+The system queues a task (SERVER_ITEM_HISTORY_QUEUE_IMPORT_RESULT) that:
+- Creates the winning bid record
+- Links the item to the winning bidder
+- Records the sold price and status
+- Allows empty bidder (auto-creates if needed)
+- Uses lot_number and lot_letter ('-' default) to identify the item
+{% endhint %}
 
 ## Processing Logic
 
