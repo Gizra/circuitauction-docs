@@ -1,26 +1,5 @@
 # Accessing your Demo
 
-This is a demo installation where you can feel free to explore and experiment with the various features and data. Any changes to your demo installation will not be saved to your live installation of the platform. For detailed explanations on the Circuit Auction Platform, feel free to read through our ever-growing documentation.
-
-![](https://user-images.githubusercontent.com/20393485/50134668-d0551700-0299-11e9-8910-ffeb4233e639.png)
-
-There are three components to the platform that are fully integrated, meaning that information flows freely between them. Bidding activity in the website and live app is reflected in the back office and the relevant information added in the back office, like the catalogue, on-behalf bids, or client bid maximums, is reflected in the website and live app.
-
-## BackOffice
-
-![image](https://user-images.githubusercontent.com/20393485/50134765-4a859b80-029a-11e9-9e77-dbc989115a14.png)  
-Here is where the staff manage consignors and bidders, build the catalogue, enter on-behalf bids, create accounting statements, and get insight and information on all parts of the auction workflow.
-
-## Website with e-catalogue
-
-![image](https://user-images.githubusercontent.com/20393485/50135292-4ce8f500-029c-11e9-8202-abcabfe994bc.png)  
-Login as a registered client. Choose any of the online catalogues and start submitting bids.
-
-## Live App
-
-![image](https://user-images.githubusercontent.com/20393485/50135341-83bf0b00-029c-11e9-8462-62d7a65d8305.png)  
-There are four pages in the Live App, each supporting different users. You can access links to these pages from the back office Dashboard.
-
 Choose a sale:  
 ![image](https://user-images.githubusercontent.com/20393485/50135402-b2d57c80-029c-11e9-9afe-0457589afdfc.png)
 
