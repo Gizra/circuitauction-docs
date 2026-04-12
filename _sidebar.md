@@ -47,6 +47,14 @@
 
 * [Tasks](tasks.md)
 
+* **Bids**
+  * [Overview](bids/README.md)
+  * [Bids Page](bids/bids-page.md)
+  * [Entering Bids](bids/entering-bids.md)
+  * [Bids Item Table](bids/bids-item-table.md)
+  * [Item All Bids Popup](bids/item-all-bids-popup.md)
+  * [Bidding Info Tab](bids/bidding-info-tab.md)
+
 * **Auction**
   * [Overview](auction/README.md)
   * [Live Auction Flow](auction/auction-flow.md)

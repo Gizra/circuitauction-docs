@@ -52,8 +52,8 @@ Example: `_title_en`, `_title_he`, `_body_en`, `_body_he`
 
 * **`_opening_price`** - Opening bid price
 * **`_minimum_price`** - Reserve/minimum price
-* **`_estimation_low`** / **`_estimate_low`** - Low estimate
-* **`_estimation_high`** / **`_estimate_high`** - High estimate
+* **`_estimation_low`** - Low estimate
+* **`_estimation_high`** - High estimate
 * **`_buy_now_price`** - Buy now price
 * **`_buy_now_setting`** - Buy now setting
 
