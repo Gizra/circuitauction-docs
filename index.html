@@ -86,9 +86,11 @@
       plugins: [
         function(hook, vm) {
           hook.afterEach(function(html) {
-            // Convert GitBook {% hint %} blocks to styled divs
+            // Convert GitBook {% hint %} blocks to styled divs.
+            // Marked may escape " to &quot; and wrap markers in <p> tags,
+            // so the regex tolerates both forms and strips the surrounding <p>.
             html = html.replace(
-              /{% hint style="(\w+)" %}([\s\S]*?){% endhint %}/g,
+              /(?:<p>\s*)?\{%\s*hint\s+style=(?:"|&quot;)(\w+)(?:"|&quot;)\s*%\}(?:\s*<\/p>)?([\s\S]*?)(?:<p>\s*)?\{%\s*endhint\s*%\}(?:\s*<\/p>)?/g,
               function(match, style, content) {
                 return '<div class="hint ' + style + '">' + content.trim() + '</div>';
               }

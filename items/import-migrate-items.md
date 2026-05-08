@@ -6,6 +6,48 @@ description: Google sheet migration of items.
 
 **Example Sheet:** [https://docs.google.com/spreadsheets/d/13OhdvytrpmdOLLAUoC2mRi7jTs6lzKCccyNDqus8lgo/edit#gid=219859970](https://docs.google.com/spreadsheets/d/13OhdvytrpmdOLLAUoC2mRi7jTs6lzKCccyNDqus8lgo/edit#gid=219859970)
 
+## Step-by-Step Instructions
+
+![Import items flow](../assets/import-items-flow.png)
+
+1. To create the consignment automatically while importing, the `_consignment` field must include the 3 parameters in this format:
+
+   ```
+   <email>|<consignment number>|<consignment name>
+   ```
+
+2. The easiest workflow is to work with a Google Sheet, so you can make changes and reimport if any row fails due to missing data.
+
+   Paste the published CSV export URL of the sheet in the **Google drive file URL** textbox (see **1**). For example:
+
+   ```
+   https://docs.google.com/spreadsheets/d/<SPREADSHEET_ID>/export?format=csv&gid=<SHEET_GID>
+   ```
+
+   The corresponding edit URL (origin) looks like:
+
+   ```
+   https://docs.google.com/spreadsheets/d/<SPREADSHEET_ID>/edit?gid=<SHEET_GID>#gid=<SHEET_GID>
+   ```
+
+3. Click **Queue import items** (see **2**) to start the import.
+
+   {% hint style="info" %}
+   This function will only attempt to import items that were never imported before. It is safe to use for the first import on the document, or to add new items without overriding items that have already been imported.
+   {% endhint %}
+
+4. After the import is done, click **Load Results** (see **5**) to display the import result table.
+
+5. If some items could not be imported, the reason will appear in the **Info** column (see **6**).
+
+6. For failed imports, click **Queue failed import items** (see **3**) to retry only the rows that failed.
+
+7. To reimport everything and overwrite previous items, click **Queue update All items data (will overwrite changes)** (see **4**).
+
+   {% hint style="warning" %}
+   This option will override any change made manually on items in the back-office. Use it carefully.
+   {% endhint %}
+
 ## Required Fields
 
 * **`_unique_id`** - Unique identifier for each row (required for tracking)
