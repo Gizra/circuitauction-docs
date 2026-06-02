@@ -1,8 +1,12 @@
 ---
-description: Google sheet migration of items.
+description: Bulk import of items from a Google Sheet (ServerItemsSelfServiceMigrate).
 ---
 
-# Import / Migrate Items
+# Items (Self-Service)
+
+Handler: `ServerItemsSelfServiceMigrate` — extends `ServerItemsDriveMigrate`.
+
+This is the main item importer. It creates new item nodes from a CSV / Google Sheet and can auto-create the consignment and the consignor when they don't already exist.
 
 **Example Sheet:** [https://docs.google.com/spreadsheets/d/13OhdvytrpmdOLLAUoC2mRi7jTs6lzKCccyNDqus8lgo/edit#gid=219859970](https://docs.google.com/spreadsheets/d/13OhdvytrpmdOLLAUoC2mRi7jTs6lzKCccyNDqus8lgo/edit#gid=219859970)
 
@@ -67,7 +71,7 @@ If no consignment is found, a new consignment will be created automatically. The
 3. Create consignment linked to the sale and consignor
 {% endhint %}
 
-* **`_sale`** - Sale node ID (required)
+* **`_sale`** - Sale node ID (required, injected automatically from the form's `sale_nid` argument)
 * **`_sale_number`** - Alternative: Sale number if `_sale` is not provided
 
 ## Lot Information
@@ -218,6 +222,12 @@ When consignor doesn't exist, these fields enable auto-creation:
 In non-live environments, ".test" is appended to emails to prevent sending to real clients.
 {% endhint %}
 
+## Notes (Self-Service Only)
+
+`ServerItemsSelfServiceMigrate` also imports up to four free-form note columns and creates `note` nodes attached to the item:
+
+* **`_notes`**, **`_notes2`**, **`_notes3`**, **`_notes4`** - Pipe-separated note strings. Each pipe segment becomes a separate note node. Titles are stable so re-imports do not create duplicates.
+
 ## Sold Items (Creates Winning Bid)
 
 When `_sold_for` is provided, the system automatically creates an item history task to record the winning bid:
@@ -275,6 +285,3 @@ The system queues a task (SERVER_ITEM_HISTORY_QUEUE_IMPORT_RESULT) that:
 6. **Symbol Mapping:**
    * Converts philatelic shorthand to full term names
    * Creates terms if they don't exist in symbols vocabulary
-
-
-
