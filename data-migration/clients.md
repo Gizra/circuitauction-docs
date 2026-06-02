@@ -74,6 +74,7 @@ https://docs.google.com/spreadsheets/d/<SPREADSHEET_ID>/edit?gid=<SHEET_GID>#gid
 | `_tax_id` | `field_tax_id` | |
 | `_shipping_instructions` | `field_shipping_instructions` | |
 | `_billing_instructions` | `field_billing_instructions` | |
+| `_buyer_premium` | `field_bidder_commission` | Buyer's premium / bidder commission percentage. |
 | `_country` | (used by downstream addresses logic) | Defaults to the value of `backoffice_order_default_country_for_tax` (`DE` if unset) when empty. |
 
 ## Status
@@ -85,6 +86,24 @@ https://docs.google.com/spreadsheets/d/<SPREADSHEET_ID>/edit?gid=<SHEET_GID>#gid
 | `_warning` | `field_warning` | Free-form warning displayed in the back-office. |
 | `_created` | `created` | Node creation timestamp. |
 | `_cancellation_date` | `field_cancellation_date` | |
+
+## Consignor Commission Steps (Multifield)
+
+The handler builds a stepped consignor commission multifield (`field_consignor_commissions`) from numbered columns on the row:
+
+| Column pair | Stored as |
+|---|---|
+| `_consignor_commission_1` + `_step_from_1` | First step (commission + threshold) |
+| `_consignor_commission_2` + `_step_from_2` | Second step |
+| `_consignor_commission_N` + `_step_from_N` | …and so on, scanned until a missing column is hit |
+
+For each step:
+
+* `_consignor_commission_N` is normalised to a percentage — if the value does not already contain `%`, it is cast to an int and a `%` is appended (e.g. `7` → `7%`).
+* `_step_from_N` defaults to `0` when empty.
+* Empty commission values skip the step.
+
+The collected steps are written to `field_consignor_commissions` via the entity wrapper.
 
 ## Notes (Multi-column)
 
