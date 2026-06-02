@@ -89,8 +89,30 @@
 
 * [Glossary](glossary.md)
 
-* **WebSite**
-  * [Ask about this item](website/ask-about-this-item.md)
+* **WebSite (Embeddable Blocks)**
+  * [Overview](website/README.md)
+  * **Catalog & Sales Blocks**
+    * [Sales List](website/sales-list.md)
+    * [Sale Page](website/sale-page.md)
+    * [Sale Info](website/sale-info.md)
+    * [Featured Items](website/featured-items.md)
+    * [Item Page](website/item-page.md)
+    * [Prices Realized](website/prices-realized.md)
+    * [Place Bid](website/place-bid.md)
+    * [Favorite Button](website/favorite-button.md)
+  * **Account & User Blocks**
+    * [User Menu](website/user-block.md)
+    * [Login](website/login.md)
+    * [Register](website/register.md)
+    * [Forgot Password](website/forgot-password.md)
+    * [My Account](website/my-account.md)
+    * [My Bids](website/my-bids.md)
+    * [My Favorites](website/my-favorites.md)
+    * [My Interests](website/my-interests.md)
+    * [Balance Button](website/balance.md)
+    * [Billing & Payments](website/billing.md)
+    * [Magazine Subscription](website/subscription-magazine.md)
+    * [Purchase Subscription](website/subscription-purchase.md)
 
 ---
 
