@@ -42,6 +42,7 @@ https://docs.google.com/spreadsheets/d/<SPREADSHEET_ID>/export?format=csv&gid=<S
 | [Clients Password](clients-password.md) | Migrate password hashes onto existing clients. |
 | [Addresses](addresses.md) | Import and attach address nodes to existing clients. |
 | [External IDs](external-ids.md) | Attach external system IDs (multifield) to clients. |
+| [Clients Bank Accounts](clients-bank-accounts.md) | Attach bank account details (multifield) to existing clients. |
 
 ### Categories, Sales & Consignments
 

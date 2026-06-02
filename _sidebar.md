@@ -35,6 +35,7 @@
   * [Clients Password](data-migration/clients-password.md)
   * [Addresses](data-migration/addresses.md)
   * [External IDs](data-migration/external-ids.md)
+  * [Clients Bank Accounts](data-migration/clients-bank-accounts.md)
   * [Categories](data-migration/categories.md)
   * [Sales](data-migration/sales.md)
   * [Consignments](data-migration/consignments.md)
