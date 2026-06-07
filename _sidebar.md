@@ -89,6 +89,7 @@
     * [How to Place a Bid from the Floor](auction/clerk-screen/how-to-place-a-bid-from-the-room.md)
 
 * [Glossary](glossary.md)
+* [Automatic Tags & Terms](understanding-automatic-tags.md)
 
 * **WebSite (Embeddable Blocks)**
   * [Overview](website/README.md)
