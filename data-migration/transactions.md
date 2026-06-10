@@ -50,3 +50,11 @@ From the resolved item the handler walks to the last promoted `item_history`, re
 | `_date` | `field_transaction_date` **and** the node's `created` timestamp (parsed via `strtotime()`) |
 | `_order` (resolved) | `field_order` |
 | `_client` (resolved from order owner) | `field_client` |
+
+{% hint style="info" %}
+A buyer invoice that spans many lots maps to a single **order** (one order per sale + buyer). A payment is one transaction row referencing any one lot's `_internal_id` — it resolves to the shared order, so billing reconciles at the order level. Send one transaction row per payment; for per-line fidelity send several rows and they all roll up to the same order.
+{% endhint %}
+
+{% hint style="warning" %}
+**Planned (consignor payouts):** `field_order` already accepts a `consignment_statement` reference as well as an `order`. A planned change adds a consignment-id column to this sheet so a row can resolve a consignment statement (via `server_consignment_statement_get_or_create()`) and point `field_order` at it — mirroring how buyer payments resolve `_internal_id` → order today. This lets consignor payments (`StatementPayment`) ride the same Transactions import; no separate payout handler is needed.
+{% endhint %}

@@ -39,6 +39,7 @@
   * [Categories](data-migration/categories.md)
   * [Sales](data-migration/sales.md)
   * [Consignments](data-migration/consignments.md)
+  * [Consignment Commission Steps](data-migration/consignment-commission-steps.md)
   * [Consignment Finder Fees](data-migration/consignment-finder-fees.md)
   * [Transactions](data-migration/transactions.md)
   * [Bids](data-migration/bids.md)

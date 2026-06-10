@@ -40,6 +40,10 @@ The parent `ServerClientBankAccountMigrate` (SQL variant) instead resolves the h
 | `_customer_id` | Used to resolve the host client. Rows with no match are skipped. |
 | `_bank` | `field_bank_name` |
 | `_bank_code` | `field_bank_code` |
-| `_account_number` | `field_bank_account_number` **and** `field_bank_account_owner` (both populated from the same column) |
+| `_account_number` | `field_bank_account_number` **and** `field_bank_account_owner` (both populated from the same column — see the warning below) |
 | `_iban` | `field_iban` |
 | `_bic` | `field_bic` |
+
+{% hint style="warning" %}
+**Planned (model change):** today bank details live on the per-client `field_bank_details` multifield, where `_account_number` is mis-mapped to both the account number **and** the account owner. A planned change moves richer bank attributes (account owner, cheque payee, bank address, currency, …) onto the `bank_accounts` **taxonomy** instead — new fields on the vocabulary term, imported via the bank-accounts taxonomy migrate (`ServerBankAccountsMigrate`). Deliver those attributes as columns and they will be added to the vocabulary and mapped there rather than overloading the per-client multifield.
+{% endhint %}

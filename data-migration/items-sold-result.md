@@ -62,11 +62,15 @@ The newly created item history record is set as the **promoted** one, and the pr
 | `_wining_bidder` (resolved internally) | `field_winner_bidder` |
 | `_bidder_id` | `field_sold_to_bidder_id` |
 | `_bidder_alias` | `field_bidder_alias` |
-| `_withdrawn` | `field_withdrawn` |
+| `_withdrawn` | `field_withdrawn` — note: `prepareRow()` currently forces this to `FALSE`, so the CSV value is ignored and this handler cannot mark an appearance as withdrawn. |
 | `_under_extension_status` | `field_under_extension_status` |
 | `_sold_for` | `field_sold_for_amount` |
 | `_sold_status` | `field_sold_status` (default `SOLD`) |
 
 {% hint style="info" %}
 `ServerItemsUpdateDriveMigrate` and `ServerItemsSelfServiceMigrate` both also queue an item history task when `_sold_for` is set on a row — this handler is the equivalent that runs from a dedicated CSV.
+{% endhint %}
+
+{% hint style="warning" %}
+**Planned:** the winning-bidder lookup currently resolves **by email only** (`_wining_bidder_email`) and skips the row on no match. A planned change adds a `_customer_id` fallback (via `server_client_get_client_nid_by_customer_id()`, the same resolver used by every other client-side handler) so winners can be matched by customer id when an email is missing or unmatched. Until this ships, every sold row needs a resolvable winner email.
 {% endhint %}
