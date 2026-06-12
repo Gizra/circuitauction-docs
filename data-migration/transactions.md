@@ -33,7 +33,7 @@ https://docs.google.com/spreadsheets/d/<SPREADSHEET_ID>/edit?gid=<SHEET_GID>#gid
 
 The handler resolves the item in this order:
 
-1. By `_internal_id` (direct).
+1. By `_id` (direct).
 2. By `_item_ref` — a free-form string. The first number after `AW` is extracted (`AW1234` → `1234`); otherwise the first numeric sequence is used.
 
 From the resolved item the handler walks to the last promoted `item_history`, reads the `field_order` from it, and uses the order owner as the client.
