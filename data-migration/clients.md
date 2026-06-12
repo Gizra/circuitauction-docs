@@ -28,7 +28,7 @@ https://docs.google.com/spreadsheets/d/<SPREADSHEET_ID>/edit?gid=<SHEET_GID>#gid
 
 | Column | Used as |
 |---|---|
-| `_unique_id` | Row tracking key. Falls back to `_id` when missing. Used to look up the previously migrated client in re-runs. |
+| `_id` | Row tracking key. |
 
 ## Identity
 
