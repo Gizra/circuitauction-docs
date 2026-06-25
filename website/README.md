@@ -1,5 +1,7 @@
 # Website (Embeddable Blocks)
 
+> If you are setting up a WordPress site, the [CircuitAuction WordPress plugin](wordpress-plugin.md) automates everything on this page (loader script, setup div, page divs) and adds Gutenberg blocks for the catalog and sales widgets.
+
 The **Circuit User UI** is a React application that powers the bidder‑facing parts of your website — sale listings, item pages, bidding, account management, billing and more. Instead of being a single page, it is delivered as a set of **blocks** (also called components). You drop a small `<div>` onto any page of your own website and the matching block renders inside it.
 
 This lets you build a fully branded auction website using your own CMS (WordPress, Drupal, plain HTML, etc.) while Circuit handles the catalog, bidding and account logic.

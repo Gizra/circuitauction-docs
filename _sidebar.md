@@ -94,6 +94,7 @@
 
 * **WebSite (Embeddable Blocks)**
   * [Overview](website/README.md)
+  * [WordPress Plugin](website/wordpress-plugin.md)
   * **Catalog & Sales Blocks**
     * [Sales List](website/sales-list.md)
     * [Sale Page](website/sale-page.md)

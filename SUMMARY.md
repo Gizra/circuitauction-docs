@@ -70,6 +70,7 @@
 * [Glossary](glossary.md)
 * [Automatic Tags & Terms](understanding-automatic-tags.md)
 * [WebSite (Embeddable Blocks)](website/README.md)
+  * [WordPress Plugin](website/wordpress-plugin.md)
   * [Sales List](website/sales-list.md)
   * [Sale Page](website/sale-page.md)
   * [Sale Info](website/sale-info.md)
