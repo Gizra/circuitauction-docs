@@ -14,8 +14,8 @@ The clerk changes the item status manually on the Clerk screen, and the status i
 
 | \*\*\*\* | **Paused** | **Active** | **Going** | **Gone** |
 | :--- | :--- | :--- | :--- | :--- |
-| **Clerk** | ![](../.gitbook/assets/image%20%2815%29.png) | ![](../.gitbook/assets/image%20%2824%29.png) | ![](../.gitbook/assets/image%20%283%29.png) | ![](../.gitbook/assets/image%20%2828%29.png) |
-| **Auctioneer** | ![](../.gitbook/assets/image%20%284%29.png) | ![](../.gitbook/assets/image%20%2820%29.png) | ![](../.gitbook/assets/image%20%2812%29.png) | ![](../.gitbook/assets/image%20%2819%29.png) |
-| **Room** | ![](../.gitbook/assets/image%20%2813%29.png) | ![](../.gitbook/assets/image%20%2827%29.png) | ![](../.gitbook/assets/image%20%289%29.png) | ![](../.gitbook/assets/image%20%2823%29.png) |
-| **Web** | ![](../.gitbook/assets/image%20%281%29.png) | ![](../.gitbook/assets/image%20%2816%29.png) | ![](../.gitbook/assets/image%20%2831%29.png) | ![](../.gitbook/assets/image%20%2817%29.png) |
+| **Clerk** | ![](../assets/screenshots/auction-clerk-paused.png) | ![](../assets/screenshots/auction-clerk-active.png) | ![](../assets/screenshots/auction-clerk-going.png) | ![](../assets/screenshots/auction-clerk-gone.png) |
+| **Auctioneer** | ![](../assets/screenshots/auction-auctioneer-paused.png) | ![](../assets/screenshots/auction-auctioneer-active.png) | ![](../assets/screenshots/auction-auctioneer-going.png) | ![](../assets/screenshots/auction-auctioneer-gone.png) |
+| **Room** | ![](../assets/screenshots/auction-room-paused.png) | ![](../assets/screenshots/auction-room-active.png) | ![](../assets/screenshots/auction-room-going.png) | ![](../assets/screenshots/auction-room-gone.png) |
+| **Web** | ![](../assets/screenshots/auction-web-paused.png) | ![](../assets/screenshots/auction-web-active.png) | ![](../assets/screenshots/auction-web-going.png) | ![](../assets/screenshots/auction-web-gone.png) |
 

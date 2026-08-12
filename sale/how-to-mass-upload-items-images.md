@@ -19,5 +19,5 @@ You can add images to all sale items without the need to manually upload them on
 1. Upload all the sale images to the Amazon directory.
 2. Click on **Sync item images** to sync the images from Amazon to your system.
 
-![](https://user-images.githubusercontent.com/20393485/47136762-63cf9300-d2bd-11e8-9dc2-4bd1ffbd4d88.jpg)
+![](../assets/screenshots/sale-sync-item-images.png)
 

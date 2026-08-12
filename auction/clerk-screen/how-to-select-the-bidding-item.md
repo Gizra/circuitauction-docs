@@ -7,5 +7,5 @@ When an item is marked as **Gone** \(see [Auction Flow](../auction-flow.md)\), t
 1. Click on the **Now Bidding** field and select the item.
 2. After selecting the item, click on the **arrow** to set the item. Note that if you don't click the arrow the selected item won't be uploaded.
 
-![](../../.gitbook/assets/image%20%2826%29.png)
+![](../../assets/screenshots/clerk-select-item.png)
 

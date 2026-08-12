@@ -2,9 +2,9 @@
 
 1. Make sure you are on the right [sale context](../sale/sale-context.md).
 2. Go to the Client page \(see [How to Find an Existing Client](how-to-find-an-existing-client.md)\)
-3. Go to the `Reports` tab.
+3. Go to the `Emails and Documents` tab.
 
-![](https://user-images.githubusercontent.com/20393485/44970305-a6c9e700-af59-11e8-8437-502e440c6b6a.jpg)
+![](../assets/screenshots/client-send-email.png)
 
 1. Select the email address or addresses you want to send the report to \[1\].
 2. Click on `Create report` \[2\] \(skip that step if you want to send an existing report\).

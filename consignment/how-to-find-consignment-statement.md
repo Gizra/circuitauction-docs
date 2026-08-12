@@ -4,5 +4,5 @@
 2. Filter the list by Consignment ID or by Status.
 3. Click on the Eye icon to see the Consignment Statement details.
 
-![](../.gitbook/assets/consignments___backoffice%20%281%29.jpg)
+![](../assets/screenshots/consignment-statements.png)
 

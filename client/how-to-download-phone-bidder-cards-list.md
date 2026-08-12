@@ -5,15 +5,15 @@
 
    Here you can find a list of all the phone bidders for the selected sale.
 
-![](https://user-images.githubusercontent.com/20393485/46948541-2386cf80-d087-11e8-97a0-1b77501e3b59.jpg)
+![](../assets/screenshots/phone-bidder-cards.png)
 
 1. Click on **Download** in each row to view the card as a PDF file. You can save it or print it using the print option of your chosen browser \(this screenshot refers to Chrome\).
 
-![](https://user-images.githubusercontent.com/20393485/46948794-e5d67680-d087-11e8-980b-ef3acf14ae84.jpg)
+![](../assets/screenshots/phone-bidder-cards-download.png)
 
 1. Click on **Download session phone bidder card** and select the desired session.
 
-![](https://user-images.githubusercontent.com/20393485/46948925-5a111a00-d088-11e8-87d7-bca8591e61cb.jpg)
+![](../assets/screenshots/phone-bidder-cards-session.png)
 
 1. Click on **Click to download**
 

@@ -10,7 +10,7 @@ Staff can filter the items table by:
 - Unknown bidder numbers
 - Item status (Open, Sold, Unsold, etc.)
 
-![Table filter options](https://circuitdemo.s3.eu-central-1.amazonaws.com/help-text-images/table-filter.png)
+![Table filter options](../assets/screenshots/table-filter.png)
 
 ## Table Columns
 
@@ -34,4 +34,4 @@ Staff can filter the items table by:
 A red background with strike-through text indicates that all bids for the item have been deleted.
 {% endhint %}
 
-![Bids item table](https://circuitdemo.s3.eu-central-1.amazonaws.com/help-text-images/bids-item-table.png)
+![Bids item table](../assets/screenshots/bids-item-table.png)

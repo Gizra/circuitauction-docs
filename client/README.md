@@ -4,7 +4,7 @@ Clients are any people who you have a business relationship with: a seller/consi
 
 On the Clients dashboard you can find an overview of all clients.
 
-![](https://user-images.githubusercontent.com/20393485/45418792-18a6dc80-b68e-11e8-85d4-b3a15305263d.jpg)
+![](../assets/screenshots/clients-dashboard.png)
 
 The color boxes on the top **\[1\]** display the total clients and the number of clients on each status. The table **\[2\]** displays the Clients list which you can [filter](how-to-find-an-existing-client.md) by any column.
 

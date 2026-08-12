@@ -3,10 +3,10 @@
 Usually [an item is created directly from Consignment](../consignment/how-to-add-an-item-to-consignment.md) except when an item is from the auction house inventory. You may also create an item using the **Items** menu.
 
 1. Make sure you are on the right [sale context](../sale/sale-context.md).
-2. On the side menu go to **Items**
-3. Click on `+create new item`
+2. Go to the consignment page.
+3. Click on `+ Add new item to consignment` (or `Quick Add Item`).
 
-![](https://user-images.githubusercontent.com/20393485/45416650-155d2200-b689-11e8-8868-18abf4f04ab8.jpg)
+![](../assets/screenshots/consignment-add-item.png)
 
 1. Fill in the item's information, paying special attention to these fields:
 
@@ -14,7 +14,7 @@ Usually [an item is created directly from Consignment](../consignment/how-to-add
 
 To show the content simultaneously in multiple languages, click on **Show other languages** and use the other languages block to easily translate the item while viewing both languages.
 
-![](https://user-images.githubusercontent.com/20393485/47001411-0a3b5d00-d133-11e8-9320-511b44a64fb6.jpg)
+![](../assets/screenshots/item-form-languages.png)
 
 **Images** - Click on **Select image** and choose the item image from your local folder.  
 You can add images to all sale's items without the need to manually upload them one by one. See [How to Mass Upload Item Images](../sale/how-to-mass-upload-items-images.md).

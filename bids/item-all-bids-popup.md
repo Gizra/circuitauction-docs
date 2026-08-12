@@ -49,4 +49,4 @@ This popup shows all bids for a selected item, along with other bid-relevant inf
 4. **Delete/Undelete Bid** — Red trash icon to delete a bid; blue undo button to restore a deleted bid.
 5. **Edit** — Allows staff to modify existing bids (amount and bidder number). Requires clicking **Save** to confirm changes.
 
-![Item all bids popup table](https://circuitdemo.s3.eu-central-1.amazonaws.com/help-text-images/popup-table.png)
+![Item all bids popup table](../assets/screenshots/popup-table.png)

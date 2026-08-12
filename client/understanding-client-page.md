@@ -2,7 +2,7 @@
 
 On top of the page you will find several tabs described below.
 
-![](https://user-images.githubusercontent.com/20393485/46734202-3706f480-cc9b-11e8-8279-4c58f51531ce.jpg)
+![](../assets/screenshots/client-page-tabs.png)
 
 ## Client
 

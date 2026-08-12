@@ -1,10 +1,10 @@
 # Accessing your Demo
 
 Choose a sale:  
-![image](https://user-images.githubusercontent.com/20393485/50135402-b2d57c80-029c-11e9-9afe-0457589afdfc.png)
+![image](assets/screenshots/sale-context-autocomplete.png)
 
-The applicable “Sales Links” will appear at the bottom of the Back Office Dashboard.  
-![image](https://user-images.githubusercontent.com/20393485/50135432-d13b7800-029c-11e9-8ccc-d1af587b13c1.png)
+The applicable “Sale Links” appear in the Sale Links block on the Sale page.  
+![image](assets/screenshots/sale-links.png)
 
 ### Sale Page \(clients\)
 
@@ -39,8 +39,8 @@ To be able to see the system from different roles \(staff or client\) at the sam
 
 **Keep in mind:**  
 There is a sale context entry at the top. Make sure to select a sale so the ‘Bids’ page and ‘Bidding info’ is exposed.  
-![image](https://user-images.githubusercontent.com/20393485/50136131-66d80700-029f-11e9-959a-4329ea1223fe.png)
+![image](assets/screenshots/sale-context-selected.png)
 
 Please note the plug icon on the top left hand side of your screen should be green. If it is not, click on re-check connection.  
-![image](https://user-images.githubusercontent.com/20393485/50136179-92f38800-029f-11e9-9134-f80270ec7dff.png)
+![image](assets/screenshots/bid-server-reconnect.png)
 

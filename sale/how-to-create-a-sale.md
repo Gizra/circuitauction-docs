@@ -3,7 +3,7 @@
 1. On the side menu go to **Sales**
 2. Click on `+create new sale`
 
-![image](https://user-images.githubusercontent.com/20393485/47995909-85bf7700-e0ff-11e8-91f2-b48c9cd076a0.png)
+![image](../assets/screenshots/sales-create-button.png)
 
 1. Fill in the sale's information. Pay attention to these fields:  
 
@@ -13,7 +13,7 @@
 
 To show the content simultaneously in multiple languages, click on Show other languages and use the other languages block to easily translate the item while viewing both languages.
 
-![image](https://user-images.githubusercontent.com/20393485/47996182-5b21ee00-e100-11e8-9842-aa080fcef8f2.png)
+![image](../assets/screenshots/sale-form-languages.png)
 
 **Next consignment notice** - enter a message that will appear in the consignment statement.
 

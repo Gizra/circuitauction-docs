@@ -6,7 +6,7 @@ The Bids module is the central hub for managing all bidding activity across a sa
 
 To view bids, you must have a [sale context](../sale/sale-context.md) selected and be connected to the bid server (indicated by the green icon at the top of the page).
 
-![Bid server connection indicator](https://circuitdemo.s3.eu-central-1.amazonaws.com/help-text-images/bid-server-login.png)
+![Bid server connection indicator](../assets/screenshots/bid-server-icon-green.png)
 
 ## Documentation
 
