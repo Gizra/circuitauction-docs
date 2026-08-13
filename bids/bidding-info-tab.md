@@ -9,16 +9,12 @@ The **Bidding Info** tab on the Client page provides a complete view of a client
 
 ![Bidder numbers](../assets/screenshots/bidder-numbers-blocks.png)
 
-## Credit Requests and Call Requests
+## Bidding Limit Requests and Call Requests
 
-Click **Show client credit requests and call requests** to reveal these blocks.
+### Bidding Limit Requests
 
-![Show requests toggle](../assets/screenshots/bidding-limit-requests.png)
-
-### Credit Requests
-
-- Clients can send credit requests for staff approval
-- The credit amount determines the maximum the client can win
+- Clients can send Bidding Limit requests for staff approval
+- The approved limit determines the maximum the client can win
 
 ### Call Requests
 
@@ -26,7 +22,9 @@ Click **Show client credit requests and call requests** to reveal these blocks.
 - Staff can add notes to call requests
 - Print call requests from the call request page
 
-![Credit and call requests](../assets/screenshots/call-requests-saved.png)
+![Bidding Limit requests](../assets/screenshots/bidding-limit-requests.png)
+
+![Call requests](../assets/screenshots/call-requests-saved.png)
 
 ## Enter Bids and Delete All Client Bids
 

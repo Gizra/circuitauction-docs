@@ -6,7 +6,7 @@
 
 ![image](assets/screenshots/bid-server-icon-green.png)
 
-If the icon is red, click on it and refresh the connection.
+If the icon is red, click on it and then click on **Refresh connection**.
 
 ![image](assets/screenshots/bid-server-reconnect.png)
 

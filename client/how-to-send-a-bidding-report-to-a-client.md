@@ -6,10 +6,11 @@
 
 ![](../assets/screenshots/client-send-email.png)
 
-1. Select the email address or addresses you want to send the report to \[1\].
-2. Click on `Create report` \[2\] \(skip that step if you want to send an existing report\).
-3. Click on the Report ID to see the report that will be sent \[3\].
-4. Click on `Send` \[4\].
+1. In the `Send email` block, select the email template \(for example `Bids Statement`\).
+2. Click on `Edit template or write a new email` to review or adjust the content.
+3. Click on `Send email`.
 
-Note that this report is also auto-generated and sent to the client 10 minutes after the last bid.
+All the emails and documents that were sent to the client are listed in the table below \(bids confirmations appear there as `Bids Confirmation` entries\).
+
+Note that a bids confirmation is also auto-generated and sent to the client after their last bid.
 

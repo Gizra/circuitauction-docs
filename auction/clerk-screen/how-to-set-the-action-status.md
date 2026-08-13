@@ -2,8 +2,8 @@
 
 ## **Set the Auction Status and Edit Message**
 
-1. Click on the **Status** field and select the status. A relevant message will appear on the bidder's screen \(in the room and online\). See below the list of the messages.
-2. For **Starting soon** and **Paused - back shortly** statuses, you can add a custom message. After selecting the status, edit the message and click on **Update Paused Message**.
+1. Click on the **Status** field \(top left\) and select the status, then click on the **arrow** to apply it. A relevant message will appear on the bidder's screen \(in the room and online\). See below the list of the messages.
+2. For **Starting soon** and **Paused - back shortly** statuses, you can add a custom message. After applying the status, edit the message and click on **Update Paused Message**.
 
 ![](../../assets/screenshots/clerk-status-select.png)
 

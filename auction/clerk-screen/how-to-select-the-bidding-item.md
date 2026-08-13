@@ -4,8 +4,8 @@ When an item is marked as **Gone** \(see [Auction Flow](../auction-flow.md)\), t
 
 ## Select the item manually
 
-1. Click on the **Now Bidding** field and select the item.
-2. After selecting the item, click on the **arrow** to set the item. Note that if you don't click the arrow the selected item won't be uploaded.
+1. Use the **Prev** / **Next** buttons in the **Navigation** block to move between lots.
+2. Or enter a lot number in the **Jump to lot #** field and click on the **arrow** to set the item.
 
 ![](../../assets/screenshots/clerk-select-item.png)
 

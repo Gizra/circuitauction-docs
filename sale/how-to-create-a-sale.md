@@ -21,7 +21,7 @@ To show the content simultaneously in multiple languages, click on Show other la
 
 **Sale dates** - in this block you can set what type of auction this is, and set the dates for the auction. **Note:** the dates will be displayed as information only, meaning when the date arrives, the sale won't open automatically.
 
-**Sale sessions** - if you want to split the sale into sessions, you can arrange the sessions here.
+**Sale sessions** - if you want to split the sale into sessions, you can arrange them in the **Sale sessions** tab.
 
 **Last date for consignment** - after this date the no new consignments can be added to this sale.
 

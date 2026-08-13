@@ -14,4 +14,4 @@ To view bids, you must have a [sale context](../sale/sale-context.md) selected a
 - **[Entering Bids](entering-bids.md)** - How to enter bids on behalf of bidders
 - **[Bids Item Table](bids-item-table.md)** - Filtering and understanding the bids item table
 - **[Item All Bids Popup](item-all-bids-popup.md)** - Managing all bids for a single item
-- **[Bidding Info Tab](bidding-info-tab.md)** - Bidder numbers, credit requests, and client-specific bid management
+- **[Bidding Info Tab](bidding-info-tab.md)** - Bidder numbers, Bidding Limit requests, and client-specific bid management

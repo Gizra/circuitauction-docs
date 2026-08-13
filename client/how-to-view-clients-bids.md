@@ -27,7 +27,7 @@ You can view a client's bids on the Client page or the Bids page.
 
 1. Make sure you are on the right [sale context](../sale/sale-context.md).
 2. On the side menu go to **Bids**.
-3. Here you wiil find a list of all clients' bids, ordered by Lot numbers. You can perform the same actions as on the Client page.
+3. Here you will find a list of all clients' bids, ordered by Lot numbers. You can perform the same actions as on the Client page.
 
 ![](../assets/screenshots/bids-item-table.png)
 

@@ -12,12 +12,12 @@ You can add images to all sale items without the need to manually upload them on
 
 ![](https://user-images.githubusercontent.com/20393485/47136635-f459a380-d2bc-11e8-85b6-7d68c5d116cc.jpg)
 
-1. Open your Amazon S3 bucket, create a directory and name it with the Sale ID \(ID is shown next to the Sale Title\).
+1. Open your Amazon S3 bucket and create a directory for the sale. The exact directory name is shown in the **Items' Images Directory** field of the **Items images sync** block on the sale page \(e.g. `Sales/17`\).
 
 ![](https://user-images.githubusercontent.com/20393485/47136695-32ef5e00-d2bd-11e8-82b4-4a9c2bc69b2f.jpg)
 
 1. Upload all the sale images to the Amazon directory.
-2. Click on **Sync item images** to sync the images from Amazon to your system.
+2. On the sale page, in the **Items images sync** block, click on **Sync item images** to sync the images from Amazon to your system. The block also shows the sync progress \(lots with images, total processed and the last image processed\).
 
 ![](../assets/screenshots/sale-sync-item-images.png)
 

@@ -2,17 +2,17 @@
 
 ## Item Statuses during the live auction
 
-**Paused -** bidding is on standby.
+**Stand by** - bidding is on standby.
 
-**Active** - bidding is active. Buyers can place a bid for the current item.
+**Open** - bidding is open. Buyers can place a bid for the current item.
 
 **Going** - bidding is going to close. Buyers can still place a bid for the current item.
 
-**Gone** - the item is closed for bidding and is either sold or unsold.
+**Gone** - the item is closed for bidding and is either sold or unsold. The next item is then displayed automatically.
 
 The clerk changes the item status manually on the Clerk screen, and the status is changed automatically on all other screens \(Auctioneer, Room, and Web\).
 
-| \*\*\*\* | **Paused** | **Active** | **Going** | **Gone** |
+| \*\*\*\* | **Stand by** | **Open** | **Going** | **Gone** |
 | :--- | :--- | :--- | :--- | :--- |
 | **Clerk** | ![](../assets/screenshots/auction-clerk-paused.png) | ![](../assets/screenshots/auction-clerk-active.png) | ![](../assets/screenshots/auction-clerk-going.png) | ![](../assets/screenshots/auction-clerk-gone.png) |
 | **Auctioneer** | ![](../assets/screenshots/auction-auctioneer-paused.png) | ![](../assets/screenshots/auction-auctioneer-active.png) | ![](../assets/screenshots/auction-auctioneer-going.png) | ![](../assets/screenshots/auction-auctioneer-gone.png) |

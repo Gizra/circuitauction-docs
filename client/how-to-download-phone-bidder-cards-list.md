@@ -7,11 +7,11 @@
 
 ![](../assets/screenshots/phone-bidder-cards.png)
 
-1. Click on **Download** in each row to view the card as a PDF file. You can save it or print it using the print option of your chosen browser \(this screenshot refers to Chrome\).
+1. Click on **PDF** in each row to view the card as a PDF file. You can save it or print it using the print option of your chosen browser.
 
 ![](../assets/screenshots/phone-bidder-cards-download.png)
 
-1. Click on **Download session phone bidder card** and select the desired session.
+1. To download the cards for a whole session, click on **Download session phone bidders card** and select the desired session.
 
 ![](../assets/screenshots/phone-bidder-cards-session.png)
 

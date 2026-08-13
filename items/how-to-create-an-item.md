@@ -19,19 +19,19 @@ To show the content simultaneously in multiple languages, click on **Show other 
 **Images** - Click on **Select image** and choose the item image from your local folder.  
 You can add images to all sale's items without the need to manually upload them one by one. See [How to Mass Upload Item Images](../sale/how-to-mass-upload-items-images.md).
 
-**Sale Info** - make sure the correct sale is populated in the **Sale** field. You can leave this field empty and assign the item later \(see [How to Assign Bulk Items to a Sale](../sale/how-to-assign-bulk-items-to-a-sale.md)\).
+**Lot numbering** - the sale the item belongs to is shown in this block. You can move the item to another sale later \(see [How to Assign Bulk Items to a Sale](../sale/how-to-assign-bulk-items-to-a-sale.md)\).
 
-In the **Temporary lot** field you can enter a temporary number assigned to this lot before the [final lot number](../sale/how-to-assign-lot-numbers.md) is added.
+In the **Temporary lot #** field you can enter a temporary number assigned to this lot before the [final lot number](../sale/how-to-assign-lot-numbers.md) is added.
 
-**Packages** - select the type of package. If you leave this empty it will be set to the default, Envelope. This will be used to calculate the shipping costs.
+**Packages** - add the package type and dimensions. This will be used to calculate the shipping costs.
 
 **Public message** - you can add a special message that will display to _ALL_ bidders when this lot is the active lot during a live auction.
 
 **Auctioneer Notes** - add a private message that is only displayed on the auctioneer screen when this lot is the active lot during a live auction.
 
-**Consignment** - an item should always be associated with a consignment, unless it is an item from the auction house inventory. In the latter case, check the **Auction house inventory**.
+**Consignment & Accounting** - an item should always be associated with a consignment. Here you can also set the position of consignment, commissions and tax settings.
 
-**Withdrawn** - item marked as "withdrawn" will appear as part of the sale, but will be disabled for bidding. Use this if you have added an item to the sale, but there is a problem with it, and you can’t offer it at the live auction.
+**Withdrawn** \(in the `Actions on website` block\) - an item marked as "withdrawn" will appear as part of the sale, but will be disabled for bidding. Use this if you have added an item to the sale, but there is a problem with it, and you can’t offer it at the live auction.
 
 1. When you've finished entering the item information, click **Save**.  You can always come back and edit the item.
 

@@ -41,6 +41,6 @@ To be able to see the system from different roles \(staff or client\) at the sam
 There is a sale context entry at the top. Make sure to select a sale so the ‘Bids’ page and ‘Bidding info’ is exposed.  
 ![image](assets/screenshots/sale-context-selected.png)
 
-Please note the plug icon on the top left hand side of your screen should be green. If it is not, click on re-check connection.  
+Please note the plug icon on the top right hand side of your screen should be green. If it is not, click on it and then on **Refresh connection**.  
 ![image](assets/screenshots/bid-server-reconnect.png)
 

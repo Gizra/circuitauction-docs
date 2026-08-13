@@ -3,28 +3,29 @@
 You can create different types of tasks and assign them to different people in your organization. Tasks can be created for clients, consignments, items, sales, and orders.
 
 1. Go to the entity page (client, consignment, item, sale, or order) you want to create a task for.
-2. Click on the **Tasks** button. The number on the button represents the number of the active (not complete) tasks.
+2. Click on the **Tasks** tab. The number on the tab represents the number of tasks for this record.
 
-![366_auction_march_2018_-_3889___backoffice](assets/screenshots/tasks-tab.png)
+![tasks tab](assets/screenshots/tasks-tab.png)
 
 ### Creating a new task
 1. Fill in the fields under `Add a task`   
-**Task** - enter the name of the task, or select task from the list.  
+**Type** - select the task type from the list.  
 **Assignee** - select the user in the system that is assigned to do the task.  
+**Status** - `Can start` or `Can't start` (a task that depends on another task can't start yet).  
 **Due date** - enter the date on which the task is expected to be complete.  
-2. click on `+` button. 
+2. Click on the `Created` button. 
 
-![366_auction_march_2018_-_3889___backoffice](assets/screenshots/tasks-add.png)
+![add a task](assets/screenshots/tasks-add.png)
 
 
 ### Deleting task
-click on the `X` sign near the task. 
+Click on the `Delete` button on the task's row. 
 
 ![image](assets/screenshots/tasks-delete.png)
 
 
 ### Marking task as complete
-Once a task is done, mark it as complete in the task list, by selecting the checkbox.
+Once a task is done, change its **Status** to `Completed` and click `Save` on the task's row.
 
 ![image](assets/screenshots/tasks-complete.png)
 

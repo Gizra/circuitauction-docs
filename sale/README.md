@@ -12,14 +12,12 @@ The table **\[2\]** displays the Sales list which you can [filter](how-to-find-a
 
 ## Statuses
 
-**New** - A new sale is created and pending editing. A sale with this status is not published on the website.  
-**In Process** - The sale is being edited and is still not published on the website.  
+**New** - A new sale is created and is being edited. A sale with this status is not published on the website.  
 **Ready to publish** - This status will trigger a sync to the website. When completed, the status will change to `Published on site`.  
 **Published on site** - The sale is published on the website.  
-**Post sale purchase** - The sale is after the auction but still allows items to be purchased. The sale is published on the website.  
 **Finished** - A closed sale from a past auction.
 
 ![](../assets/screenshots/sale-statuses.png)
 
-**Note**: if you want to make a change to a published sale, you need first to change the status to `In Process` and after done changing, set the status to `Ready to publish` so the changes will be synced to the website.
+**Note**: if you want to make a change to a published sale, you need first to change the status back to `New` and when you are done, set the status to `Ready to publish` so the changes will be synced to the website.
 

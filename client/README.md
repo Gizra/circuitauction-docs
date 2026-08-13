@@ -11,10 +11,10 @@ The color boxes on the top **\[1\]** display the total clients and the number of
 ## Statuses
 
 **New** - a new client that registered on the system or was created by admin.  
-**Pending** - a client that is waiting to approved for bidding or selling.  
-**Approved** - an approved client that can sell items or place bids in an auction.  
-**Unapproved** - a client that was not approved to participate in the auction.  
-**Deleted** - a client that has been previously deleted.
+**Pending** - a client that is waiting to be approved for bidding or selling.  
+**Bid Approved** - an approved client that can sell items or place bids in an auction.  
+**Bid Unapproved** - a client that was not approved to participate in the auction.  
+**Inactive** - a client that has been deactivated.
 
 ## Right to place a bid per status
 
