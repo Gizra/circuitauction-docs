@@ -22,7 +22,7 @@ This is the main item importer. It creates new item nodes from a CSV / Google Sh
 
 2. The easiest workflow is to work with a Google Sheet, so you can make changes and reimport if any row fails due to missing data.
 
-   Paste the published CSV export URL of the sheet in the **Google drive file URL** textbox (see **1**). For example:
+   Paste the URL of the sheet in the **Google drive file URL** textbox (see **1**). You can paste the regular `edit` link straight from the browser — the Backoffice converts it to the CSV export form automatically:
 
    ```
    https://docs.google.com/spreadsheets/d/<SPREADSHEET_ID>/export?format=csv&gid=<SHEET_GID>
@@ -33,6 +33,12 @@ This is the main item importer. It creates new item nodes from a CSV / Google Sh
    ```
    https://docs.google.com/spreadsheets/d/<SPREADSHEET_ID>/edit?gid=<SHEET_GID>#gid=<SHEET_GID>
    ```
+
+   An **Open sheet** link appears next to the textbox once a valid sheet URL is entered, taking you back to the editable Google Sheet.
+
+   {% hint style="info" %}
+   The **Item Import** page has tabs for the related per-sale imports that share this flow: **Items** (this page), [Catalogs](items-catalogs.md), [Dimensions](items-dimensions.md) and [Sold Results](items-sold-result.md). Each tab has its own URL / file input, queue buttons and results table, plus a **Help** link to its page in this documentation.
+   {% endhint %}
 
 3. Click **Queue import items** (see **2**) to start the import.
 

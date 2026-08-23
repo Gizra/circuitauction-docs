@@ -8,11 +8,17 @@ Handler: `ServerItemDriveDimensionsMigrate`.
 
 Imports rows into the `field_dimensions` **multifield** on item nodes. Each row records a package type, a number on the box and a weight.
 
-The dimensions CSV is read from the `migrate_items_csv` variable (shared with the items import).
+## Running from the Backoffice
+
+Open the sale and go to **Item Import → Dimensions**. The tab works like the [Items (Self-Service)](items.md) import:
+
+1. Paste the Google Sheet URL in the **Google drive file URL** textbox — the regular `edit` link is fine, it is converted to the CSV export form automatically — or upload a CSV file instead.
+2. Click **Queue import items**. The import runs in the background; rows are matched to the items of the **current sale** by `_internal_id` (unless the sheet carries an explicit `_item` NID).
+3. Click **Load Results** to see the per-row status and error messages, and **Queue failed import items** to retry only the failed rows.
 
 ## Source File
 
-Set the **CSV export URL** of your Google Sheet in the `migrate_items_csv` variable (shared with the [Items (Self-Service)](items.md) handler). The URL must be the CSV form, not the regular `edit` link:
+When no URL / file is given in the tab, the file is read from the `migrate_items_csv` variable (shared with the [Items (Self-Service)](items.md) handler — the legacy site-wide flow). A stored URL must be the CSV form, not the regular `edit` link:
 
 ```
 https://docs.google.com/spreadsheets/d/<SPREADSHEET_ID>/export?format=csv&gid=<SHEET_GID>

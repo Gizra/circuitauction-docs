@@ -8,11 +8,17 @@ Handler: `ServerItemsSoldResultDriveMigrate`.
 
 Creates `item_history` nodes that record the winning bid for each item — typically run after the sale to import results from an external system.
 
-Configured via the `migrate_items_sold_result_csv` Drupal variable.
+## Running from the Backoffice
+
+Open the sale and go to **Item Import → Sold Results**. The tab works like the [Items (Self-Service)](items.md) import:
+
+1. Paste the Google Sheet URL in the **Google drive file URL** textbox — the regular `edit` link is fine, it is converted to the CSV export form automatically — or upload a CSV file instead.
+2. Click **Queue import items**. The import runs in the background, scoped to the **current sale** (rows for other sales are skipped).
+3. Click **Load Results** to see the per-row status and error messages, and **Queue failed import items** to retry only the failed rows.
 
 ## Source File
 
-Set the **CSV export URL** of your Google Sheet in the `migrate_items_sold_result_csv` variable. The URL must be the CSV form, not the regular `edit` link:
+When no URL / file is given in the tab, the file is read from the `migrate_items_sold_result_csv` variable (the legacy site-wide flow). A stored URL must be the CSV form, not the regular `edit` link:
 
 ```
 https://docs.google.com/spreadsheets/d/<SPREADSHEET_ID>/export?format=csv&gid=<SHEET_GID>
