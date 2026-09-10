@@ -9,7 +9,7 @@ Displays a single auction item: image gallery with lightbox, title and subtitle,
 ## How to add it
 
 ```html
-<div id="ca-item-page" class="circuit-user-ui" data-item-id="123456"></div>
+<div id="ca-item-page" class="circuit-user-ui" data-item-id="123456" data-display-mode="full" data-thumb-rows="2"></div>
 ```
 
 ## Options
@@ -18,6 +18,9 @@ Displays a single auction item: image gallery with lightbox, title and subtitle,
 |-----------|----------|---------|--------|--------|
 | `data-item-id` | **Yes** | — | NID or UUID | Which item to display. Accepts either the numeric node ID or the UUID. |
 | `data-display-mode` | No | `full` | `full`, `teaser`, `grid`, `featured`, `live-auction` | How the item is rendered (see below). |
+| `data-thumb-rows` | No | `1` | Number | How many rows of gallery thumbnails to show before the "show more" toggle. |
+
+For lots with more than 200 images, the toggle opens the full‑screen image viewer (with its own scrollable thumbnail strip) instead of expanding the thumbnails inline.
 
 ### Display modes
 
