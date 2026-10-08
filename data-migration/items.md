@@ -169,6 +169,7 @@ Supports up to 2 catalogs per item:
 * **`_height`** - Height
 * **`_width`** - Width
 * **`_depth`** - Depth
+* **`_units`** - Units for the dimensions (`cm`, `mm`, `m` or `in`); optional
 * **`_size_description`** - Description of dimensions
 
 **Combined Dimensions:**
@@ -177,7 +178,7 @@ Supports up to 2 catalogs per item:
 * **`_quantity`** - Number of items (creates multiple dimension records)
 
 {% hint style="info" %}
-Units default to inches (in). System automatically creates dimension nodes and parses combined dimension formats.
+When no unit is given (no `_units` column, and no unit inside `_size` / `_framed`), the site's **Default dimension units** setting applies (Server Settings → Date & Currency Format). Until that setting is saved, it defaults to **metric (cm)** — except on US / CA installations (by the site's accounting country), which default to inches. The same default is used for new dimensions on the item form. The system automatically creates dimension nodes and parses combined dimension formats.
 {% endhint %}
 
 ## Links & Certificates
