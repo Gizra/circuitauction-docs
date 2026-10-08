@@ -6,6 +6,8 @@ Upcoming release. Version 3.5 focuses on reporting, communication with clients, 
 
 ### Auction Timeline
 
+<video class="release-video" controls preload="metadata" playsinline src="https://circuit-kubernetes.s3.eu-central-1.amazonaws.com/openmontage/tutorials/release-3.5-auction-timeline/final.mp4">Your browser does not support the video tag. <a href="https://circuit-kubernetes.s3.eu-central-1.amazonaws.com/openmontage/tutorials/release-3.5-auction-timeline/final.mp4">Download the video</a>.</video>
+
 A new **Auction Timeline** page (sidebar, under Reports) gives a retrospective view of a completed live session as recorded by the bid server.
 
 - Filter by **session** and by **date range**.
