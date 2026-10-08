@@ -8,7 +8,13 @@ These docs are served with [Docsify](https://docsify.js.org/) — no build step 
 
 ## Steps
 
-From the repo root, install `docsify-cli` globally and start the local server:
+From the repo root, start the local server with `npx` (no global install needed):
+
+```bash
+npx -y docsify-cli serve .
+```
+
+Or install `docsify-cli` globally once and run it directly:
 
 ```bash
 npm i -g docsify-cli
@@ -16,6 +22,16 @@ docsify serve .
 ```
 
 Then open [http://localhost:3000](http://localhost:3000) in your browser.
+
+### Using a different port
+
+If port 3000 is already in use, pass the `-p` flag:
+
+```bash
+npx -y docsify-cli serve . -p 3001
+```
+
+Then open [http://localhost:3001](http://localhost:3001) instead.
 
 {% hint style="info" %}
 Files are watched and the browser reloads automatically when you edit a markdown file.

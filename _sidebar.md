@@ -118,6 +118,13 @@
     * [Magazine Subscription](website/subscription-magazine.md)
     * [Purchase Subscription](website/subscription-purchase.md)
 
+* **Release Notes**
+  * [Overview](release-notes/README.md)
+  * [Version 3.5](release-notes/version-3.5.md)
+  * [Version 3.4](release-notes/version-3.4.md)
+  * [Version 3.3](release-notes/version-3.3.md)
+  * [Version 3.1](release-notes/version-3.1.md)
+
 ---
 
 * **IT Section**
