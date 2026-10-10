@@ -1,4 +1,4 @@
-<!-- i18n source=release-notes/version-3.5.md sha=4d2041a1c1a4 -->
+<!-- i18n source=release-notes/version-3.5.md sha=dadee72e2d9d -->
 # Version 3.5
 
 Kommendes Release. Version 3.5 konzentriert sich auf Auswertungen, die Kommunikation mit Kunden und Werkzeuge, die die tägliche Verwaltung erleichtern. Zu den Highlights gehören eine neue Seite Auction Timeline, ein überarbeiteter Statistik-Tab für Kunden, ein Kunden-CRM mit Zeitleiste und Einlieferungs-Pipeline, ein integrierter Editor für E-Mail-Vorlagen, automatische Zahlungserinnerungen für Rechnungen, die Zwei-Faktor-Authentifizierung mit einer Authenticator-App und ein dunkler Modus für das gesamte Backoffice.
@@ -60,6 +60,8 @@ Auf der Seite **Export Accounting** gibt es im Block Export jetzt die Schaltflä
 
 ### Auswertungen als integrierte Tabellen
 
+<video class="release-video" controls preload="metadata" playsinline src="https://circuit-kubernetes.s3.eu-central-1.amazonaws.com/openmontage/tutorials/release-3.5-embedded-reports-de/final.mp4">Your browser does not support the video tag. <a href="https://circuit-kubernetes.s3.eu-central-1.amazonaws.com/openmontage/tutorials/release-3.5-embedded-reports-de/final.mp4">Download the video</a>.</video>
+
 Die Auswertungen, die bisher in einem eingebetteten Rahmen der alten Verwaltungsoberfläche geöffnet wurden, sind jetzt normale Backoffice-Tabellen, mit demselben Aussehen und denselben Bedienelementen wie die übrigen Listen. Der Inhalt der einzelnen Auswertungen ist unverändert.
 
 Wo Sie sie finden:
@@ -68,6 +70,8 @@ Wo Sie sie finden:
 - Seite **Zuschlag nach Sessionen**: die Tabs **Kundenvorgänge**, **Einlieferervorgänge** und **Umsatzsteuerbericht**.
 - Seite **Kundenberichte**: der Tab **Kategorie gekauft**.
 - Kundenseite, Tab **Vorgänge**: Die Tabellen der Vorgänge und der Einlieferungsvorgänge werden jetzt direkt geladen, ohne dass Sie zuerst eine Schaltfläche anklicken müssen.
+
+![Die Auswertung Items sold als integrierte Tabelle, mit ihren Filtern, den Schaltflächen Anwenden und zurücksetzen und den Exportschaltflächen](../../assets/screenshots/reports-built-in-table.png)
 
 Was Sie in jeder Auswertung tun können:
 
@@ -81,6 +85,8 @@ Der Tab **Auction Protocol** benötigt eine ausgewählte Auktion und zeigt jetzt
 ## Kunden
 
 ### Kunden-CRM: Zeitleiste, Dokumente und Einlieferungs-Pipeline
+
+<video class="release-video" controls preload="metadata" playsinline src="https://circuit-kubernetes.s3.eu-central-1.amazonaws.com/openmontage/tutorials/release-3.5-client-crm-de/final.mp4">Your browser does not support the video tag. <a href="https://circuit-kubernetes.s3.eu-central-1.amazonaws.com/openmontage/tutorials/release-3.5-client-crm-de/final.mp4">Download the video</a>.</video>
 
 Die Kundenseite funktioniert jetzt wie ein kleines CRM. Die vollständige Anleitung finden Sie unter [Kunden-CRM: Zeitleiste, Dokumente und Einlieferungs-Pipeline](/de/client/client-crm.md).
 

@@ -59,6 +59,8 @@ The **Export Accounting** page now has **CSV** and **XLSX** buttons in the Expor
 
 ### Reports as built-in tables
 
+<video class="release-video" controls preload="metadata" playsinline src="https://circuit-kubernetes.s3.eu-central-1.amazonaws.com/openmontage/tutorials/release-3.5-embedded-reports/final.mp4">Your browser does not support the video tag. <a href="https://circuit-kubernetes.s3.eu-central-1.amazonaws.com/openmontage/tutorials/release-3.5-embedded-reports/final.mp4">Download the video</a>.</video>
+
 The reports that used to open inside an embedded frame of the old admin interface are now regular backoffice tables, with the same look and controls as the other lists. The content of each report is unchanged.
 
 Where you find them:
@@ -67,6 +69,8 @@ Where you find them:
 - **Sales by Sessions** page: the **Clients transactions**, **Consignor transactions** and **Sales Tax Report** tabs.
 - **Clients reports** page: the **Category Bought** tab.
 - Client page, **Transactions** tab: the transactions and consignment transactions tables now load directly, without pressing a button first.
+
+![The Items sold report as a built-in table, with its filters, the Apply and Reset buttons and the export buttons](../assets/screenshots/reports-built-in-table.png)
 
 What you can do in every report:
 
@@ -80,6 +84,8 @@ The **Auction Protocol** tab needs a selected sale and now lists the newest mess
 ## Clients
 
 ### Client CRM: timeline, documents and consignment pipeline
+
+<video class="release-video" controls preload="metadata" playsinline src="https://circuit-kubernetes.s3.eu-central-1.amazonaws.com/openmontage/tutorials/release-3.5-client-crm/final.mp4">Your browser does not support the video tag. <a href="https://circuit-kubernetes.s3.eu-central-1.amazonaws.com/openmontage/tutorials/release-3.5-client-crm/final.mp4">Download the video</a>.</video>
 
 The client page now works as a small CRM. See [Client CRM: Timeline, Documents and Consignment Pipeline](../client/client-crm.md) for the full guide.
 

@@ -1,7 +1,9 @@
-<!-- i18n source=client/client-crm.md sha=aa4e6ca9ce62 -->
+<!-- i18n source=client/client-crm.md sha=778db396bb07 -->
 # Kunden-CRM: Zeitleiste, Dokumente und Einlieferungs-Pipeline
 
 Ab Version 3.5 funktioniert die Kundenseite wie ein kleines CRM. Alles, was mit einem Kunden geschehen ist, steht in einer **Zeitleiste**, die Unterlagen des Kunden liegen in einem Tab **Dokumente** mit Ablaufdaten, und Einlieferungsanfragen werden in der **Einlieferungs-Pipeline** vom ersten Kontakt bis zur angelegten Einlieferung verfolgt.
+
+<video class="release-video" controls preload="metadata" playsinline src="https://circuit-kubernetes.s3.eu-central-1.amazonaws.com/openmontage/tutorials/release-3.5-client-crm-de/final.mp4">Your browser does not support the video tag. <a href="https://circuit-kubernetes.s3.eu-central-1.amazonaws.com/openmontage/tutorials/release-3.5-client-crm-de/final.mp4">Download the video</a>.</video>
 
 ## Die Tabs der Kundenseite
 
@@ -21,6 +23,8 @@ Der Tab **History** heißt jetzt **Statistiken**, und **Emails and Documents** h
 ## Zeitleiste
 
 Der Tab **Zeitleiste** zeigt in einer nach Tagen gruppierten Übersicht alles, was für den Kunden erfasst wurde: **E-Mails**, **Notizen**, **Anrufe**, **Aufgaben**, **Besichtigungen**, **Aktivitäten** und **Meilensteine** (letztes Gebot, letzter Zuschlag, letzte Einlieferung, zuletzt auf der Website).
+
+![Der Tab Zeitleiste eines Kunden: Quellenfilter, Zeitraumauswahl und die nach Tagen gruppierten Einträge](../../assets/screenshots/client-crm-timeline.png)
 
 1. Öffnen Sie einen Kunden und klicken Sie auf **Zeitleiste**.
 2. Klicken Sie oben auf eine Quelle, um sie aus- oder einzublenden. Fahren Sie mit der Maus über eine Quelle und klicken Sie auf **nur**, um ausschließlich diese Quelle zu sehen; **Alle** blendet wieder alles ein.
@@ -52,6 +56,8 @@ Sie finden die Pipeline an zwei Stellen:
 
 - **Einlieferungs-Pipeline** im Hauptmenü: alle Anfragen des Auktionshauses, mit Schnellfiltern für **Phase**, **Quelle** und **Zuständige(r) Mitarbeiter**.
 - Der Tab **Einlieferungs-Pipeline** auf der Kundenseite: die Anfragen dieses Kunden.
+
+![Die Seite Einlieferungs-Pipeline mit den Filtern Phase, Quelle und Zuständige(r) Mitarbeiter und der Liste der Anfragen](../../assets/screenshots/client-crm-pipeline.png)
 
 ### Eine Anfrage anlegen
 

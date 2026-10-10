@@ -2,6 +2,8 @@
 
 From version 3.5 the client page works as a small CRM. Everything that happened with a client is in one **Timeline**, the client's paperwork is in a **Documents** tab with expiry dates, and consignment enquiries are followed from the first contact to a created consignment in the **Consignment pipeline**.
 
+<video class="release-video" controls preload="metadata" playsinline src="https://circuit-kubernetes.s3.eu-central-1.amazonaws.com/openmontage/tutorials/release-3.5-client-crm/final.mp4">Your browser does not support the video tag. <a href="https://circuit-kubernetes.s3.eu-central-1.amazonaws.com/openmontage/tutorials/release-3.5-client-crm/final.mp4">Download the video</a>.</video>
+
 ## The client page tabs
 
 The tabs of the client page are now grouped by purpose:
@@ -20,6 +22,8 @@ The **History** tab is now called **Statistics**, and **Emails and Documents** i
 ## Timeline
 
 The **Timeline** tab shows one feed, grouped by day, of everything recorded for the client: **Emails**, **Notes**, **Calls**, **Tasks**, **Viewings**, **Activities** and **Milestones** (last bid, last win, last consignment, last seen on the website).
+
+![The Timeline tab of a client: source filters, period selector and the entries grouped by day](../assets/screenshots/client-crm-timeline.png)
 
 1. Open a client and click **Timeline**.
 2. Click a source at the top to hide or show it. Hover a source and click **only** to see just that source; **All** brings everything back.
@@ -51,6 +55,8 @@ You find the pipeline in two places:
 
 - **Consignment pipeline** in the main menu: all enquiries of the auction house, with quick filters for **Stage**, **Source** and **Responsible staff(s)**.
 - The **Consignment pipeline** tab on the client page: the enquiries of this client.
+
+![The Consignment pipeline page with the Stage, Source and Responsible staff filters and the list of enquiries](../assets/screenshots/client-crm-pipeline.png)
 
 ### Create an enquiry
 
