@@ -26,4 +26,4 @@ Keine.
 
 ## Siehe auch
 
-- [Saldo-Button](website/balance.md) — ein kompakter Indikator für den fälligen Betrag, der hierher verlinkt
+- [Saldo-Button](/de/website/balance.md) — ein kompakter Indikator für den fälligen Betrag, der hierher verlinkt

@@ -41,4 +41,4 @@ Das Karussell wechselt alle 8 Sekunden, pausiert beim Überfahren mit der Maus u
      data-display-mode="sale-image"></div>
 ```
 
-> **Tipp:** Der Block [Auktionsseite](website/sale-page.md) kann dieses Karussell mit `data-show-featured="true"` automatisch einbetten, und der Block [Auktionsliste](website/sales-list.md) kann mit `data-show-featured-items="true"` pro Auktion eines anzeigen.
+> **Tipp:** Der Block [Auktionsseite](/de/website/sale-page.md) kann dieses Karussell mit `data-show-featured="true"` automatisch einbetten, und der Block [Auktionsliste](/de/website/sales-list.md) kann mit `data-show-featured-items="true"` pro Auktion eines anzeigen.

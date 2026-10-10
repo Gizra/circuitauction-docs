@@ -5,14 +5,14 @@ Das Modul Gebote ist die zentrale Anlaufstelle zur Verwaltung aller Gebotsaktivi
 
 ## Voraussetzungen
 
-Um Gebote anzuzeigen, müssen Sie einen [Auktionskontext](../sale/sale-context.md) ausgewählt haben und mit dem Gebotsserver verbunden sein (erkennbar am grünen Symbol oben auf der Seite).
+Um Gebote anzuzeigen, müssen Sie einen [Auktionskontext](/de/sale/sale-context.md) ausgewählt haben und mit dem Gebotsserver verbunden sein (erkennbar am grünen Symbol oben auf der Seite).
 
 ![Anzeige der Verbindung zum Gebotsserver](../../assets/screenshots/bid-server-icon-green.png)
 
 ## Dokumentation
 
-- **[Gebotsseite](bids-page.md)** - Zusammenfassende Statistiken und Überblick über alle Gebote einer Auktion
-- **[Gebote erfassen](entering-bids.md)** - So geben Sie Gebote im Namen von Bietern ein
-- **[Los-Tabelle der Gebote](bids-item-table.md)** - Die Lostabelle der Gebote filtern und verstehen
-- **[Popup mit allen Geboten eines Loses](item-all-bids-popup.md)** - Alle Gebote eines einzelnen Loses verwalten
-- **[Tab Gebotsinformationen](bidding-info-tab.md)** - Bieternummern, Kreditanfragen und kundenspezifische Gebotsverwaltung
+- **[Gebotsseite](/de/bids/bids-page.md)** - Zusammenfassende Statistiken und Überblick über alle Gebote einer Auktion
+- **[Gebote erfassen](/de/bids/entering-bids.md)** - So geben Sie Gebote im Namen von Bietern ein
+- **[Los-Tabelle der Gebote](/de/bids/bids-item-table.md)** - Die Lostabelle der Gebote filtern und verstehen
+- **[Popup mit allen Geboten eines Loses](/de/bids/item-all-bids-popup.md)** - Alle Gebote eines einzelnen Loses verwalten
+- **[Tab Gebotsinformationen](/de/bids/bidding-info-tab.md)** - Bieternummern, Kreditanfragen und kundenspezifische Gebotsverwaltung

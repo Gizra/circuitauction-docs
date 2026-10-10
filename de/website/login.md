@@ -17,9 +17,9 @@ Ein Anmeldeformular (E-Mail + Passwort). Bei Erfolg wird der Benutzer in allen B
 
 Keine.
 
-> Die Sprache der Oberfläche richtet sich nach dem Attribut `language` des Divs [`#circuit-setup`](website/README.md#das-setup-div-circuit-setup) (oder nach der Browsersprache des Besuchers).
+> Die Sprache der Oberfläche richtet sich nach dem Attribut `language` des Divs [`#circuit-setup`](/de/website/README.md#das-setup-div-circuit-setup) (oder nach der Browsersprache des Besuchers).
 
 ## Siehe auch
 
-- [Registrierung](website/register.md) — ein neues Konto erstellen
-- [Passwort vergessen](website/forgot-password.md) — ein Passwort zurücksetzen
+- [Registrierung](/de/website/register.md) — ein neues Konto erstellen
+- [Passwort vergessen](/de/website/forgot-password.md) — ein Passwort zurücksetzen

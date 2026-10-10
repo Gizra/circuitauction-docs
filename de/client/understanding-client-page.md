@@ -19,9 +19,9 @@ Die Adressen des Kunden \(Standard-, Rechnungs- und Lieferadresse\).
 
 Unter diesem Tab stehen Ihnen mehrere Aktionen zur Verfügung:
 
-* [Bieternummer\(n\)](how-to-create-bidder-number.md) für diesen Kunden registrieren.
-* Eine Liste der [Gebote des Kunden](how-to-view-clients-bids.md) in der [aktuellen Auktion](../sale/sale-context.md) ansehen.
-* Ein [neues Gebot](how-to-place-a-bid-for-a-client.md) für diesen Kunden abgeben.
+* [Bieternummer\(n\)](/de/client/how-to-create-bidder-number.md) für diesen Kunden registrieren.
+* Eine Liste der [Gebote des Kunden](/de/client/how-to-view-clients-bids.md) in der [aktuellen Auktion](/de/sale/sale-context.md) ansehen.
+* Ein [neues Gebot](/de/client/how-to-place-a-bid-for-a-client.md) für diesen Kunden abgeben.
 * Anfragen des Kunden für das Credit Limit genehmigen und Rückrufanfragen \(Call requests\) hinzufügen.
 
 ## Historie
@@ -62,8 +62,8 @@ Das Aktivitätsprotokoll für diesen Kunden.
 
 ## Emails and Documents
 
-Hier können Sie Dokumente aus Vorlagen erstellen, E-Mails senden \(zum Beispiel einen [Gebotsbericht](how-to-send-a-bidding-report-to-a-client.md)\) und alles einsehen, was an den Kunden gesendet wurde.
+Hier können Sie Dokumente aus Vorlagen erstellen, E-Mails senden \(zum Beispiel einen [Gebotsbericht](/de/client/how-to-send-a-bidding-report-to-a-client.md)\) und alles einsehen, was an den Kunden gesendet wurde.
 
 ## Aufgaben
 
-[Aufgaben](../tasks.md) zu diesem Kunden.
+[Aufgaben](/de/tasks.md) zu diesem Kunden.

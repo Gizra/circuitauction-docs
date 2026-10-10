@@ -1,7 +1,4 @@
 <!-- i18n source=data-migration/bids-san.md sha=1247eb7b3f5d -->
----
-description: Gebote aus einem SAN-Export importieren.
----
 
 # SAN-Gebote
 

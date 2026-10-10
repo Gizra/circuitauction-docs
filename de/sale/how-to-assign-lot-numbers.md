@@ -1,7 +1,7 @@
 <!-- i18n source=sale/how-to-assign-lot-numbers.md sha=f1835a30c049 -->
 # So vergeben Sie Losnummern
 
-Nachdem [Lose zur Auktion hinzugefügt wurden](../items/how-to-create-an-item.md), können Sie allen Losen Losnummern zuweisen.
+Nachdem [Lose zur Auktion hinzugefügt wurden](/de/items/how-to-create-an-item.md), können Sie allen Losen Losnummern zuweisen.
 
 1. Klicken Sie auf `Losnummern vergeben` \(beachten Sie, dass diese Aktion nicht verfügbar ist, wenn der Auktionsstatus `Neu` ist\).
 

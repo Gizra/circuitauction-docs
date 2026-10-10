@@ -5,8 +5,8 @@ Sie können ein schriftliches Gebot für einen Kunden über die Kundenseite oder
 
 ## Gebot über die Kundenseite abgeben
 
-1. Stellen Sie sicher, dass Sie sich im richtigen [Auktionskontext](../sale/sale-context.md) befinden.
-2. Öffnen Sie die Kundenseite \(siehe [So finden Sie einen vorhandenen Kunden](how-to-find-an-existing-client.md)\)
+1. Stellen Sie sicher, dass Sie sich im richtigen [Auktionskontext](/de/sale/sale-context.md) befinden.
+2. Öffnen Sie die Kundenseite \(siehe [So finden Sie einen vorhandenen Kunden](/de/client/how-to-find-an-existing-client.md)\)
 3. Wechseln Sie zum Tab `Gebotsinformationen`.
 4. Gehen Sie zum Bereich `Gebote eingeben`.
 5. Wählen Sie die **Bidder ID**, geben Sie die Losnummer des Loses im Feld **Los** und den Betrag im Feld **Menge** ein. Markieren Sie das Feld **Extension**, wenn der Bieter verlangt, dass das Los von einem Experten bestätigt wird.
@@ -16,7 +16,7 @@ Sie können ein schriftliches Gebot für einen Kunden über die Kundenseite oder
 
 ## Gebot über die Seite „Gebote“ abgeben
 
-1. Stellen Sie sicher, dass Sie sich im richtigen [Auktionskontext](../sale/sale-context.md) befinden.
+1. Stellen Sie sicher, dass Sie sich im richtigen [Auktionskontext](/de/sale/sale-context.md) befinden.
 2. Gehen Sie im Seitenmenü zu **Gebote**
 3. Wählen Sie die **Bidder ID**, geben Sie die Losnummer des Loses im Feld **Los** und den Betrag im Feld **Menge** ein. Markieren Sie das Feld **Extension**, wenn der Bieter verlangt, dass das Los von einem Experten bestätigt wird.
 4. Klicken Sie auf **speichern**.

@@ -9,7 +9,7 @@ Im Auktions-Dashboard finden Sie eine Übersicht aller Auktionen und ihres Statu
 
 Die farbigen Felder oben **\[1\]** zeigen die Gesamtzahl der Auktionen und die Anzahl der Auktionen je Status.
 
-Die Tabelle **\[2\]** zeigt die Auktionsliste, die Sie nach jeder Spalte [filtern](how-to-find-an-existing-sale.md) können.
+Die Tabelle **\[2\]** zeigt die Auktionsliste, die Sie nach jeder Spalte [filtern](/de/sale/how-to-find-an-existing-sale.md) können.
 
 ## Status
 

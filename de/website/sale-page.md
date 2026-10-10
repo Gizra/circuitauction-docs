@@ -37,6 +37,6 @@ Besucher können nach Losnummer oder Text suchen, nach Verkaufsstatus, Favoriten
 
 ## Siehe auch
 
-- [Hervorgehobene Lose](website/featured-items.md) — das Karussell, das diese Seite einbetten kann
-- [Auktionsinfo](website/sale-info.md) — der Auktionskopf, der auf dieser Seite angezeigt wird
-- [Erzielte Preise](website/prices-realized.md) — Ergebnistabelle einer abgeschlossenen Auktion
+- [Hervorgehobene Lose](/de/website/featured-items.md) — das Karussell, das diese Seite einbetten kann
+- [Auktionsinfo](/de/website/sale-info.md) — der Auktionskopf, der auf dieser Seite angezeigt wird
+- [Erzielte Preise](/de/website/prices-realized.md) — Ergebnistabelle einer abgeschlossenen Auktion

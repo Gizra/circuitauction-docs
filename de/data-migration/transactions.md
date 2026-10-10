@@ -1,7 +1,4 @@
 <!-- i18n source=data-migration/transactions.md sha=bf412c4b8200 -->
----
-description: Transaktionsknoten importieren und an bestehende Bestellungen anhängen.
----
 
 # Vorgänge
 

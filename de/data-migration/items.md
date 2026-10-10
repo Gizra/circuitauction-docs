@@ -1,7 +1,4 @@
 <!-- i18n source=data-migration/items.md sha=ee87179cd02a -->
----
-description: Massenimport von Losen aus einem Google Sheet (ServerItemsSelfServiceMigrate).
----
 
 # Lose (Self-Service)
 
@@ -38,7 +35,7 @@ Dies ist der wichtigste Importer für Lose. Er erstellt neue Losknoten aus einer
    Neben dem Textfeld erscheint ein Link **Tabelle öffnen**, sobald eine gültige Sheet-URL eingegeben ist; er führt Sie zurück zum bearbeitbaren Google Sheet.
 
    {% hint style="info" %}
-   Die Seite **Item Import** hat Reiter für die verwandten Importe pro Auktion, die diesen Ablauf teilen: **Items** (diese Seite), [Los-Kataloge](items-catalogs.md), [Los-Dimensionen](items-dimensions.md) und [Zuschlagsergebnisse der Lose](items-sold-result.md). Jeder Reiter hat sein eigenes Eingabefeld für URL / Datei, eigene Warteschlangen-Buttons und eine eigene Ergebnistabelle sowie einen Link **Help** zu seiner Seite in dieser Dokumentation.
+   Die Seite **Item Import** hat Reiter für die verwandten Importe pro Auktion, die diesen Ablauf teilen: **Items** (diese Seite), [Los-Kataloge](/de/data-migration/items-catalogs.md), [Los-Dimensionen](/de/data-migration/items-dimensions.md) und [Zuschlagsergebnisse der Lose](/de/data-migration/items-sold-result.md). Jeder Reiter hat sein eigenes Eingabefeld für URL / Datei, eigene Warteschlangen-Buttons und eine eigene Ergebnistabelle sowie einen Link **Help** zu seiner Seite in dieser Dokumentation.
    {% endhint %}
 
 3. Klicken Sie auf **Importelemente in die Warteschlange stellen** (siehe **2**), um den Import zu starten.

@@ -1,7 +1,4 @@
 <!-- i18n source=data-migration/sales.md sha=f56499e36f04 -->
----
-description: Auktionsknoten importieren.
----
 
 # Auktionen
 

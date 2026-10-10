@@ -148,7 +148,7 @@
             var cur = langOf(vm.route.path || '/');
             if (!cur) return html;
             return html.replace(
-              /(<img\b[^>]*?\ssrc=")([^"]*?assets\/screenshots\/)([^"\/]+)"/g,
+              /(<img\b[^>]*?\ssrc=")([^"]*?assets\/screenshots\/)([\w.%() -]+)"/g,
               function (m, pre, dir, name) {
                 var orig = dir + name;
                 return pre + dir + cur + '/' + name + '" onerror="this.onerror=null;this.src=\'' +

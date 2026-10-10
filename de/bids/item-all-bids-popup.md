@@ -1,7 +1,7 @@
 <!-- i18n source=bids/item-all-bids-popup.md sha=007106eb4f44 -->
 # Popup mit allen Geboten eines Loses
 
-Dieses Popup zeigt alle Gebote für ein ausgewähltes Los zusammen mit weiteren gebotsrelevanten Informationen. Öffnen Sie es, indem Sie in einer beliebigen Zeile der [Los-Tabelle der Gebote](bids-item-table.md) auf das **Pluszeichen** klicken.
+Dieses Popup zeigt alle Gebote für ein ausgewähltes Los zusammen mit weiteren gebotsrelevanten Informationen. Öffnen Sie es, indem Sie in einer beliebigen Zeile der [Los-Tabelle der Gebote](/de/bids/bids-item-table.md) auf das **Pluszeichen** klicken.
 
 ## Seitenkopf
 

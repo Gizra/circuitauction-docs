@@ -1,7 +1,4 @@
 <!-- i18n source=data-migration/external-ids.md sha=dc06bb1f2d2c -->
----
-description: Externe System-IDs (Multifield) an bestehende Kunden anhängen.
----
 
 # Externe IDs
 

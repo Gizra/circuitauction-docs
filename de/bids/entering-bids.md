@@ -15,5 +15,5 @@ Mitarbeiter können auf der Gebotsseite Gebote im Namen von Bietern eingeben.
 ![Formular zum Eingeben von Geboten](../../assets/screenshots/enter-bids.png)
 
 {% hint style="info" %}
-Sie können Gebote für einen bestimmten Kunden auch auf dem Tab **Gebotsinformationen** der Kundenseite eingeben. Siehe [Tab Gebotsinformationen](bidding-info-tab.md).
+Sie können Gebote für einen bestimmten Kunden auch auf dem Tab **Gebotsinformationen** der Kundenseite eingeben. Siehe [Tab Gebotsinformationen](/de/bids/bidding-info-tab.md).
 {% endhint %}

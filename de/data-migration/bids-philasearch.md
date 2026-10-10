@@ -1,7 +1,4 @@
 <!-- i18n source=data-migration/bids-philasearch.md sha=87f23a5d2720 -->
----
-description: Gebote aus der Philasearch-API abrufen und importieren.
----
 
 # Philasearch-Gebote
 

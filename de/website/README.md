@@ -1,7 +1,7 @@
 <!-- i18n source=website/README.md sha=76cf1dbf8043 -->
 # Website (einbettbare Blöcke)
 
-> Wenn Sie eine WordPress-Website einrichten, automatisiert das [CircuitAuction-WordPress-Plugin](wordpress-plugin.md) alles auf dieser Seite (Loader-Skript, Setup-Div, Seiten-Divs) und ergänzt Gutenberg-Blöcke für die Katalog- und Auktions-Widgets.
+> Wenn Sie eine WordPress-Website einrichten, automatisiert das [CircuitAuction-WordPress-Plugin](/de/website/wordpress-plugin.md) alles auf dieser Seite (Loader-Skript, Setup-Div, Seiten-Divs) und ergänzt Gutenberg-Blöcke für die Katalog- und Auktions-Widgets.
 
 Die **Circuit User UI** ist eine React-Anwendung, die die Bieter-Bereiche Ihrer Website mit Leben füllt — Auktionslisten, Losseiten, Bieten, Kontoverwaltung, Abrechnung und mehr. Statt einer einzelnen Seite wird sie als Satz von **Blöcken** (auch Komponenten genannt) ausgeliefert. Sie platzieren ein kleines `<div>` auf einer beliebigen Seite Ihrer eigenen Website, und der passende Block wird darin dargestellt.
 
@@ -68,14 +68,14 @@ Diese Blöcke zeigen öffentliche Auktionsinhalte an und akzeptieren Anzeigeopti
 
 | Block | Selektor | Zweck |
 |-------|----------|---------|
-| [Auktionsliste](website/sales-list.md) | `#ca-sales-list` | Filterbare Liste von Auktionen mit Seitennavigation |
-| [Auktionsseite](website/sale-page.md) | `#ca-sale-page` | Durchsuchbare Losliste einer Auktion |
-| [Auktionsinfo](website/sale-info.md) | `#ca-sale-info` | Eigenständiger Informationsblock für eine Auktion |
-| [Hervorgehobene Lose](website/featured-items.md) | `#ca-featured-items` | Karussell der Highlight-Lose einer Auktion |
-| [Losseite](website/item-page.md) | `#ca-item-page` | Einzelnes Los mit Details und Bieten |
-| [Erzielte Preise](website/prices-realized.md) | `#ca-prices-realized` | Ergebnistabelle einer abgeschlossenen Auktion |
-| [Gebot abgeben](website/place-bid.md) | `.place-bid` | Inline-Gebots-Widget (mehrfach pro Seite) |
-| [Favoriten-Button](website/favorite-button.md) | `.favorite-btn` | Ein Los zu den Favoriten hinzufügen/daraus entfernen |
+| [Auktionsliste](/de/website/sales-list.md) | `#ca-sales-list` | Filterbare Liste von Auktionen mit Seitennavigation |
+| [Auktionsseite](/de/website/sale-page.md) | `#ca-sale-page` | Durchsuchbare Losliste einer Auktion |
+| [Auktionsinfo](/de/website/sale-info.md) | `#ca-sale-info` | Eigenständiger Informationsblock für eine Auktion |
+| [Hervorgehobene Lose](/de/website/featured-items.md) | `#ca-featured-items` | Karussell der Highlight-Lose einer Auktion |
+| [Losseite](/de/website/item-page.md) | `#ca-item-page` | Einzelnes Los mit Details und Bieten |
+| [Erzielte Preise](/de/website/prices-realized.md) | `#ca-prices-realized` | Ergebnistabelle einer abgeschlossenen Auktion |
+| [Gebot abgeben](/de/website/place-bid.md) | `.place-bid` | Inline-Gebots-Widget (mehrfach pro Seite) |
+| [Favoriten-Button](/de/website/favorite-button.md) | `.favorite-btn` | Ein Los zu den Favoriten hinzufügen/daraus entfernen |
 
 ### Konto- und Benutzerblöcke
 
@@ -83,18 +83,18 @@ Diese Blöcke bilden die Erfahrung des angemeldeten Bieters ab. Die meisten lese
 
 | Block | Selektor | Zweck |
 |-------|----------|---------|
-| [Benutzermenü](website/user-block.md) | `#user-block` | Anmeldelinks oder das Dropdown des angemeldeten Benutzers |
-| [Anmeldung](website/login.md) | `#login` | Anmeldeformular |
-| [Registrierung](website/register.md) | `#register` | Registrierungsformular für neue Konten |
-| [Passwort vergessen](website/forgot-password.md) | `#forgotpassword` | Formular zum Anfordern des Zurücksetzens des Passworts |
-| [Mein Konto](website/my-account.md) | `#my-account` | Profil, Passwort und Adressen |
-| [Meine Gebote](website/my-bids.md) | `#my-bids` | Aktive und vergangene Gebote, mit Guthaben |
-| [Meine Favoriten](website/my-favorites.md) | `#my-favorites` | Gespeicherte Lose, mit Vergleich |
-| [Meine Interessen](website/my-interests.md) | `#my-interests` | Einstellungen zu Kategorieinteressen |
-| [Saldo-Button](website/balance.md) | `#balance-btn` | Kontosaldo / fälliger Betrag |
-| [Abrechnung & Zahlungen](website/billing.md) | `#billing-history` | Rechnungen und gespeicherte Zahlungsmethoden |
-| [Magazin-Abonnement](website/subscription-magazine.md) | `#subscription-magazine` | Flipbook-Bibliothek der Magazine |
-| [Abonnement kaufen](website/subscription-purchase.md) | `#subscription-purchase` | Auswahl der Abonnement-Pläne |
+| [Benutzermenü](/de/website/user-block.md) | `#user-block` | Anmeldelinks oder das Dropdown des angemeldeten Benutzers |
+| [Anmeldung](/de/website/login.md) | `#login` | Anmeldeformular |
+| [Registrierung](/de/website/register.md) | `#register` | Registrierungsformular für neue Konten |
+| [Passwort vergessen](/de/website/forgot-password.md) | `#forgotpassword` | Formular zum Anfordern des Zurücksetzens des Passworts |
+| [Mein Konto](/de/website/my-account.md) | `#my-account` | Profil, Passwort und Adressen |
+| [Meine Gebote](/de/website/my-bids.md) | `#my-bids` | Aktive und vergangene Gebote, mit Guthaben |
+| [Meine Favoriten](/de/website/my-favorites.md) | `#my-favorites` | Gespeicherte Lose, mit Vergleich |
+| [Meine Interessen](/de/website/my-interests.md) | `#my-interests` | Einstellungen zu Kategorieinteressen |
+| [Saldo-Button](/de/website/balance.md) | `#balance-btn` | Kontosaldo / fälliger Betrag |
+| [Abrechnung & Zahlungen](/de/website/billing.md) | `#billing-history` | Rechnungen und gespeicherte Zahlungsmethoden |
+| [Magazin-Abonnement](/de/website/subscription-magazine.md) | `#subscription-magazine` | Flipbook-Bibliothek der Magazine |
+| [Abonnement kaufen](/de/website/subscription-purchase.md) | `#subscription-purchase` | Auswahl der Abonnement-Pläne |
 
 ## Hinweis zu Attributwerten
 

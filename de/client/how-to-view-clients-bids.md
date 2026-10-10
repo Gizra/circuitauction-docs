@@ -5,8 +5,8 @@ Sie können die Gebote eines Kunden auf der Kundenseite oder auf der Seite „Ge
 
 ## Auf der Kundenseite
 
-1. Stellen Sie sicher, dass Sie sich im richtigen [Auktionskontext](../sale/sale-context.md) befinden.
-2. Öffnen Sie die Kundenseite \(siehe [So finden Sie einen vorhandenen Kunden](how-to-find-an-existing-client.md)\)
+1. Stellen Sie sicher, dass Sie sich im richtigen [Auktionskontext](/de/sale/sale-context.md) befinden.
+2. Öffnen Sie die Kundenseite \(siehe [So finden Sie einen vorhandenen Kunden](/de/client/how-to-find-an-existing-client.md)\)
 3. Wechseln Sie zum Tab `Gebotsinformationen`.
 4. Am Ende der Seite finden Sie eine Liste der Gebote des Kunden, sortiert nach Losnummern:
 
@@ -26,7 +26,7 @@ Sie können die Gebote eines Kunden auf der Kundenseite oder auf der Seite „Ge
 
 ## Auf der Seite „Gebote“
 
-1. Stellen Sie sicher, dass Sie sich im richtigen [Auktionskontext](../sale/sale-context.md) befinden.
+1. Stellen Sie sicher, dass Sie sich im richtigen [Auktionskontext](/de/sale/sale-context.md) befinden.
 2. Gehen Sie im Seitenmenü zu **Gebote**.
 3. Hier finden Sie eine Liste der Gebote aller Kunden, sortiert nach Losnummern. Sie können dieselben Aktionen ausführen wie auf der Kundenseite.
 

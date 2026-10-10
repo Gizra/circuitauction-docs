@@ -17,7 +17,7 @@ Lose haben jetzt einen **Content Type**. Wählen Sie ihn aus einer Liste, die Br
 ### Filter nach Los-Tags und hervorgehobene Lose
 
 - Die Lose-Tabelle hat einen neuen Filter **item tags**, um markierte Lose schneller zu finden.
-- WordPress-Seiten können ein **Karussell mit hervorgehobenen Losen** anzeigen, das auf diesen Tags beruht, siehe [Hervorgehobene Lose](../website/featured-items.md).
+- WordPress-Seiten können ein **Karussell mit hervorgehobenen Losen** anzeigen, das auf diesen Tags beruht, siehe [Hervorgehobene Lose](/de/website/featured-items.md).
 
 ## Einlieferungen
 
@@ -42,11 +42,11 @@ Ein neues Feld **Referenzen** in der Circuit User UI wird mit dem Kundendatensat
 
 ### E-Mail-Einstellungen unter "Mein Konto"
 
-Kunden können direkt auf der Seite **My Account** der Website E-Mails an- oder abbestellen, siehe [Mein Konto](../website/my-account.md).
+Kunden können direkt auf der Seite **My Account** der Website E-Mails an- oder abbestellen, siehe [Mein Konto](/de/website/my-account.md).
 
 ### Verwaltung von Magazinabonnements (WordPress)
 
-WordPress-Seiten können die Magazinabonnements von Kunden verwalten: Abonnementtypen, automatische Ablaufverfolgung und ein schlanker Abonnementablauf, siehe [Magazinabonnement](../website/subscription-magazine.md).
+WordPress-Seiten können die Magazinabonnements von Kunden verwalten: Abonnementtypen, automatische Ablaufverfolgung und ein schlanker Abonnementablauf, siehe [Magazinabonnement](/de/website/subscription-magazine.md).
 
 ## Verbundene Backoffices (Beta)
 
@@ -59,4 +59,4 @@ Mehrere Backoffices derselben Gruppe können jetzt miteinander verbunden werden.
 
 ### EasyPost-Integration eingestellt
 
-Wegen anhaltender Zuverlässigkeitsprobleme wurde die EasyPost-Integration aus dem Backoffice entfernt. Eine alternative Versand-API wurde geprüft und in [Version 3.3](version-3.3.md) eingeführt.
+Wegen anhaltender Zuverlässigkeitsprobleme wurde die EasyPost-Integration aus dem Backoffice entfernt. Eine alternative Versand-API wurde geprüft und in [Version 3.3](/de/release-notes/version-3.3.md) eingeführt.

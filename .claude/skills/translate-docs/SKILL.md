@@ -29,13 +29,13 @@ description: Translate a CircuitAuction docs page (docsify markdown) into a lang
 - The glossary is generated from UI strings; a few rows built from long or odd UI texts are unreliable (e.g. punctuation-only rows). Use it for labels and nouns, and ignore rows that are obviously not a term.
 - German: formal "Sie". Nouns per the glossary (Kunde, Los (Plural: Lose), Einlieferung, Auktion, Gebot, Aufgabe,
   Rechnung, Zuschlag). Keep English words that the glossary keeps. Where this list and the glossary disagree, the glossary wins.
-- Links: keep relative targets unchanged (`../sale/how-to-create-a-sale.md` resolves inside the language
-  folder; docsify falls back to English when the target is not translated). If a link has an anchor
-  (`…md#bid-steps`) and the target page is already translated, replace the anchor with the slug of the
-  translated heading (lower-case, spaces to `-`, punctuation removed).
+- Links: links to other pages are absolute: `/<lang>/<path>.md` when the German page exists, `/<path>.md` for
+  pages that stay English. The scaffold writes them that way and `status.py` reports anything else as
+  `broken-links` (docsify resolves body links from the site root, so relative targets leave the language).
+  When the target heading is translated, the anchor is the slug of the translated heading (lower-case,
+  spaces to `-`, punctuation removed).
 - Images: keep the depth-correct relative form the scaffold produces (`../assets/…` for a root page,
-  `../../assets/…` one folder down, …); `status.py` flags anything else as broken-assets. If a localized
-  capture exists at `assets/screenshots/<lang>/<name>.png`, use it (same prefix); otherwise keep the English one. Translate alt texts.
+  `../../assets/…` one folder down, …); `status.py` flags anything else as broken-assets. Keep the same image path as the English page; on language routes `index.html` swaps in `assets/screenshots/<lang>/<name>` automatically when that file exists. Translate alt texts.
 - Release notes: keep version numbers, dates and `<video class="release-video" …>` lines. Use the `-<lang>`
   video URL (`…/release-3.5-<name>-<lang>/final.mp4`) only when that render exists in S3 (check with
   `curl -sI <url> | head -1` → `200`); otherwise keep the English URL.

@@ -34,4 +34,4 @@ Die Codes befinden sich nur in der App auf Ihrem Smartphone. Wenn Sie es verlier
 - Die Benutzerliste zeigt eine Spalte **Authenticator** mit dem Status jedes Kontos, und das Benutzerformular zeigt, ob die App aktiviert ist, und erlaubt das Zurücksetzen.
 - Kundenkonten (Bieter) auf der Website sind nicht betroffen.
 
-Siehe auch [Anmeldung am System](logging-into-the-system.md).
+Siehe auch [Anmeldung am System](/de/logging-into-the-system.md).

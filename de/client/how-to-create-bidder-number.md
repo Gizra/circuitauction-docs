@@ -3,8 +3,8 @@
 
 ## Bieternummern registrieren
 
-1. Stellen Sie sicher, dass Sie sich im richtigen [Auktionskontext](../sale/sale-context.md) befinden.
-2. Öffnen Sie die Kundenseite \(siehe [So finden Sie einen vorhandenen Kunden](how-to-find-an-existing-client.md)\)
+1. Stellen Sie sicher, dass Sie sich im richtigen [Auktionskontext](/de/sale/sale-context.md) befinden.
+2. Öffnen Sie die Kundenseite \(siehe [So finden Sie einen vorhandenen Kunden](/de/client/how-to-find-an-existing-client.md)\)
 3. Wechseln Sie zum Tab `Gebotsinformationen`.
 4. Gehen Sie zum Bereich `Bieternummer` \(`Register New Bidder Numbers`\).
 5. Wählen Sie den Bietertyp \(Floor, Floor by agent, Webseite, Mail, Telefon oder External\).
@@ -35,6 +35,6 @@ Beachten Sie, dass Sie mehrere Floor-Bieternummern registrieren können, aber nu
 ![](../../assets/screenshots/call-requests.png)
 
 1. Geben Sie bei Bedarf eine Notiz ein und klicken Sie auf **Add Request**.
-2. Eine Telefonbieternummer wird angelegt und der [Liste der Telefonbieterkarten](how-to-download-phone-bidder-cards-list.md) hinzugefügt.
+2. Eine Telefonbieternummer wird angelegt und der [Liste der Telefonbieterkarten](/de/client/how-to-download-phone-bidder-cards-list.md) hinzugefügt.
 
 ![](../../assets/screenshots/call-requests-saved.png)

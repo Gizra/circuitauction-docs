@@ -1,7 +1,7 @@
 <!-- i18n source=auction/clerk-screen/how-to-select-the-bidding-item.md sha=0479a8bbf56e -->
 # Los zum Bieten auswählen
 
-Wenn ein Los auf **Gone** gesetzt wird \(siehe [Ablauf der Live-Auktion](../auction-flow.md)\), wird automatisch das nächste Los angezeigt. Sie können ein bestimmtes Los auch manuell auswählen.
+Wenn ein Los auf **Gone** gesetzt wird \(siehe [Ablauf der Live-Auktion](/de/auction/auction-flow.md)\), wird automatisch das nächste Los angezeigt. Sie können ein bestimmtes Los auch manuell auswählen.
 
 ## Los manuell auswählen
 

@@ -5,7 +5,7 @@
 
 ## Funktion
 
-Ein kleiner Herz-Button, mit dem ein angemeldeter Bieter ein Los zu seinen Favoriten hinzufügen oder daraus entfernen kann. Wie Place Bid wird er über die **Klasse** gefunden, sodass Sie ihn neben jedem Los in einer eigenen Liste oder einem Raster platzieren können. Favorisierte Lose erscheinen im Block [Meine Favoriten](website/my-favorites.md) des Bieters.
+Ein kleiner Herz-Button, mit dem ein angemeldeter Bieter ein Los zu seinen Favoriten hinzufügen oder daraus entfernen kann. Wie Place Bid wird er über die **Klasse** gefunden, sodass Sie ihn neben jedem Los in einer eigenen Liste oder einem Raster platzieren können. Favorisierte Lose erscheinen im Block [Meine Favoriten](/de/website/my-favorites.md) des Bieters.
 
 Klickt ein nicht angemeldeter Besucher darauf, wird er zur Anmeldung aufgefordert.
 

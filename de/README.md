@@ -9,12 +9,12 @@ CircuitAuction ist ein umfassendes Auktionsverwaltungssystem, das den gesamten L
 
 ## Schnellzugriff
 
-- **[Erste Schritte](logging-into-the-system.md)** - Anmelden und Zugang zu Ihrer Demo
-- **[Empfohlener Arbeitsablauf](workflow-best-practice.md)** - Bewährte Vorgehensweisen für die Verwaltung von Auktionen
-- **[Kunden-Leitfaden](client/README.md)** - Bieter und Einlieferer verwalten
-- **[Los-Leitfaden](items/README.md)** - Auktionslose anlegen und verwalten
-- **[Auktions-Leitfaden](sale/README.md)** - Auktionen einrichten und durchführen
-- **[Einlieferungs-Leitfaden](consignment/README.md)** - Beziehungen zu Einlieferern verwalten
+- **[Erste Schritte](/de/logging-into-the-system.md)** - Anmelden und Zugang zu Ihrer Demo
+- **[Empfohlener Arbeitsablauf](/de/workflow-best-practice.md)** - Bewährte Vorgehensweisen für die Verwaltung von Auktionen
+- **[Kunden-Leitfaden](/de/client/README.md)** - Bieter und Einlieferer verwalten
+- **[Los-Leitfaden](/de/items/README.md)** - Auktionslose anlegen und verwalten
+- **[Auktions-Leitfaden](/de/sale/README.md)** - Auktionen einrichten und durchführen
+- **[Einlieferungs-Leitfaden](/de/consignment/README.md)** - Beziehungen zu Einlieferern verwalten
 
 ## Hauptfunktionen
 
@@ -35,9 +35,9 @@ Legen Sie Auktionen an, weisen Sie Lose zu, richten Sie Kataloge ein und verwalt
 
 ## Hilfe
 
-- **[Glossar](glossary.md)** - Häufige Begriffe und Definitionen
-- **[IT-Bereich](it-section/useful-drush-commands.md)** - Technische Dokumentation für Entwickler (Englisch)
-- **[Release-Notes](release-notes/README.md)** - Änderungen in jeder Version
+- **[Glossar](/de/glossary.md)** - Häufige Begriffe und Definitionen
+- **[IT-Bereich](/it-section/useful-drush-commands.md)** - Technische Dokumentation für Entwickler (Englisch)
+- **[Release-Notes](/de/release-notes/README.md)** - Änderungen in jeder Version
 
 ## Benötigen Sie Unterstützung?
 

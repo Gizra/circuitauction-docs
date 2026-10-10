@@ -1,7 +1,4 @@
 <!-- i18n source=data-migration/addresses.md sha=233aecbec71c -->
----
-description: Adressknoten importieren und an bestehende Kunden anhängen.
----
 
 # Adressen
 

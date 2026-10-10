@@ -41,4 +41,4 @@ Datumsangaben werden intelligent formatiert:
      data-item-display="lot-number"></div>
 ```
 
-> Um mehrere Auktionen gleichzeitig aufzulisten, verwenden Sie stattdessen den Block [Auktionsliste](website/sales-list.md) — Auktionsinformation stellt nur eine einzelne Auktion dar.
+> Um mehrere Auktionen gleichzeitig aufzulisten, verwenden Sie stattdessen den Block [Auktionsliste](/de/website/sales-list.md) — Auktionsinformation stellt nur eine einzelne Auktion dar.

@@ -1,7 +1,4 @@
 <!-- i18n source=data-migration/categories.md sha=92603d6352b1 -->
----
-description: Die Taxonomie categories mit Hierarchie und Übersetzungen importieren.
----
 
 # Kategorien
 

@@ -1,7 +1,7 @@
 <!-- i18n source=auction/clerk-screen/how-to-place-a-bid-from-the-room.md sha=956b1284b1f6 -->
 # Gebot aus dem Saal abgeben
 
-Gebote können nur abgegeben werden, wenn ein Los den Status **Open** oder **Going** hat \(siehe [Ablauf der Live-Auktion](../auction-flow.md)\).
+Gebote können nur abgegeben werden, wenn ein Los den Status **Open** oder **Going** hat \(siehe [Ablauf der Live-Auktion](/de/auction/auction-flow.md)\).
 
 Gebote aus dem Web werden automatisch erfasst. Gebote aus dem Saal erfasst der Clerk manuell.
 

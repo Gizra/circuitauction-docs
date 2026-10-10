@@ -3,8 +3,8 @@
 
 Am besten legen Sie eine Einlieferung von der Seite des Einlieferers \(Kunden\) aus an.
 
-1. Stellen Sie sicher, dass Sie sich im richtigen [Auktionskontext](../sale/sale-context.md) befinden.
-2. Öffnen Sie die Seite des Einlieferers \(siehe [So finden Sie einen vorhandenen Kunden](../client/how-to-find-an-existing-client.md)\).
+1. Stellen Sie sicher, dass Sie sich im richtigen [Auktionskontext](/de/sale/sale-context.md) befinden.
+2. Öffnen Sie die Seite des Einlieferers \(siehe [So finden Sie einen vorhandenen Kunden](/de/client/how-to-find-an-existing-client.md)\).
 3. Klicken Sie auf `Einlieferung anlegen` ![image](../../assets/screenshots/client-create-consignment.png)
 4. Füllen Sie die relevanten Felder aus:
 
@@ -31,7 +31,7 @@ _Fall 1_ - Hier ist der Typ der Provisionsstufen auf Einzellose gesetzt. Dadurch
 _Fall 2_ - Hier ist der Typ der Provisionsstufen auf die gesamte Einlieferung gesetzt. Wenn die gesamte Sammlung von Losen für weniger als 200 $ verkauft wird, erhält sie 10 % Provision. Wenn die gesamte Sammlung von Losen zusammen für 200 $ oder mehr verkauft wird, erhält sie 7 % Provision.  
 ![image](../../assets/screenshots/commission-steps-entire.png)
 
-**zusätzliche Kosten** - Geben Sie zusätzliche Kosten ein, die der [Einlieferungsabrechnung](how-consignment-statement-are-created.md) hinzugefügt werden.
+**zusätzliche Kosten** - Geben Sie zusätzliche Kosten ein, die der [Einlieferungsabrechnung](/de/consignment/how-consignment-statement-are-created.md) hinzugefügt werden.
 
 1. Klicken Sie auf **speichern.**
 

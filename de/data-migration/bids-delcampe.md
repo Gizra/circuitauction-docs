@@ -1,7 +1,4 @@
 <!-- i18n source=data-migration/bids-delcampe.md sha=ba85d09745bb -->
----
-description: Gebote aus einem Delcampe-Export importieren.
----
 
 # Delcampe-Gebote
 

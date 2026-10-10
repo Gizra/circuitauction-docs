@@ -1,7 +1,4 @@
 <!-- i18n source=data-migration/bids-mobility.md sha=25287bf1c69a -->
----
-description: Von Auction Mobility exportierte Gebote importieren.
----
 
 # Auction-Mobility-Gebote
 

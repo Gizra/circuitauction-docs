@@ -29,6 +29,6 @@ Um den Inhalt gleichzeitig in mehreren Sprachen anzuzeigen, klicken Sie auf „w
 1. Wenn Sie die Auktionsdaten eingegeben haben, klicken Sie auf **speichern**.  Sie können jederzeit zurückkehren und die Auktion bearbeiten.
 
 Siehe auch:  
-[So laden Sie Losbilder gesammelt hoch](how-to-mass-upload-items-images.md)  
-[So vergeben Sie Losnummern](how-to-assign-lot-numbers.md)  
+[So laden Sie Losbilder gesammelt hoch](/de/sale/how-to-mass-upload-items-images.md)  
+[So vergeben Sie Losnummern](/de/sale/how-to-assign-lot-numbers.md)  
 [Auktionsstatus](./)

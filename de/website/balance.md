@@ -24,4 +24,4 @@ Keine.
 
 ## Siehe auch
 
-- [Abrechnung & Zahlungen](website/billing.md) — wohin der Zustand „Offener Betrag“ verlinkt
+- [Abrechnung & Zahlungen](/de/website/billing.md) — wohin der Zustand „Offener Betrag“ verlinkt

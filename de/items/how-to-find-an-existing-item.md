@@ -1,7 +1,7 @@
 <!-- i18n source=items/how-to-find-an-existing-item.md sha=74dbcd817977 -->
 # So finden Sie ein vorhandenes Los
 
-1. Wählen Sie die gewünschte Auktion aus oder entfernen Sie den [Auktionskontext](../sale/sale-context.md), wenn Sie in allen Losen suchen möchten. 
+1. Wählen Sie die gewünschte Auktion aus oder entfernen Sie den [Auktionskontext](/de/sale/sale-context.md), wenn Sie in allen Losen suchen möchten. 
 2. Gehen Sie im Seitenmenü zu **Lose**.
 3. Es gibt mehrere Möglichkeiten, ein Los in der Tabelle zu finden:
 

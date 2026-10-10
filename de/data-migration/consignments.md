@@ -1,7 +1,4 @@
 <!-- i18n source=data-migration/consignments.md sha=376d82a6c2ec -->
----
-description: Einlieferungsknoten importieren.
----
 
 # Einlieferungen
 
@@ -26,7 +23,7 @@ https://docs.google.com/spreadsheets/d/<SPREADSHEET_ID>/edit?gid=<SHEET_GID>#gid
 ```
 
 {% hint style="info" %}
-In den meisten Fällen müssen Einlieferungen nicht separat migriert werden — der Handler [Lose (Self-Service)](items.md) legt die Einlieferung automatisch aus dem Feld `_consignment` des Lose-Sheets an. Verwenden Sie diesen Handler nur, wenn Sie Einlieferungen vor den Losen (oder unabhängig von ihnen) importieren möchten.
+In den meisten Fällen müssen Einlieferungen nicht separat migriert werden — der Handler [Lose (Self-Service)](/de/data-migration/items.md) legt die Einlieferung automatisch aus dem Feld `_consignment` des Lose-Sheets an. Verwenden Sie diesen Handler nur, wenn Sie Einlieferungen vor den Losen (oder unabhängig von ihnen) importieren möchten.
 {% endhint %}
 
 ## Provisionsstufen
@@ -44,7 +41,7 @@ Die Spalte `_commission_steps_type` wird `field_commission_step_type` zugeordnet
 
 ### Standard-Provisionsstufe (Ersatz)
 
-Wird eine Einlieferung **ohne** Provisionsstufen importiert — d. h. es gibt in der Quelle für [Provisionsschritte der Einlieferungen](consignment-commission-steps.md) keine Zeile dafür und das Feld ist leer —, wendet der Handler automatisch eine einzelne Standardstufe an:
+Wird eine Einlieferung **ohne** Provisionsstufen importiert — d. h. es gibt in der Quelle für [Provisionsschritte der Einlieferungen](/de/data-migration/consignment-commission-steps.md) keine Zeile dafür und das Feld ist leer —, wendet der Handler automatisch eine einzelne Standardstufe an:
 
 * **Satz:** aus der websiteweiten Drupal-Variable `backoffice_consignor_commission_for_migrate` übernommen (Standard `10%`).
 * **Ab Betrag:** `0`.
@@ -53,11 +50,11 @@ Das stellt sicher, dass jede migrierte Einlieferung eine gültige Provision hat,
 
 ### Explizite Provisionen / mehrere Stufen
 
-Um mehr als eine Stufe zu importieren (z. B. 10 % ab 0, dann 5 % ab 10.000), verwenden Sie die dedizierte Multifield-Migration [Provisionsschritte der Einlieferungen](consignment-commission-steps.md), die Stufen an bereits bestehende Einlieferungen anhängt.
+Um mehr als eine Stufe zu importieren (z. B. 10 % ab 0, dann 5 % ab 10.000), verwenden Sie die dedizierte Multifield-Migration [Provisionsschritte der Einlieferungen](/de/data-migration/consignment-commission-steps.md), die Stufen an bereits bestehende Einlieferungen anhängt.
 
-Legt der Handler [Lose (Self-Service)](items.md) automatisch eine Einlieferung an, setzt er eine einzelne Stufe aus dem Wert `_commission` des Lose-Sheets (Dezimalwerte unter 1 werden in einen Prozentwert umgerechnet) mit dem Stufentyp `single_lots`.
+Legt der Handler [Lose (Self-Service)](/de/data-migration/items.md) automatisch eine Einlieferung an, setzt er eine einzelne Stufe aus dem Wert `_commission` des Lose-Sheets (Dezimalwerte unter 1 werden in einen Prozentwert umgerechnet) mit dem Stufentyp `single_lots`.
 
 ## Verwandt
 
-* [Provisionsschritte der Einlieferungen](consignment-commission-steps.md) — mehrere Provisionsstufen an bestehende Einlieferungen anhängen.
-* [Vermittlungsprovisionen der Einlieferungen](consignment-finder-fees.md) — Vermittlungsprovisionen an bestehende Einlieferungen anhängen.
+* [Provisionsschritte der Einlieferungen](/de/data-migration/consignment-commission-steps.md) — mehrere Provisionsstufen an bestehende Einlieferungen anhängen.
+* [Vermittlungsprovisionen der Einlieferungen](/de/data-migration/consignment-finder-fees.md) — Vermittlungsprovisionen an bestehende Einlieferungen anhängen.

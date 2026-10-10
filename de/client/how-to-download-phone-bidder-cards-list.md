@@ -1,7 +1,7 @@
 <!-- i18n source=client/how-to-download-phone-bidder-cards-list.md sha=deb514c4f52f -->
 # So laden Sie die Liste der Telefonbieterkarten herunter
 
-1. Stellen Sie sicher, dass Sie sich im richtigen [Auktionskontext](../sale/sale-context.md) befinden. 
+1. Stellen Sie sicher, dass Sie sich im richtigen [Auktionskontext](/de/sale/sale-context.md) befinden. 
 2. Gehen Sie im Seitenmenü zu **Telefonbieterkarten**.
 
    Hier finden Sie eine Liste aller Telefonbieter der ausgewählten Auktion.

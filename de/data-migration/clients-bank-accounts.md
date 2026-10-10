@@ -1,7 +1,4 @@
 <!-- i18n source=data-migration/clients-bank-accounts.md sha=2d813a76fc69 -->
----
-description: Bankverbindungen (Multifield) an bestehende Kunden anhängen.
----
 
 # Bankkonten der Kunden
 

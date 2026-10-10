@@ -5,7 +5,7 @@
 
 Melden Sie sich mit Ihrem Benutzernamen und Passwort an.
 
-Wenn Ihr Konto durch Zwei-Faktor-Authentifizierung geschützt ist, fragt zusätzlich ein Feld **Code** nach dem aktuellen Code aus Ihrer Authenticator-App. Siehe [Anmelden mit einer Authenticator-App](logging-in-with-an-authenticator-app.md).
+Wenn Ihr Konto durch Zwei-Faktor-Authentifizierung geschützt ist, fragt zusätzlich ein Feld **Code** nach dem aktuellen Code aus Ihrer Authenticator-App. Siehe [Anmelden mit einer Authenticator-App](/de/logging-in-with-an-authenticator-app.md).
 
 ![](../assets/screenshots/login-page.png)
 

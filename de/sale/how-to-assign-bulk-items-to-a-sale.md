@@ -2,7 +2,7 @@
 # So weisen Sie Lose gesammelt einer Auktion zu
 
 1. Gehen Sie im Seitenmenü zu **Lose**
-2. Wählen Sie die gewünschten Lose aus der Liste aus \(siehe [So finden Sie ein vorhandenes Los](../items/how-to-find-an-existing-item.md)\). Sie können einzelne Lose auswählen oder das Kontrollkästchen in der Kopfzeile aktivieren, um alle Lose auszuwählen.
+2. Wählen Sie die gewünschten Lose aus der Liste aus \(siehe [So finden Sie ein vorhandenes Los](/de/items/how-to-find-an-existing-item.md)\). Sie können einzelne Lose auswählen oder das Kontrollkästchen in der Kopfzeile aktivieren, um alle Lose auszuwählen.
 
 ![image](../../assets/screenshots/items-bulk-select.png)
 

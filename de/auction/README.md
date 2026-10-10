@@ -17,8 +17,8 @@ Während einer Live-Auktion steuert der Auktionator über den **Clerk Screen** d
 
 ## Dokumentation
 
-- **[Ablauf der Live-Auktion](auction-flow.md)** - Der vollständige Auktionsablauf im Überblick
-- **[Der Clerk Screen](clerk-screen/README.md)** - Ausführliche Anleitung zum Bedienfeld des Auktionators
+- **[Ablauf der Live-Auktion](/de/auction/auction-flow.md)** - Der vollständige Auktionsablauf im Überblick
+- **[Der Clerk Screen](/de/auction/clerk-screen/README.md)** - Ausführliche Anleitung zum Bedienfeld des Auktionators
 
 ## Ablauf
 
@@ -29,4 +29,4 @@ Während einer Live-Auktion steuert der Auktionator über den **Clerk Screen** d
 5. Das Ergebnis für jedes Los erfassen
 6. Die Session am Ende der Auktion abschließen
 
-Eine Schritt-für-Schritt-Anleitung zur Bedienung des Clerk Screens finden Sie in der [Dokumentation zum Clerk Screen](clerk-screen/README.md).
+Eine Schritt-für-Schritt-Anleitung zur Bedienung des Clerk Screens finden Sie in der [Dokumentation zum Clerk Screen](/de/auction/clerk-screen/README.md).

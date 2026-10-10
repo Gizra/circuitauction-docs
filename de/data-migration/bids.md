@@ -1,7 +1,4 @@
 <!-- i18n source=data-migration/bids.md sha=c468dfc3f41c -->
----
-description: Generischer Gebotsimport aus einer CSV oder einer älteren SQL-Tabelle.
----
 
 # Gebote
 

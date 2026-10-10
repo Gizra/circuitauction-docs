@@ -15,7 +15,7 @@ Mitarbeiter können die Lostabelle filtern nach:
 
 ## Tabellenspalten
 
-- **Pluszeichen** — Öffnet das [Popup mit allen Geboten eines Loses](item-all-bids-popup.md) für dieses Los
+- **Pluszeichen** — Öffnet das [Popup mit allen Geboten eines Loses](/de/bids/item-all-bids-popup.md) für dieses Los
 - **Losnummer** — Verlinkt auf die Losseite
 - **Statusanzeigen:**
   - Gelbes Quadrat — Das Höchstgebot ist nicht genehmigt

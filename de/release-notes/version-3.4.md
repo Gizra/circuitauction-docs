@@ -29,7 +29,7 @@ Typspezifische Datenfelder: Münzen erhalten Felder für den Erhaltungsgrad, Kun
 
 ### Mehrfach-Bild-Upload per Drag & Drop
 
-Laden Sie mehrere Bilder gleichzeitig hoch, indem Sie sie auf das Los ziehen, siehe [Massen-Upload von Losbildern](../sale/how-to-mass-upload-items-images.md).
+Laden Sie mehrere Bilder gleichzeitig hoch, indem Sie sie auf das Los ziehen, siehe [Massen-Upload von Losbildern](/de/sale/how-to-mass-upload-items-images.md).
 
 ### Formatierung entfernen
 
@@ -37,7 +37,7 @@ Entfernen Sie unerwünschte Formatierungen aus eingefügtem Text mit einem Klick
 
 ### Vermittlungsgebühr pro Los
 
-Vermittlungsgebühren können jetzt pro Los festgelegt werden, das Importformat finden Sie unter [Vermittlungsgebühren für Einlieferungen](../data-migration/consignment-finder-fees.md).
+Vermittlungsgebühren können jetzt pro Los festgelegt werden, das Importformat finden Sie unter [Vermittlungsgebühren für Einlieferungen](/de/data-migration/consignment-finder-fees.md).
 
 ## Gebote & Auktionen
 
@@ -59,7 +59,7 @@ Schlagen Sie alle Lose einer Vorab-Auktion mit einer Aktion von der Auktionsseit
 
 ### Auction-Mobility-Integration
 
-Exportieren Sie den Katalog nach Auction Mobility und importieren Sie Gebote von dort, zusätzlich zu den bestehenden Integrationen von StampCircuit, SAN, PhilaSearch und Delcampe, siehe [Auction-Mobility-Gebote](../data-migration/bids-mobility.md).
+Exportieren Sie den Katalog nach Auction Mobility und importieren Sie Gebote von dort, zusätzlich zu den bestehenden Integrationen von StampCircuit, SAN, PhilaSearch und Delcampe, siehe [Auction-Mobility-Gebote](/de/data-migration/bids-mobility.md).
 
 ## Kunden & Finanzverwaltung
 
@@ -93,21 +93,21 @@ Markieren Sie, in welchen Karton jedes Paket kommt. Mit dem QR-Scanner scannen S
 
 ### Authorize.net-Integration
 
-Kunden können Rechnungen per Kreditkarte über Authorize.net bezahlen, siehe [Abrechnung & Zahlungen](../website/billing.md).
+Kunden können Rechnungen per Kreditkarte über Authorize.net bezahlen, siehe [Abrechnung & Zahlungen](/de/website/billing.md).
 
 ### Magazinabonnements
 
-Verkaufen Sie Magazinabonnements direkt über Circuit Auction. Kunden schließen das Abonnement auf Ihrer Website ab und bezahlen dort, siehe [Abonnement kaufen](../website/subscription-purchase.md).
+Verkaufen Sie Magazinabonnements direkt über Circuit Auction. Kunden schließen das Abonnement auf Ihrer Website ab und bezahlen dort, siehe [Abonnement kaufen](/de/website/subscription-purchase.md).
 
 ## System & Oberfläche
 
 ### Überarbeitung der React-App
 
-Das React-Frontend ist schneller und hängt nicht mehr von der WordPress-Synchronisierung ab, wodurch sich jede Website leichter anbinden lässt, siehe [Website (einbettbare Blöcke)](../website/README.md).
+Das React-Frontend ist schneller und hängt nicht mehr von der WordPress-Synchronisierung ab, wodurch sich jede Website leichter anbinden lässt, siehe [Website (einbettbare Blöcke)](/de/website/README.md).
 
 ### Neugestaltung der Auktionsseite
 
-Ein übersichtlicheres Layout mit strukturiertem Ablauf und weniger Schaltflächen, siehe [So erstellen Sie eine Auktion](../sale/how-to-create-a-sale.md).
+Ein übersichtlicheres Layout mit strukturiertem Ablauf und weniger Schaltflächen, siehe [So erstellen Sie eine Auktion](/de/sale/how-to-create-a-sale.md).
 
 ### Aufteilung der Aktivitätsseiten
 
@@ -119,7 +119,7 @@ Mitarbeiter erhalten eine E-Mail-Warnung, wenn eine Login-Flut erkannt wird, und
 
 ### Aufgaben-Benachrichtigungen
 
-E-Mail-Benachrichtigungen werden versendet, wenn im Backoffice Aufgaben erstellt werden, siehe [Aufgaben](../tasks.md).
+E-Mail-Benachrichtigungen werden versendet, wenn im Backoffice Aufgaben erstellt werden, siehe [Aufgaben](/de/tasks.md).
 
 ## Premium-Dienste
 

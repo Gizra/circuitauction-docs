@@ -19,4 +19,4 @@ Keine.
 
 ## Siehe auch
 
-- [Magazin-Abonnement](website/subscription-magazine.md) — die Inhalte, die ein Abonnement freischaltet
+- [Magazin-Abonnement](/de/website/subscription-magazine.md) — die Inhalte, die ein Abonnement freischaltet

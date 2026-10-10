@@ -1,7 +1,4 @@
 <!-- i18n source=data-migration/clients-password.md sha=f0e7d2d3670b -->
----
-description: Passwort-Hashes (und optional die Standardzahlungsart) auf bestehende Kunden übertragen.
----
 
 # Kundenpasswörter
 

@@ -1,7 +1,4 @@
 <!-- i18n source=data-migration/clients.md sha=3ee42ee021b0 -->
----
-description: Kundenknoten (Käufer und Einlieferer) aus einem Google Sheet importieren.
----
 
 # Kunden
 
@@ -156,7 +153,7 @@ Jeder Termname in `_interests`, `_default_payment_method`, `_tags`, `_salutation
 
 ## Verwandt
 
-* [Adressen](addresses.md) — Adressknoten an Kunden anhängen.
-* [Externe IDs](external-ids.md) — externe System-IDs an Kunden anhängen.
-* [Kunden aktualisieren](clients-update.md) — bestehende Kunden aktualisieren, zugeordnet über die E-Mail-Adresse.
-* [Kundenpasswörter](clients-password.md) — Passwort-Hashes migrieren.
+* [Adressen](/de/data-migration/addresses.md) — Adressknoten an Kunden anhängen.
+* [Externe IDs](/de/data-migration/external-ids.md) — externe System-IDs an Kunden anhängen.
+* [Kunden aktualisieren](/de/data-migration/clients-update.md) — bestehende Kunden aktualisieren, zugeordnet über die E-Mail-Adresse.
+* [Kundenpasswörter](/de/data-migration/clients-password.md) — Passwort-Hashes migrieren.

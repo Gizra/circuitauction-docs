@@ -26,7 +26,7 @@ Wenn Sie WordPress verwenden, ist dieses Plugin der einfachste Weg, die in den �
 | `ca_local_serverless` | Local serverless | Verwendet einen lokalen Serverless-Endpunkt der Entwicklung statt des Produktivsystems. |
 | `ca_log_api_requests` | Log API requests | Protokolliert Auktionssuchanfragen im PHP-Fehlerlog. |
 | `ca_add_user_block_to_header` | Add user block to header | Fügt das Div des Benutzermenüs automatisch ein, wenn das Theme es nicht enthält. |
-| `ca_add_circuit_settings_div` | Add circuit settings div | Fügt das Setup-Tag `<meta id="circuit-setup">` ein — siehe die [Übersicht](README.md). |
+| `ca_add_circuit_settings_div` | Add circuit settings div | Fügt das Setup-Tag `<meta id="circuit-setup">` ein — siehe die [Übersicht](/de/website/README.md). |
 | `ca_use_latest_cdn` | Use latest CDN | Lädt den instabilen CDN-Build statt des stabilen. |
 
 ## Automatisch angelegte Seiten
@@ -35,19 +35,19 @@ Bei Aktivierung/Upgrade legt das Plugin die folgenden Seiten an (nur wenn sie no
 
 | Seite | Slug | Eingebetteter Selektor | Doku |
 |---|---|---|---|
-| Login | `login` | `#login` | [Anmeldung](login.md) |
-| Register | `register` | `#register` | [Registrierung](register.md) |
-| Forgot password | `forgot-password` | `#forgotpassword` | [Passwort vergessen](forgot-password.md) |
-| My account | `my-account` | `#my-account` | [Mein Konto](my-account.md) |
-| My bids | `my-bids` | `#my-bids` | [Meine Gebote](my-bids.md) |
-| My favorites | `my-favorites` | `#my-favorites` | [Meine Favoriten](my-favorites.md) |
-| My interests | `my-interests` | `#my-interests` | [Meine Interessen](my-interests.md) |
-| Sales archive | `sales-archive` | `#ca-sales-list` | [Auktionsliste](sales-list.md) |
-| Prices realized | `prices-realized` | `#ca-prices-realized` | [Erzielte Preise](prices-realized.md) |
-| Sale detail | dynamisch | `#ca-sale-page` | [Auktionsseite](sale-page.md) |
-| Item detail | dynamisch | `#ca-item-page` | [Losseite](item-page.md) |
-| Billing history | `billing-history` | `#billing-history` | [Abrechnung & Zahlungen](billing.md) |
-| Subscription magazine | `subscription-magazine` | `#subscription-magazine` | [Magazin-Abonnement](subscription-magazine.md) |
+| Login | `login` | `#login` | [Anmeldung](/de/website/login.md) |
+| Register | `register` | `#register` | [Registrierung](/de/website/register.md) |
+| Forgot password | `forgot-password` | `#forgotpassword` | [Passwort vergessen](/de/website/forgot-password.md) |
+| My account | `my-account` | `#my-account` | [Mein Konto](/de/website/my-account.md) |
+| My bids | `my-bids` | `#my-bids` | [Meine Gebote](/de/website/my-bids.md) |
+| My favorites | `my-favorites` | `#my-favorites` | [Meine Favoriten](/de/website/my-favorites.md) |
+| My interests | `my-interests` | `#my-interests` | [Meine Interessen](/de/website/my-interests.md) |
+| Sales archive | `sales-archive` | `#ca-sales-list` | [Auktionsliste](/de/website/sales-list.md) |
+| Prices realized | `prices-realized` | `#ca-prices-realized` | [Erzielte Preise](/de/website/prices-realized.md) |
+| Sale detail | dynamisch | `#ca-sale-page` | [Auktionsseite](/de/website/sale-page.md) |
+| Item detail | dynamisch | `#ca-item-page` | [Losseite](/de/website/item-page.md) |
+| Billing history | `billing-history` | `#billing-history` | [Abrechnung & Zahlungen](/de/website/billing.md) |
+| Subscription magazine | `subscription-magazine` | `#subscription-magazine` | [Magazin-Abonnement](/de/website/subscription-magazine.md) |
 
 ## Dynamisches URL-Routing
 
@@ -67,12 +67,12 @@ Das Plugin registriert sechs Blöcke in der Blockkategorie **Circuit Auction**. 
 
 | Block | Name im Editor | Attribute | Zugehörige Doku |
 |---|---|---|---|
-| User block | `circuit-auction/user-block` | — | [Benutzermenü](user-block.md) |
-| Featured items | `circuit-auction/featured-items` | `sale_nid`, `display_mode` | [Hervorgehobene Lose](featured-items.md) |
+| User block | `circuit-auction/user-block` | — | [Benutzermenü](/de/website/user-block.md) |
+| Featured items | `circuit-auction/featured-items` | `sale_nid`, `display_mode` | [Hervorgehobene Lose](/de/website/featured-items.md) |
 | Sale catalog parts | `circuit-auction/sale-catalog-part` | `sale_id`, `catalog_part` | — |
-| Sale sessions | `circuit-auction/sale-sessions` | `sale_nid` | [Auktionsinfo](sale-info.md) |
-| Sales archive | `circuit-auction/sales-archive` | `first_year`, `display_mode`, `remove_filters`, `search`, `year`, `department`, `status`, `show_featured_items`, `item_display` | [Auktionsliste](sales-list.md) |
-| Prices realized | `circuit-auction/prices-realized` | `sale_nid`, `items_per_page`, `columns`, `show_filters`, `show_lot_filter`, `show_status_filter`, `show_items_per_page`, `show_pagination`, `title` | [Erzielte Preise](prices-realized.md) |
+| Sale sessions | `circuit-auction/sale-sessions` | `sale_nid` | [Auktionsinfo](/de/website/sale-info.md) |
+| Sales archive | `circuit-auction/sales-archive` | `first_year`, `display_mode`, `remove_filters`, `search`, `year`, `department`, `status`, `show_featured_items`, `item_display` | [Auktionsliste](/de/website/sales-list.md) |
+| Prices realized | `circuit-auction/prices-realized` | `sale_nid`, `items_per_page`, `columns`, `show_filters`, `show_lot_filter`, `show_status_filter`, `show_items_per_page`, `show_pagination`, `title` | [Erzielte Preise](/de/website/prices-realized.md) |
 
 ## SEO & Meta-Tags
 
@@ -102,5 +102,5 @@ Das Plugin ist in GlitchTip / Sentry integriert. Der DSN wird aus der Option `ca
 
 ## Siehe auch
 
-- [Übersicht](README.md) — das Einbettungsmodell mit Block-Divs (was das Plugin im Hintergrund einrichtet).
+- [Übersicht](/de/website/README.md) — das Einbettungsmodell mit Block-Divs (was das Plugin im Hintergrund einrichtet).
 - Die einzelnen Blockseiten, die in den Tabellen oben verlinkt sind.

@@ -23,4 +23,4 @@ Keine.
 
 ## Siehe auch
 
-- [Abonnement kaufen](website/subscription-purchase.md) — wo Bieter ein Abonnement kaufen oder verlängern
+- [Abonnement kaufen](/de/website/subscription-purchase.md) — wo Bieter ein Abonnement kaufen oder verlängern

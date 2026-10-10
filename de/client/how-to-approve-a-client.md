@@ -12,11 +12,11 @@ Es gibt zwei Ebenen der Kundengenehmigung:
 2. Filtern Sie die Tabelle, indem Sie den Status `ausstehend` oder `Neu` auswählen. ![Kunden nach Status filtern](../../assets/screenshots/clients-filter-status.png)
 3. Ändern Sie den Status des gewünschten Kunden auf `genehmigt` \(oder auf `nicht genehmigt`, wenn Sie diesen Kunden nicht genehmigen möchten\). ![Kundenstatus ändern](../../assets/screenshots/clients-change-status.png)
 
-**Hinweis:** Wenn Sie die Daten des Kunden prüfen möchten, bevor Sie den neuen Status auswählen, klicken Sie in der Tabelle auf den Link der Customer ID, um die [Kundenseite](understanding-client-page.md) zu öffnen. Dort können Sie den Kundenstatus direkt auf der Seite ändern. ![Kundenstatus auf der Kundenseite](../../assets/screenshots/client-page-status.png)
+**Hinweis:** Wenn Sie die Daten des Kunden prüfen möchten, bevor Sie den neuen Status auswählen, klicken Sie in der Tabelle auf den Link der Customer ID, um die [Kundenseite](/de/client/understanding-client-page.md) zu öffnen. Dort können Sie den Kundenstatus direkt auf der Seite ändern. ![Kundenstatus auf der Kundenseite](../../assets/screenshots/client-page-status.png)
 
 ## Anfragen für das Credit Limit genehmigen
 
-1. Stellen Sie sicher, dass Sie sich im richtigen [Auktionskontext](../sale/sale-context.md) befinden.
+1. Stellen Sie sicher, dass Sie sich im richtigen [Auktionskontext](/de/sale/sale-context.md) befinden.
 2. Gehen Sie im Seitenmenü zu **Kunden**.
 3. Wechseln Sie zum Tab **Gebotsinformationen**.
 4. Klicken Sie im Bereich **Kreditanfrage** auf **Approve**. 

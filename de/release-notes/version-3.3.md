@@ -7,7 +7,7 @@ Veröffentlicht im Mai 2026. Diese Version bringt eine Neugestaltung aller Live-
 
 ### Neues Anzeigedesign auf allen Live-Bildschirmen
 
-Das gesamte Live-Auktionserlebnis wurde neu gestaltet. Die Bildschirme für Auktionator, Clerk, Bieter und Saal haben übersichtlichere, großzügigere Layouts, die mehr Informationen auf einen Blick zeigen, siehe [Live-Auktion](../auction/README.md).
+Das gesamte Live-Auktionserlebnis wurde neu gestaltet. Die Bildschirme für Auktionator, Clerk, Bieter und Saal haben übersichtlichere, großzügigere Layouts, die mehr Informationen auf einen Blick zeigen, siehe [Live-Auktion](/de/auction/README.md).
 
 ### Heller und dunkler Anzeigemodus
 
@@ -34,7 +34,7 @@ Der Clerk-Bildschirm wurde für die Bedienung per Tastatur neu entwickelt. Die g
 
 ![Clerk-Bildschirm, dunkler Modus](../../assets/screenshots/release-3.3-clerk-dark.png)
 
-Die vollständige Beschreibung finden Sie unter [Der Clerk-Bildschirm](../auction/clerk-screen/README.md).
+Die vollständige Beschreibung finden Sie unter [Der Clerk-Bildschirm](/de/auction/clerk-screen/README.md).
 
 ### Live-Statistiken zum Einlieferer auf dem Auktionatorbildschirm
 

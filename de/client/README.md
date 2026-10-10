@@ -7,7 +7,7 @@ Im Kunden-Dashboard finden Sie eine Übersicht aller Kunden.
 
 ![](../../assets/screenshots/clients-dashboard.png)
 
-Die farbigen Felder oben **\[1\]** zeigen die Gesamtzahl der Kunden und die Anzahl der Kunden je Status. Die Tabelle **\[2\]** zeigt die Kundenliste, die Sie nach jeder Spalte [filtern](how-to-find-an-existing-client.md) können.
+Die farbigen Felder oben **\[1\]** zeigen die Gesamtzahl der Kunden und die Anzahl der Kunden je Status. Die Tabelle **\[2\]** zeigt die Kundenliste, die Sie nach jeder Spalte [filtern](/de/client/how-to-find-an-existing-client.md) können.
 
 ## Status
 

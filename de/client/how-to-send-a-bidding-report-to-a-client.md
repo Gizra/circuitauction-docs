@@ -1,8 +1,8 @@
 <!-- i18n source=client/how-to-send-a-bidding-report-to-a-client.md sha=d4da66cd3c2b -->
 # So senden Sie einem Kunden einen Gebotsbericht
 
-1. Stellen Sie sicher, dass Sie sich im richtigen [Auktionskontext](../sale/sale-context.md) befinden.
-2. Öffnen Sie die Kundenseite \(siehe [So finden Sie einen vorhandenen Kunden](how-to-find-an-existing-client.md)\)
+1. Stellen Sie sicher, dass Sie sich im richtigen [Auktionskontext](/de/sale/sale-context.md) befinden.
+2. Öffnen Sie die Kundenseite \(siehe [So finden Sie einen vorhandenen Kunden](/de/client/how-to-find-an-existing-client.md)\)
 3. Wechseln Sie zum Tab `Emails and Documents`.
 
 ![](../../assets/screenshots/client-send-email.png)

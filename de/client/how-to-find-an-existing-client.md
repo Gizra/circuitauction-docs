@@ -23,6 +23,6 @@ Geben Sie ein oder mehrere Tags ein, um die Liste nach diesen Tags zu filtern. B
 
 ![](../../assets/screenshots/clients-table-tags.png)
 
-Wenn Sie den gewünschten Kunden gefunden haben, klicken Sie auf den Link der Customer ID, um die [Kundenseite](understanding-client-page.md) zu öffnen
+Wenn Sie den gewünschten Kunden gefunden haben, klicken Sie auf den Link der Customer ID, um die [Kundenseite](/de/client/understanding-client-page.md) zu öffnen
 
 ![](../../assets/screenshots/client-page-tabs.png)

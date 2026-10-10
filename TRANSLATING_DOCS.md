@@ -8,13 +8,15 @@ Maintainer runbook, companion to `MAINTAINING_DOCS.md`. Not in the sidebar.
   for pages that are not translated (`fallbackLanguages`). Untranslated pages show the English text with working
   images (the plugin in `index.html` rewrites asset links to the depth-correct relative form), but they are missing from that language's search
   (see Known limitations).
+- On a language route, `index.html` rewrites app screenshots at render time to `assets/screenshots/<lang>/<name>`
+  and falls back (`onerror`) to the English file when that capture does not exist.
 - Every translated page starts with `<!-- i18n source=<path> sha=<12 hex> -->`. The sha is the English
   file's content hash at translation time; `tools/i18n/status.py` uses it to flag outdated pages.
 
 ## Daily use
 | Need | Command |
 |------|---------|
-| What is left / outdated for German | `python3 tools/i18n/status.py --lang de` |
+| What is left / outdated / has broken links for German | `python3 tools/i18n/status.py --lang de` |
 | Create the German copy of a page | `python3 tools/i18n/scaffold.py --lang de client/README.md` |
 | Refresh only the header sha of an already-updated page | `python3 tools/i18n/scaffold.py --lang de --restamp client/README.md` |
 | Refresh the UI glossary after backoffice locale changes | `python3 tools/i18n/glossary.py --lang de` |
@@ -39,8 +41,9 @@ publishing, or leave them: readers still get the (older) translation.
 6. Videos: `get_tutorial_text` → `save_tutorial_translation` → `author_tutorial(lang)` →
    `render_tutorial(lang, project_id="release-3.5-<name>-<lang>")`. ElevenLabs needs a voice for the
    language in `ELEVENLABS_VOICE_IDS` (OpenMontage `.env`); today only `de,en` are configured.
-7. Screenshots: see `MAINTAINING_DOCS.md` §5 and set `localStorage['ls.language']` to the code in the
-   capture init script; save under `assets/screenshots/<lang>/` with the same file names.
+7. Screenshots: see `MAINTAINING_DOCS.md` §5 and set both `localStorage['ls.language']` and
+   `NG_TRANSLATE_LANG_KEY` to the code in the capture init script; save under `assets/screenshots/<lang>/` with the
+   same file names. They are picked up by file name automatically; no page edits are needed.
 8. Backoffice: add the code to `DOCS_LANGUAGES` in `MainAppService.docsUrl` so the embedded help opens
    in that language.
 

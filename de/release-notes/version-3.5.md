@@ -106,7 +106,7 @@ In der Sammelaktion **Address sticker** auf der Seite Kunden bietet die Liste **
 
 <video class="release-video" controls preload="metadata" playsinline src="https://circuit-kubernetes.s3.eu-central-1.amazonaws.com/openmontage/tutorials/release-3.5-task-reply/final.mp4">Your browser does not support the video tag. <a href="https://circuit-kubernetes.s3.eu-central-1.amazonaws.com/openmontage/tutorials/release-3.5-task-reply/final.mp4">Download the video</a>.</video>
 
-Fragen, die Bieter zu einem Los senden, erscheinen unter [Aufgaben](../tasks.md) als Aufgaben vom Typ *Ask about item*. Eine neue Aktion **Beantwortet** öffnet einen E-Mail-Editor:
+Fragen, die Bieter zu einem Los senden, erscheinen unter [Aufgaben](/de/tasks.md) als Aufgaben vom Typ *Ask about item*. Eine neue Aktion **Beantwortet** öffnet einen E-Mail-Editor:
 
 - Die Frage des Bieters und das Los werden oben angezeigt.
 - Die Antwort wird aus der Vorlage *Your question about lot* vorausgefüllt; Token und Dateianhänge stehen zur Verfügung.
@@ -125,7 +125,7 @@ Eine neue Seite **Support-Tickets** (Seitenleiste und ein Verknüpfungssymbol in
 
 <video class="release-video" controls preload="metadata" playsinline src="https://circuit-kubernetes.s3.eu-central-1.amazonaws.com/openmontage/tutorials/release-3.5-hibid-import/final.mp4">Your browser does not support the video tag. <a href="https://circuit-kubernetes.s3.eu-central-1.amazonaws.com/openmontage/tutorials/release-3.5-hibid-import/final.mp4">Download the video</a>.</video>
 
-Der Tab **Gebotsimport** der Auktionsseite bietet neben den vorhandenen Importen für [Philasearch](../data-migration/bids-philasearch.md), [Delcampe](../data-migration/bids-delcampe.md), [Auction Mobility](../data-migration/bids-mobility.md), [SAN](../data-migration/bids-san.md) und Invaluable einen neuen **HiBid Import**.
+Der Tab **Gebotsimport** der Auktionsseite bietet neben den vorhandenen Importen für [Philasearch](/de/data-migration/bids-philasearch.md), [Delcampe](/de/data-migration/bids-delcampe.md), [Auction Mobility](/de/data-migration/bids-mobility.md), [SAN](/de/data-migration/bids-san.md) und Invaluable einen neuen **HiBid Import**.
 
 - Fügen Sie die Google-Drive-URL der Tabelle mit dem HiBid-Export der Auktionsergebnisse ein oder laden Sie die Datei direkt hoch.
 - Erwartete Spalten: Lot, Winning Bidder (paddle), Name, Address, State, Zip Code, Email, Phone und der Verkaufspreis.
@@ -144,7 +144,7 @@ Die neue Schaltfläche **Sale zurücksetzen und synchronisieren** auf der Auktio
 
 <video class="release-video" controls preload="metadata" playsinline src="https://circuit-kubernetes.s3.eu-central-1.amazonaws.com/openmontage/tutorials/release-3.5-authenticator-setup/final.mp4">Your browser does not support the video tag. <a href="https://circuit-kubernetes.s3.eu-central-1.amazonaws.com/openmontage/tutorials/release-3.5-authenticator-setup/final.mp4">Download the video</a>.</video>
 
-Für Mitarbeiter-Logins kann jetzt zusätzlich zum Passwort ein sechsstelliger Code aus einer Authenticator-App (Authy, Google Authenticator, Microsoft Authenticator) verlangt werden. Siehe [Anmelden mit einer Authenticator-App](../logging-in-with-an-authenticator-app.md).
+Für Mitarbeiter-Logins kann jetzt zusätzlich zum Passwort ein sechsstelliger Code aus einer Authenticator-App (Authy, Google Authenticator, Microsoft Authenticator) verlangt werden. Siehe [Anmelden mit einer Authenticator-App](/de/logging-in-with-an-authenticator-app.md).
 
 - Aktivierung für die gesamte Installation in den Servereinstellungen (standardmäßig aus) oder pro Konto mit **Always require an authenticator app for this account**.
 - Beim ersten Login nach der Aktivierung erscheint einmalig eine **Einrichtungsseite**: Scannen Sie den QR-Code (oder geben Sie den manuellen Schlüssel ein) in der App und geben Sie den ersten Code ein. Andere Seiten bleiben gesperrt, bis die Einrichtung abgeschlossen ist.

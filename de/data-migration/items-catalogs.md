@@ -1,7 +1,4 @@
 <!-- i18n source=data-migration/items-catalogs.md sha=052495bd55c0 -->
----
-description: Katalogverweise (Multifield) an bestehende Lose anhängen.
----
 
 # Los-Kataloge
 
@@ -11,7 +8,7 @@ Importiert Zeilen in das **Multifield** `field_catalog` der Losknoten. Jede Zeil
 
 ## Ausführung über das Backoffice
 
-Öffnen Sie die Auktion und gehen Sie zu **Item Import → Kataloge**. Der Reiter funktioniert wie der Import [Lose (Self-Service)](items.md):
+Öffnen Sie die Auktion und gehen Sie zu **Item Import → Kataloge**. Der Reiter funktioniert wie der Import [Lose (Self-Service)](/de/data-migration/items.md):
 
 1. Fügen Sie die Google-Sheet-URL in das Textfeld **Google drive file URL** ein — der normale `edit`-Link genügt, er wird automatisch in die CSV-Exportform umgewandelt — oder laden Sie stattdessen eine CSV-Datei hoch.
 2. Klicken Sie auf **Importelemente in die Warteschlange stellen**. Der Import läuft im Hintergrund; die Zeilen werden den Losen der **aktuellen Auktion** über `_internal_id` zugeordnet (es sei denn, das Sheet enthält eine explizite `_item`-NID).
@@ -19,7 +16,7 @@ Importiert Zeilen in das **Multifield** `field_catalog` der Losknoten. Jede Zeil
 
 ## Quelldatei
 
-Wird im Reiter keine URL / Datei angegeben, wird die Datei aus der Variable `migrate_items_csv` gelesen (gemeinsam mit dem Handler [Lose (Self-Service)](items.md) genutzt — der ältere Ablauf für die gesamte Website). Eine gespeicherte URL muss die CSV-Form sein, nicht der normale `edit`-Link:
+Wird im Reiter keine URL / Datei angegeben, wird die Datei aus der Variable `migrate_items_csv` gelesen (gemeinsam mit dem Handler [Lose (Self-Service)](/de/data-migration/items.md) genutzt — der ältere Ablauf für die gesamte Website). Eine gespeicherte URL muss die CSV-Form sein, nicht der normale `edit`-Link:
 
 ```
 https://docs.google.com/spreadsheets/d/<SPREADSHEET_ID>/export?format=csv&gid=<SHEET_GID>
