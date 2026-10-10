@@ -7,6 +7,7 @@ Layout: English pages at the repo root, one mirror folder per language
 from __future__ import annotations
 
 import hashlib
+import posixpath
 import re
 from pathlib import Path
 from typing import Iterable
@@ -24,6 +25,13 @@ HEADER_RE = re.compile(r"<!--\s*i18n\s+source=(?P<source>\S+)\s+sha=(?P<sha>[0-9
 ASSET_LINK_RE = re.compile(r"\]\((<?)((?:\.\./|/)*)((?:\.gitbook/)?assets/)")
 ASSET_SRC_RE = re.compile(r"(src=[\"'])((?:\.\./|/)*)((?:\.gitbook/)?assets/)")
 SIDEBAR_LINK_RE = re.compile(r"\]\((?!https?://|/|#)([^)]+\.md)\)")
+# A markdown (non-image) link to a .md page: `[text](target.md#anchor)` / `[text](<target.md>)`.
+PAGE_LINK_RE = re.compile(r"(?<!!)(\[[^\]]*\]\()(<?)([^)>\s#]+\.md)(#[^)>\s]*)?(>?)\)")
+ABS_PAGE_LINK_RE = re.compile(r"(?<!!)\[[^\]]*\]\(<?(/[^)>\s#]+\.md)(?:#[^)>\s]*)?>?\)")
+
+
+def _is_relative_target(target: str) -> bool:
+    return not (target.startswith("/") or re.match(r"[a-z][a-z0-9+.-]*:", target, re.I))
 
 
 def is_lang_dir(p: Path) -> bool:
@@ -82,3 +90,30 @@ def has_misresolved_asset_links(text: str, page: str) -> bool:
 def rewrite_sidebar_links(text: str, lang: str) -> str:
     """Make every relative `.md` link in a sidebar absolute under /<lang>/."""
     return SIDEBAR_LINK_RE.sub(lambda m: f"](/{lang}/{m.group(1)})", text)
+
+
+def rewrite_page_links(text: str, page: str, lang: str, root: Path) -> str:
+    """Make relative `.md` page links absolute: `/<lang>/<path>.md` if translated, else `/<path>.md`.
+
+    docsify resolves body links from the site root (no `relativePath`), so relative targets would
+    leave the language. Targets are resolved against the English page's folder first, then the root.
+    Links whose target exists in neither place are left unchanged.
+    """
+    def repl(m: re.Match) -> str:
+        head, lt, target, anchor, gt = m.groups()
+        if not _is_relative_target(target):
+            return m.group(0)
+        for cand in (posixpath.normpath(posixpath.dirname(page) + "/" + target), posixpath.normpath(target)):
+            if not cand.startswith("..") and (root / cand).is_file():
+                prefix = f"/{lang}/" if (root / lang / cand).is_file() else "/"
+                return f"{head}{lt}{prefix}{cand}{anchor or ''}{gt})"
+        return m.group(0)
+    return PAGE_LINK_RE.sub(repl, text)
+
+
+def has_relative_page_links(text: str) -> bool:
+    return any(_is_relative_target(m.group(3)) for m in PAGE_LINK_RE.finditer(text))
+
+
+def has_dead_absolute_page_links(text: str, root: Path) -> bool:
+    return any(not (root / m.group(1).lstrip("/")).is_file() for m in ABS_PAGE_LINK_RE.finditer(text))

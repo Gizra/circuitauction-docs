@@ -101,6 +101,41 @@ class CommonTests(unittest.TestCase):
             "* [Intro](/de/README.md)\n* [Clients](/de/client/README.md)\n* [Site](https://x.y/z.md)\n* [Abs](/de/x.md)",
         )
 
+class PageLinkTests(unittest.TestCase):
+    def setUp(self):
+        self.tmp = Path(tempfile.mkdtemp())
+        make_repo(self.tmp)
+        (self.tmp / "sale").mkdir()
+        (self.tmp / "sale" / "x.md").write_text("# Sale\n")
+        (self.tmp / "it").mkdir()
+        (self.tmp / "it" / "y.md").write_text("# IT\n")
+        (self.tmp / "de" / "client").mkdir()
+        (self.tmp / "de" / "client" / "README.md").write_text("x\n")
+        (self.tmp / "de" / "sale").mkdir()
+        (self.tmp / "de" / "sale" / "x.md").write_text("x\n")
+
+    def rw(self, text, page="client/README.md"):
+        return common.rewrite_page_links(text, page, "de", self.tmp)
+
+    def test_page_relative_and_root_relative_become_absolute_lang(self):
+        self.assertEqual(self.rw("[a](../sale/x.md) [b](sale/x.md) [c](README.md)"),
+                         "[a](/de/sale/x.md) [b](/de/sale/x.md) [c](/de/client/README.md)")
+
+    def test_anchor_and_angle_brackets_kept(self):
+        self.assertEqual(self.rw("[a](<../sale/x.md#s-1>)"), "[a](</de/sale/x.md#s-1>)")
+
+    def test_untranslated_target_goes_to_english(self):
+        self.assertEqual(self.rw("[a](../it/y.md#z)"), "[a](/it/y.md#z)")
+
+    def test_external_absolute_image_and_unknown_unchanged(self):
+        t = "[a](https://x.org/a.md) [b](mailto:a@b.md) [c](/sale/x.md) ![d](../sale/x.md) [e](nope.md)"
+        self.assertEqual(self.rw(t), t)
+
+    def test_has_relative_page_links(self):
+        self.assertTrue(common.has_relative_page_links("[a](../x.md#h)"))
+        self.assertTrue(common.has_relative_page_links("[a](<x.md>)"))
+        self.assertFalse(common.has_relative_page_links("[a](/de/x.md) [b](https://a.b/c.md) ![i](x.md)"))
+
 
 if __name__ == "__main__":
     unittest.main()

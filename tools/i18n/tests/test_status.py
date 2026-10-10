@@ -35,6 +35,22 @@ class StatusTests(unittest.TestCase):
         self.assertEqual(r["broken-assets"], [])
         self.assertEqual(r["untranslated"], ["client/README.md"])
 
+    def test_broken_links(self):
+        for pg, body in (("client/README.md", "[a](../sale/x.md)\n"),       # relative
+                         ("sale/x.md", "[a](/de/gone.md)\n"),                # dead absolute
+                         ("README.md", "[a](/de/client/README.md) [b](/sale/x.md)\n")):
+            (self.tmp / "de" / pg).parent.mkdir(exist_ok=True)
+            (self.tmp / "de" / pg).write_text(f"<!-- i18n source={pg} sha=000000000000 -->\n{body}")
+        r = status.status(self.tmp, "de")
+        self.assertEqual(r["broken-links"], ["client/README.md", "sale/x.md"])
+
+    def test_scaffold_with_links_still_untranslated(self):
+        (self.tmp / "client" / "README.md").write_text("[i](../sale/x.md)\n")
+        scaffold.scaffold_page(self.tmp, "de", "client/README.md")
+        r = status.status(self.tmp, "de")
+        self.assertEqual(r["untranslated"], ["client/README.md"])
+        self.assertEqual(r["broken-links"], [])
+
     def test_scaffolded_only_language_folder_is_not_treated_as_source(self):
         (self.tmp / "de" / "README.md").unlink()
         scaffold.scaffold_page(self.tmp, "de", "client/README.md")

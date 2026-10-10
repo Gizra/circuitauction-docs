@@ -18,6 +18,11 @@ class ScaffoldTests(unittest.TestCase):
                          ("client/README.md", common.sha_of(self.tmp / "client" / "README.md")))
         self.assertIn("![](../../assets/screenshots/a.png)", text)
 
+    def test_scaffold_page_rewrites_page_links_to_absolute(self):
+        (self.tmp / "client" / "README.md").write_text("[i](../README.md#a) ![](../assets/screenshots/a.png)\n")
+        text = scaffold.scaffold_page(self.tmp, "de", "client/README.md").read_text()
+        self.assertIn("[i](/de/README.md#a)", text)
+
     def test_scaffold_page_never_overwrites(self):
         scaffold.scaffold_page(self.tmp, "de", "client/README.md")
         (self.tmp / "de" / "client" / "README.md").write_text("translated")

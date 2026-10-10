@@ -12,8 +12,8 @@ from __future__ import annotations
 import argparse
 from pathlib import Path
 
-from common import (LANG_RE, ROOT, HEADER_RE, parse_header, make_header, rewrite_asset_links, rewrite_sidebar_links,
-                    sha_of, source_pages)
+from common import (LANG_RE, ROOT, HEADER_RE, parse_header, make_header, rewrite_asset_links, rewrite_page_links,
+                    rewrite_sidebar_links, sha_of, source_pages)
 
 
 def scaffold_page(root: Path, lang: str, page: str) -> Path | None:
@@ -21,7 +21,7 @@ def scaffold_page(root: Path, lang: str, page: str) -> Path | None:
     if dst.exists():
         return None
     dst.parent.mkdir(parents=True, exist_ok=True)
-    body = rewrite_asset_links(src.read_text(encoding="utf-8"), page)
+    body = rewrite_page_links(rewrite_asset_links(src.read_text(encoding="utf-8"), page), page, lang, root)
     dst.write_text(make_header(page, sha_of(src)) + "\n" + body, encoding="utf-8")
     return dst
 
