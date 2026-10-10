@@ -140,6 +140,22 @@
               .replace(/\]\((<?)(?:\.\.\/|\/)*((?:\.gitbook\/)?assets\/)/g, function (m, lt, p) { return '](' + lt + up + p; })
               .replace(/(src=["'])(?:\.\.\/|\/)*((?:\.gitbook\/)?assets\/)/g, function (m, q, p) { return q + up + p; });
           });
+          // Localized screenshots: on a /<lang>/ route point every app screenshot at
+          // assets/screenshots/<lang>/<name>; when that capture does not exist, onerror
+          // swaps back (once) to the English file, so there is never a broken image.
+          // Done on the rendered HTML (before the zoom-image plugin binds in doneEach).
+          hook.afterEach(function (html) {
+            var cur = langOf(vm.route.path || '/');
+            if (!cur) return html;
+            return html.replace(
+              /(<img\b[^>]*?\ssrc=")([^"]*?assets\/screenshots\/)([^"\/]+)"/g,
+              function (m, pre, dir, name) {
+                var orig = dir + name;
+                return pre + dir + cur + '/' + name + '" onerror="this.onerror=null;this.src=\'' +
+                  orig.replace(/'/g, '%27') + '\'"';
+              }
+            );
+          });
           hook.doneEach(function () {
             var path = vm.route.path || '/';
             var cur = langOf(path);
