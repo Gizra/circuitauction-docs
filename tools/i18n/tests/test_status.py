@@ -27,6 +27,15 @@ class StatusTests(unittest.TestCase):
         self.assertEqual(r["broken-assets"], ["README.md"])
         self.assertEqual(r["current"], [])
 
+    def test_scaffolded_only_language_folder_is_not_treated_as_source(self):
+        (self.tmp / "de" / "README.md").unlink()
+        scaffold.scaffold_page(self.tmp, "de", "client/README.md")
+        r = status.status(self.tmp, "de")
+        self.assertEqual(r["untranslated"], ["client/README.md"])
+        self.assertEqual(r["missing"], ["README.md", "sale/x.md"])
+        self.assertEqual(r["orphan"], [])
+        self.assertFalse([e for cat in r.values() for e in cat if e.startswith("de/")])
+
     def test_missing_and_no_header_is_outdated(self):
         (self.tmp / "de" / "README.md").write_text("# Einleitung\n")
         r = status.status(self.tmp, "de")

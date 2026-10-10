@@ -26,7 +26,7 @@ CATEGORIES = ["current", "outdated", "untranslated", "missing", "orphan", "broke
 
 def status(root: Path, lang: str) -> dict[str, list[str]]:
     res: dict[str, list[str]] = {c: [] for c in CATEGORIES}
-    sources = source_pages(root)
+    sources = source_pages(root, exclude=(lang,))
     for page in sources:
         src, dst = root / page, root / lang / page
         if not dst.exists():
@@ -63,7 +63,7 @@ def main(argv: list[str] | None = None) -> int:
     if a.json:
         print(json.dumps(res, indent=2))
     else:
-        total = len(source_pages(ROOT))
+        total = len(source_pages(ROOT, exclude=(a.lang,)))
         print(f"{a.lang}: {len(res['current'])}/{total} current, {len(res['outdated'])} outdated, "
               f"{len(res['untranslated'])} untranslated, {len(res['missing'])} missing, "
               f"{len(res['orphan'])} orphan, {len(res['broken-assets'])} broken-assets")

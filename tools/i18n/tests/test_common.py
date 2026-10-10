@@ -33,6 +33,18 @@ class CommonTests(unittest.TestCase):
         (self.tmp / ".superpowers" / "x.md").write_text("# local only\n")
         self.assertEqual(common.source_pages(self.tmp), ["README.md", "client/README.md"])
 
+    def test_language_dir_without_readme_is_still_a_language_dir(self):
+        (self.tmp / "fr").mkdir()
+        (self.tmp / "fr" / "_sidebar.md").write_text("* [Intro](/fr/README.md)\n")
+        self.assertEqual(common.lang_dirs(self.tmp), ["de", "fr"])
+        self.assertEqual(common.source_pages(self.tmp), ["README.md", "client/README.md"])
+
+    def test_content_folder_named_like_a_language_is_not_a_language_dir(self):
+        (self.tmp / "it-section").mkdir()
+        (self.tmp / "it-section" / "x.md").write_text("# Section\n")
+        self.assertEqual(common.lang_dirs(self.tmp), ["de"])
+        self.assertIn("it-section/x.md", common.source_pages(self.tmp))
+
     def test_header_roundtrip(self):
         h = common.make_header("client/README.md", "0123456789ab")
         self.assertEqual(common.parse_header(h + "\n# x"), ("client/README.md", "0123456789ab"))
@@ -46,6 +58,13 @@ class CommonTests(unittest.TestCase):
         self.assertEqual(
             common.rewrite_asset_links(text),
             "![](/assets/a.png) ![](/assets/b.png) ![](/assets/c.png) [x](/assets/d.png)",
+        )
+
+    def test_rewrite_asset_links_handles_html_src(self):
+        text = '<img src="../assets/x.png"> <video src=\'assets/y.mp4\'>'
+        self.assertEqual(
+            common.rewrite_asset_links(text),
+            '<img src="/assets/x.png"> <video src=\'/assets/y.mp4\'>',
         )
 
     def test_rewrite_sidebar_links(self):
