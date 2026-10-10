@@ -1,0 +1,47 @@
+# Translating These Docs
+
+Maintainer runbook, companion to `MAINTAINING_DOCS.md`. Not in the sidebar.
+
+## How it works
+- English lives at the repo root and keeps its URLs. Each language is a mirror folder (`de/…`).
+- `index.html` lists the published languages in `LANGS` and tells docsify to fall back to English
+  for pages that are not translated (`fallbackLanguages`), so a partial translation is always safe to ship.
+- Every translated page starts with `<!-- i18n source=<path> sha=<12 hex> -->`. The sha is the English
+  file's content hash at translation time; `tools/i18n/status.py` uses it to flag outdated pages.
+
+## Daily use
+| Need | Command |
+|------|---------|
+| What is left / outdated for German | `python3 tools/i18n/status.py --lang de` |
+| Create the German copy of a page | `python3 tools/i18n/scaffold.py --lang de client/README.md` |
+| Refresh the UI glossary after backoffice locale changes | `python3 tools/i18n/glossary.py --lang de` |
+| Translate / refresh pages with Claude Code | `/translate-docs` (skill in `.claude/skills/translate-docs`) |
+| Run the tooling tests | `python3 -m unittest discover -s tools/i18n/tests -t tools/i18n` |
+
+After editing an English page, run `status.py` and refresh the pages it lists as `outdated` before
+publishing, or leave them: readers still get the (older) translation.
+
+## Adding a language (checklist)
+1. The backoffice must have `locale-<lang>.json` (currently `de, fr, he, nl, ru, zh-hans`). Generate the
+   glossary: `python3 tools/i18n/glossary.py --lang <lang>`.
+2. `index.html`: add the code to `LANGS`; add `'/<lang>/(.*/)?_sidebar.md': '/<lang>/_sidebar.md'` to
+   `alias` **above** the generic rule; add `'/<lang>/'` to `coverpage`; add `'/<lang>/'` entries to
+   `search.placeholder`, `search.noData`, `pagination.previousText/nextText`, `copyCode.*`, `nameLink`.
+3. `_navbar.md`: add `* [<Native name>](/<lang>/)`.
+4. `python3 tools/i18n/scaffold.py --lang <lang> --sidebar README.md`, translate `<lang>/_sidebar.md`,
+   `<lang>/README.md`, create `<lang>/_coverpage.md` (copy `de/_coverpage.md`).
+5. Translate pages with the skill, in the same order as the German plan (home + release notes, then
+   Clients / Items / Sale / Consignment, then Bids / Auction, then Website / Data Migration).
+6. Videos: `get_tutorial_text` → `save_tutorial_translation` → `author_tutorial(lang)` →
+   `render_tutorial(lang, project_id="release-3.5-<name>-<lang>")`. ElevenLabs needs a voice for the
+   language in `ELEVENLABS_VOICE_IDS` (OpenMontage `.env`); today only `de,en` are configured.
+7. Screenshots: see `MAINTAINING_DOCS.md` §5 and set `localStorage['ls.language']` to the code in the
+   capture init script; save under `assets/screenshots/<lang>/` with the same file names.
+8. Backoffice: add the code to `DOCS_LANGUAGES` in `MainAppService.docsUrl` so the embedded help opens
+   in that language.
+
+Language-specific notes:
+- `he` (Hebrew, RTL): the i18n plugin already sets `<html dir="rtl">` for `he`; add CSS for
+  `[dir=rtl] .sidebar`, `.content`, `.app-nav` margins (docsify's vue theme is LTR-only) before publishing.
+- `zh-hans`: docsify's search tokenizes on characters, so searching works; keep headings short.
+- `ru`, `fr`, `nl`: nothing special.
