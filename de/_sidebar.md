@@ -80,7 +80,7 @@
   * [Popup mit allen Geboten eines Loses](/de/bids/item-all-bids-popup.md)
   * [Tab Gebotsinformationen](/de/bids/bidding-info-tab.md)
 
-* **Auktion**
+* **Live-Auktion**
   * [Übersicht](/de/auction/README.md)
   * [Ablauf der Live-Auktion](/de/auction/auction-flow.md)
   * **Der Clerk-Bildschirm**
