@@ -1,4 +1,4 @@
-<!-- i18n source=release-notes/version-3.5.md sha=97785421b98f -->
+<!-- i18n source=release-notes/version-3.5.md sha=a7f6e2694059 -->
 # Version 3.5
 
 Kommendes Release. Version 3.5 konzentriert sich auf Auswertungen, die Kommunikation mit Kunden und Werkzeuge, die die tägliche Verwaltung erleichtern. Zu den Highlights gehören eine neue Seite Auction Timeline, ein überarbeiteter Statistik-Tab für Kunden, ein Kunden-CRM mit Zeitleiste und Einlieferungs-Pipeline, ein integrierter Editor für E-Mail-Vorlagen, automatische Zahlungserinnerungen für Rechnungen, die Zwei-Faktor-Authentifizierung mit einer Authenticator-App und ein dunkler Modus für das gesamte Backoffice.
@@ -240,4 +240,4 @@ Ein Mond-Symbol in der oberen Leiste neben der Benachrichtigungsglocke schaltet 
 
 ![Der Queue-Monitor der Gesundheitsseite des Bid-Servers](../../assets/screenshots/release-3.5-health-monitor.png)
 
-Die Schaltfläche **Health** in der oberen Leiste öffnet einen Monitor für die Verbindung zum Bid-Server und seine Warteschlangen. Die Warteschlange startet sich bei einem Stillstand jetzt automatisch neu, sodass sich das Live-Bieten ohne manuelles Eingreifen erholt.
+Die Schaltfläche **Health** in der oberen Leiste öffnet einen Monitor für die Verbindung zum Bid-Server und seine Warteschlangen. Falls die Live-App stehen geblieben ist, können Sie dort den Status des Redis- und des Queue-Servers mit den **Recheck**-Schaltflächen prüfen. In den meisten Fällen startet der Server automatisch neu; falls nicht, verwenden Sie die **Restart**-Schaltfläche, die in diesem Fall aktiviert wird.

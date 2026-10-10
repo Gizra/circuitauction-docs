@@ -239,4 +239,4 @@ A moon icon in the top bar, next to the notifications bell, switches the whole b
 
 ![The queue monitor of the bid server health page](../assets/screenshots/release-3.5-health-monitor.png)
 
-A **Health** button in the top bar opens a monitor of the bid server connection and its queues. The queue now restarts itself automatically when it stalls, so live bidding recovers without manual intervention.
+A **Health** button in the top bar opens a monitor of the bid server connection and its queues. In case the live app has stopped, you can check the status of the Redis and queue servers there by clicking the **Recheck** buttons. In most cases the server restarts automatically; if it does not, use the **Restart** button, which is enabled in that case.
