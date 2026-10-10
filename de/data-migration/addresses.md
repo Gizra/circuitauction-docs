@@ -3,7 +3,7 @@
 description: Adressknoten importieren und an bestehende Kunden anhängen.
 ---
 
-# Addresses
+# Adressen
 
 Handler: `ServerAddressesDriveMigrate`.
 

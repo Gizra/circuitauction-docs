@@ -3,7 +3,7 @@
 description: Bankverbindungen (Multifield) an bestehende Kunden anhängen.
 ---
 
-# Clients Bank Accounts
+# Bankkonten der Kunden
 
 Handler: `ServerClientBankAccountDriveMigrate` — erweitert `ServerClientBankAccountMigrate`.
 

@@ -1,5 +1,5 @@
 <!-- i18n source=website/sale-info.md sha=49bd8cd0cd31 -->
-# Auktionsinformation
+# Auktionsinfo
 
 **Selektor:** `#ca-sale-info` &nbsp;•&nbsp; *einmal pro Seite*
 

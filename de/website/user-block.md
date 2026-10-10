@@ -21,5 +21,5 @@ Keine. Das Menü wird anhand des angemeldeten Benutzers und Ihrer Website-Konfig
 
 ## Siehe auch
 
-- [Login](website/login.md), [Registrieren](website/register.md) — die Seiten, auf die die Links für abgemeldete Besucher verweisen
+- [Anmeldung](website/login.md), [Registrierung](website/register.md) — die Seiten, auf die die Links für abgemeldete Besucher verweisen
 - Die Menüeinträge entsprechen [Mein Konto](website/my-account.md), [Meine Gebote](website/my-bids.md), [Abrechnung & Zahlungen](website/billing.md), [Meine Favoriten](website/my-favorites.md) und [Meine Interessen](website/my-interests.md)

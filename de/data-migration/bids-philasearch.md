@@ -3,7 +3,7 @@
 description: Gebote aus der Philasearch-API abrufen und importieren.
 ---
 
-# Philasearch Bids
+# Philasearch-Gebote
 
 Handler: `ServerPhilasearchBidMigrate` — erweitert `ServerBidMigrateBase`.
 

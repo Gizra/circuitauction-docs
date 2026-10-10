@@ -3,7 +3,7 @@
 description: Vermittlungsprovisions-Multifields an bestehende Einlieferungen anhängen.
 ---
 
-# Consignment Finder Fees
+# Vermittlungsprovisionen der Einlieferungen
 
 Handler: `ServerConsignmentFinderFeesDriveMigrate`.
 
@@ -13,7 +13,7 @@ Konfiguriert über die Drupal-Variable `migrate_items_csv` (gemeinsam mit dem Lo
 
 ## Quelldatei
 
-Tragen Sie die **CSV-Export-URL** Ihres Google Sheets in der Variable `migrate_items_csv` ein (gemeinsam mit dem Handler [Items (Self-Service)](items.md) genutzt). Die URL muss die CSV-Form sein, nicht der normale `edit`-Link:
+Tragen Sie die **CSV-Export-URL** Ihres Google Sheets in der Variable `migrate_items_csv` ein (gemeinsam mit dem Handler [Lose (Self-Service)](items.md) genutzt). Die URL muss die CSV-Form sein, nicht der normale `edit`-Link:
 
 ```
 https://docs.google.com/spreadsheets/d/<SPREADSHEET_ID>/export?format=csv&gid=<SHEET_GID>

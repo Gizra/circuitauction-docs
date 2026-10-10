@@ -1,5 +1,5 @@
 <!-- i18n source=website/subscription-purchase.md sha=e0a53a364b61 -->
-# Abonnement erwerben
+# Abonnement kaufen
 
 **Selektor:** `#subscription-purchase` &nbsp;•&nbsp; *einmal pro Seite*
 

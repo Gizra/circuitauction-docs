@@ -28,43 +28,43 @@ https://docs.google.com/spreadsheets/d/<SPREADSHEET_ID>/export?format=csv&gid=<S
 
 | Handler | Zweck |
 |---|---|
-| [Items (Self-Service)](items.md) | Neue Lose in großen Mengen importieren; Einlieferung und Einlieferer werden bei Bedarf automatisch angelegt. |
-| [Items Update](items-update.md) | Bestehende Lose anhand von `nid`, `_internal_id` oder Losnummer aktualisieren. Legt keine neuen Lose an. |
-| [Items Sold Result](items-sold-result.md) | Verkaufspreise und Höchstbietende importieren; erzeugt Einträge im Losverlauf. |
-| [Item Catalogs](items-catalogs.md) | Katalogverweise (Multifield) an bestehende Lose anhängen. |
-| [Item Dimensions](items-dimensions.md) | Dimensions- und Verpackungsangaben (Multifield) an bestehende Lose anhängen. |
+| [Lose (Self-Service)](items.md) | Neue Lose in großen Mengen importieren; Einlieferung und Einlieferer werden bei Bedarf automatisch angelegt. |
+| [Lose aktualisieren](items-update.md) | Bestehende Lose anhand von `nid`, `_internal_id` oder Losnummer aktualisieren. Legt keine neuen Lose an. |
+| [Zuschlagsergebnisse der Lose](items-sold-result.md) | Verkaufspreise und Höchstbietende importieren; erzeugt Einträge im Losverlauf. |
+| [Los-Kataloge](items-catalogs.md) | Katalogverweise (Multifield) an bestehende Lose anhängen. |
+| [Los-Dimensionen](items-dimensions.md) | Dimensions- und Verpackungsangaben (Multifield) an bestehende Lose anhängen. |
 
 ### Kunden & Adressen
 
 | Handler | Zweck |
 |---|---|
-| [Clients](clients.md) | Kundenknoten importieren (Käufer & Einlieferer). |
-| [Clients Update](clients-update.md) | Bestehende Kunden aktualisieren, zugeordnet über die E-Mail-Adresse. |
-| [Clients Password](clients-password.md) | Passwort-Hashes auf bestehende Kunden übertragen. |
-| [Addresses](addresses.md) | Adressknoten importieren und an bestehende Kunden anhängen. |
-| [External IDs](external-ids.md) | Externe System-IDs (Multifield) an Kunden anhängen. |
-| [Clients Bank Accounts](clients-bank-accounts.md) | Bankverbindungen (Multifield) an bestehende Kunden anhängen. |
+| [Kunden](clients.md) | Kundenknoten importieren (Käufer & Einlieferer). |
+| [Kunden aktualisieren](clients-update.md) | Bestehende Kunden aktualisieren, zugeordnet über die E-Mail-Adresse. |
+| [Kundenpasswörter](clients-password.md) | Passwort-Hashes auf bestehende Kunden übertragen. |
+| [Adressen](addresses.md) | Adressknoten importieren und an bestehende Kunden anhängen. |
+| [Externe IDs](external-ids.md) | Externe System-IDs (Multifield) an Kunden anhängen. |
+| [Bankkonten der Kunden](clients-bank-accounts.md) | Bankverbindungen (Multifield) an bestehende Kunden anhängen. |
 
 ### Kategorien, Auktionen & Einlieferungen
 
 | Handler | Zweck |
 |---|---|
-| [Categories](categories.md) | Die Taxonomie `categories` mit Hierarchie und Übersetzungen importieren. |
-| [Sales](sales.md) | Auktionsknoten importieren. |
-| [Consignments](consignments.md) | Einlieferungsknoten importieren (inkl. Typ der Provisionsstufen und Standardprovision). |
-| [Consignment Commission Steps](consignment-commission-steps.md) | Provisionsstufen-Multifields an Einlieferungen anhängen. |
-| [Consignment Finder Fees](consignment-finder-fees.md) | Vermittlungsprovisions-Multifields an Einlieferungen anhängen. |
-| [Transactions](transactions.md) | Transaktionsknoten für Bestellungen importieren. |
+| [Kategorien](categories.md) | Die Taxonomie `categories` mit Hierarchie und Übersetzungen importieren. |
+| [Auktionen](sales.md) | Auktionsknoten importieren. |
+| [Einlieferungen](consignments.md) | Einlieferungsknoten importieren (inkl. Typ der Provisionsstufen und Standardprovision). |
+| [Provisionsschritte der Einlieferungen](consignment-commission-steps.md) | Provisionsstufen-Multifields an Einlieferungen anhängen. |
+| [Vermittlungsprovisionen der Einlieferungen](consignment-finder-fees.md) | Vermittlungsprovisions-Multifields an Einlieferungen anhängen. |
+| [Vorgänge](transactions.md) | Transaktionsknoten für Bestellungen importieren. |
 
 ### Gebote
 
 | Handler | Zweck |
 |---|---|
-| [Bids](bids.md) | Generischer CSV-/SQL-Gebotsimport. |
-| [Philasearch Bids](bids-philasearch.md) | Gebote aus der Philasearch-API abrufen und importieren. |
-| [Delcampe Bids](bids-delcampe.md) | Gebote aus einem Delcampe-Export importieren. |
-| [Auction Mobility Bids](bids-mobility.md) | Von Auction Mobility exportierte Gebote importieren. |
-| [SAN Bids](bids-san.md) | Gebote aus einem SAN-Export importieren. |
+| [Gebote](bids.md) | Generischer CSV-/SQL-Gebotsimport. |
+| [Philasearch-Gebote](bids-philasearch.md) | Gebote aus der Philasearch-API abrufen und importieren. |
+| [Delcampe-Gebote](bids-delcampe.md) | Gebote aus einem Delcampe-Export importieren. |
+| [Auction-Mobility-Gebote](bids-mobility.md) | Von Auction Mobility exportierte Gebote importieren. |
+| [SAN-Gebote](bids-san.md) | Gebote aus einem SAN-Export importieren. |
 
 ## Importreihenfolge & Abhängigkeiten
 
@@ -85,7 +85,7 @@ categories
 
 Wichtige Hinweise:
 
-* **Einlieferungen müssen nicht vor den Losen kommen.** Der Handler [Items (Self-Service)](items.md) legt Einlieferung und Einlieferer automatisch aus der Loszeile an, wenn `_consignment` vor dem ersten Pipe-Zeichen eine E-Mail-Adresse / Kunden-ID / Einlieferungs-ID des Einlieferers enthält. Einlieferungen zuerst zu importieren wird dennoch empfohlen, wenn Sie umfangreiche Verkäuferdaten haben, denn so behalten Sie von Anfang an die Kontrolle über Provisionsstufen, Steuerart und Einlieferungs-IDs.
+* **Einlieferungen müssen nicht vor den Losen kommen.** Der Handler [Lose (Self-Service)](items.md) legt Einlieferung und Einlieferer automatisch aus der Loszeile an, wenn `_consignment` vor dem ersten Pipe-Zeichen eine E-Mail-Adresse / Kunden-ID / Einlieferungs-ID des Einlieferers enthält. Einlieferungen zuerst zu importieren wird dennoch empfohlen, wenn Sie umfangreiche Verkäuferdaten haben, denn so behalten Sie von Anfang an die Kontrolle über Provisionsstufen, Steuerart und Einlieferungs-IDs.
 * **Bestellungen werden aus Verkaufsergebnissen automatisch angelegt** (eine Bestellung pro Auktion + Käufer) oder können explizit importiert werden.
 * Eine **Abrechnung** der Einlieferung wird automatisch aus dem Ablauf für Lose / Verkaufsergebnisse erzeugt — für die automatisch abgeleiteten Positionen gibt es keinen separaten Abrechnungsimport.
 

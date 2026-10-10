@@ -1,5 +1,5 @@
 <!-- i18n source=website/register.md sha=55b196c71070 -->
-# Registrieren
+# Registrierung
 
 **Selektor:** `#register` &nbsp;•&nbsp; *einmal pro Seite*
 
@@ -19,4 +19,4 @@ Keine.
 
 ## Siehe auch
 
-- [Login](website/login.md) — für bestehende Konten
+- [Anmeldung](website/login.md) — für bestehende Konten

@@ -3,7 +3,7 @@
 description: Von Auction Mobility exportierte Gebote importieren.
 ---
 
-# Auction Mobility Bids
+# Auction-Mobility-Gebote
 
 Handler: `ServerMobilityBidMigrate` — erweitert `ServerBidMigrateBase`.
 

@@ -3,7 +3,7 @@
 description: Bestehende Losknoten aus einer CSV aktualisieren. Legt keine neuen Lose an.
 ---
 
-# Items Update
+# Lose aktualisieren
 
 Handler: `ServerItemsUpdateDriveMigrate`.
 
@@ -60,7 +60,7 @@ Wird über keinen dieser Wege ein bestehendes Los gefunden, wird die Zeile mit d
 | `_search_tag` | `field_search_tags` |
 | `_item_type` | `field_item_type` (Standard `single`) |
 | `_thematics` | `field_thematics` |
-| `_sold_for` | `field_sold_for_amount` — löst außerdem die Erstellung einer Aufgabe für den Losverlauf aus (siehe [Items Sold Result](items-sold-result.md)) |
+| `_sold_for` | `field_sold_for_amount` — löst außerdem die Erstellung einer Aufgabe für den Losverlauf aus (siehe [Zuschlagsergebnisse der Lose](items-sold-result.md)) |
 | `_responsible_clerk` | Legt den zuständigen Clerk fest |
 | `_catalog_part` | Legt den Term `field_catalogue_part` an / setzt ihn |
 | `_lot_number` | Überschreibt `field_lot_number` |

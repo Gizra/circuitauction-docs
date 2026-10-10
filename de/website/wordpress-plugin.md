@@ -35,15 +35,15 @@ Bei Aktivierung/Upgrade legt das Plugin die folgenden Seiten an (nur wenn sie no
 
 | Seite | Slug | Eingebetteter Selektor | Doku |
 |---|---|---|---|
-| Login | `login` | `#login` | [Login](login.md) |
-| Register | `register` | `#register` | [Registrieren](register.md) |
+| Login | `login` | `#login` | [Anmeldung](login.md) |
+| Register | `register` | `#register` | [Registrierung](register.md) |
 | Forgot password | `forgot-password` | `#forgotpassword` | [Passwort vergessen](forgot-password.md) |
 | My account | `my-account` | `#my-account` | [Mein Konto](my-account.md) |
 | My bids | `my-bids` | `#my-bids` | [Meine Gebote](my-bids.md) |
 | My favorites | `my-favorites` | `#my-favorites` | [Meine Favoriten](my-favorites.md) |
 | My interests | `my-interests` | `#my-interests` | [Meine Interessen](my-interests.md) |
 | Sales archive | `sales-archive` | `#ca-sales-list` | [Auktionsliste](sales-list.md) |
-| Prices realized | `prices-realized` | `#ca-prices-realized` | [Zuschlagspreise](prices-realized.md) |
+| Prices realized | `prices-realized` | `#ca-prices-realized` | [Erzielte Preise](prices-realized.md) |
 | Sale detail | dynamisch | `#ca-sale-page` | [Auktionsseite](sale-page.md) |
 | Item detail | dynamisch | `#ca-item-page` | [Losseite](item-page.md) |
 | Billing history | `billing-history` | `#billing-history` | [Abrechnung & Zahlungen](billing.md) |
@@ -68,11 +68,11 @@ Das Plugin registriert sechs Blöcke in der Blockkategorie **Circuit Auction**. 
 | Block | Name im Editor | Attribute | Zugehörige Doku |
 |---|---|---|---|
 | User block | `circuit-auction/user-block` | — | [Benutzermenü](user-block.md) |
-| Featured items | `circuit-auction/featured-items` | `sale_nid`, `display_mode` | [Highlight-Lose](featured-items.md) |
+| Featured items | `circuit-auction/featured-items` | `sale_nid`, `display_mode` | [Hervorgehobene Lose](featured-items.md) |
 | Sale catalog parts | `circuit-auction/sale-catalog-part` | `sale_id`, `catalog_part` | — |
-| Sale sessions | `circuit-auction/sale-sessions` | `sale_nid` | [Auktionsinformation](sale-info.md) |
+| Sale sessions | `circuit-auction/sale-sessions` | `sale_nid` | [Auktionsinfo](sale-info.md) |
 | Sales archive | `circuit-auction/sales-archive` | `first_year`, `display_mode`, `remove_filters`, `search`, `year`, `department`, `status`, `show_featured_items`, `item_display` | [Auktionsliste](sales-list.md) |
-| Prices realized | `circuit-auction/prices-realized` | `sale_nid`, `items_per_page`, `columns`, `show_filters`, `show_lot_filter`, `show_status_filter`, `show_items_per_page`, `show_pagination`, `title` | [Zuschlagspreise](prices-realized.md) |
+| Prices realized | `circuit-auction/prices-realized` | `sale_nid`, `items_per_page`, `columns`, `show_filters`, `show_lot_filter`, `show_status_filter`, `show_items_per_page`, `show_pagination`, `title` | [Erzielte Preise](prices-realized.md) |
 
 ## SEO & Meta-Tags
 

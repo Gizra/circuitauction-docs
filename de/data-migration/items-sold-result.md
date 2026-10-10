@@ -3,7 +3,7 @@
 description: Verkaufspreise importieren und Losverlaufsknoten für Zuschläge erstellen.
 ---
 
-# Items Sold Result
+# Zuschlagsergebnisse der Lose
 
 Handler: `ServerItemsSoldResultDriveMigrate`.
 
@@ -11,7 +11,7 @@ Erstellt `item_history`-Knoten, die den Zuschlag für jedes Los festhalten — w
 
 ## Ausführung über das Backoffice
 
-Öffnen Sie die Auktion und gehen Sie zu **Item Import → Verkaufsergebnisse**. Der Reiter funktioniert wie der Import [Items (Self-Service)](items.md):
+Öffnen Sie die Auktion und gehen Sie zu **Item Import → Verkaufsergebnisse**. Der Reiter funktioniert wie der Import [Lose (Self-Service)](items.md):
 
 1. Fügen Sie die Google-Sheet-URL in das Textfeld **Google drive file URL** ein — der normale `edit`-Link genügt, er wird automatisch in die CSV-Exportform umgewandelt — oder laden Sie stattdessen eine CSV-Datei hoch.
 2. Klicken Sie auf **Importelemente in die Warteschlange stellen**. Der Import läuft im Hintergrund und ist auf die **aktuelle Auktion** begrenzt (Zeilen anderer Auktionen werden übersprungen).

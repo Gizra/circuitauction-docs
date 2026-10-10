@@ -3,7 +3,7 @@
 description: Massenimport von Losen aus einem Google Sheet (ServerItemsSelfServiceMigrate).
 ---
 
-# Items (Self-Service)
+# Lose (Self-Service)
 
 Handler: `ServerItemsSelfServiceMigrate` — erweitert `ServerItemsDriveMigrate`.
 
@@ -13,7 +13,7 @@ Dies ist der wichtigste Importer für Lose. Er erstellt neue Losknoten aus einer
 
 ## Schritt-für-Schritt-Anleitung
 
-![Ablauf des Lose-Imports](/assets/import-items-flow.png)
+![Ablauf des Lose-Imports](../../assets/import-items-flow.png)
 
 1. Damit die Einlieferung beim Import automatisch erstellt wird, muss das Feld `_consignment` die 3 Parameter in diesem Format enthalten:
 
@@ -35,10 +35,10 @@ Dies ist der wichtigste Importer für Lose. Er erstellt neue Losknoten aus einer
    https://docs.google.com/spreadsheets/d/<SPREADSHEET_ID>/edit?gid=<SHEET_GID>#gid=<SHEET_GID>
    ```
 
-   Neben dem Textfeld erscheint ein Link **Open sheet**, sobald eine gültige Sheet-URL eingegeben ist; er führt Sie zurück zum bearbeitbaren Google Sheet.
+   Neben dem Textfeld erscheint ein Link **Tabelle öffnen**, sobald eine gültige Sheet-URL eingegeben ist; er führt Sie zurück zum bearbeitbaren Google Sheet.
 
    {% hint style="info" %}
-   Die Seite **Item Import** hat Reiter für die verwandten Importe pro Auktion, die diesen Ablauf teilen: **Items** (diese Seite), [Kataloge](items-catalogs.md), [Dimensionen](items-dimensions.md) und [Verkaufsergebnisse](items-sold-result.md). Jeder Reiter hat sein eigenes Eingabefeld für URL / Datei, eigene Warteschlangen-Buttons und eine eigene Ergebnistabelle sowie einen Link **Help** zu seiner Seite in dieser Dokumentation.
+   Die Seite **Item Import** hat Reiter für die verwandten Importe pro Auktion, die diesen Ablauf teilen: **Items** (diese Seite), [Los-Kataloge](items-catalogs.md), [Los-Dimensionen](items-dimensions.md) und [Zuschlagsergebnisse der Lose](items-sold-result.md). Jeder Reiter hat sein eigenes Eingabefeld für URL / Datei, eigene Warteschlangen-Buttons und eine eigene Ergebnistabelle sowie einen Link **Help** zu seiner Seite in dieser Dokumentation.
    {% endhint %}
 
 3. Klicken Sie auf **Importelemente in die Warteschlange stellen** (siehe **2**), um den Import zu starten.

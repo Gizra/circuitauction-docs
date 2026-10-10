@@ -3,7 +3,7 @@
 description: Passwort-Hashes (und optional die Standardzahlungsart) auf bestehende Kunden übertragen.
 ---
 
-# Clients Password
+# Kundenpasswörter
 
 Handler: `ServerClientsPasswordDriveMigrate`.
 

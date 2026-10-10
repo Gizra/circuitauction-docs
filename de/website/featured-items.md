@@ -1,5 +1,5 @@
 <!-- i18n source=website/featured-items.md sha=8f85fc2372ba -->
-# Highlight-Lose
+# Hervorgehobene Lose
 
 **Selektor:** `#ca-featured-items` &nbsp;•&nbsp; *einmal pro Seite*
 

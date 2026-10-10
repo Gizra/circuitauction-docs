@@ -3,7 +3,7 @@
 description: Gebote aus einem SAN-Export importieren.
 ---
 
-# SAN Bids
+# SAN-Gebote
 
 Handler: `ServerSANBidMigrate` — erweitert `ServerBidMigrateBase`.
 

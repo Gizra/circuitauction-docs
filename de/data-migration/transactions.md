@@ -3,7 +3,7 @@
 description: Transaktionsknoten importieren und an bestehende Bestellungen anhängen.
 ---
 
-# Transactions
+# Vorgänge
 
 Handler: `ServerTransactionsDriveMigrate`.
 

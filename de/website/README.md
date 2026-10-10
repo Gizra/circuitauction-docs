@@ -70,10 +70,10 @@ Diese Blöcke zeigen öffentliche Auktionsinhalte an und akzeptieren Anzeigeopti
 |-------|----------|---------|
 | [Auktionsliste](website/sales-list.md) | `#ca-sales-list` | Filterbare Liste von Auktionen mit Seitennavigation |
 | [Auktionsseite](website/sale-page.md) | `#ca-sale-page` | Durchsuchbare Losliste einer Auktion |
-| [Auktionsinformation](website/sale-info.md) | `#ca-sale-info` | Eigenständiger Informationsblock für eine Auktion |
-| [Highlight-Lose](website/featured-items.md) | `#ca-featured-items` | Karussell der Highlight-Lose einer Auktion |
+| [Auktionsinfo](website/sale-info.md) | `#ca-sale-info` | Eigenständiger Informationsblock für eine Auktion |
+| [Hervorgehobene Lose](website/featured-items.md) | `#ca-featured-items` | Karussell der Highlight-Lose einer Auktion |
 | [Losseite](website/item-page.md) | `#ca-item-page` | Einzelnes Los mit Details und Bieten |
-| [Zuschlagspreise](website/prices-realized.md) | `#ca-prices-realized` | Ergebnistabelle einer abgeschlossenen Auktion |
+| [Erzielte Preise](website/prices-realized.md) | `#ca-prices-realized` | Ergebnistabelle einer abgeschlossenen Auktion |
 | [Gebot abgeben](website/place-bid.md) | `.place-bid` | Inline-Gebots-Widget (mehrfach pro Seite) |
 | [Favoriten-Button](website/favorite-button.md) | `.favorite-btn` | Ein Los zu den Favoriten hinzufügen/daraus entfernen |
 
@@ -84,8 +84,8 @@ Diese Blöcke bilden die Erfahrung des angemeldeten Bieters ab. Die meisten lese
 | Block | Selektor | Zweck |
 |-------|----------|---------|
 | [Benutzermenü](website/user-block.md) | `#user-block` | Anmeldelinks oder das Dropdown des angemeldeten Benutzers |
-| [Login](website/login.md) | `#login` | Anmeldeformular |
-| [Registrieren](website/register.md) | `#register` | Registrierungsformular für neue Konten |
+| [Anmeldung](website/login.md) | `#login` | Anmeldeformular |
+| [Registrierung](website/register.md) | `#register` | Registrierungsformular für neue Konten |
 | [Passwort vergessen](website/forgot-password.md) | `#forgotpassword` | Formular zum Anfordern des Zurücksetzens des Passworts |
 | [Mein Konto](website/my-account.md) | `#my-account` | Profil, Passwort und Adressen |
 | [Meine Gebote](website/my-bids.md) | `#my-bids` | Aktive und vergangene Gebote, mit Guthaben |
@@ -94,7 +94,7 @@ Diese Blöcke bilden die Erfahrung des angemeldeten Bieters ab. Die meisten lese
 | [Saldo-Button](website/balance.md) | `#balance-btn` | Kontosaldo / fälliger Betrag |
 | [Abrechnung & Zahlungen](website/billing.md) | `#billing-history` | Rechnungen und gespeicherte Zahlungsmethoden |
 | [Magazin-Abonnement](website/subscription-magazine.md) | `#subscription-magazine` | Flipbook-Bibliothek der Magazine |
-| [Abonnement erwerben](website/subscription-purchase.md) | `#subscription-purchase` | Auswahl der Abonnement-Pläne |
+| [Abonnement kaufen](website/subscription-purchase.md) | `#subscription-purchase` | Auswahl der Abonnement-Pläne |
 
 ## Hinweis zu Attributwerten
 

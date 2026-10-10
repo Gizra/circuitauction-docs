@@ -3,7 +3,7 @@
 description: Gebote aus einem Delcampe-Export importieren.
 ---
 
-# Delcampe Bids
+# Delcampe-Gebote
 
 Handler: `ServerDelcampeBidMigrate` — erweitert `ServerBidMigrateBase`.
 

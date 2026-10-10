@@ -3,7 +3,7 @@
 description: Kundenknoten (Käufer und Einlieferer) aus einem Google Sheet importieren.
 ---
 
-# Clients
+# Kunden
 
 Handler: `ServerClientsDriveMigrate` — erweitert `ServerClientsMigrate`.
 
@@ -156,7 +156,7 @@ Jeder Termname in `_interests`, `_default_payment_method`, `_tags`, `_salutation
 
 ## Verwandt
 
-* [Addresses](addresses.md) — Adressknoten an Kunden anhängen.
-* [External IDs](external-ids.md) — externe System-IDs an Kunden anhängen.
-* [Clients Update](clients-update.md) — bestehende Kunden aktualisieren, zugeordnet über die E-Mail-Adresse.
-* [Clients Password](clients-password.md) — Passwort-Hashes migrieren.
+* [Adressen](addresses.md) — Adressknoten an Kunden anhängen.
+* [Externe IDs](external-ids.md) — externe System-IDs an Kunden anhängen.
+* [Kunden aktualisieren](clients-update.md) — bestehende Kunden aktualisieren, zugeordnet über die E-Mail-Adresse.
+* [Kundenpasswörter](clients-password.md) — Passwort-Hashes migrieren.

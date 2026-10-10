@@ -3,7 +3,7 @@
 description: Die Taxonomie categories mit Hierarchie und Übersetzungen importieren.
 ---
 
-# Categories
+# Kategorien
 
 Handler: `ServerCategoriesDriveMigrate`.
 

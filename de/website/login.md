@@ -1,5 +1,5 @@
 <!-- i18n source=website/login.md sha=a777b9becc3c -->
-# Login
+# Anmeldung
 
 **Selektor:** `#login` &nbsp;•&nbsp; *einmal pro Seite*
 
@@ -21,5 +21,5 @@ Keine.
 
 ## Siehe auch
 
-- [Registrieren](website/register.md) — ein neues Konto erstellen
+- [Registrierung](website/register.md) — ein neues Konto erstellen
 - [Passwort vergessen](website/forgot-password.md) — ein Passwort zurücksetzen

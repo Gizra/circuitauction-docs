@@ -1,5 +1,5 @@
 <!-- i18n source=website/prices-realized.md sha=6c1ee604be3b -->
-# Zuschlagspreise
+# Erzielte Preise
 
 **Selektor:** `#ca-prices-realized` &nbsp;•&nbsp; *einmal pro Seite*
 

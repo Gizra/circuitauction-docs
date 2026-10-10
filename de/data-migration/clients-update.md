@@ -3,7 +3,7 @@
 description: Bestehende Kunden aktualisieren, zugeordnet über die E-Mail-Adresse.
 ---
 
-# Clients Update
+# Kunden aktualisieren
 
 Handler: `ServerClientsUpdateDriveMigrate` — erweitert `ServerClientsMigrate`.
 
@@ -39,4 +39,4 @@ Der Handler ordnet zu:
 
 ## Vollständigen Namen aufteilen
 
-Wie beim Handler [Clients](clients.md): Ist `_first_name` leer und `server_migrate_split_lastname_column` aktiviert, wird `_last_name` am ersten Leerzeichen aufgeteilt.
+Wie beim Handler [Kunden](clients.md): Ist `_first_name` leer und `server_migrate_split_lastname_column` aktiviert, wird `_last_name` am ersten Leerzeichen aufgeteilt.

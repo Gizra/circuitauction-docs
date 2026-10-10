@@ -3,7 +3,7 @@
 description: Generischer Gebotsimport aus einer CSV oder einer älteren SQL-Tabelle.
 ---
 
-# Bids
+# Gebote
 
 Handler: `ServerBidMigrate` — erweitert `ServerBidMigrateBase`.
 

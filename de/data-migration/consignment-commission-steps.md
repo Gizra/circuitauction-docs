@@ -3,13 +3,13 @@
 description: Provisionsstufen-Multifields an bestehende Einlieferungen anhängen.
 ---
 
-# Consignment Commission Steps
+# Provisionsschritte der Einlieferungen
 
 Handler: `ServerConsignmentCommissionStepsMigrate`.
 
 Importiert Zeilen in das **Multifield** `field_commission_steps` der Einlieferungsknoten. Jede Zeile erfasst eine Provisionsstufe — einen Provisionssatz des Einlieferers, der ab einem bestimmten Betrag gilt. Verwenden Sie diesen Handler, wenn eine Einlieferung **mehr als eine** Stufe benötigt (gestaffelte Provision) oder wenn Sie explizite Stufen statt der [Standard-Ersatzstufe](consignments.md#standard-provisionsstufe-ersatz) wünschen.
 
-Hängt von [Consignments](consignments.md) (`ServerConsignmentsMigrate`) ab — die Einlieferungsknoten müssen zuerst importiert werden, damit die Stufen an sie angehängt werden können.
+Hängt von [Einlieferungen](consignments.md) (`ServerConsignmentsMigrate`) ab — die Einlieferungsknoten müssen zuerst importiert werden, damit die Stufen an sie angehängt werden können.
 
 ## Quelle
 
@@ -43,4 +43,4 @@ Zwei Stufen derselben Einlieferung — 10 % ab 0, danach ein höherer Satz ab 1.
 
 ## Verwandt
 
-* [Consignments](consignments.md) — importieren Sie die Einlieferungsknoten, an die diese Stufen angehängt werden (und das Standardverhalten mit einer einzelnen Stufe).
+* [Einlieferungen](consignments.md) — importieren Sie die Einlieferungsknoten, an die diese Stufen angehängt werden (und das Standardverhalten mit einer einzelnen Stufe).

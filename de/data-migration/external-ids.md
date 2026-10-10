@@ -3,7 +3,7 @@
 description: Externe System-IDs (Multifield) an bestehende Kunden anhängen.
 ---
 
-# External IDs
+# Externe IDs
 
 Handler: `ServerExternalIdsDriveMigrate`.
 

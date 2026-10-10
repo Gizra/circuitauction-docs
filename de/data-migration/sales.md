@@ -3,7 +3,7 @@
 description: Auktionsknoten importieren.
 ---
 
-# Sales
+# Auktionen
 
 Handler: `ServerSalesDriveMigrate` — erweitert `ServerSalesMigrate`.
 
