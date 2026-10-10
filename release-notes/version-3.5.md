@@ -8,6 +8,8 @@ Upcoming release. Version 3.5 focuses on reporting, communication with clients, 
 
 <video class="release-video" controls preload="metadata" playsinline src="https://circuit-kubernetes.s3.eu-central-1.amazonaws.com/openmontage/tutorials/release-3.5-auction-timeline/final.mp4">Your browser does not support the video tag. <a href="https://circuit-kubernetes.s3.eu-central-1.amazonaws.com/openmontage/tutorials/release-3.5-auction-timeline/final.mp4">Download the video</a>.</video>
 
+![The Auction Timeline page with the session summary and the timeline of the sale](../assets/screenshots/release-3.5-auction-timeline.png)
+
 A new **Auction Timeline** page (sidebar, under Reports) gives a retrospective view of a completed live session as recorded by the bid server.
 
 - Filter by **session** and by **date range**.
@@ -20,6 +22,8 @@ A new **Auction Timeline** page (sidebar, under Reports) gives a retrospective v
 
 <video class="release-video" controls preload="metadata" playsinline src="https://circuit-kubernetes.s3.eu-central-1.amazonaws.com/openmontage/tutorials/release-3.5-client-statistics/final.mp4">Your browser does not support the video tag. <a href="https://circuit-kubernetes.s3.eu-central-1.amazonaws.com/openmontage/tutorials/release-3.5-client-statistics/final.mp4">Download the video</a>.</video>
 
+![The Statistics tab of a client with the summary cards, the bidding activity chart and the top categories](../assets/screenshots/release-3.5-client-statistics.png)
+
 The **Statistics** tab on the client page has been redesigned.
 
 - Summary cards: total won, total bid, win rate and average lot won.
@@ -31,6 +35,8 @@ The **Statistics** tab on the client page has been redesigned.
 ### Bids reports redesign
 
 <video class="release-video" controls preload="metadata" playsinline src="https://circuit-kubernetes.s3.eu-central-1.amazonaws.com/openmontage/tutorials/release-3.5-bids-reports/final.mp4">Your browser does not support the video tag. <a href="https://circuit-kubernetes.s3.eu-central-1.amazonaws.com/openmontage/tutorials/release-3.5-bids-reports/final.mp4">Download the video</a>.</video>
+
+![The Bids reports page with its report tabs and the bids list](../assets/screenshots/release-3.5-bids-reports.png)
 
 The **Bids reports** page (sidebar) has been rebuilt as a set of tabs, each with column filters, sorting and CSV export:
 
@@ -45,6 +51,8 @@ The **Bids reports** page (sidebar) has been rebuilt as a set of tabs, each with
 
 <video class="release-video" controls preload="metadata" playsinline src="https://circuit-kubernetes.s3.eu-central-1.amazonaws.com/openmontage/tutorials/release-3.5-consignment-reports/final.mp4">Your browser does not support the video tag. <a href="https://circuit-kubernetes.s3.eu-central-1.amazonaws.com/openmontage/tutorials/release-3.5-consignment-reports/final.mp4">Download the video</a>.</video>
 
+![The Reports block of the consignment page with the Phase, Detail and Scope options of the consignor report](../assets/screenshots/release-3.5-consignment-reports.png)
+
 The consignment page gained new report actions:
 
 - **Generate consignor report** with three options: **Phase** (for example Post-sale), **Detail** (for example lot numbers only) and **Scope**: this consignment only, all the consignor's lots combined, or all the consignor's lots per consignment.
@@ -54,6 +62,8 @@ The consignment page gained new report actions:
 ### Export accounting in CSV and XLSX
 
 <video class="release-video" controls preload="metadata" playsinline src="https://circuit-kubernetes.s3.eu-central-1.amazonaws.com/openmontage/tutorials/release-3.5-export-accounting/final.mp4">Your browser does not support the video tag. <a href="https://circuit-kubernetes.s3.eu-central-1.amazonaws.com/openmontage/tutorials/release-3.5-export-accounting/final.mp4">Download the video</a>.</video>
+
+![The Export Accounting page with the CSV and XLSX buttons in the Export block](../assets/screenshots/release-3.5-export-accounting.png)
 
 The **Export Accounting** page now has **CSV** and **XLSX** buttons in the Export block. They download the currently filtered list of invoices or consignment statements as a spreadsheet. This download does not mark the items as exported to accounting.
 
@@ -87,6 +97,8 @@ The **Auction Protocol** tab needs a selected sale and now lists the newest mess
 
 <video class="release-video" controls preload="metadata" playsinline src="https://circuit-kubernetes.s3.eu-central-1.amazonaws.com/openmontage/tutorials/release-3.5-client-crm/final.mp4">Your browser does not support the video tag. <a href="https://circuit-kubernetes.s3.eu-central-1.amazonaws.com/openmontage/tutorials/release-3.5-client-crm/final.mp4">Download the video</a>.</video>
 
+![The Timeline tab of a client: source filters, period selector and the entries grouped by day](../assets/screenshots/client-crm-timeline.png)
+
 The client page now works as a small CRM. See [Client CRM: Timeline, Documents and Consignment Pipeline](../client/client-crm.md) for the full guide.
 
 - The **tabs of the client page** are regrouped by purpose. **History** is now **Statistics**, and **Emails and Documents** is now **Emails**.
@@ -105,17 +117,23 @@ The client page now works as a small CRM. See [Client CRM: Timeline, Documents a
 
 <video class="release-video" controls preload="metadata" playsinline src="https://circuit-kubernetes.s3.eu-central-1.amazonaws.com/openmontage/tutorials/release-3.5-orders-preview-email/final.mp4">Your browser does not support the video tag. <a href="https://circuit-kubernetes.s3.eu-central-1.amazonaws.com/openmontage/tutorials/release-3.5-orders-preview-email/final.mp4">Download the video</a>.</video>
 
+![The batch actions of the invoices list](../assets/screenshots/release-3.5-orders-preview-email.png)
+
 In the **Batch actions** block of the Invoices page, a new **Preview email & PDF** button shows the exact email and the invoice PDF, filled with real data, before you click Apply to send it to the selected orders.
 
 ### Sent email list on the invoice page
 
 <video class="release-video" controls preload="metadata" playsinline src="https://circuit-kubernetes.s3.eu-central-1.amazonaws.com/openmontage/tutorials/release-3.5-invoice-email-list/final.mp4">Your browser does not support the video tag. <a href="https://circuit-kubernetes.s3.eu-central-1.amazonaws.com/openmontage/tutorials/release-3.5-invoice-email-list/final.mp4">Download the video</a>.</video>
 
+![The Emails and Documents list at the bottom of the invoice page](../assets/screenshots/release-3.5-invoice-email-list.png)
+
 Each invoice page now ends with an **Emails and Documents** table listing every email and document generated for that invoice: creation or sent date, title, type, recipient, content, attached documents and author (including emails sent automatically by the system).
 
 ### Email template editor
 
 <video class="release-video" controls preload="metadata" playsinline src="https://circuit-kubernetes.s3.eu-central-1.amazonaws.com/openmontage/tutorials/release-3.5-email-templates/final.mp4">Your browser does not support the video tag. <a href="https://circuit-kubernetes.s3.eu-central-1.amazonaws.com/openmontage/tutorials/release-3.5-email-templates/final.mp4">Download the video</a>.</video>
+
+![The Email Templates page with the list of templates and the editor of the selected template](../assets/screenshots/release-3.5-email-templates.png)
 
 A new **Email Templates** page (sidebar) lets you view and edit every global email template used for invoices, shipping, bidder notifications and other processes.
 
@@ -128,6 +146,8 @@ A new **Email Templates** page (sidebar) lets you view and edit every global ema
 
 <video class="release-video" controls preload="metadata" playsinline src="https://circuit-kubernetes.s3.eu-central-1.amazonaws.com/openmontage/tutorials/release-3.5-payment-reminders/final.mp4">Your browser does not support the video tag. <a href="https://circuit-kubernetes.s3.eu-central-1.amazonaws.com/openmontage/tutorials/release-3.5-payment-reminders/final.mp4">Download the video</a>.</video>
 
+![The payment reminder settings of a sale](../assets/screenshots/release-3.5-payment-reminders.png)
+
 Unpaid invoices can now be reminded automatically, in three steps: a **payment reminder**, a **past due** notice and a **final reminder**.
 
 - **Site-wide defaults** define the number of days after an invoice is finished and visible to the customer for each step (for example 7, 14 and 21 days).
@@ -139,6 +159,8 @@ Unpaid invoices can now be reminded automatically, in three steps: a **payment r
 
 <video class="release-video" controls preload="metadata" playsinline src="https://circuit-kubernetes.s3.eu-central-1.amazonaws.com/openmontage/tutorials/release-3.5-address-sticker-sheet/final.mp4">Your browser does not support the video tag. <a href="https://circuit-kubernetes.s3.eu-central-1.amazonaws.com/openmontage/tutorials/release-3.5-address-sticker-sheet/final.mp4">Download the video</a>.</video>
 
+![The Address sticker batch action of the clients list with the Format option](../assets/screenshots/release-3.5-address-sticker-sheet.png)
+
 In the **Address sticker** batch action on the Clients page, the **Format** list now offers **Sheet of labels (2 x 5)** in addition to the single label, so the default address of each selected client can be printed on standard A4 label sheets.
 
 ## Tasks & Support
@@ -146,6 +168,8 @@ In the **Address sticker** batch action on the Clients page, the **Format** list
 ### Reply to "Ask about item" tasks
 
 <video class="release-video" controls preload="metadata" playsinline src="https://circuit-kubernetes.s3.eu-central-1.amazonaws.com/openmontage/tutorials/release-3.5-task-reply/final.mp4">Your browser does not support the video tag. <a href="https://circuit-kubernetes.s3.eu-central-1.amazonaws.com/openmontage/tutorials/release-3.5-task-reply/final.mp4">Download the video</a>.</video>
+
+![The reply window of an "Ask about item" task with the email to the client](../assets/screenshots/release-3.5-task-reply.png)
 
 Questions sent by bidders about a lot appear in [Tasks](../tasks.md) as *Ask about item* tasks. A new **Replied** action opens an email composer:
 
@@ -158,6 +182,8 @@ Questions sent by bidders about a lot appear in [Tasks](../tasks.md) as *Ask abo
 
 <video class="release-video" controls preload="metadata" playsinline src="https://circuit-kubernetes.s3.eu-central-1.amazonaws.com/openmontage/tutorials/release-3.5-support-tickets/final.mp4">Your browser does not support the video tag. <a href="https://circuit-kubernetes.s3.eu-central-1.amazonaws.com/openmontage/tutorials/release-3.5-support-tickets/final.mp4">Download the video</a>.</video>
 
+![The Support Tickets page with the status counters and the Create Bug report button](../assets/screenshots/release-3.5-support-tickets.png)
+
 A new **Support Tickets** page (sidebar, and a shortcut icon in the top bar) lists your support requests to the CircuitAuction team with their status: open, in progress, resolved, deployed live and closed. Tickets can be filtered by status and by tag.
 
 ## Sales & Bids
@@ -165,6 +191,8 @@ A new **Support Tickets** page (sidebar, and a shortcut icon in the top bar) lis
 ### HiBid bids import
 
 <video class="release-video" controls preload="metadata" playsinline src="https://circuit-kubernetes.s3.eu-central-1.amazonaws.com/openmontage/tutorials/release-3.5-hibid-import/final.mp4">Your browser does not support the video tag. <a href="https://circuit-kubernetes.s3.eu-central-1.amazonaws.com/openmontage/tutorials/release-3.5-hibid-import/final.mp4">Download the video</a>.</video>
+
+![The HiBid Import tab of the sale with the file upload and the import buttons](../assets/screenshots/release-3.5-hibid-import.png)
 
 The **Bids Import** tab of the sale page has a new **HiBid Import** next to the existing [Philasearch](../data-migration/bids-philasearch.md), [Delcampe](../data-migration/bids-delcampe.md), [Auction Mobility](../data-migration/bids-mobility.md), [SAN](../data-migration/bids-san.md) and Invaluable imports.
 
@@ -177,6 +205,8 @@ The **Bids Import** tab of the sale page has a new **HiBid Import** next to the 
 
 <video class="release-video" controls preload="metadata" playsinline src="https://circuit-kubernetes.s3.eu-central-1.amazonaws.com/openmontage/tutorials/release-3.5-reset-sale-sync/final.mp4">Your browser does not support the video tag. <a href="https://circuit-kubernetes.s3.eu-central-1.amazonaws.com/openmontage/tutorials/release-3.5-reset-sale-sync/final.mp4">Download the video</a>.</video>
 
+![The sale page with the Reset sale and sync button](../assets/screenshots/release-3.5-reset-sale-sync.png)
+
 A new **Reset sale and sync** button on the sale page re-queues every lot in the sale for search indexing, re-syncs the lots with the bid server, rebuilds the sale JSON and, once those queues have finished, broadcasts a cache reset to the user-facing website. The progress of each step is shown next to the button. Use it when the website shows stale data for a sale.
 
 ## System
@@ -184,6 +214,8 @@ A new **Reset sale and sync** button on the sale page re-queues every lot in the
 ### Two-factor authentication with an authenticator app
 
 <video class="release-video" controls preload="metadata" playsinline src="https://circuit-kubernetes.s3.eu-central-1.amazonaws.com/openmontage/tutorials/release-3.5-authenticator-setup/final.mp4">Your browser does not support the video tag. <a href="https://circuit-kubernetes.s3.eu-central-1.amazonaws.com/openmontage/tutorials/release-3.5-authenticator-setup/final.mp4">Download the video</a>.</video>
+
+![The authenticator setup page: QR code, manual key and the field for the first code](../assets/screenshots/authenticator-setup-page.png)
 
 Staff logins can now require a six-digit code from an authenticator app (Authy, Google Authenticator, Microsoft Authenticator) in addition to the password. See [Logging in with an Authenticator App](../logging-in-with-an-authenticator-app.md).
 
@@ -197,10 +229,14 @@ Staff logins can now require a six-digit code from an authenticator app (Authy, 
 
 <video class="release-video" controls preload="metadata" playsinline src="https://circuit-kubernetes.s3.eu-central-1.amazonaws.com/openmontage/tutorials/release-3.5-dark-mode/final.mp4">Your browser does not support the video tag. <a href="https://circuit-kubernetes.s3.eu-central-1.amazonaws.com/openmontage/tutorials/release-3.5-dark-mode/final.mp4">Download the video</a>.</video>
 
+![The clients list in dark mode](../assets/screenshots/release-3.5-dark-mode.png)
+
 A moon icon in the top bar, next to the notifications bell, switches the whole backoffice to a dark theme. The choice is remembered for your user.
 
 ### Bid server health monitor
 
 <video class="release-video" controls preload="metadata" playsinline src="https://circuit-kubernetes.s3.eu-central-1.amazonaws.com/openmontage/tutorials/release-3.5-health-monitor/final.mp4">Your browser does not support the video tag. <a href="https://circuit-kubernetes.s3.eu-central-1.amazonaws.com/openmontage/tutorials/release-3.5-health-monitor/final.mp4">Download the video</a>.</video>
+
+![The queue monitor of the bid server health page](../assets/screenshots/release-3.5-health-monitor.png)
 
 A **Health** button in the top bar opens a monitor of the bid server connection and its queues. The queue now restarts itself automatically when it stalls, so live bidding recovers without manual intervention.
