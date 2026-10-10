@@ -4,6 +4,8 @@ Open the web browser \(the latest version of Chrome is recommended\) and enter t
 
 Log in with your Username and Password.
 
+If your account is protected with two-factor authentication, a **Code** field also asks for the current code from your authenticator app. See [Logging in with an Authenticator App](logging-in-with-an-authenticator-app.md).
+
 ![](assets/screenshots/login-page.png)
 
 Make sure the Bid Server Connection icon is green. This means that the data is synchronized correctly with the Bid system. 

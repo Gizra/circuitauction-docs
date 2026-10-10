@@ -3,6 +3,7 @@
 * [Introduction](README.md)
 * [Import / Migrate](import-migrate.md)
 * [Logging into the System](logging-into-the-system.md)
+* [Logging in with an Authenticator App](logging-in-with-an-authenticator-app.md)
 * [Accessing your Demo](accessing-your-demo.md)
 * [Suggested Workflow](workflow-best-practice.md)
 * [Clients](client/README.md)

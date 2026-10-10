@@ -1,6 +1,6 @@
 # Version 3.5
 
-Upcoming release. Version 3.5 focuses on reporting, communication with clients, and tools that make day-to-day administration easier. Highlights include a new Auction Timeline page, a redesigned client statistics tab, a built-in email template editor, automatic invoice payment reminders, and a dark mode for the whole backoffice.
+Upcoming release. Version 3.5 focuses on reporting, communication with clients, and tools that make day-to-day administration easier. Highlights include a new Auction Timeline page, a redesigned client statistics tab, a built-in email template editor, automatic invoice payment reminders, two-factor authentication with an authenticator app, and a dark mode for the whole backoffice.
 
 ## Reports & Statistics
 
@@ -138,6 +138,18 @@ The **Bids Import** tab of the sale page has a new **HiBid Import** next to the 
 A new **Reset sale and sync** button on the sale page re-queues every lot in the sale for search indexing, re-syncs the lots with the bid server, rebuilds the sale JSON and, once those queues have finished, broadcasts a cache reset to the user-facing website. The progress of each step is shown next to the button. Use it when the website shows stale data for a sale.
 
 ## System
+
+### Two-factor authentication with an authenticator app
+
+<video class="release-video" controls preload="metadata" playsinline src="https://circuit-kubernetes.s3.eu-central-1.amazonaws.com/openmontage/tutorials/release-3.5-authenticator-setup/final.mp4">Your browser does not support the video tag. <a href="https://circuit-kubernetes.s3.eu-central-1.amazonaws.com/openmontage/tutorials/release-3.5-authenticator-setup/final.mp4">Download the video</a>.</video>
+
+Staff logins can now require a six-digit code from an authenticator app (Authy, Google Authenticator, Microsoft Authenticator) in addition to the password. See [Logging in with an Authenticator App](../logging-in-with-an-authenticator-app.md).
+
+- Switched on site-wide in the server settings (off by default), or per account with **Always require an authenticator app for this account**.
+- The first login after it is switched on shows a one-time **setup page**: scan the QR code (or type the manual key) in the app and enter the first code. Other pages stay blocked until the setup is done.
+- Every following login asks for the code under the password. Google sign-in asks for it after Google confirms the account.
+- Administrators see an **Authenticator** column in the user list and can **reset the authenticator app** from the user form when someone loses their phone.
+- The server settings also gained a **Sessions & tokens** tab to set how long API tokens and browser sessions stay valid.
 
 ### Dark mode
 
