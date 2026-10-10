@@ -2,10 +2,10 @@
 # Zugang zu Ihrer Demo
 
 Wählen Sie eine Auktion:  
-![Bild](/assets/screenshots/sale-context-autocomplete.png)
+![Bild](../assets/screenshots/sale-context-autocomplete.png)
 
 Die zutreffenden „Sale Links“ erscheinen im Block Sale Links auf der Auktionsseite.  
-![Bild](/assets/screenshots/sale-links.png)
+![Bild](../assets/screenshots/sale-links.png)
 
 ### Auktionsseite \(Kunden\)
 
@@ -40,7 +40,7 @@ Um das System gleichzeitig aus verschiedenen Rollen \(Mitarbeiter oder Kunde\) z
 
 **Bitte beachten Sie:**  
 Ganz oben gibt es einen Auktionskontext-Eintrag. Wählen Sie unbedingt eine Auktion aus, damit die Seite „Gebote“ und die „Gebotsinformationen“ verfügbar sind.  
-![Bild](/assets/screenshots/sale-context-selected.png)
+![Bild](../assets/screenshots/sale-context-selected.png)
 
 Bitte beachten Sie, dass das Stecker-Symbol oben rechts auf Ihrem Bildschirm grün sein sollte. Wenn nicht, klicken Sie darauf und anschließend auf **Neuladen**.  
-![Bild](/assets/screenshots/bid-server-reconnect.png)
+![Bild](../assets/screenshots/bid-server-reconnect.png)

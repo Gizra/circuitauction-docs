@@ -6,7 +6,7 @@ Sie können verschiedene Arten von Aufgaben erstellen und unterschiedlichen Pers
 1. Gehen Sie auf die gewünschte Seite \(Kunde, Einlieferung, Los, Auktion oder Bestellung\), für die Sie eine Aufgabe erstellen möchten.
 2. Klicken Sie auf den Tab **Aufgaben**. Der Tab zeigt außerdem die Gesamtzahl der Aufgaben für diesen Datensatz an.
 
-![Tab Aufgaben](/assets/screenshots/tasks-tab.png)
+![Tab Aufgaben](../assets/screenshots/tasks-tab.png)
 
 ## Eine neue Aufgabe erstellen
 
@@ -22,19 +22,19 @@ Sie können verschiedene Arten von Aufgaben erstellen und unterschiedlichen Pers
 
 2. Klicken Sie auf die Schaltfläche `Erstellt`.
 
-![Aufgabe hinzufügen](/assets/screenshots/tasks-add.png)
+![Aufgabe hinzufügen](../assets/screenshots/tasks-add.png)
 
 ## Eine Aufgabe löschen
 
 Klicken Sie in der Zeile der Aufgabe auf die Schaltfläche `Löschen`.
 
-![Bild](/assets/screenshots/tasks-delete.png)
+![Bild](../assets/screenshots/tasks-delete.png)
 
 ## Eine Aufgabe als erledigt markieren
 
 Sobald eine Aufgabe abgeschlossen ist, ändern Sie ihren **Status** auf `fertiggestellt` und klicken Sie in der Zeile der Aufgabe auf `speichern`.
 
-![Bild](/assets/screenshots/tasks-complete.png)
+![Bild](../assets/screenshots/tasks-complete.png)
 
 ## Standardaufgaben / abhängige Aufgaben
 

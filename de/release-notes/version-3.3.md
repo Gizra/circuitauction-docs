@@ -15,9 +15,9 @@ Die Seiten der Live-App haben einen Umschalter für den Anzeigemodus. Wechseln S
 
 Bieterbildschirm:
 
-![Bieterbildschirm, heller Modus](/assets/screenshots/release-3.3-bidder-light.png)
+![Bieterbildschirm, heller Modus](../../assets/screenshots/release-3.3-bidder-light.png)
 
-![Bieterbildschirm, dunkler Modus](/assets/screenshots/release-3.3-bidder-dark.png)
+![Bieterbildschirm, dunkler Modus](../../assets/screenshots/release-3.3-bidder-dark.png)
 
 ### Ergonomischer Clerk-Bildschirm: die Auktion ohne Maus durchführen
 
@@ -30,9 +30,9 @@ Der Clerk-Bildschirm wurde für die Bedienung per Tastatur neu entwickelt. Die g
 | Pfeil nach unten | Auf Saalgebot setzen |
 | Pfeil nach oben | Eingabefeld für den Gebotsbetrag öffnen |
 
-![Clerk-Bildschirm, heller Modus](/assets/screenshots/release-3.3-clerk-light.png)
+![Clerk-Bildschirm, heller Modus](../../assets/screenshots/release-3.3-clerk-light.png)
 
-![Clerk-Bildschirm, dunkler Modus](/assets/screenshots/release-3.3-clerk-dark.png)
+![Clerk-Bildschirm, dunkler Modus](../../assets/screenshots/release-3.3-clerk-dark.png)
 
 Die vollständige Beschreibung finden Sie unter [Der Clerk-Bildschirm](../auction/clerk-screen/README.md).
 
@@ -50,17 +50,17 @@ Ein stets sichtbares Panel auf dem Auktionatorbildschirm zeigt Echtzeit-Statisti
 
 Der Block mit den verbundenen Online-Bietern befindet sich jetzt oben auf dem Auktionatorbildschirm und ist damit während der gesamten Auktion besser sichtbar.
 
-![Auktionatorbildschirm, heller Modus](/assets/screenshots/release-3.3-auctioneer-light.png)
+![Auktionatorbildschirm, heller Modus](../../assets/screenshots/release-3.3-auctioneer-light.png)
 
-![Auktionatorbildschirm, dunkler Modus](/assets/screenshots/release-3.3-auctioneer-dark.png)
+![Auktionatorbildschirm, dunkler Modus](../../assets/screenshots/release-3.3-auctioneer-dark.png)
 
 ### Bildergalerie auf Bieter- und Saalbildschirmen
 
 Lose mit mehreren Bildern zeigen eine automatische Galerie mit bis zu drei Bildern. Jedes Bild wird acht Sekunden lang mit einer Überblendung angezeigt. Bewegen Sie den Mauszeiger über die Galerie, um sie anzuhalten.
 
-![Saalbildschirm, heller Modus](/assets/screenshots/release-3.3-room-light.png)
+![Saalbildschirm, heller Modus](../../assets/screenshots/release-3.3-room-light.png)
 
-![Saalbildschirm, dunkler Modus](/assets/screenshots/release-3.3-room-dark.png)
+![Saalbildschirm, dunkler Modus](../../assets/screenshots/release-3.3-room-dark.png)
 
 ## Versand
 

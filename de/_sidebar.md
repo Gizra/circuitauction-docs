@@ -22,7 +22,7 @@
   * [Übersicht](/de/items/README.md)
   * [Los anlegen](/de/items/how-to-create-an-item.md)
   * [Bestehendes Los finden](/de/items/how-to-find-an-existing-item.md)
-  * [Ablauf bei Verlängerung](/de/items/under-extension-worflow.md)
+  * [Ablauf bei „uV Prüfung“ (UE)](/de/items/under-extension-worflow.md)
 
 * **Datenmigration**
   * [Übersicht](/de/data-migration/README.md)
