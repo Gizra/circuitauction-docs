@@ -123,6 +123,23 @@
             var m = path.match(/^\/([a-z]{2}(?:-[a-z]+)?)(?:\/|$)/);
             return m && LANGS.indexOf(m[1]) !== -1 ? m[1] : '';
           }
+          // Under a /<lang>/ route docsify resolves image links against the ROUTE's parent
+          // folder, not the markdown file, and keeps only links containing `:` or `//` as
+          // they are (a leading `/` is still relative). Fallback pages (English text served
+          // from fallbackLanguages) keep the /de/ route, so their `../assets/x.png` would
+          // end up in /de/assets/. Normalise every asset link to the depth-correct relative
+          // form: one `../` per folder of the route's parent path (`/de/tasks` -> 1,
+          // `/de/auction/x` -> 2), which resolves to the site-root assets folder.
+          hook.beforeEach(function (md) {
+            var path = vm.route.path || '/';
+            if (!langOf(path)) return md;
+            var segs = path.split('/').filter(Boolean);
+            if (path.slice(-1) !== '/') segs.pop();
+            var up = new Array(segs.length + 1).join('../');
+            return md
+              .replace(/\]\((<?)(?:\.\.\/|\/)*((?:\.gitbook\/)?assets\/)/g, function (m, lt, p) { return '](' + lt + up + p; })
+              .replace(/(src=["'])(?:\.\.\/|\/)*((?:\.gitbook\/)?assets\/)/g, function (m, q, p) { return q + up + p; });
+          });
           hook.doneEach(function () {
             var path = vm.route.path || '/';
             var cur = langOf(path);

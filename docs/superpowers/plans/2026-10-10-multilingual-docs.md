@@ -20,7 +20,7 @@
 - English pages stay where they are; language folders are ISO codes exactly as the backoffice uses them: `de`, `fr`, `he`, `nl`, `ru`, `zh-hans`.
 - A translated page keeps the **same relative path and file name** as its source (only the folder prefix differs).
 - A translated page's first line is `<!-- i18n source=<source path> sha=<12 hex> -->`; never hand-edit the sha, re-run the tooling.
-- Asset links in translated pages are absolute: `](/assets/…)`. Relative `../assets/…` resolves to `/de/assets/…` and 404s.
+- Asset links in translated pages use the depth-correct relative form: `../` x (1 + folders), e.g. `de/tasks.md` -> `../assets/…`, `de/auction/x.md` -> `../../assets/…`. docsify resolves images against the route and treats a leading `/` as relative too, so `/assets/…` and too-short prefixes 404 under `/de/`.
 - Never translate: code blocks, CSV/JSON column names and import field names (the Data Migration pages are file-format references), URLs, product names (Circuit Auction, ShipStation, HiBid, Pusher…), `{% hint %}` / `{% endhint %}` markers.
 - German register: formal "Sie". UI labels in **bold** use the exact German string from the backoffice glossary when one exists, otherwise the English label as currently shown on screen.
 - Tooling is stdlib-only Python 3 (`python3` on this machine has no pip), run from the repo root, tested with `unittest`.
