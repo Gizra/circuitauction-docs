@@ -1,4 +1,4 @@
-<!-- i18n source=logging-in-with-an-authenticator-app.md sha=a638162e51f2 -->
+<!-- i18n source=logging-in-with-an-authenticator-app.md sha=ed6f1091e6f9 -->
 # Anmelden mit einer Authenticator-App
 
 Ab Version 3.5 kann das Backoffice Mitarbeiterkonten mit einer **Zwei-Faktor-Authentifizierung** schützen: Neben Benutzername und Passwort fragt jede Anmeldung einen sechsstelligen Code aus einer Authenticator-App auf Ihrem Smartphone ab, zum Beispiel Authy, Google Authenticator oder Microsoft Authenticator.
@@ -8,6 +8,8 @@ Ab Version 3.5 kann das Backoffice Mitarbeiterkonten mit einer **Zwei-Faktor-Aut
 ## Erste Anmeldung: die App einrichten
 
 Wenn Sie sich zum ersten Mal anmelden, nachdem die Funktion für Ihr Konto eingeschaltet wurde, führt das Backoffice Sie zuerst auf eine einmalige Einrichtungsseite **Authenticator app**. Andere Seiten können Sie erst öffnen, wenn die Einrichtung abgeschlossen ist.
+
+![Die Einrichtungsseite der Authenticator-App: QR-Code, manueller Schlüssel und das Feld für den ersten Code](../assets/screenshots/authenticator-setup-page.png)
 
 1. **Installieren Sie eine Authenticator-App** auf Ihrem Smartphone (Authy, Google Authenticator und Microsoft Authenticator funktionieren alle).
 2. **Scannen Sie den QR-Code**, der auf der Seite angezeigt wird, mit der App. Wenn Sie ihn nicht scannen können, fügen Sie das Konto in der App manuell hinzu und geben Sie den **manuellen Schlüssel** ein, der unter dem QR-Code steht.

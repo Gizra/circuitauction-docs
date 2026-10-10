@@ -8,6 +8,8 @@ From version 3.5 the backoffice can protect staff accounts with **two-factor aut
 
 The first time you log in after the feature is switched on for your account, the backoffice takes you to a one-time **Authenticator app** setup page before anything else. You cannot open other pages until it is done.
 
+![The authenticator app setup page: QR code, manual key and the first-code field](assets/screenshots/authenticator-setup-page.png)
+
 1. **Install an authenticator app** on your phone (Authy, Google Authenticator and Microsoft Authenticator all work).
 2. **Scan the QR code** shown on the page with the app. If you cannot scan it, add the account manually in the app and type the **manual key** shown under the QR code.
 3. The app now shows a **six-digit code** that changes every 30 seconds. Type the current code in the **Code** field and click **Activate**.
