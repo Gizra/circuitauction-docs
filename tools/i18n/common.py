@@ -13,13 +13,16 @@ from typing import Iterable
 
 ROOT = Path(__file__).resolve().parents[2]
 LANG_RE = re.compile(r"^[a-z]{2}(-[a-z]{2,4})?$")
-SKIP_DIRS = {"node_modules", ".git", ".remember", ".claude", "docs", "tools", "assets"}
+SKIP_DIRS = {"node_modules", ".git", ".remember", ".claude", "docs", "tools", "assets", "it-section"}
 NON_CONTENT = {"_sidebar.md", "_coverpage.md", "_navbar.md", "SUMMARY.md",
-               "MAINTAINING_DOCS.md", "TRANSLATING_DOCS.md"}
+               "MAINTAINING_DOCS.md", "TRANSLATING_DOCS.md", "running-docs-locally.md",
+               "GITHUB_PAGES_SETUP.md", "tasks_readme.md", "logging-the-system.md"}
 HEADER_RE = re.compile(r"<!--\s*i18n\s+source=(?P<source>\S+)\s+sha=(?P<sha>[0-9a-f]{12})\s*-->")
-ASSET_LINK_RE = re.compile(r"\]\((?:\.\./)*assets/")
-ASSET_SRC_RE = re.compile(r"(src=[\"'])(?:\.\./)*assets/")
-RELATIVE_ASSET_RE = re.compile(r"\]\((?:\.\./)*assets/|src=[\"'](?:\.\./)*assets/")
+# An asset reference: optional `<`, any run of `../` or `/`, optional `.gitbook/`, then `assets/`.
+# docsify resolves image links against the page route (a leading `/` does not make them absolute),
+# so the only form that works from `<lang>/<dirs>/x.md` is `../` * (1 + len(dirs)).
+ASSET_LINK_RE = re.compile(r"\]\((<?)((?:\.\./|/)*)((?:\.gitbook/)?assets/)")
+ASSET_SRC_RE = re.compile(r"(src=[\"'])((?:\.\./|/)*)((?:\.gitbook/)?assets/)")
 SIDEBAR_LINK_RE = re.compile(r"\]\((?!https?://|/|#)([^)]+\.md)\)")
 
 
@@ -57,14 +60,23 @@ def parse_header(text: str) -> tuple[str, str] | None:
     return (m.group("source"), m.group("sha")) if m else None
 
 
-def rewrite_asset_links(text: str) -> str:
-    """`](../assets/x)` / `src="../assets/x"` -> `/assets/x` so links work from any language folder."""
-    text = ASSET_LINK_RE.sub("](/assets/", text)
-    return ASSET_SRC_RE.sub(r"\1/assets/", text)
+def asset_prefix(page: str) -> str:
+    """`../` repeated for the page's depth inside <lang>/ (`tasks.md` -> `../`, `a/b.md` -> `../../`)."""
+    return "../" * (len(Path(page).parts))
 
 
-def has_relative_asset_links(text: str) -> bool:
-    return bool(RELATIVE_ASSET_RE.search(text))
+def rewrite_asset_links(text: str, page: str) -> str:
+    """Normalise every asset link to the depth-correct relative form for `<lang>/<page>`."""
+    prefix = asset_prefix(page)
+    text = ASSET_LINK_RE.sub(lambda m: f"]({m.group(1)}{prefix}{m.group(3)}", text)
+    return ASSET_SRC_RE.sub(lambda m: f"{m.group(1)}{prefix}{m.group(3)}", text)
+
+
+def has_misresolved_asset_links(text: str, page: str) -> bool:
+    """True if any asset link in `<lang>/<page>` does not use exactly the expected `../` prefix."""
+    prefix = asset_prefix(page)
+    return any(m.group(2) != prefix
+               for rx in (ASSET_LINK_RE, ASSET_SRC_RE) for m in rx.finditer(text))
 
 
 def rewrite_sidebar_links(text: str, lang: str) -> str:

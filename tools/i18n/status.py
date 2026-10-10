@@ -10,7 +10,7 @@ Categories (a page is in exactly one of the first five):
   untranslated scaffold copy that nobody translated yet
   missing      no file under <lang>/ (docsify falls back to English)
   orphan       file under <lang>/ whose source no longer exists
-  broken-assets (extra flag) page still has relative ../assets links
+  broken-assets (extra flag) page has an asset link whose ../ prefix is not depth-correct
 """
 from __future__ import annotations
 
@@ -18,7 +18,7 @@ import argparse
 import json
 from pathlib import Path
 
-from common import (ROOT, has_relative_asset_links, parse_header, rewrite_asset_links,
+from common import (ROOT, has_misresolved_asset_links, parse_header, rewrite_asset_links,
                     sha_of, source_pages)
 
 CATEGORIES = ["current", "outdated", "untranslated", "missing", "orphan", "broken-assets"]
@@ -33,14 +33,14 @@ def status(root: Path, lang: str) -> dict[str, list[str]]:
             res["missing"].append(page)
             continue
         text = dst.read_text(encoding="utf-8")
-        if has_relative_asset_links(text):
+        if has_misresolved_asset_links(text, page):
             res["broken-assets"].append(page)
         header = parse_header(text)
         if header is None or header[1] != sha_of(src):
             res["outdated"].append(page)
             continue
         body = text.split("\n", 1)[1] if "\n" in text else ""
-        if body == rewrite_asset_links(src.read_text(encoding="utf-8")):
+        if body == rewrite_asset_links(src.read_text(encoding="utf-8"), page):
             res["untranslated"].append(page)
         else:
             res["current"].append(page)

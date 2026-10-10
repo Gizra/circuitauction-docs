@@ -18,7 +18,7 @@ class StatusTests(unittest.TestCase):
         p.write_text(p.read_text().replace("# Sale", "# Verkauf"))           # translated, current
         (self.tmp / "sale" / "x.md").write_text("# Sale (edited)\n")         # ... now outdated
         (self.tmp / "de" / "orphan.md").write_text("<!-- i18n source=gone.md sha=000000000000 -->\n")
-        (self.tmp / "de" / "README.md").write_text("<!-- i18n source=README.md sha=000000000000 -->\n![](../assets/a.png)\n")
+        (self.tmp / "de" / "README.md").write_text("<!-- i18n source=README.md sha=000000000000 -->\n![](/assets/a.png)\n")
         r = status.status(self.tmp, "de")
         self.assertEqual(r["untranslated"], ["client/README.md"])
         self.assertEqual(r["outdated"], ["README.md", "sale/x.md"])
@@ -26,6 +26,14 @@ class StatusTests(unittest.TestCase):
         self.assertEqual(r["orphan"], ["de/orphan.md"])
         self.assertEqual(r["broken-assets"], ["README.md"])
         self.assertEqual(r["current"], [])
+
+    def test_depth_correct_relative_assets_are_not_broken(self):
+        scaffold.scaffold_page(self.tmp, "de", "client/README.md")
+        (self.tmp / "de" / "README.md").write_text(
+            "<!-- i18n source=README.md sha=000000000000 -->\n![](../assets/a.png)\n")
+        r = status.status(self.tmp, "de")
+        self.assertEqual(r["broken-assets"], [])
+        self.assertEqual(r["untranslated"], ["client/README.md"])
 
     def test_scaffolded_only_language_folder_is_not_treated_as_source(self):
         (self.tmp / "de" / "README.md").unlink()

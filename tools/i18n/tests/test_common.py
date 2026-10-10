@@ -40,10 +40,16 @@ class CommonTests(unittest.TestCase):
         self.assertEqual(common.source_pages(self.tmp), ["README.md", "client/README.md"])
 
     def test_content_folder_named_like_a_language_is_not_a_language_dir(self):
-        (self.tmp / "it-section").mkdir()
-        (self.tmp / "it-section" / "x.md").write_text("# Section\n")
+        (self.tmp / "my-section").mkdir()
+        (self.tmp / "my-section" / "x.md").write_text("# Section\n")
         self.assertEqual(common.lang_dirs(self.tmp), ["de"])
-        self.assertIn("it-section/x.md", common.source_pages(self.tmp))
+        self.assertIn("my-section/x.md", common.source_pages(self.tmp))
+
+    def test_source_pages_excludes_it_section_and_maintainer_pages(self):
+        (self.tmp / "it-section").mkdir()
+        (self.tmp / "it-section" / "README.md").write_text("# IT\n")
+        (self.tmp / "running-docs-locally.md").write_text("# Local\n")
+        self.assertEqual(common.source_pages(self.tmp), ["README.md", "client/README.md"])
 
     def test_header_roundtrip(self):
         h = common.make_header("client/README.md", "0123456789ab")
@@ -53,19 +59,40 @@ class CommonTests(unittest.TestCase):
     def test_sha_is_12_hex(self):
         self.assertRegex(common.sha_of(self.tmp / "README.md"), r"^[0-9a-f]{12}$")
 
-    def test_rewrite_asset_links(self):
+    def test_rewrite_asset_links_is_depth_correct(self):
         text = "![](../assets/a.png) ![](assets/b.png) ![](../../assets/c.png) [x](/assets/d.png)"
+        for page, prefix in (("tasks.md", "../"), ("auction/x.md", "../../"),
+                             ("auction/clerk-screen/x.md", "../../../")):
+            want = " ".join(f"![]({prefix}assets/{n}.png)" for n in "abc") + f" [x]({prefix}assets/d.png)"
+            self.assertEqual(common.rewrite_asset_links(text, page), want, page)
+
+    def test_rewrite_asset_links_handles_gitbook_and_angle_brackets(self):
+        text = "![](../.gitbook/assets/a.png) ![](<../.gitbook/assets/b c.png>) ![](<../assets/d e.png>)"
         self.assertEqual(
-            common.rewrite_asset_links(text),
-            "![](/assets/a.png) ![](/assets/b.png) ![](/assets/c.png) [x](/assets/d.png)",
+            common.rewrite_asset_links(text, "items/x.md"),
+            "![](../../.gitbook/assets/a.png) ![](<../../.gitbook/assets/b c.png>) ![](<../../assets/d e.png>)",
         )
 
     def test_rewrite_asset_links_handles_html_src(self):
-        text = '<img src="../assets/x.png"> <video src=\'assets/y.mp4\'>'
+        text = '<img src="../assets/x.png"> <video src=\'assets/y.mp4\'> <img src="/assets/z.png">'
         self.assertEqual(
-            common.rewrite_asset_links(text),
-            '<img src="/assets/x.png"> <video src=\'/assets/y.mp4\'>',
+            common.rewrite_asset_links(text, "client/x.md"),
+            '<img src="../../assets/x.png"> <video src=\'../../assets/y.mp4\'> <img src="../../assets/z.png">',
         )
+
+    def test_rewrite_asset_links_leaves_external_urls(self):
+        text = "![](https://example.com/assets/a.png)"
+        self.assertEqual(common.rewrite_asset_links(text, "tasks.md"), text)
+
+    def test_has_misresolved_asset_links(self):
+        f = common.has_misresolved_asset_links
+        self.assertFalse(f("![](../../assets/a.png) ![](<../../.gitbook/assets/a b.png>)", "client/x.md"))
+        self.assertFalse(f('<img src="../assets/a.png">', "tasks.md"))
+        self.assertTrue(f("![](/assets/a.png)", "tasks.md"))
+        self.assertTrue(f("![](../assets/a.png)", "client/x.md"))
+        self.assertTrue(f("![](assets/a.png)", "tasks.md"))
+        self.assertTrue(f("![](<../.gitbook/assets/a b.png>)", "client/x.md"))
+        self.assertTrue(f('<img src="/assets/a.png">', "tasks.md"))
 
     def test_rewrite_sidebar_links(self):
         text = "* [Intro](README.md)\n* [Clients](client/README.md)\n* [Site](https://x.y/z.md)\n* [Abs](/de/x.md)"
