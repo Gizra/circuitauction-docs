@@ -3,7 +3,7 @@
 
 Ab Version 3.5 kann das Backoffice Mitarbeiterkonten mit einer **Zwei-Faktor-Authentifizierung** schützen: Neben Benutzername und Passwort fragt jede Anmeldung einen sechsstelligen Code aus einer Authenticator-App auf Ihrem Smartphone ab, zum Beispiel Authy, Google Authenticator oder Microsoft Authenticator.
 
-<video class="release-video" controls preload="metadata" playsinline src="https://circuit-kubernetes.s3.eu-central-1.amazonaws.com/openmontage/tutorials/release-3.5-authenticator-setup/final.mp4">Your browser does not support the video tag. <a href="https://circuit-kubernetes.s3.eu-central-1.amazonaws.com/openmontage/tutorials/release-3.5-authenticator-setup/final.mp4">Download the video</a>.</video>
+<video class="release-video" controls preload="metadata" playsinline src="https://circuit-kubernetes.s3.eu-central-1.amazonaws.com/openmontage/tutorials/release-3.5-authenticator-setup-de/final.mp4">Your browser does not support the video tag. <a href="https://circuit-kubernetes.s3.eu-central-1.amazonaws.com/openmontage/tutorials/release-3.5-authenticator-setup-de/final.mp4">Download the video</a>.</video>
 
 ## Erste Anmeldung: die App einrichten
 

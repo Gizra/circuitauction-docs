@@ -7,7 +7,7 @@ Kommendes Release. Version 3.5 konzentriert sich auf Auswertungen, die Kommunika
 
 ### Auction Timeline
 
-<video class="release-video" controls preload="metadata" playsinline src="https://circuit-kubernetes.s3.eu-central-1.amazonaws.com/openmontage/tutorials/release-3.5-auction-timeline/final.mp4">Your browser does not support the video tag. <a href="https://circuit-kubernetes.s3.eu-central-1.amazonaws.com/openmontage/tutorials/release-3.5-auction-timeline/final.mp4">Download the video</a>.</video>
+<video class="release-video" controls preload="metadata" playsinline src="https://circuit-kubernetes.s3.eu-central-1.amazonaws.com/openmontage/tutorials/release-3.5-auction-timeline-de/final.mp4">Your browser does not support the video tag. <a href="https://circuit-kubernetes.s3.eu-central-1.amazonaws.com/openmontage/tutorials/release-3.5-auction-timeline-de/final.mp4">Download the video</a>.</video>
 
 Eine neue Seite **Auction Timeline** (Seitenleiste, unter Auswertungen) bietet einen Rückblick auf eine abgeschlossene Live-Session, wie sie vom Bid-Server aufgezeichnet wurde.
 
@@ -19,7 +19,7 @@ Eine neue Seite **Auction Timeline** (Seitenleiste, unter Auswertungen) bietet e
 
 ### Neugestaltung der Kundenstatistik
 
-<video class="release-video" controls preload="metadata" playsinline src="https://circuit-kubernetes.s3.eu-central-1.amazonaws.com/openmontage/tutorials/release-3.5-client-statistics/final.mp4">Your browser does not support the video tag. <a href="https://circuit-kubernetes.s3.eu-central-1.amazonaws.com/openmontage/tutorials/release-3.5-client-statistics/final.mp4">Download the video</a>.</video>
+<video class="release-video" controls preload="metadata" playsinline src="https://circuit-kubernetes.s3.eu-central-1.amazonaws.com/openmontage/tutorials/release-3.5-client-statistics-de/final.mp4">Your browser does not support the video tag. <a href="https://circuit-kubernetes.s3.eu-central-1.amazonaws.com/openmontage/tutorials/release-3.5-client-statistics-de/final.mp4">Download the video</a>.</video>
 
 Der Tab **Statistiken** auf der Kundenseite wurde neu gestaltet.
 
@@ -31,7 +31,7 @@ Der Tab **Statistiken** auf der Kundenseite wurde neu gestaltet.
 
 ### Neugestaltung der Gebotsberichte
 
-<video class="release-video" controls preload="metadata" playsinline src="https://circuit-kubernetes.s3.eu-central-1.amazonaws.com/openmontage/tutorials/release-3.5-bids-reports/final.mp4">Your browser does not support the video tag. <a href="https://circuit-kubernetes.s3.eu-central-1.amazonaws.com/openmontage/tutorials/release-3.5-bids-reports/final.mp4">Download the video</a>.</video>
+<video class="release-video" controls preload="metadata" playsinline src="https://circuit-kubernetes.s3.eu-central-1.amazonaws.com/openmontage/tutorials/release-3.5-bids-reports-de/final.mp4">Your browser does not support the video tag. <a href="https://circuit-kubernetes.s3.eu-central-1.amazonaws.com/openmontage/tutorials/release-3.5-bids-reports-de/final.mp4">Download the video</a>.</video>
 
 Die Seite **Bids reports** (Seitenleiste) wurde als Satz von Tabs neu aufgebaut, jeweils mit Spaltenfiltern, Sortierung und CSV-Export:
 
@@ -44,7 +44,7 @@ Die Seite **Bids reports** (Seitenleiste) wurde als Satz von Tabs neu aufgebaut,
 
 ### Neue Einlieferungsberichte
 
-<video class="release-video" controls preload="metadata" playsinline src="https://circuit-kubernetes.s3.eu-central-1.amazonaws.com/openmontage/tutorials/release-3.5-consignment-reports/final.mp4">Your browser does not support the video tag. <a href="https://circuit-kubernetes.s3.eu-central-1.amazonaws.com/openmontage/tutorials/release-3.5-consignment-reports/final.mp4">Download the video</a>.</video>
+<video class="release-video" controls preload="metadata" playsinline src="https://circuit-kubernetes.s3.eu-central-1.amazonaws.com/openmontage/tutorials/release-3.5-consignment-reports-de/final.mp4">Your browser does not support the video tag. <a href="https://circuit-kubernetes.s3.eu-central-1.amazonaws.com/openmontage/tutorials/release-3.5-consignment-reports-de/final.mp4">Download the video</a>.</video>
 
 Die Einlieferungsseite bietet neue Berichtsaktionen:
 
@@ -54,7 +54,7 @@ Die Einlieferungsseite bietet neue Berichtsaktionen:
 
 ### Buchhaltungsexport als CSV und XLSX
 
-<video class="release-video" controls preload="metadata" playsinline src="https://circuit-kubernetes.s3.eu-central-1.amazonaws.com/openmontage/tutorials/release-3.5-export-accounting/final.mp4">Your browser does not support the video tag. <a href="https://circuit-kubernetes.s3.eu-central-1.amazonaws.com/openmontage/tutorials/release-3.5-export-accounting/final.mp4">Download the video</a>.</video>
+<video class="release-video" controls preload="metadata" playsinline src="https://circuit-kubernetes.s3.eu-central-1.amazonaws.com/openmontage/tutorials/release-3.5-export-accounting-de/final.mp4">Your browser does not support the video tag. <a href="https://circuit-kubernetes.s3.eu-central-1.amazonaws.com/openmontage/tutorials/release-3.5-export-accounting-de/final.mp4">Download the video</a>.</video>
 
 Auf der Seite **Export Accounting** gibt es im Block Export jetzt die Schaltflächen **CSV** und **XLSX**. Sie laden die aktuell gefilterte Liste der Rechnungen oder Einliefererabrechnungen als Tabelle herunter. Durch diesen Download werden die Einträge nicht als an die Buchhaltung exportiert markiert.
 
@@ -62,19 +62,19 @@ Auf der Seite **Export Accounting** gibt es im Block Export jetzt die Schaltflä
 
 ### Vorschau von E-Mail und PDF in den Sammelaktionen für Bestellungen
 
-<video class="release-video" controls preload="metadata" playsinline src="https://circuit-kubernetes.s3.eu-central-1.amazonaws.com/openmontage/tutorials/release-3.5-orders-preview-email/final.mp4">Your browser does not support the video tag. <a href="https://circuit-kubernetes.s3.eu-central-1.amazonaws.com/openmontage/tutorials/release-3.5-orders-preview-email/final.mp4">Download the video</a>.</video>
+<video class="release-video" controls preload="metadata" playsinline src="https://circuit-kubernetes.s3.eu-central-1.amazonaws.com/openmontage/tutorials/release-3.5-orders-preview-email-de/final.mp4">Your browser does not support the video tag. <a href="https://circuit-kubernetes.s3.eu-central-1.amazonaws.com/openmontage/tutorials/release-3.5-orders-preview-email-de/final.mp4">Download the video</a>.</video>
 
 Im Block **Batch actions** der Seite Rechnungen zeigt die neue Schaltfläche **Preview email & PDF** die tatsächliche E-Mail und das Rechnungs-PDF mit echten Daten an, bevor Sie auf Anwenden klicken, um sie an die ausgewählten Bestellungen zu senden.
 
 ### Liste gesendeter E-Mails auf der Rechnungsseite
 
-<video class="release-video" controls preload="metadata" playsinline src="https://circuit-kubernetes.s3.eu-central-1.amazonaws.com/openmontage/tutorials/release-3.5-invoice-email-list/final.mp4">Your browser does not support the video tag. <a href="https://circuit-kubernetes.s3.eu-central-1.amazonaws.com/openmontage/tutorials/release-3.5-invoice-email-list/final.mp4">Download the video</a>.</video>
+<video class="release-video" controls preload="metadata" playsinline src="https://circuit-kubernetes.s3.eu-central-1.amazonaws.com/openmontage/tutorials/release-3.5-invoice-email-list-de/final.mp4">Your browser does not support the video tag. <a href="https://circuit-kubernetes.s3.eu-central-1.amazonaws.com/openmontage/tutorials/release-3.5-invoice-email-list-de/final.mp4">Download the video</a>.</video>
 
 Jede Rechnungsseite endet jetzt mit einer Tabelle **Emails and Documents**, die jede für diese Rechnung erzeugte E-Mail und jedes Dokument auflistet: Erstellungs- oder Versanddatum, Titel, Art, Empfänger, Inhalt, angehängte Dokumente und Autor (einschließlich der automatisch vom System versendeten E-Mails).
 
 ### Editor für E-Mail-Vorlagen
 
-<video class="release-video" controls preload="metadata" playsinline src="https://circuit-kubernetes.s3.eu-central-1.amazonaws.com/openmontage/tutorials/release-3.5-email-templates/final.mp4">Your browser does not support the video tag. <a href="https://circuit-kubernetes.s3.eu-central-1.amazonaws.com/openmontage/tutorials/release-3.5-email-templates/final.mp4">Download the video</a>.</video>
+<video class="release-video" controls preload="metadata" playsinline src="https://circuit-kubernetes.s3.eu-central-1.amazonaws.com/openmontage/tutorials/release-3.5-email-templates-de/final.mp4">Your browser does not support the video tag. <a href="https://circuit-kubernetes.s3.eu-central-1.amazonaws.com/openmontage/tutorials/release-3.5-email-templates-de/final.mp4">Download the video</a>.</video>
 
 Auf der neuen Seite **Email Templates** (Seitenleiste) können Sie alle globalen E-Mail-Vorlagen für Rechnungen, Versand, Bieterbenachrichtigungen und andere Abläufe ansehen und bearbeiten.
 
@@ -85,7 +85,7 @@ Auf der neuen Seite **Email Templates** (Seitenleiste) können Sie alle globalen
 
 ### Automatische Zahlungserinnerungen für Rechnungen
 
-<video class="release-video" controls preload="metadata" playsinline src="https://circuit-kubernetes.s3.eu-central-1.amazonaws.com/openmontage/tutorials/release-3.5-payment-reminders/final.mp4">Your browser does not support the video tag. <a href="https://circuit-kubernetes.s3.eu-central-1.amazonaws.com/openmontage/tutorials/release-3.5-payment-reminders/final.mp4">Download the video</a>.</video>
+<video class="release-video" controls preload="metadata" playsinline src="https://circuit-kubernetes.s3.eu-central-1.amazonaws.com/openmontage/tutorials/release-3.5-payment-reminders-de/final.mp4">Your browser does not support the video tag. <a href="https://circuit-kubernetes.s3.eu-central-1.amazonaws.com/openmontage/tutorials/release-3.5-payment-reminders-de/final.mp4">Download the video</a>.</video>
 
 Unbezahlte Rechnungen können jetzt automatisch in drei Stufen angemahnt werden: ein **Payment reminder**, eine Mitteilung **Past due** und ein **Final reminder**.
 
@@ -96,7 +96,7 @@ Unbezahlte Rechnungen können jetzt automatisch in drei Stufen angemahnt werden:
 
 ### Adressaufkleber auf A4-Bögen drucken
 
-<video class="release-video" controls preload="metadata" playsinline src="https://circuit-kubernetes.s3.eu-central-1.amazonaws.com/openmontage/tutorials/release-3.5-address-sticker-sheet/final.mp4">Your browser does not support the video tag. <a href="https://circuit-kubernetes.s3.eu-central-1.amazonaws.com/openmontage/tutorials/release-3.5-address-sticker-sheet/final.mp4">Download the video</a>.</video>
+<video class="release-video" controls preload="metadata" playsinline src="https://circuit-kubernetes.s3.eu-central-1.amazonaws.com/openmontage/tutorials/release-3.5-address-sticker-sheet-de/final.mp4">Your browser does not support the video tag. <a href="https://circuit-kubernetes.s3.eu-central-1.amazonaws.com/openmontage/tutorials/release-3.5-address-sticker-sheet-de/final.mp4">Download the video</a>.</video>
 
 In der Sammelaktion **Address sticker** auf der Seite Kunden bietet die Liste **Format** jetzt zusätzlich zum Einzeletikett den **Etikettenbogen (2 × 5)**, sodass die Standardadresse jedes ausgewählten Kunden auf handelsübliche A4-Etikettenbögen gedruckt werden kann.
 
@@ -104,7 +104,7 @@ In der Sammelaktion **Address sticker** auf der Seite Kunden bietet die Liste **
 
 ### Auf Aufgaben vom Typ "Ask about item" antworten
 
-<video class="release-video" controls preload="metadata" playsinline src="https://circuit-kubernetes.s3.eu-central-1.amazonaws.com/openmontage/tutorials/release-3.5-task-reply/final.mp4">Your browser does not support the video tag. <a href="https://circuit-kubernetes.s3.eu-central-1.amazonaws.com/openmontage/tutorials/release-3.5-task-reply/final.mp4">Download the video</a>.</video>
+<video class="release-video" controls preload="metadata" playsinline src="https://circuit-kubernetes.s3.eu-central-1.amazonaws.com/openmontage/tutorials/release-3.5-task-reply-de/final.mp4">Your browser does not support the video tag. <a href="https://circuit-kubernetes.s3.eu-central-1.amazonaws.com/openmontage/tutorials/release-3.5-task-reply-de/final.mp4">Download the video</a>.</video>
 
 Fragen, die Bieter zu einem Los senden, erscheinen unter [Aufgaben](/de/tasks.md) als Aufgaben vom Typ *Ask about item*. Eine neue Aktion **Beantwortet** öffnet einen E-Mail-Editor:
 
@@ -115,7 +115,7 @@ Fragen, die Bieter zu einem Los senden, erscheinen unter [Aufgaben](/de/tasks.md
 
 ### Integrierte Support-Tickets
 
-<video class="release-video" controls preload="metadata" playsinline src="https://circuit-kubernetes.s3.eu-central-1.amazonaws.com/openmontage/tutorials/release-3.5-support-tickets/final.mp4">Your browser does not support the video tag. <a href="https://circuit-kubernetes.s3.eu-central-1.amazonaws.com/openmontage/tutorials/release-3.5-support-tickets/final.mp4">Download the video</a>.</video>
+<video class="release-video" controls preload="metadata" playsinline src="https://circuit-kubernetes.s3.eu-central-1.amazonaws.com/openmontage/tutorials/release-3.5-support-tickets-de/final.mp4">Your browser does not support the video tag. <a href="https://circuit-kubernetes.s3.eu-central-1.amazonaws.com/openmontage/tutorials/release-3.5-support-tickets-de/final.mp4">Download the video</a>.</video>
 
 Eine neue Seite **Support-Tickets** (Seitenleiste und ein Verknüpfungssymbol in der oberen Leiste) listet Ihre Supportanfragen an das CircuitAuction-Team mit ihrem Status auf: offen, in Bearbeitung, gelöst, live ausgeliefert und geschlossen. Tickets lassen sich nach Status und nach Tag filtern.
 
@@ -123,7 +123,7 @@ Eine neue Seite **Support-Tickets** (Seitenleiste und ein Verknüpfungssymbol in
 
 ### Import von HiBid-Geboten
 
-<video class="release-video" controls preload="metadata" playsinline src="https://circuit-kubernetes.s3.eu-central-1.amazonaws.com/openmontage/tutorials/release-3.5-hibid-import/final.mp4">Your browser does not support the video tag. <a href="https://circuit-kubernetes.s3.eu-central-1.amazonaws.com/openmontage/tutorials/release-3.5-hibid-import/final.mp4">Download the video</a>.</video>
+<video class="release-video" controls preload="metadata" playsinline src="https://circuit-kubernetes.s3.eu-central-1.amazonaws.com/openmontage/tutorials/release-3.5-hibid-import-de/final.mp4">Your browser does not support the video tag. <a href="https://circuit-kubernetes.s3.eu-central-1.amazonaws.com/openmontage/tutorials/release-3.5-hibid-import-de/final.mp4">Download the video</a>.</video>
 
 Der Tab **Gebotsimport** der Auktionsseite bietet neben den vorhandenen Importen für [Philasearch](/de/data-migration/bids-philasearch.md), [Delcampe](/de/data-migration/bids-delcampe.md), [Auction Mobility](/de/data-migration/bids-mobility.md), [SAN](/de/data-migration/bids-san.md) und Invaluable einen neuen **HiBid Import**.
 
@@ -134,7 +134,7 @@ Der Tab **Gebotsimport** der Auktionsseite bietet neben den vorhandenen Importen
 
 ### Auktion zurücksetzen und synchronisieren
 
-<video class="release-video" controls preload="metadata" playsinline src="https://circuit-kubernetes.s3.eu-central-1.amazonaws.com/openmontage/tutorials/release-3.5-reset-sale-sync/final.mp4">Your browser does not support the video tag. <a href="https://circuit-kubernetes.s3.eu-central-1.amazonaws.com/openmontage/tutorials/release-3.5-reset-sale-sync/final.mp4">Download the video</a>.</video>
+<video class="release-video" controls preload="metadata" playsinline src="https://circuit-kubernetes.s3.eu-central-1.amazonaws.com/openmontage/tutorials/release-3.5-reset-sale-sync-de/final.mp4">Your browser does not support the video tag. <a href="https://circuit-kubernetes.s3.eu-central-1.amazonaws.com/openmontage/tutorials/release-3.5-reset-sale-sync-de/final.mp4">Download the video</a>.</video>
 
 Die neue Schaltfläche **Sale zurücksetzen und synchronisieren** auf der Auktionsseite stellt alle Lose der Auktion erneut für die Suchindizierung in die Warteschlange, synchronisiert die Lose erneut mit dem Bid-Server, baut das Sale-JSON neu auf und sendet, sobald diese Warteschlangen abgearbeitet sind, einen Cache-Reset an die Website für Kunden. Der Fortschritt jedes Schritts wird neben der Schaltfläche angezeigt. Verwenden Sie sie, wenn die Website veraltete Daten zu einer Auktion anzeigt.
 
@@ -142,7 +142,7 @@ Die neue Schaltfläche **Sale zurücksetzen und synchronisieren** auf der Auktio
 
 ### Zwei-Faktor-Authentifizierung mit einer Authenticator-App
 
-<video class="release-video" controls preload="metadata" playsinline src="https://circuit-kubernetes.s3.eu-central-1.amazonaws.com/openmontage/tutorials/release-3.5-authenticator-setup/final.mp4">Your browser does not support the video tag. <a href="https://circuit-kubernetes.s3.eu-central-1.amazonaws.com/openmontage/tutorials/release-3.5-authenticator-setup/final.mp4">Download the video</a>.</video>
+<video class="release-video" controls preload="metadata" playsinline src="https://circuit-kubernetes.s3.eu-central-1.amazonaws.com/openmontage/tutorials/release-3.5-authenticator-setup-de/final.mp4">Your browser does not support the video tag. <a href="https://circuit-kubernetes.s3.eu-central-1.amazonaws.com/openmontage/tutorials/release-3.5-authenticator-setup-de/final.mp4">Download the video</a>.</video>
 
 Für Mitarbeiter-Logins kann jetzt zusätzlich zum Passwort ein sechsstelliger Code aus einer Authenticator-App (Authy, Google Authenticator, Microsoft Authenticator) verlangt werden. Siehe [Anmelden mit einer Authenticator-App](/de/logging-in-with-an-authenticator-app.md).
 
@@ -154,12 +154,12 @@ Für Mitarbeiter-Logins kann jetzt zusätzlich zum Passwort ein sechsstelliger C
 
 ### Dunkler Modus
 
-<video class="release-video" controls preload="metadata" playsinline src="https://circuit-kubernetes.s3.eu-central-1.amazonaws.com/openmontage/tutorials/release-3.5-dark-mode/final.mp4">Your browser does not support the video tag. <a href="https://circuit-kubernetes.s3.eu-central-1.amazonaws.com/openmontage/tutorials/release-3.5-dark-mode/final.mp4">Download the video</a>.</video>
+<video class="release-video" controls preload="metadata" playsinline src="https://circuit-kubernetes.s3.eu-central-1.amazonaws.com/openmontage/tutorials/release-3.5-dark-mode-de/final.mp4">Your browser does not support the video tag. <a href="https://circuit-kubernetes.s3.eu-central-1.amazonaws.com/openmontage/tutorials/release-3.5-dark-mode-de/final.mp4">Download the video</a>.</video>
 
 Ein Mond-Symbol in der oberen Leiste neben der Benachrichtigungsglocke schaltet das gesamte Backoffice auf ein dunkles Design um. Die Auswahl wird für Ihren Benutzer gespeichert.
 
 ### Gesundheitsmonitor des Bid-Servers
 
-<video class="release-video" controls preload="metadata" playsinline src="https://circuit-kubernetes.s3.eu-central-1.amazonaws.com/openmontage/tutorials/release-3.5-health-monitor/final.mp4">Your browser does not support the video tag. <a href="https://circuit-kubernetes.s3.eu-central-1.amazonaws.com/openmontage/tutorials/release-3.5-health-monitor/final.mp4">Download the video</a>.</video>
+<video class="release-video" controls preload="metadata" playsinline src="https://circuit-kubernetes.s3.eu-central-1.amazonaws.com/openmontage/tutorials/release-3.5-health-monitor-de/final.mp4">Your browser does not support the video tag. <a href="https://circuit-kubernetes.s3.eu-central-1.amazonaws.com/openmontage/tutorials/release-3.5-health-monitor-de/final.mp4">Download the video</a>.</video>
 
 Die Schaltfläche **Health** in der oberen Leiste öffnet einen Monitor für die Verbindung zum Bid-Server und seine Warteschlangen. Die Warteschlange startet sich bei einem Stillstand jetzt automatisch neu, sodass sich das Live-Bieten ohne manuelles Eingreifen erholt.
