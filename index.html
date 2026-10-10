@@ -50,46 +50,53 @@
 <body>
   <div id="app">Loading...</div>
   <script>
+    // Languages published besides English (folder name = ISO code used by the backoffice).
+    var LANGS = ['de'];
+
     window.$docsify = {
       name: 'CircuitAuction Docs',
+      nameLink: { '/de/': '#/de/', '/': '#/' },
       repo: 'https://github.com/Gizra/circuitauction-docs',
       loadSidebar: true,
-      coverpage: true,
+      loadNavbar: true,
+      coverpage: ['/', '/de/'],
       autoHeader: true,
       subMaxLevel: 3,
       maxLevel: 4,
-
-      // Homepage
       homepage: 'README.md',
 
-      // Sidebar configuration
+      // Serve the English page when a translated one does not exist (yet).
+      fallbackLanguages: LANGS,
+
+      // Order matters: the language rule must come before the generic one,
+      // otherwise /de/_sidebar.md is aliased to the English sidebar.
       alias: {
-        '/.*/_sidebar.md': '/_sidebar.md'
+        '/de/(.*/)?_sidebar.md': '/de/_sidebar.md',
+        '/.*/_sidebar.md': '/_sidebar.md',
+        '/.*/_navbar.md': '/_navbar.md'
       },
 
-      // Search plugin
       search: {
         maxAge: 86400000,
         paths: 'auto',
-        placeholder: 'Search...',
-        noData: 'No Results!',
+        pathNamespaces: LANGS.map(function (l) { return '/' + l; }),
+        placeholder: { '/de/': 'Suchen...', '/': 'Search...' },
+        noData: { '/de/': 'Keine Ergebnisse', '/': 'No Results!' },
         depth: 6,
         hideOtherSidebarContent: false
       },
 
-      // Pagination
       pagination: {
-        previousText: 'Previous',
-        nextText: 'Next',
+        previousText: { '/de/': 'Zurück', '/': 'Previous' },
+        nextText: { '/de/': 'Weiter', '/': 'Next' },
         crossChapter: true,
         crossChapterText: true,
       },
 
-      // Copy code plugin
       copyCode: {
-        buttonText : 'Copy',
-        errorText  : 'Error',
-        successText: 'Copied'
+        buttonText: { '/de/': 'Kopieren', '/': 'Copy' },
+        errorText: { '/de/': 'Fehler', '/': 'Error' },
+        successText: { '/de/': 'Kopiert', '/': 'Copied' }
       },
 
       // Process GitBook hint blocks
@@ -106,6 +113,29 @@
               }
             );
             return html;
+          });
+        },
+        // i18n: <html lang/dir> follows the route, and the navbar language links
+        // keep the current page instead of jumping to the language home.
+        function (hook, vm) {
+          var RTL = ['he'];
+          function langOf(path) {
+            var m = path.match(/^\/([a-z]{2}(?:-[a-z]+)?)(?:\/|$)/);
+            return m && LANGS.indexOf(m[1]) !== -1 ? m[1] : '';
+          }
+          hook.doneEach(function () {
+            var path = vm.route.path || '/';
+            var cur = langOf(path);
+            var rest = cur ? path.slice(cur.length + 1) || '/' : path;
+            document.documentElement.lang = cur || 'en';
+            document.documentElement.dir = RTL.indexOf(cur) !== -1 ? 'rtl' : 'ltr';
+            document.querySelectorAll('.app-nav a').forEach(function (a) {
+              var m = (a.getAttribute('href') || '').match(/^#\/([a-z]{2}(?:-[a-z]+)?)?\/?$/);
+              if (!m) return;
+              var target = m[1] || '';
+              if (target && LANGS.indexOf(target) === -1) return;
+              a.setAttribute('href', '#' + (target ? '/' + target : '') + rest);
+            });
           });
         }
       ]
