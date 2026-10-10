@@ -35,7 +35,8 @@ def source_pages(root: Path = ROOT) -> list[str]:
     pages = []
     for p in root.rglob("*.md"):
         rel = p.relative_to(root)
-        if rel.parts[0] in SKIP_DIRS or rel.parts[0] in langs or rel.name in NON_CONTENT:
+        if (rel.parts[0] in SKIP_DIRS or rel.parts[0].startswith(".")
+                or rel.parts[0] in langs or rel.name in NON_CONTENT):
             continue
         pages.append(rel.as_posix())
     return sorted(pages)

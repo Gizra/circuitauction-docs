@@ -16,8 +16,16 @@ from pathlib import Path
 
 from common import ROOT
 
-DEFAULT_LOCALE_DIR = ROOT.parent / "circuitauction-backoffice" / "client" / "app" / "i18n"
 MAX_LEN = 60
+
+
+def default_locale_dir(root: Path = ROOT) -> Path:
+    """<sibling checkout>/circuitauction-backoffice/client/app/i18n, searching upwards so a git worktree under .claude/worktrees/ still finds it."""
+    for parent in root.resolve().parents:
+        candidate = parent / "circuitauction-backoffice" / "client" / "app" / "i18n"
+        if candidate.is_dir():
+            return candidate
+    return root.parent / "circuitauction-backoffice" / "client" / "app" / "i18n"
 
 
 def flatten(obj: dict, prefix: str = "") -> dict[str, object]:
@@ -56,7 +64,7 @@ def render(pairs: list[tuple[str, str]], lang: str) -> str:
 def main(argv: list[str] | None = None) -> int:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--lang", required=True)
-    ap.add_argument("--locale-dir", type=Path, default=DEFAULT_LOCALE_DIR)
+    ap.add_argument("--locale-dir", type=Path, default=default_locale_dir())
     ap.add_argument("--out", type=Path, default=None)
     a = ap.parse_args(argv)
     en = json.loads((a.locale_dir / "locale-en.json").read_text(encoding="utf-8"))

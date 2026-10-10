@@ -1,4 +1,5 @@
-import unittest
+import tempfile, unittest
+from pathlib import Path
 
 import glossary
 
@@ -13,6 +14,14 @@ class GlossaryTests(unittest.TestCase):
               "SALES": {"TITLE": "Auktionen", "CLIENTS": "Klienten"}}
         self.assertEqual(glossary.glossary_pairs(en, de),
                          [("Clients", "Kunden"), ("Sales", "Auktionen")])
+
+    def test_default_locale_dir_finds_sibling_checkout_from_worktree(self):
+        tmp = Path(tempfile.mkdtemp())
+        repo = tmp / "a" / "b" / "repo"
+        repo.mkdir(parents=True)
+        i18n = tmp / "a" / "circuitauction-backoffice" / "client" / "app" / "i18n"
+        i18n.mkdir(parents=True)
+        self.assertEqual(glossary.default_locale_dir(repo), i18n.resolve())
 
     def test_render_is_a_markdown_table(self):
         out = glossary.render([("Clients", "Kunden")], "de")

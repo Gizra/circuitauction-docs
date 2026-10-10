@@ -28,6 +28,11 @@ class CommonTests(unittest.TestCase):
     def test_source_pages_skips_lang_dirs_non_content_and_vendor(self):
         self.assertEqual(common.source_pages(self.tmp), ["README.md", "client/README.md"])
 
+    def test_source_pages_skips_dot_directories(self):
+        (self.tmp / ".superpowers").mkdir()
+        (self.tmp / ".superpowers" / "x.md").write_text("# local only\n")
+        self.assertEqual(common.source_pages(self.tmp), ["README.md", "client/README.md"])
+
     def test_header_roundtrip(self):
         h = common.make_header("client/README.md", "0123456789ab")
         self.assertEqual(common.parse_header(h + "\n# x"), ("client/README.md", "0123456789ab"))
