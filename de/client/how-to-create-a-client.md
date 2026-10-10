@@ -4,6 +4,6 @@
 1. Gehen Sie im Seitenmenü zu **Kunden**
 2. Klicken Sie auf `Neuen Kunden anlegen`
 
-![](/assets/screenshots/clients-create-button.png)
+![](../../assets/screenshots/clients-create-button.png)
 
 1. Geben Sie die Informationen zum Kunden ein und klicken Sie auf **speichern**

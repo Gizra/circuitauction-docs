@@ -5,7 +5,7 @@
 2. Öffnen Sie die Kundenseite \(siehe [So finden Sie einen vorhandenen Kunden](how-to-find-an-existing-client.md)\)
 3. Wechseln Sie zum Tab `Emails and Documents`.
 
-![](/assets/screenshots/client-send-email.png)
+![](../../assets/screenshots/client-send-email.png)
 
 1. Wählen Sie im Block `Send email` die E-Mail-Vorlage aus \(zum Beispiel `Bids Statement`\).
 2. Klicken Sie auf `Edit template or write a new email`, um den Inhalt zu prüfen oder anzupassen.

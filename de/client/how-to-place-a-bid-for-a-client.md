@@ -12,7 +12,7 @@ Sie können ein schriftliches Gebot für einen Kunden über die Kundenseite oder
 5. Wählen Sie die **Bidder ID**, geben Sie die Losnummer des Loses im Feld **Los** und den Betrag im Feld **Menge** ein. Markieren Sie das Feld **Extension**, wenn der Bieter verlangt, dass das Los von einem Experten bestätigt wird.
 6. Klicken Sie auf **speichern**.
 
-![](/assets/screenshots/client-enter-bids.png)
+![](../../assets/screenshots/client-enter-bids.png)
 
 ## Gebot über die Seite „Gebote“ abgeben
 
@@ -21,4 +21,4 @@ Sie können ein schriftliches Gebot für einen Kunden über die Kundenseite oder
 3. Wählen Sie die **Bidder ID**, geben Sie die Losnummer des Loses im Feld **Los** und den Betrag im Feld **Menge** ein. Markieren Sie das Feld **Extension**, wenn der Bieter verlangt, dass das Los von einem Experten bestätigt wird.
 4. Klicken Sie auf **speichern**.
 
-![](/assets/screenshots/enter-bids.png)
+![](../../assets/screenshots/enter-bids.png)

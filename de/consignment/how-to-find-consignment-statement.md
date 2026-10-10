@@ -5,4 +5,4 @@
 2. Filtern Sie die Liste nach ID, Einlieferer, Rechnungsnummer oder Status.
 3. Klicken Sie auf den Link der ID, um die Details der Einlieferungsabrechnung zu sehen.
 
-![](/assets/screenshots/consignment-statements.png)
+![](../../assets/screenshots/consignment-statements.png)

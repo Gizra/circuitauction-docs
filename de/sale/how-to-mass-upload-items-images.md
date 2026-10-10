@@ -20,4 +20,4 @@ Sie können allen Losen einer Auktion Bilder hinzufügen, ohne sie einzeln manue
 1. Laden Sie alle Bilder der Auktion in das Amazon-Verzeichnis hoch.
 2. Klicken Sie auf der Auktionsseite im Block **Bildaktualisierung** auf **Sync Losbilder**, um die Bilder von Amazon mit Ihrem System zu synchronisieren. Der Block zeigt außerdem den Fortschritt der Synchronisierung an \(Lose mit Bildern, insgesamt verarbeitet und zuletzt verarbeitetes Bild\).
 
-![](/assets/screenshots/sale-sync-item-images.png)
+![](../../assets/screenshots/sale-sync-item-images.png)

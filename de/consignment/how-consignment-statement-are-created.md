@@ -22,4 +22,4 @@ Eine Einlieferungsabrechnung hat 5 verschiedene Status:
 1. Ein unverkauftes Los wurde verkauft.
 2. Eine Gutschrift wurde ausgestellt.
 3. Der Einlieferung wurden neue zusätzliche Kosten hinzugefügt. 
-4. Bei einem Los, das als „Don't pay consignor“ markiert war, wurde die Markierung entfernt.
+4. Bei einem Los, das als „nicht an den Einlieferer auszahlen“ markiert war, wurde die Markierung entfernt.

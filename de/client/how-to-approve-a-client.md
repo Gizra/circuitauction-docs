@@ -9,10 +9,10 @@ Es gibt zwei Ebenen der Kundengenehmigung:
 ## Kundenstatus auf „genehmigt“ ändern
 
 1. Gehen Sie im Seitenmenü zu **Kunden**.
-2. Filtern Sie die Tabelle, indem Sie den Status `ausstehend` oder `Neu` auswählen. ![Kunden nach Status filtern](/assets/screenshots/clients-filter-status.png)
-3. Ändern Sie den Status des gewünschten Kunden auf `genehmigt` \(oder auf `nicht genehmigt`, wenn Sie diesen Kunden nicht genehmigen möchten\). ![Kundenstatus ändern](/assets/screenshots/clients-change-status.png)
+2. Filtern Sie die Tabelle, indem Sie den Status `ausstehend` oder `Neu` auswählen. ![Kunden nach Status filtern](../../assets/screenshots/clients-filter-status.png)
+3. Ändern Sie den Status des gewünschten Kunden auf `genehmigt` \(oder auf `nicht genehmigt`, wenn Sie diesen Kunden nicht genehmigen möchten\). ![Kundenstatus ändern](../../assets/screenshots/clients-change-status.png)
 
-**Hinweis:** Wenn Sie die Daten des Kunden prüfen möchten, bevor Sie den neuen Status auswählen, klicken Sie in der Tabelle auf den Link der Customer ID, um die [Kundenseite](understanding-client-page.md) zu öffnen. Dort können Sie den Kundenstatus direkt auf der Seite ändern. ![Kundenstatus auf der Kundenseite](/assets/screenshots/client-page-status.png)
+**Hinweis:** Wenn Sie die Daten des Kunden prüfen möchten, bevor Sie den neuen Status auswählen, klicken Sie in der Tabelle auf den Link der Customer ID, um die [Kundenseite](understanding-client-page.md) zu öffnen. Dort können Sie den Kundenstatus direkt auf der Seite ändern. ![Kundenstatus auf der Kundenseite](../../assets/screenshots/client-page-status.png)
 
 ## Anfragen für das Credit Limit genehmigen
 
@@ -21,8 +21,8 @@ Es gibt zwei Ebenen der Kundengenehmigung:
 3. Wechseln Sie zum Tab **Gebotsinformationen**.
 4. Klicken Sie im Bereich **Kreditanfrage** auf **Approve**. 
 
-![](/assets/screenshots/bidding-limit-requests.png)
+![](../../assets/screenshots/bidding-limit-requests.png)
 
 **Hinweis:** Alle Anfragen, die auf Genehmigung warten, sehen Sie, wenn Sie im Seitenmenü auf **Kreditanfrage** klicken.
 
-![](/assets/screenshots/credit-requests-page.png)
+![](../../assets/screenshots/credit-requests-page.png)

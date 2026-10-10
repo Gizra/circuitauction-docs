@@ -5,7 +5,7 @@ Ein Los ist der einzelne Posten, den Sie versteigern. Ein Los kann ein einzelner
 
 Im Lose-Dashboard finden Sie eine Übersicht aller Lose. Wählen Sie einen [Auktionskontext](../sale/sale-context.md), um nur die Lose der aktuellen Auktion zu sehen, oder entfernen Sie den Auktionskontext, um alle Lose zu sehen **\[1\]**.
 
-![](/assets/screenshots/items-dashboard.png)
+![](../../assets/screenshots/items-dashboard.png)
 
 Die farbigen Felder oben **\[2\]** zeigen die Gesamtzahl der Lose und die Anzahl der Lose je Status.
 

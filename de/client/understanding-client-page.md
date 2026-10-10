@@ -3,7 +3,7 @@
 
 Oben auf der Seite finden Sie mehrere Tabs, die unten beschrieben sind.
 
-![](/assets/screenshots/client-page-tabs.png)
+![](../../assets/screenshots/client-page-tabs.png)
 
 ## Kunde
 

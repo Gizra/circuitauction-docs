@@ -4,7 +4,7 @@
 1. Gehen Sie im Seitenmenü zu **Auktionen**
 2. Klicken Sie auf `neue Auktion anlegen`
 
-![image](/assets/screenshots/sales-create-button.png)
+![image](../../assets/screenshots/sales-create-button.png)
 
 1. Geben Sie die Informationen zur Auktion ein. Achten Sie dabei besonders auf diese Felder:  
 
@@ -14,7 +14,7 @@
 
 Um den Inhalt gleichzeitig in mehreren Sprachen anzuzeigen, klicken Sie auf „weitere Sprachen“ und nutzen Sie den Block der weiteren Sprachen, um das Los bequem zu übersetzen, während Sie beide Sprachen sehen.
 
-![image](/assets/screenshots/sale-form-languages.png)
+![image](../../assets/screenshots/sale-form-languages.png)
 
 **Next consignment notice** - Geben Sie eine Nachricht ein, die in der Einlieferungsabrechnung erscheint.
 

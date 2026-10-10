@@ -6,15 +6,15 @@
 
    Hier finden Sie eine Liste aller Telefonbieter der ausgewählten Auktion.
 
-![](/assets/screenshots/phone-bidder-cards.png)
+![](../../assets/screenshots/phone-bidder-cards.png)
 
 1. Klicken Sie in jeder Zeile auf **PDF**, um die Karte als PDF-Datei anzuzeigen. Sie können sie speichern oder über die Druckfunktion Ihres Browsers drucken.
 
-![](/assets/screenshots/phone-bidder-cards-download.png)
+![](../../assets/screenshots/phone-bidder-cards-download.png)
 
 1. Um die Karten für eine ganze Session herunterzuladen, klicken Sie auf **Download session phone bidders card** und wählen Sie die gewünschte Session aus.
 
-![](/assets/screenshots/phone-bidder-cards-session.png)
+![](../../assets/screenshots/phone-bidder-cards-session.png)
 
 1. Klicken Sie auf **Klicken zum herunterladen**
 

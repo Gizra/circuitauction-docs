@@ -7,7 +7,7 @@ Normalerweise wird [ein Los direkt aus der Einlieferung heraus angelegt](../cons
 2. Öffnen Sie die Einlieferungsseite.
 3. Klicken Sie auf `Los einer Einlieferung hinzufügen` \(oder `Schnellhinzufügung`\).
 
-![](/assets/screenshots/consignment-add-item.png)
+![](../../assets/screenshots/consignment-add-item.png)
 
 1. Geben Sie die Informationen zum Los ein und achten Sie dabei besonders auf diese Felder:
 
@@ -15,12 +15,12 @@ Normalerweise wird [ein Los direkt aus der Einlieferung heraus angelegt](../cons
 
 Um den Inhalt gleichzeitig in mehreren Sprachen anzuzeigen, klicken Sie auf **weitere Sprachen** und nutzen Sie den Block der weiteren Sprachen, um das Los bequem zu übersetzen, während Sie beide Sprachen sehen.
 
-![](/assets/screenshots/item-form-languages.png)
+![](../../assets/screenshots/item-form-languages.png)
 
 **Bilder** - Klicken Sie auf **Bild auswählen** und wählen Sie das Bild des Loses aus Ihrem lokalen Ordner aus.  
 Sie können allen Losen einer Auktion Bilder hinzufügen, ohne sie einzeln manuell hochladen zu müssen. Siehe [So laden Sie Losbilder gesammelt hoch](../sale/how-to-mass-upload-items-images.md).
 
-**Lot numbering** - In diesem Block wird die Auktion angezeigt, zu der das Los gehört. Sie können das Los später in eine andere Auktion verschieben \(siehe [So weisen Sie Lose gesammelt einer Auktion zu](../sale/how-to-assign-bulk-items-to-a-sale.md)\).
+**Auktionsinfo** - In diesem Block wird die Auktion angezeigt, zu der das Los gehört. Sie können das Los später in eine andere Auktion verschieben \(siehe [So weisen Sie Lose gesammelt einer Auktion zu](../sale/how-to-assign-bulk-items-to-a-sale.md)\).
 
 Im Feld **temporäre Losnummer** können Sie eine vorläufige Nummer eingeben, die diesem Los zugewiesen wird, bevor die [endgültige Losnummer](../sale/how-to-assign-lot-numbers.md) vergeben wird.
 

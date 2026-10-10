@@ -5,7 +5,7 @@ Am besten legen Sie eine Einlieferung von der Seite des Einlieferers \(Kunden\) 
 
 1. Stellen Sie sicher, dass Sie sich im richtigen [Auktionskontext](../sale/sale-context.md) befinden.
 2. Öffnen Sie die Seite des Einlieferers \(siehe [So finden Sie einen vorhandenen Kunden](../client/how-to-find-an-existing-client.md)\).
-3. Klicken Sie auf `Einlieferung anlegen` ![image](/assets/screenshots/client-create-consignment.png)
+3. Klicken Sie auf `Einlieferung anlegen` ![image](../../assets/screenshots/client-create-consignment.png)
 4. Füllen Sie die relevanten Felder aus:
 
 **Einlieferer** - Wählen Sie den Kunden aus, der Ihnen diese Einlieferung übergeben hat. Wenn Sie die Einlieferung von der Seite des Einlieferers \(Kunden\) aus anlegen, wird dies automatisch ausgefüllt.
@@ -26,10 +26,10 @@ Am besten legen Sie eine Einlieferung von der Seite des Einlieferers \(Kunden\) 
 
 Beispiele:  
 _Fall 1_ - Hier ist der Typ der Provisionsstufen auf Einzellose gesetzt. Dadurch erhalten alle Lose, die unter 200 $ verkauft werden, 10 % Provision. Alle Lose, die für 200 $ und mehr verkauft werden, erhalten 7 % Provision.  
-![image](/assets/screenshots/commission-steps-single-lots.png)
+![image](../../assets/screenshots/commission-steps-single-lots.png)
 
 _Fall 2_ - Hier ist der Typ der Provisionsstufen auf die gesamte Einlieferung gesetzt. Wenn die gesamte Sammlung von Losen für weniger als 200 $ verkauft wird, erhält sie 10 % Provision. Wenn die gesamte Sammlung von Losen zusammen für 200 $ oder mehr verkauft wird, erhält sie 7 % Provision.  
-![image](/assets/screenshots/commission-steps-entire.png)
+![image](../../assets/screenshots/commission-steps-entire.png)
 
 **zusätzliche Kosten** - Geben Sie zusätzliche Kosten ein, die der [Einlieferungsabrechnung](how-consignment-statement-are-created.md) hinzugefügt werden.
 
@@ -37,7 +37,7 @@ _Fall 2_ - Hier ist der Typ der Provisionsstufen auf die gesamte Einlieferung ge
 
 Sie können eine Einlieferung auch im Einlieferungs-Dashboard anlegen. 1. Gehen Sie zu **Einlieferung** 2. Klicken Sie auf `Einlieferung anlegen`
 
-![](/assets/screenshots/consignments-dashboard.png)
+![](../../assets/screenshots/consignments-dashboard.png)
 
 1. Füllen Sie die relevanten Felder aus. Stellen Sie sicher, dass Sie den Einlieferer \(Kunden\) im Feld „Einlieferer“ auswählen.  
 2. Klicken Sie auf **speichern.**

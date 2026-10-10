@@ -5,6 +5,6 @@
 2. Öffnen Sie die Einlieferungsseite \(siehe [So finden Sie eine vorhandene Einlieferung](how-to-find-an-existing-consignment.md)\).
 3. Klicken Sie auf `Los einer Einlieferung hinzufügen`
 
-![](/assets/screenshots/consignment-add-item.png)
+![](../../assets/screenshots/consignment-add-item.png)
 
 1. Fahren Sie mit Abschnitt 4 in [So legen Sie ein Los an](../items/how-to-create-an-item.md) fort.  

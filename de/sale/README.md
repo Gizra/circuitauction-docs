@@ -5,7 +5,7 @@ Eine Auktion ist eine Gruppe von Losen \(Items\), die Sie in einer Veranstaltung
 
 Im Auktions-Dashboard finden Sie eine Übersicht aller Auktionen und ihres Status.
 
-![](/assets/screenshots/sales-dashboard.png)
+![](../../assets/screenshots/sales-dashboard.png)
 
 Die farbigen Felder oben **\[1\]** zeigen die Gesamtzahl der Auktionen und die Anzahl der Auktionen je Status.
 
@@ -18,6 +18,6 @@ Die Tabelle **\[2\]** zeigt die Auktionsliste, die Sie nach jeder Spalte [filter
 **auf der Webseite veröffentlicht** - Die Auktion ist auf der Webseite veröffentlicht.  
 **Fertig** - Eine abgeschlossene Auktion aus der Vergangenheit.
 
-![](/assets/screenshots/sale-statuses.png)
+![](../../assets/screenshots/sale-statuses.png)
 
 **Hinweis**: Wenn Sie eine veröffentlichte Auktion ändern möchten, müssen Sie den Status zunächst auf `Neu` zurücksetzen. Wenn Sie fertig sind, setzen Sie den Status auf `bereit zur Veröffentlichung`, damit die Änderungen mit der Webseite synchronisiert werden.

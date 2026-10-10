@@ -16,7 +16,7 @@ Der Einlieferungs-Workflow ist anpassbar, das System bringt jedoch einen Standar
 In der Einlieferungstabelle zeigt die Spalte _Workflow_ eine visuelle Anzeige des Status jeder Aufgabe:\
 
 
-![](</.gitbook/assets/image (33).png>)
+![](<../../.gitbook/assets/image (33).png>)
 
 :
 
@@ -24,7 +24,7 @@ In der Einlieferungstabelle zeigt die Spalte _Workflow_ eine visuelle Anzeige de
 \
 Jedes Quadrat steht für die Aufgabe mit der entsprechenden Nummer im Workflow. _Graue_ Aufgaben sind fällig, _grüne Aufgaben sind erledigt._
 
-![Anzeige](</.gitbook/assets/image (37) (3) (3) (1).png>)
+![Anzeige](<../../.gitbook/assets/image (37) (3) (3) (1).png>)
 
 &#x20;**API-Informationen**
 
