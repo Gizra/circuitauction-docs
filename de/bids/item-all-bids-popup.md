@@ -34,8 +34,8 @@ Dieses Popup zeigt alle Gebote für ein ausgewähltes Los zusammen mit weiteren 
 | Bieternummer | Eindeutige Kennung, die dem Gebot zugeordnet ist |
 | Eingegeben von | Wer das Gebot eingegeben hat (Kunde, Mitarbeiter oder Partner) |
 | Gruppenname | Kategorie zur Gruppierung zusammengehöriger Gebote |
-| Freigabedatum | Zeitpunkt, zu dem das Gebot von Mitarbeitern bestätigt wurde |
-| Freigabe durch | Mitarbeiter, der das Gebot bestätigt hat |
+| Genehmigungsdatum | Zeitpunkt, zu dem das Gebot von Mitarbeitern bestätigt wurde |
+| Genehmigt von | Mitarbeiter, der das Gebot bestätigt hat |
 | Hinweis | Zusätzliche Kommentare oder Informationen zum Gebot |
 
 {% hint style="info" %}
@@ -45,9 +45,9 @@ Dieses Popup zeigt alle Gebote für ein ausgewähltes Los zusammen mit weiteren 
 ### Aktionen und Steuerelemente
 
 1. **uV Prüfung** — Kontrollkästchen, das anzeigt, dass das Gebot während einer Prüfungsfrist (Extension) abgegeben wurde. Die Anzeige wechselt beim Aktivieren von Grau zu Rot. Wird automatisch übermittelt.
-2. **Gebot freigeben/Freigabe aufheben** — Kontrollkästchen zum Markieren des Freigabestatus. Die Anzeige wechselt bei Freigabe von Gelb zu Grün. Wird automatisch übermittelt.
+2. **Gebot genehmigen/Genehmigung aufheben** — Kontrollkästchen zum Markieren des Genehmigungsstatus. Die Anzeige wechselt bei Genehmigung von Gelb zu Grün. Wird automatisch übermittelt.
 3. **Speichern** — Speichert den Gruppennamen und die Notizen. Aktualisiert außerdem Bieternummer und Betrag, wenn das Gebot bearbeitet wurde.
 4. **Gebot löschen/wiederherstellen** — Rotes Papierkorb-Symbol zum Löschen eines Gebots; blaue Schaltfläche „Rückgängig“ zum Wiederherstellen eines gelöschten Gebots.
 5. **Bearbeiten** — Ermöglicht Mitarbeitern, bestehende Gebote zu ändern (Betrag und Bieternummer). Die Änderungen müssen mit einem Klick auf **Speichern** bestätigt werden.
 
-![Tabelle im Popup mit allen Geboten eines Loses](/assets/screenshots/popup-table.png)
+![Tabelle im Popup mit allen Geboten eines Loses](../../assets/screenshots/popup-table.png)

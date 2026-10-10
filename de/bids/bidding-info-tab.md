@@ -8,14 +8,14 @@ Der Tab **Gebotsinformationen** auf der Kundenseite bietet eine vollständige Ü
 - Bieternummern des aktuellen Kunden anzeigen und hinzufügen
 - Zeigt je Bieternummer die Gesamtausgaben sowie das maximal zulässige Credit Limit bzw. Gebot an
 
-![Bieternummern](/assets/screenshots/bidder-numbers-blocks.png)
+![Bieternummern](../../assets/screenshots/bidder-numbers-blocks.png)
 
-## Credit-Limit-Anfragen und Telefonbieteranfragen
+## Kreditanfragen und Telefonbieteranfragen
 
-### Credit-Limit-Anfragen
+### Kreditanfragen
 
-- Kunden können Credit-Limit-Anfragen zur Freigabe durch Mitarbeiter senden
-- Das freigegebene Limit bestimmt den maximalen Betrag, den der Kunde gewinnen kann
+- Kunden können Kreditanfragen zur Genehmigung durch Mitarbeiter senden
+- Das genehmigte Limit bestimmt den maximalen Betrag, den der Kunde gewinnen kann
 
 ### Telefonbieteranfragen
 
@@ -23,16 +23,16 @@ Der Tab **Gebotsinformationen** auf der Kundenseite bietet eine vollständige Ü
 - Mitarbeiter können den Anfragen Notizen hinzufügen
 - Telefonbieteranfragen können von der entsprechenden Seite gedruckt werden
 
-![Credit-Limit-Anfragen](/assets/screenshots/bidding-limit-requests.png)
+![Kreditanfragen](../../assets/screenshots/bidding-limit-requests.png)
 
-![Telefonbieteranfragen](/assets/screenshots/call-requests-saved.png)
+![Telefonbieteranfragen](../../assets/screenshots/call-requests-saved.png)
 
 ## Gebote eingeben und alle Gebote eines Kunden löschen
 
 - Gebote nur für den aktuellen Kunden eingeben (über die Auswahlliste der Bieternummer)
 - Option, **alle** Gebote des Kunden in der Auktion zu löschen (erfordert eine Bestätigung)
 
-![Gebote eingeben und löschen](/assets/screenshots/enter-delete-bids.png)
+![Gebote eingeben und löschen](../../assets/screenshots/enter-delete-bids.png)
 
 ## Tabelle der Lose mit Geboten
 
@@ -40,4 +40,4 @@ Der Tab **Gebotsinformationen** auf der Kundenseite bietet eine vollständige Ü
 - Ein grüner Hintergrund hebt Zeilen hervor, in denen der Kunde der Höchstbietende ist
 - Die Navigation im Popup ist auf Lose beschränkt, auf die der Kunde Gebote abgegeben hat
 
-![Tabelle der Lose des Bieters](/assets/screenshots/bidder-items-table.png)
+![Tabelle der Lose des Bieters](../../assets/screenshots/bidder-items-table.png)

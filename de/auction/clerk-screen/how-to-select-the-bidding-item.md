@@ -8,4 +8,4 @@ Wenn ein Los auf **Gone** gesetzt wird \(siehe [Ablauf der Live-Auktion](../auct
 1. Verwenden Sie die Schaltflächen **Prev** / **Next** im Block **Navigation**, um zwischen den Losen zu wechseln.
 2. Oder geben Sie im Feld **Jump to lot #** eine Losnummer ein und klicken Sie auf den **Pfeil**, um das Los zu setzen.
 
-![](/assets/screenshots/clerk-select-item.png)
+![](../../../assets/screenshots/clerk-select-item.png)

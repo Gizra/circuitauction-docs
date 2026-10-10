@@ -10,4 +10,4 @@ Oben auf der Seite sehen Sie die Gebotsstatistiken, unter anderem:
 - Anzahl der Lose in der Auktion, auf dem Gebotsserver und im Suchindex
 - Anzahl der Lose mit Geboten, einschließlich Verhältnis und Summen der Gebote, Bieter, Provisionen und Finanzsummen
 
-![Zusammenfassende Gebotsstatistiken](/assets/screenshots/bids-stats.png)
+![Zusammenfassende Gebotsstatistiken](../../assets/screenshots/bids-stats.png)

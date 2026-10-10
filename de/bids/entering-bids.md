@@ -12,7 +12,7 @@ Mitarbeiter können auf der Gebotsseite Gebote im Namen von Bietern eingeben.
 5. Senden Sie das Gebot ab.
 6. Eine Bestätigungsmeldung erscheint, und die Lostabelle wird mit dem berechneten aktuellen Gebot neu geladen.
 
-![Formular zum Eingeben von Geboten](/assets/screenshots/enter-bids.png)
+![Formular zum Eingeben von Geboten](../../assets/screenshots/enter-bids.png)
 
 {% hint style="info" %}
 Sie können Gebote für einen bestimmten Kunden auch auf dem Tab **Gebotsinformationen** der Kundenseite eingeben. Siehe [Tab Gebotsinformationen](bidding-info-tab.md).

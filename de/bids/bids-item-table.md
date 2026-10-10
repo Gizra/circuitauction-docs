@@ -7,18 +7,18 @@ Die Lostabelle zeigt nur Lose an, auf die Gebote abgegeben wurden. Sie hebt die 
 
 Mitarbeiter können die Lostabelle filtern nach:
 
-- Freigabestatus (freigegebener/nicht freigegebener Gebotsstatus)
+- Genehmigungsstatus (genehmigter/nicht genehmigter Gebotsstatus)
 - Unbekannten Bieternummern
 - Losstatus (Open, Verkauft, unverkauft usw.)
 
-![Filteroptionen der Tabelle](/assets/screenshots/table-filter.png)
+![Filteroptionen der Tabelle](../../assets/screenshots/table-filter.png)
 
 ## Tabellenspalten
 
 - **Pluszeichen** — Öffnet das [Popup mit allen Geboten eines Loses](item-all-bids-popup.md) für dieses Los
 - **Losnummer** — Verlinkt auf die Losseite
 - **Statusanzeigen:**
-  - Gelbes Quadrat — Das Höchstgebot ist nicht freigegeben
+  - Gelbes Quadrat — Das Höchstgebot ist nicht genehmigt
   - Rotes Ausrufezeichen-Dreieck — Das Los hat eine private Nachricht oder ist unter Vorbehalt
   - Grünes Häkchen — Verkauftes Los
   - Violettes Gruppensymbol — Teil eines Gruppengebots (mit dem Mauszeiger darüberfahren, um den Gruppennamen und alternative Lose zu sehen)
@@ -35,4 +35,4 @@ Mitarbeiter können die Lostabelle filtern nach:
 Ein roter Hintergrund mit durchgestrichenem Text zeigt an, dass alle Gebote für das Los gelöscht wurden.
 {% endhint %}
 
-![Los-Tabelle der Gebote](/assets/screenshots/bids-item-table.png)
+![Los-Tabelle der Gebote](../../assets/screenshots/bids-item-table.png)

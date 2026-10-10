@@ -6,7 +6,7 @@
 1. Klicken Sie auf das Feld **Status** \(oben links\), wählen Sie den Status aus und klicken Sie dann auf den **Pfeil**, um ihn anzuwenden. Auf dem Bildschirm der Bieter \(im Saal und online\) erscheint eine passende Nachricht. Die Liste der Nachrichten finden Sie weiter unten.
 2. Bei den Status **Bald geht es los** und **Pause - gleich geht es weiter** können Sie eine eigene Nachricht hinzufügen. Bearbeiten Sie nach dem Anwenden des Status die Nachricht und klicken Sie auf **Update Paused Message**.
 
-![](/assets/screenshots/clerk-status-select.png)
+![](../../../assets/screenshots/clerk-status-select.png)
 
 ## **Liste der Statusnachrichten**
 
