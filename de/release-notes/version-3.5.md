@@ -1,7 +1,7 @@
-<!-- i18n source=release-notes/version-3.5.md sha=400917b2eb3d -->
+<!-- i18n source=release-notes/version-3.5.md sha=4d2041a1c1a4 -->
 # Version 3.5
 
-Kommendes Release. Version 3.5 konzentriert sich auf Auswertungen, die Kommunikation mit Kunden und Werkzeuge, die die tägliche Verwaltung erleichtern. Zu den Highlights gehören eine neue Seite Auction Timeline, ein überarbeiteter Statistik-Tab für Kunden, ein integrierter Editor für E-Mail-Vorlagen, automatische Zahlungserinnerungen für Rechnungen, die Zwei-Faktor-Authentifizierung mit einer Authenticator-App und ein dunkler Modus für das gesamte Backoffice.
+Kommendes Release. Version 3.5 konzentriert sich auf Auswertungen, die Kommunikation mit Kunden und Werkzeuge, die die tägliche Verwaltung erleichtern. Zu den Highlights gehören eine neue Seite Auction Timeline, ein überarbeiteter Statistik-Tab für Kunden, ein Kunden-CRM mit Zeitleiste und Einlieferungs-Pipeline, ein integrierter Editor für E-Mail-Vorlagen, automatische Zahlungserinnerungen für Rechnungen, die Zwei-Faktor-Authentifizierung mit einer Authenticator-App und ein dunkler Modus für das gesamte Backoffice.
 
 ## Auswertungen & Statistiken
 
@@ -57,6 +57,42 @@ Die Einlieferungsseite bietet neue Berichtsaktionen:
 <video class="release-video" controls preload="metadata" playsinline src="https://circuit-kubernetes.s3.eu-central-1.amazonaws.com/openmontage/tutorials/release-3.5-export-accounting-de/final.mp4">Your browser does not support the video tag. <a href="https://circuit-kubernetes.s3.eu-central-1.amazonaws.com/openmontage/tutorials/release-3.5-export-accounting-de/final.mp4">Download the video</a>.</video>
 
 Auf der Seite **Export Accounting** gibt es im Block Export jetzt die Schaltflächen **CSV** und **XLSX**. Sie laden die aktuell gefilterte Liste der Rechnungen oder Einliefererabrechnungen als Tabelle herunter. Durch diesen Download werden die Einträge nicht als an die Buchhaltung exportiert markiert.
+
+### Auswertungen als integrierte Tabellen
+
+Die Auswertungen, die bisher in einem eingebetteten Rahmen der alten Verwaltungsoberfläche geöffnet wurden, sind jetzt normale Backoffice-Tabellen, mit demselben Aussehen und denselben Bedienelementen wie die übrigen Listen. Der Inhalt der einzelnen Auswertungen ist unverändert.
+
+Wo Sie sie finden:
+
+- Seite **Auswertungen**: alle Tabs, darunter **Items sold**, **Agent Report**, die Kontrolllisten und **Auction Protocol**.
+- Seite **Zuschlag nach Sessionen**: die Tabs **Kundenvorgänge**, **Einlieferervorgänge** und **Umsatzsteuerbericht**.
+- Seite **Kundenberichte**: der Tab **Kategorie gekauft**.
+- Kundenseite, Tab **Vorgänge**: Die Tabellen der Vorgänge und der Einlieferungsvorgänge werden jetzt direkt geladen, ohne dass Sie zuerst eine Schaltfläche anklicken müssen.
+
+Was Sie in jeder Auswertung tun können:
+
+- **Filter** blendet den Filterbereich ein oder aus. Stellen Sie die Filter ein und klicken Sie auf **Anwenden**, oder auf **zurücksetzen**, um zu den Standardwerten zurückzukehren. Eine Markierung an der Schaltfläche zeigt an, dass Filter aktiv sind.
+- Klicken Sie auf eine Spaltenüberschrift, um zu sortieren, und wählen Sie, wie viele Zeilen pro Seite angezeigt werden.
+- **Exportieren CSV** exportiert alle Zeilen der Auswertung, nicht nur die sichtbare Seite, mit den aktuellen Filtern und der aktuellen Sortierung. Der Export läuft im Hintergrund, und die Datei erscheint in den Benachrichtigungen. Einige Auswertungen bieten zusätzlich **Exportieren XLSX** oder **Exportieren PDF**.
+- Auswertungen mit Summen zeigen diese in der letzten Zeile der Tabelle und der CSV-Datei.
+
+Der Tab **Auction Protocol** benötigt eine ausgewählte Auktion und zeigt jetzt die neueste Meldung zuerst, mit einem Filter für den Meldungstyp. Der Tab **Auction Timeline (rich view)** wurde von der Seite Auswertungen entfernt; verwenden Sie stattdessen die Seite [Auction Timeline](#auction-timeline).
+
+## Kunden
+
+### Kunden-CRM: Zeitleiste, Dokumente und Einlieferungs-Pipeline
+
+Die Kundenseite funktioniert jetzt wie ein kleines CRM. Die vollständige Anleitung finden Sie unter [Kunden-CRM: Zeitleiste, Dokumente und Einlieferungs-Pipeline](/de/client/client-crm.md).
+
+- Die **Tabs der Kundenseite** sind nach Zweck neu gruppiert. **History** heißt jetzt **Statistiken**, und **Emails and Documents** heißt jetzt **E-Mails**.
+- Ein neuer Tab **Zeitleiste** zeigt E-Mails, Notizen, Anrufe, Aufgaben, Besichtigungen, Aktivitäten und Meilensteine des Kunden in einer datierten Übersicht, mit Filtern nach Quelle und Zeitraum.
+- Ein neuer Tab **Dokumente** enthält typisierte Dokumente (Ausweis, Steuerformular, FFL, Einlieferungsvertrag, Bankdaten) mit einem **Ablaufdatum**. Dokumente, die bald ablaufen, werden hervorgehoben.
+- Die Schaltflächen **+ Notizen / Dokumente** und **+ Anrufe** öffnen ein kurzes Formular, um eine Notiz, ein Dokument oder einen Anruf hinzuzufügen; das Erfasste erscheint in der Zeitleiste.
+- Eine neue **Einlieferungs-Pipeline**, im Hauptmenü und als Tab auf der Kundenseite, begleitet Einlieferungsanfragen durch die Phasen **Anfrage**, **Bewertung**, **Vertrag gesendet**, **Vertrag unterschrieben**, **Erhalten**, **Umgewandelt** und **Abgelehnt**. Wird eine Anfrage als **Umgewandelt** gespeichert, entsteht die Einlieferung in der gewählten Auktion. Der Tab **Potenzielle Einlieferer** listet starke Käufer auf, die nie eingeliefert haben.
+- Die Losseite hat einen Kasten **Wen anrufen** mit den Kunden, die sich am wahrscheinlichsten für das Los interessieren, und die Einlieferungsseite eine Karte **Einlieferer-Performance**.
+- Jede Nacht erhält jeder Kunde einen **Status** (prospect, new, active, cooling, lapsed, dormant) und eine **Stufe** (A, B, C) als Kunden-Tags, und Folgeaufgaben werden automatisch angelegt, zum Beispiel für einen abwandernden Top-Kunden oder ein ablaufendes Dokument. Die Seite Aufgaben hat die neuen Filter **Mir zugewiesen** und **Nur CRM-Aufgaben**.
+- Ein Menü **Zuletzt besucht** oben auf der Seite ersetzt die Liste der zuletzt besuchten Seiten im Hauptmenü.
+- Die optionale **FFL validation** zeigt in der Kundenliste, in der Liste der Auktionsfakturen und auf der Rechnungsseite, ob für den Käufer eine gültige FFL vorliegt.
 
 ## Rechnungen & E-Mails
 

@@ -11,6 +11,7 @@
   * [Kunden anlegen](/de/client/how-to-create-a-client.md)
   * [Bestehenden Kunden finden](/de/client/how-to-find-an-existing-client.md)
   * [Die Kundenseite verstehen](/de/client/understanding-client-page.md)
+  * [Kunden-CRM: Zeitleiste, Dokumente und Einlieferungs-Pipeline](/de/client/client-crm.md)
   * [Kunden freigeben](/de/client/how-to-approve-a-client.md)
   * [Bieternummer erstellen](/de/client/how-to-create-bidder-number.md)
   * [Liste der Telefonbieter-Karten herunterladen](/de/client/how-to-download-phone-bidder-cards-list.md)

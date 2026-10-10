@@ -10,6 +10,7 @@
   * [How to Create a Client](client/how-to-create-a-client.md)
   * [How to Find an Existing Client](client/how-to-find-an-existing-client.md)
   * [Understanding the Client Page](client/understanding-client-page.md)
+  * [Client CRM: Timeline, Documents and Consignment Pipeline](client/client-crm.md)
   * [How to Approve a Client](client/how-to-approve-a-client.md)
   * [How to Create a Bidder Number](client/how-to-create-bidder-number.md)
   * [How to Download the Phone Bidder Cards List](client/how-to-download-phone-bidder-cards-list.md)

@@ -1,6 +1,6 @@
 # Version 3.5
 
-Upcoming release. Version 3.5 focuses on reporting, communication with clients, and tools that make day-to-day administration easier. Highlights include a new Auction Timeline page, a redesigned client statistics tab, a built-in email template editor, automatic invoice payment reminders, two-factor authentication with an authenticator app, and a dark mode for the whole backoffice.
+Upcoming release. Version 3.5 focuses on reporting, communication with clients, and tools that make day-to-day administration easier. Highlights include a new Auction Timeline page, a redesigned client statistics tab, a client CRM with a timeline and a consignment pipeline, a built-in email template editor, automatic invoice payment reminders, two-factor authentication with an authenticator app, and a dark mode for the whole backoffice.
 
 ## Reports & Statistics
 
@@ -56,6 +56,42 @@ The consignment page gained new report actions:
 <video class="release-video" controls preload="metadata" playsinline src="https://circuit-kubernetes.s3.eu-central-1.amazonaws.com/openmontage/tutorials/release-3.5-export-accounting/final.mp4">Your browser does not support the video tag. <a href="https://circuit-kubernetes.s3.eu-central-1.amazonaws.com/openmontage/tutorials/release-3.5-export-accounting/final.mp4">Download the video</a>.</video>
 
 The **Export Accounting** page now has **CSV** and **XLSX** buttons in the Export block. They download the currently filtered list of invoices or consignment statements as a spreadsheet. This download does not mark the items as exported to accounting.
+
+### Reports as built-in tables
+
+The reports that used to open inside an embedded frame of the old admin interface are now regular backoffice tables, with the same look and controls as the other lists. The content of each report is unchanged.
+
+Where you find them:
+
+- **Reports** page: all tabs, including **Items sold**, **Agent Report**, the control lists and **Auction Protocol**.
+- **Sales by Sessions** page: the **Clients transactions**, **Consignor transactions** and **Sales Tax Report** tabs.
+- **Clients reports** page: the **Category Bought** tab.
+- Client page, **Transactions** tab: the transactions and consignment transactions tables now load directly, without pressing a button first.
+
+What you can do in every report:
+
+- **Filters** shows or hides the filter block. Set the filters and press **Apply**, or **Reset** to go back to the defaults. A badge on the button shows when filters are active.
+- Click a column header to sort, and choose how many rows to show per page.
+- **Export CSV** exports all rows of the report, not just the visible page, using the current filters and sorting. The export runs in the background and the file arrives in the notifications. Some reports also offer **Export XLSX** or **Export PDF**.
+- Reports with totals show them in the last row of the table and of the CSV file.
+
+The **Auction Protocol** tab needs a selected sale and now lists the newest message first, with a filter on the message type. The **Auction Timeline (rich view)** tab was removed from the Reports page; use the [Auction Timeline](#auction-timeline) page instead.
+
+## Clients
+
+### Client CRM: timeline, documents and consignment pipeline
+
+The client page now works as a small CRM. See [Client CRM: Timeline, Documents and Consignment Pipeline](../client/client-crm.md) for the full guide.
+
+- The **tabs of the client page** are regrouped by purpose. **History** is now **Statistics**, and **Emails and Documents** is now **Emails**.
+- A new **Timeline** tab shows emails, notes, calls, tasks, viewings, activities and milestones of the client in one dated feed, with filters by source and period.
+- A new **Documents** tab keeps typed documents (ID, tax form, FFL, consignment agreement, bank details) with an **Expiry date**. Documents that expire soon are highlighted.
+- The **+ Notes / Documents** and **+ Calls** buttons open a short form to add a note, a document or a call; what was recorded is shown in the Timeline.
+- A new **Consignment pipeline**, in the main menu and as a tab on the client page, follows consignment enquiries through the stages **Enquiry**, **Valuation**, **Agreement sent**, **Agreement signed**, **Received**, **Converted** and **Declined**. Saving an enquiry as **Converted** creates the consignment in the selected sale. Its **Prospects** tab lists strong buyers who never consigned.
+- The item page has a **Who to call** box with the clients most likely interested in the lot, and the consignment page a **Consignor performance** card.
+- Every night each client gets a **status** (prospect, new, active, cooling, lapsed, dormant) and a **tier** (A, B, C) as client tags, and follow-up tasks are created automatically, for example for a lapsing top client or an expiring document. The Tasks page has new **Assigned to me** and **CRM tasks only** filters.
+- A **Recent pages** menu at the top of the page replaces the recent list in the main menu.
+- Optional **FFL validation** shows on the clients list, the bidder invoices list and the invoice page whether the buyer has a valid FFL on file.
 
 ## Invoices & Emails
 
