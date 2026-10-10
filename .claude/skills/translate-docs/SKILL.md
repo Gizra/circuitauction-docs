@@ -26,8 +26,9 @@ description: Translate a CircuitAuction docs page (docsify markdown) into a lang
 - UI labels (text the reader must find on screen, usually **bold** or in `backticks` in the source):
   look the English label up in `tools/i18n/glossary/<lang>.md`. If it is there, use that translation
   verbatim. If it is not, the app still shows the English label: keep it in English.
-- German: formal "Sie". Nouns per the glossary (Kunde, Objekt, Einlieferung, Auktion, Gebot, Aufgabe,
-  Rechnung, Zuschlag). Keep English words that the glossary keeps.
+- The glossary is generated from UI strings; a few rows built from long or odd UI texts are unreliable (e.g. punctuation-only rows). Use it for labels and nouns, and ignore rows that are obviously not a term.
+- German: formal "Sie". Nouns per the glossary (Kunde, Los (Plural: Lose), Einlieferung, Auktion, Gebot, Aufgabe,
+  Rechnung, Zuschlag). Keep English words that the glossary keeps. Where this list and the glossary disagree, the glossary wins.
 - Links: keep relative targets unchanged (`../sale/how-to-create-a-sale.md` resolves inside the language
   folder; docsify falls back to English when the target is not translated). If a link has an anchor
   (`…md#bid-steps`) and the target page is already translated, replace the anchor with the slug of the
