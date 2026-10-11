@@ -1,5 +1,9 @@
-<!-- i18n source=logging-into-the-system.md sha=9039de6a6aeb -->
+<!-- i18n source=logging-into-the-system.md sha=0a54cf529b03 -->
 # Anmeldung am System
+
+Dieses einminütige Video zeigt die Anmeldung, die Prüfung der Bid-Server-Verbindung und die Auswahl der Auktion, an der Sie arbeiten. Die Schritte sind unten ebenfalls beschrieben.
+
+<video class="release-video" controls preload="metadata" playsinline src="https://circuit-kubernetes.s3.eu-central-1.amazonaws.com/openmontage/tutorials/getting-started-logging-in-de/final.mp4">Your browser does not support the video tag. <a href="https://circuit-kubernetes.s3.eu-central-1.amazonaws.com/openmontage/tutorials/getting-started-logging-in-de/final.mp4">Download the video</a>.</video>
 
 Öffnen Sie den Webbrowser \(empfohlen wird die neueste Version von Chrome\) und geben Sie die URL des Systems ein.
 
@@ -18,3 +22,9 @@ Wenn das Symbol rot ist, klicken Sie darauf und anschließend auf **Neuladen**.
 ![Bild](../assets/screenshots/bid-server-reconnect.png)
 
 Nach der Anmeldung sehen Sie das Haupt-Dashboard und das Seitenleistenmenü. Damit navigieren Sie durch die Funktionen des Systems.
+
+## Ihre Auktion auswählen
+
+Wählen Sie vor Arbeitsbeginn die Auktion im Feld **Auktionskontext** oben auf dem Bildschirm aus. Lose und Gebote zeigen dann nur die Lose und Gebote dieser Auktion. Kunden zeigen immer die vollständige Liste: Der Auktionskontext filtert sie nicht.
+
+Einzelheiten finden Sie unter [Auktionskontext](/de/sale/sale-context.md).
