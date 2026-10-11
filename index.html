@@ -53,13 +53,18 @@
     // Languages published besides English (folder name = ISO code used by the backoffice).
     var LANGS = ['de'];
 
+    // No cover page: a bare URL lands on the README route (and /de/ on the German one).
+    (function () {
+      var h = location.hash.replace(/\?.*$/, '');
+      if (h === '' || h === '#' || h === '#/') location.replace('#/README');
+      else if (/^#\/[a-z]{2}(-[a-z]+)?\/?$/.test(h) && LANGS.indexOf(h.replace(/^#\/|\/$/g, '')) !== -1) location.replace(h.replace(/\/?$/, '/README'));
+    })();
+
     window.$docsify = {
       name: 'CircuitAuction Docs',
-      nameLink: { '/de/': '#/de/', '/': '#/' },
-      repo: 'https://github.com/Gizra/circuitauction-docs',
+      nameLink: { '/de/': '#/de/README', '/': '#/README' },
       loadSidebar: true,
       loadNavbar: true,
-      coverpage: ['/', '/de/'],
       autoHeader: true,
       subMaxLevel: 3,
       maxLevel: 4,

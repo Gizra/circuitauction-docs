@@ -30,12 +30,12 @@ publishing, or leave them: readers still get the (older) translation.
 1. The backoffice must have `locale-<lang>.json` (currently `de, fr, he, nl, ru, zh-hans`). Generate the
    glossary: `python3 tools/i18n/glossary.py --lang <lang>`.
 2. `index.html`: add the code to `LANGS`; add `'/<lang>/(.*/)?_sidebar.md': '/<lang>/_sidebar.md'` to
-   `alias` **above** the generic rule; add `'/<lang>/'` to `coverpage`; add `'/<lang>/'` entries to
+   `alias` **above** the generic rule; add `'/<lang>/'` entries to
    `search.placeholder`, `search.noData`, `pagination.previousText/nextText`, `copyCode.*`, `nameLink`. docsify picks the first key where `path.indexOf(key) > -1`, so the new `'/<lang>/'` key must come
    **before** the `'/'` key in each of these maps.
 3. `_navbar.md`: add `* [<Native name>](/<lang>/)`.
 4. `python3 tools/i18n/scaffold.py --lang <lang> --sidebar README.md`, translate `<lang>/_sidebar.md`,
-   `<lang>/README.md`, create `<lang>/_coverpage.md` (copy `de/_coverpage.md`).
+   `<lang>/README.md`.
 5. Translate pages with the skill, in the same order as the German plan (home + release notes, then
    Clients / Items / Sale / Consignment, then Bids / Auction, then Website / Data Migration).
 6. Videos: `get_tutorial_text` → `save_tutorial_translation` → `author_tutorial(lang)` →
