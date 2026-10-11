@@ -9,7 +9,6 @@
 
 - Complete user guide for auction management
 - Items, clients, consignments, and sales
-- IT section with technical documentation
 
 [Get Started](README.md)
 [GitHub](https://github.com/Gizra/circuitauction-docs/)

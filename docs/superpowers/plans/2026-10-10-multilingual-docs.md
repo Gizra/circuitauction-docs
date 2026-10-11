@@ -26,7 +26,6 @@
 - German register: formal "Sie". UI labels in **bold** use the exact German string from the backoffice glossary when one exists, otherwise the English label as currently shown on screen.
 - Tooling is stdlib-only Python 3 (`python3` on this machine has no pip), run from the repo root, tested with `unittest`.
 - Commit after each task; nothing in this plan pushes.
-- Out of scope (decisions to confirm with Brice): the IT section (`it-section/`, sysadmin audience) and `MAINTAINING_DOCS.md` / `running-docs-locally.md` stay English; German screenshots and German videos wait for the German UI translation to be completed in the backoffice (otherwise they would show a half-English UI).
 
 ## Review Focus
 

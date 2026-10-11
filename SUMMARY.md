@@ -94,6 +94,3 @@
   * [Magazine Subscription](website/subscription-magazine.md)
   * [Purchase Subscription](website/subscription-purchase.md)
 
-## IT Section
-
-* [Drush](it-section/useful-drush-commands.md)

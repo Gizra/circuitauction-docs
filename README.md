@@ -35,7 +35,6 @@ Create sales, assign items, set up catalogs, and manage the complete sale workfl
 ## Getting Help
 
 - **[Glossary](glossary.md)** - Common terms and definitions
-- **[IT Section](it-section/useful-drush-commands.md)** - Technical documentation for developers
 - **[Release Notes](release-notes/README.md)** - What changed in each version
 
 ## Need Support?

@@ -128,6 +128,3 @@
   * [Version 3.1](release-notes/version-3.1.md)
 
 ---
-
-* **IT Section**
-  * [Drush Commands](it-section/useful-drush-commands.md)
