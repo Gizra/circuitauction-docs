@@ -6,6 +6,9 @@
 * [Zugang zu Ihrer Demo](/de/accessing-your-demo.md)
 * [Empfohlener Arbeitsablauf](/de/workflow-best-practice.md)
 
+* **Tutorials**
+  * [Anmeldung und Einführung](/de/tutorials/login-and-intro.md)
+
 * **Kunden**
   * [Übersicht](/de/client/README.md)
   * [Kunden anlegen](/de/client/how-to-create-a-client.md)

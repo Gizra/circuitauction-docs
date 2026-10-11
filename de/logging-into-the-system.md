@@ -1,9 +1,7 @@
-<!-- i18n source=logging-into-the-system.md sha=0a54cf529b03 -->
+<!-- i18n source=logging-into-the-system.md sha=2a3a64022859 -->
 # Anmeldung am System
 
-Dieses einminütige Video zeigt die Anmeldung, die Prüfung der Bid-Server-Verbindung und die Auswahl der Auktion, an der Sie arbeiten. Die Schritte sind unten ebenfalls beschrieben.
-
-<video class="release-video" controls preload="metadata" playsinline src="https://circuit-kubernetes.s3.eu-central-1.amazonaws.com/openmontage/tutorials/getting-started-logging-in-de/final.mp4">Your browser does not support the video tag. <a href="https://circuit-kubernetes.s3.eu-central-1.amazonaws.com/openmontage/tutorials/getting-started-logging-in-de/final.mp4">Download the video</a>.</video>
+Ein einminütiges Video zu diesen Schritten finden Sie unter [Tutorials: Anmeldung und Einführung](/de/tutorials/login-and-intro.md).
 
 Öffnen Sie den Webbrowser \(empfohlen wird die neueste Version von Chrome\) und geben Sie die URL des Systems ein.
 

@@ -6,6 +6,9 @@
 * [Accessing your Demo](accessing-your-demo.md)
 * [Suggested Workflow](workflow-best-practice.md)
 
+* **Tutorials**
+  * [Login and intro](tutorials/login-and-intro.md)
+
 * **Clients**
   * [Overview](client/README.md)
   * [How to Create a Client](client/how-to-create-a-client.md)

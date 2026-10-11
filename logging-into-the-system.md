@@ -1,8 +1,6 @@
 # Logging into the System
 
-This one-minute video shows the login, the Bid Server connection check and how to choose the sale you work on. The steps are also described below.
-
-<video class="release-video" controls preload="metadata" playsinline src="https://circuit-kubernetes.s3.eu-central-1.amazonaws.com/openmontage/tutorials/getting-started-logging-in/final.mp4">Your browser does not support the video tag. <a href="https://circuit-kubernetes.s3.eu-central-1.amazonaws.com/openmontage/tutorials/getting-started-logging-in/final.mp4">Download the video</a>.</video>
+A one-minute video of these steps is in [Tutorials: Login and intro](tutorials/login-and-intro.md).
 
 Open the web browser \(the latest version of Chrome is recommended\) and enter the system URL.
 

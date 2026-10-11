@@ -6,6 +6,8 @@
 * [Logging in with an Authenticator App](logging-in-with-an-authenticator-app.md)
 * [Accessing your Demo](accessing-your-demo.md)
 * [Suggested Workflow](workflow-best-practice.md)
+* Tutorials
+  * [Login and intro](tutorials/login-and-intro.md)
 * [Clients](client/README.md)
   * [How to Create a Client](client/how-to-create-a-client.md)
   * [How to Find an Existing Client](client/how-to-find-an-existing-client.md)
