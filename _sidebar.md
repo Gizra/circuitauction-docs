@@ -76,6 +76,15 @@
 
 * [Tasks](tasks.md)
 
+* **Shipping**
+  * [Overview](shipping/README.md)
+  * [Creating a Shipment](shipping/create-a-shipment.md)
+  * [Labels and Tracking](shipping/labels-and-tracking.md)
+  * [Packing](shipping/packing.md)
+  * [Combined and Split Shipments](shipping/combined-and-split-shipments.md)
+  * [The Shipments Page](shipping/shipments-page.md)
+  * [Shipping Settings](shipping/shipping-settings.md)
+
 * **Bids**
   * [Overview](bids/README.md)
   * [Bids Page](bids/bids-page.md)
