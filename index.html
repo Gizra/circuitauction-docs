@@ -45,6 +45,34 @@
       box-shadow: 0 2px 12px rgba(0, 0, 0, 0.18);
       background: #000;
     }
+    /* Collapsible sidebar sections (see the sidebar plugin below) */
+    .sidebar-nav li.sb-section > .sb-toggle {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      cursor: pointer;
+      user-select: none;
+      margin: 0;
+      padding: 6px 0 4px;
+      font-weight: 600;
+      color: #2c3e50;
+    }
+    .sidebar-nav li.sb-section > .sb-toggle:hover { color: var(--theme-color, #42b983); }
+    .sidebar-nav li.sb-section > .sb-toggle::before {
+      content: '';
+      flex: none;
+      width: 0;
+      height: 0;
+      border-left: 5px solid currentColor;
+      border-top: 4px solid transparent;
+      border-bottom: 4px solid transparent;
+      transition: transform 0.15s ease;
+      opacity: 0.7;
+    }
+    .sidebar-nav li.sb-section.sb-open > .sb-toggle::before { transform: rotate(90deg); }
+    .sidebar-nav li.sb-section > .sb-toggle strong { font-weight: inherit; }
+    .sidebar-nav li.sb-section:not(.sb-open) > ul { display: none; }
+    .sidebar-nav li.sb-section.sb-has-active > .sb-toggle { color: var(--theme-color, #42b983); }
   </style>
 </head>
 <body>
@@ -175,6 +203,109 @@
               a.setAttribute('href', '#' + (target ? '/' + target : '') + rest);
             });
           });
+        },
+
+        // Sidebar: collapsible sections + no jump to the top while the page scrolls.
+        function (hook, vm) {
+          // Open/closed state per section label, kept for the visit and across visits.
+          var KEY = 'ca-docs-sidebar-open';
+          var state = {};
+          try { state = JSON.parse(localStorage.getItem(KEY) || '{}') || {}; } catch (e) { state = {}; }
+          function save() { try { localStorage.setItem(KEY, JSON.stringify(state)); } catch (e) {} }
+
+          function sectionKey(li) {
+            var parts = [];
+            for (var n = li; n && n.classList; n = n.parentElement && n.parentElement.closest('li.sb-section')) {
+              var label = n.querySelector(':scope > .sb-toggle');
+              parts.unshift(label ? label.textContent.trim() : '');
+            }
+            var m = (vm.route.path || '/').match(/^\/([a-z]{2}(?:-[a-z]+)?)(?:\/|$)/);
+            var lang = m && LANGS.indexOf(m[1]) !== -1 ? m[1] : 'en';
+            return lang + ':' + parts.join(' / ');
+          }
+
+          function setOpen(li, open) {
+            li.classList.toggle('sb-open', open);
+            var t = li.querySelector(':scope > .sb-toggle');
+            if (t) t.setAttribute('aria-expanded', open ? 'true' : 'false');
+          }
+
+          function build() {
+            var nav = document.querySelector('.sidebar-nav');
+            if (!nav) return;
+            nav.querySelectorAll('li').forEach(function (li) {
+              if (li.classList.contains('sb-section')) return;
+              var sub = li.querySelector(':scope > ul');
+              if (!sub) return;
+              // A section is a list item whose label is bold text (not a page link).
+              var label = li.querySelector(':scope > strong, :scope > p');
+              if (!label || label.querySelector('a') || !label.textContent.trim()) return;
+              if (label.tagName === 'P' && !label.querySelector('strong')) return;
+              var toggle = document.createElement('div');
+              toggle.className = 'sb-toggle';
+              toggle.setAttribute('role', 'button');
+              toggle.setAttribute('tabindex', '0');
+              li.insertBefore(toggle, label);
+              toggle.appendChild(label.tagName === 'P' ? label.querySelector('strong') : label);
+              if (label.tagName === 'P') label.remove();
+              li.classList.add('sb-section');
+            });
+            sync();
+          }
+
+          // Section containing the current page opens; others keep their saved state.
+          function sync() {
+            var active = document.querySelector('.sidebar-nav li.active');
+            document.querySelectorAll('.sidebar-nav li.sb-section').forEach(function (li) {
+              var has = !!(active && li.contains(active));
+              li.classList.toggle('sb-has-active', has);
+              var key = sectionKey(li);
+              setOpen(li, has || state[key] === true);
+            });
+          }
+
+          document.addEventListener('click', function (e) {
+            var t = e.target.closest && e.target.closest('.sidebar-nav .sb-toggle');
+            if (!t) return;
+            e.preventDefault();
+            var li = t.parentElement;
+            var open = !li.classList.contains('sb-open');
+            setOpen(li, open);
+            state[sectionKey(li)] = open;
+            save();
+          });
+          document.addEventListener('keydown', function (e) {
+            if ((e.key === 'Enter' || e.key === ' ') && e.target.classList && e.target.classList.contains('sb-toggle')) {
+              e.preventDefault();
+              e.target.click();
+            }
+          });
+
+          // docsify 4's scroll highlighter compares the active item with the wrong
+          // element and resets the sidebar to the top while the content scrolls.
+          // Remember the sidebar position before its handler runs (capture phase),
+          // put it back afterwards, and only scroll when the active item is hidden.
+          var saved = null;
+          window.addEventListener('scroll', function () {
+            var sb = document.querySelector('.sidebar');
+            if (sb) saved = sb.scrollTop;
+          }, true);
+          window.addEventListener('scroll', function () {
+            var sb = document.querySelector('.sidebar');
+            if (!sb || saved === null) return;
+            var want = saved;
+            requestAnimationFrame(function () {
+              if (sb.scrollTop !== want) sb.scrollTop = want;
+              var active = sb.querySelector('li.active');
+              if (!active || !active.offsetParent) return;
+              var r = active.getBoundingClientRect();
+              var box = sb.getBoundingClientRect();
+              if (r.top < box.top + 40) sb.scrollTop -= (box.top + 40 - r.top);
+              else if (r.bottom > box.bottom - 40) sb.scrollTop += (r.bottom - box.bottom + 40);
+            });
+          });
+
+          hook.doneEach(build);
         }
       ]
     }
