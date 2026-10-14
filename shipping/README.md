@@ -1,5 +1,7 @@
 # Shipping
 
+Prefer to watch? Seven short videos cover the whole flow: [Tutorials: Shipping](tutorials/shipping.md).
+
 Shipping covers everything that happens to a bidder invoice once the lots have to leave the building: choosing a carrier and a price, buying the carrier label, packing the lots into boxes, and following the parcel until it arrives.
 
 ## Where to find it
@@ -7,6 +9,8 @@ Shipping covers everything that happens to a bidder invoice once the lots have t
 * **On an invoice:** open the invoice and click the **Shipping & Packing** tab. Everything about that invoice's parcels is done here.
 * **Across all invoices:** the **Shipments** page in the main menu lists every shipment, with filters, label printing and return labels. See [The Shipments Page](shipments-page.md).
 * **Settings:** the shipping provider, insurance, handling markup and sender address are set by an administrator. See [Shipping Settings](shipping-settings.md).
+
+![The Shipping & Packing tab of an invoice with one saved shipment](../assets/screenshots/shipping-shipment-saved.png)
 
 ## Key ideas
 

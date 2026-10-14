@@ -8,6 +8,7 @@
 * [Suggested Workflow](workflow-best-practice.md)
 * Tutorials
   * [Login and intro](tutorials/login-and-intro.md)
+  * [Shipping](tutorials/shipping.md)
 * [Clients](client/README.md)
   * [How to Create a Client](client/how-to-create-a-client.md)
   * [How to Find an Existing Client](client/how-to-find-an-existing-client.md)

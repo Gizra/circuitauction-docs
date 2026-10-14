@@ -2,6 +2,8 @@
 
 *For administrators.* Shipping is configured in the Drupal admin under **Server settings → Shipping** (`admin/circuit-backoffice/server-settings`).
 
+![The Shipping fieldset of the Server settings page](../assets/screenshots/shipping-settings.png)
+
 ## Provider
 
 **Shipping provider API** selects where prices and labels come from:

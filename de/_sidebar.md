@@ -8,6 +8,7 @@
 
 * **Tutorials**
   * [Anmeldung und Einführung](/de/tutorials/login-and-intro.md)
+  * [Versand](/de/tutorials/shipping.md)
 
 * **Kunden**
   * [Übersicht](/de/client/README.md)
@@ -75,6 +76,15 @@
   * [Zugehörige Einlieferungsabrechnung finden](/de/consignment/how-to-find-related-consignment-statement.md)
 
 * [Aufgaben](/de/tasks.md)
+
+* **Versand**
+  * [Überblick](/de/shipping/README.md)
+  * [Sendung erstellen](/de/shipping/create-a-shipment.md)
+  * [Etiketten und Sendungsverfolgung](/de/shipping/labels-and-tracking.md)
+  * [Verpacken](/de/shipping/packing.md)
+  * [Zusammengefasste und aufgeteilte Sendungen](/de/shipping/combined-and-split-shipments.md)
+  * [Die Seite Sendungen](/de/shipping/shipments-page.md)
+  * [Versandeinstellungen](/de/shipping/shipping-settings.md)
 
 * **Gebote**
   * [Übersicht](/de/bids/README.md)

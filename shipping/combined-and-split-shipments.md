@@ -14,9 +14,13 @@ Only invoices of the same buyer, in the same sale, that have no shipment of thei
 
 ## Split one invoice into several parcels
 
+Video: [Splitting a shipment](tutorials/shipping.md#_5-splitting-a-shipment).
+
 1. Save the first shipment. All the invoice's lots are attached to it.
 2. Click **Add new** and save a second shipment. It starts empty.
 3. In the first shipment's packing table, tick the lots that go in the second parcel, choose the destination shipment in **Move to**, and click **Move**.
+
+![Two shipments on one invoice: a lot ticked, the destination shipment chosen in Move to](../assets/screenshots/shipping-split-move.png)
 
 The weight of both shipments is recalculated. Lots cannot be moved while either shipment has a label.
 

@@ -1,6 +1,6 @@
 # Creating a Shipment
 
-A shipment is created from the invoice's **Shipping & Packing** tab.
+A shipment is created from the invoice's **Shipping & Packing** tab. Video: [Creating a shipment](tutorials/shipping.md#_1-creating-a-shipment).
 
 ## Before you start
 
@@ -12,13 +12,21 @@ If the invoice is above the payment approval threshold, a **Payment Approval Req
 
 1. Open the invoice and click the **Shipping & Packing** tab.
 2. In the **Shipments** block, click **Add new**. A new tab, **Shipment #New**, opens with the shipment form and the **Invoice auto packing suggestion**: how the lots would be packed and the total weight.
+
+   ![The Shipments block of an invoice with no shipment yet, with Add new and Set multibox items](../assets/screenshots/shipping-tab-empty.png)
+
 3. Check the **Address**. It defaults to the buyer's default address; pick another one of their addresses if needed.
 4. Check the **Weight**. It is calculated from the lots. Click **Weight from items** to recalculate it, or **Weight lbs** to see it in pounds.
 5. Click **Get cost and Carrier**. The **Shipping Rates** table lists the carrier services that can deliver the parcel, with their price and delivery estimate. The cheapest, fastest and best-value options are marked.
+
+   ![The Shipping Rates table with the cheapest, fastest and best-value options](../assets/screenshots/shipping-rates.png)
+
 6. Click **Select** on the rate you want. The **Carrier**, **Amount** and **Total billed** fields are filled in.
 7. Save:
    * **Save** creates the shipment without buying a label. You can buy it later with **Create shipping label**.
    * **Save and create label** creates the shipment and buys the carrier label in one step.
+
+![The shipment form with the address, carrier, service and the breakdown of the billed total](../assets/screenshots/shipping-form.png)
 
 The shipment's **Total billed** is added to the invoice as a **Shipping** charge. Save the invoice after a new charge is added.
 

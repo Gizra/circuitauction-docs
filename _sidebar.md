@@ -8,6 +8,7 @@
 
 * **Tutorials**
   * [Login and intro](tutorials/login-and-intro.md)
+  * [Shipping](tutorials/shipping.md)
 
 * **Clients**
   * [Overview](client/README.md)
