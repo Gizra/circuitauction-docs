@@ -19,7 +19,6 @@
     * [Einlieferungsabrechnungen](/de/tutorials/consignment-statements.md)
     * [Rechnungen](/de/tutorials/invoices.md)
     * [Seite Sendungen](/de/tutorials/shipments.md)
-    * [Gebote](/de/tutorials/bids.md)
     * [Gebotsberichte](/de/tutorials/bids-reports.md)
     * [Kreditanfragen](/de/tutorials/credit-requests.md)
     * [Telefonbieterkarten](/de/tutorials/phone-bidder-cards.md)

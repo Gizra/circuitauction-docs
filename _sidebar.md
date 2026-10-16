@@ -19,7 +19,6 @@
     * [Consignment statements](tutorials/consignment-statements.md)
     * [Invoices](tutorials/invoices.md)
     * [Shipments page](tutorials/shipments.md)
-    * [Bids](tutorials/bids.md)
     * [Bids reports](tutorials/bids-reports.md)
     * [Bidding limit requests](tutorials/credit-requests.md)
     * [Phone bidder cards](tutorials/phone-bidder-cards.md)
